@@ -67,15 +67,15 @@ jobs:
         run: python build.py --quiet
 
       # ── Deploy to GitHub Pages ────────────────────────────────────────────
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
         if: github.ref == 'refs/heads/main'
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./web
-          publish_branch: gh-pages
-          force_orphan: true
-          commit_message: "Auto-deploy SADP Tracker ${{ github.run_id }}"
+          path: ./web
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
+        if: github.ref == 'refs/heads/main'
 
       # ── Commit updated data.json back to main ────────────────────────────
       - name: Commit updated data.json
