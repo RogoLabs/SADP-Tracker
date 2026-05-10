@@ -24,14 +24,14 @@ jobs:
     steps:
       # ── Checkout this repo ──────────────────────────────────────────────
       - name: Checkout SADP-Tracker repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6.0.2
         with:
           persist-credentials: true
           fetch-depth: 0
 
       # ── Clone the sadp-pilot data source ───────────────────────────────
       - name: Clone CVEProject/sadp-pilot
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6.0.2
         with:
           repository: CVEProject/sadp-pilot
           path: sadp-pilot
@@ -39,12 +39,12 @@ jobs:
 
       # ── Python setup ────────────────────────────────────────────────────
       - name: Set up Python 3.12
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6.2.0
         with:
           python-version: '3.12'
 
       - name: Cache pip dependencies
-        uses: actions/cache@v4
+        uses: actions/cache@v5.0.5
         with:
           path: ~/.cache/pip
           key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
@@ -68,13 +68,13 @@ jobs:
 
       # ── Deploy to GitHub Pages ────────────────────────────────────────────
       - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5.0.0
         if: github.ref == 'refs/heads/main'
         with:
           path: ./web
 
       - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5.0.0
         if: github.ref == 'refs/heads/main'
 
       # ── Commit updated data.json back to main ────────────────────────────
