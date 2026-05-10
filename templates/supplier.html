@@ -1,0 +1,296 @@
+{% extends "base.html" %}
+
+{% block title %}{{ supplier.short_name }} - SADP Tracker{% endblock %}
+{% block description %}CVE enrichment contributions by {{ supplier.short_name }} in the CVE Supplier ADP Pilot. {{ supplier.cve_count }} records enriched.{% endblock %}
+{% block og_title %}{{ supplier.short_name }} – SADP Tracker{% endblock %}
+{% block og_description %}{{ supplier.short_name }} has enriched {{ supplier.cve_count }} CVE records in the Supplier ADP Pilot.{% endblock %}
+
+{% block content %}
+<style>
+.supplier-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+
+.supplier-header-info {
+    flex: 1;
+    min-width: 0;
+}
+
+.breadcrumb {
+    font-size: 0.85rem;
+    color: var(--color-text-secondary);
+    margin-bottom: 0.5rem;
+}
+
+.breadcrumb a {
+    color: var(--color-primary);
+    text-decoration: none;
+}
+
+.breadcrumb a:hover {
+    text-decoration: underline;
+}
+
+.stats-row {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+.stat-pill {
+    background: var(--color-bg-content);
+    border: 1px solid var(--color-border);
+    border-radius: var(--border-radius);
+    padding: 1rem 1.5rem;
+    text-align: center;
+    min-width: 120px;
+}
+
+.stat-pill .number {
+    font-size: 1.75rem;
+    font-weight: var(--font-weight-bold);
+    color: var(--color-primary);
+    line-height: 1.2;
+}
+
+.stat-pill .label {
+    font-size: 0.8rem;
+    color: var(--color-text-secondary);
+    margin-top: 0.2rem;
+}
+
+.cve-table-wrap {
+    overflow-x: auto;
+}
+
+.cve-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+}
+
+.cve-table th {
+    background: var(--color-bg-secondary);
+    color: var(--color-text-secondary);
+    font-weight: var(--font-weight-semibold);
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 0.65rem 1rem;
+    text-align: left;
+    border-bottom: 2px solid var(--color-border);
+    white-space: nowrap;
+}
+
+.cve-table td {
+    padding: 0.65rem 1rem;
+    border-bottom: 1px solid var(--color-border);
+    vertical-align: middle;
+}
+
+.cve-table tr:last-child td {
+    border-bottom: none;
+}
+
+.cve-table tbody tr:hover {
+    background: var(--color-bg-hover);
+}
+
+.cve-id-link {
+    font-weight: var(--font-weight-semibold);
+    color: var(--color-primary);
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 0.9rem;
+}
+
+.cve-id-link:hover {
+    text-decoration: underline;
+}
+
+.data-type-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+}
+
+.data-type-tag {
+    font-size: 0.75rem;
+    padding: 0.15rem 0.5rem;
+    border-radius: 0.25rem;
+    background: var(--color-bg-secondary);
+    color: var(--color-text-secondary);
+    white-space: nowrap;
+}
+
+.data-type-tag.affected { background: rgba(25, 135, 84, 0.12); color: var(--color-success); }
+.data-type-tag.references { background: rgba(13, 110, 253, 0.12); color: var(--color-primary); }
+.data-type-tag.metrics { background: rgba(255, 193, 7, 0.15); color: #b38f00; }
+.data-type-tag.descriptions { background: rgba(23, 162, 184, 0.12); color: var(--color-info); }
+
+[data-theme="dark"] .data-type-tag.metrics { color: var(--color-warning); }
+
+.search-bar {
+    display: flex;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+}
+
+.search-input {
+    flex: 1;
+    min-width: 200px;
+    padding: 0.5rem 0.75rem;
+    border: 1px solid var(--color-border);
+    border-radius: var(--border-radius);
+    background: var(--color-bg-content);
+    color: var(--color-text-primary);
+    font-size: 0.9rem;
+    font-family: var(--font-family);
+}
+
+.search-input:focus {
+    outline: none;
+    border-color: var(--color-primary);
+    box-shadow: 0 0 0 3px var(--color-primary-light);
+}
+
+.all-data-types-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin-top: 0.5rem;
+}
+</style>
+
+<!-- Breadcrumb -->
+<div class="breadcrumb">
+    <a href="../index.html">Dashboard</a> &rsaquo; {{ supplier.short_name }}
+</div>
+
+<!-- Supplier Header -->
+<div class="supplier-header">
+    <div class="supplier-header-info">
+        <h1 style="font-size: 1.8rem; font-weight: var(--font-weight-bold); margin-bottom: 0.25rem;">
+            {{ supplier.short_name }}
+        </h1>
+        <p class="text-muted" style="margin-bottom: 0.5rem;">
+            Supplier ADP contributor &bull; Org ID: <code>{{ supplier.org_id }}</code>
+        </p>
+        {% if supplier.all_data_types %}
+        <div class="all-data-types-row">
+            {% for dt in supplier.all_data_types %}
+            <span class="data-type-tag {{ dt }}">{{ dt }}</span>
+            {% endfor %}
+        </div>
+        {% endif %}
+    </div>
+</div>
+
+<!-- Stats Row -->
+<div class="stats-row">
+    <div class="stat-pill">
+        <div class="number">{{ supplier.cve_count }}</div>
+        <div class="label">CVE Records</div>
+    </div>
+    {% if supplier.affected_count %}
+    <div class="stat-pill">
+        <div class="number">{{ supplier.affected_count }}</div>
+        <div class="label">with Affected</div>
+    </div>
+    {% endif %}
+    {% if supplier.references_count %}
+    <div class="stat-pill">
+        <div class="number">{{ supplier.references_count }}</div>
+        <div class="label">with References</div>
+    </div>
+    {% endif %}
+    {% if supplier.metrics_count %}
+    <div class="stat-pill">
+        <div class="number">{{ supplier.metrics_count }}</div>
+        <div class="label">with Metrics</div>
+    </div>
+    {% endif %}
+    {% if supplier.descriptions_count %}
+    <div class="stat-pill">
+        <div class="number">{{ supplier.descriptions_count }}</div>
+        <div class="label">with Descriptions</div>
+    </div>
+    {% endif %}
+</div>
+
+<!-- CVE Table -->
+<div class="card mb-4">
+    <div class="card-header d-flex justify-content-between align-items-center">
+        <h2 class="card-title mb-0" style="font-size: 1.05rem;">Enriched CVE Records</h2>
+        <span class="text-muted small">{{ supplier.cve_count }} records</span>
+    </div>
+    <div class="card-body">
+        <div class="search-bar">
+            <input type="text" id="cveSearch" class="search-input" placeholder="Search CVE IDs…" aria-label="Search CVE IDs">
+        </div>
+        <div class="cve-table-wrap">
+            <table class="cve-table" id="cveTable">
+                <thead>
+                    <tr>
+                        <th>CVE ID</th>
+                        <th>Date Updated</th>
+                        <th>Data Types Added</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for cve in supplier.cves | sort(attribute='date_updated', reverse=True) %}
+                    <tr class="cve-row">
+                        <td>
+                            <a href="https://www.cve.org/CVERecord?id={{ cve.cve_id }}" target="_blank" rel="noopener"
+                               class="cve-id-link">{{ cve.cve_id }}</a>
+                        </td>
+                        <td style="white-space: nowrap; color: var(--color-text-secondary); font-size: 0.85rem;">
+                            {{ cve.date_updated[:10] if cve.date_updated else '—' }}
+                        </td>
+                        <td>
+                            <div class="data-type-tags">
+                                {% for dt in cve.data_types %}
+                                <span class="data-type-tag {{ dt }}">{{ dt }}</span>
+                                {% endfor %}
+                            </div>
+                        </td>
+                    </tr>
+                    {% else %}
+                    <tr>
+                        <td colspan="3" class="text-center text-muted" style="padding: 2rem;">
+                            No CVE records found.
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
+
+{% block extra_scripts %}
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const searchInput = document.getElementById('cveSearch');
+    const rows = document.querySelectorAll('#cveTable .cve-row');
+
+    if (!searchInput) return;
+
+    searchInput.addEventListener('input', function() {
+        const query = this.value.toLowerCase().trim();
+        rows.forEach(function(row) {
+            const text = row.textContent.toLowerCase();
+            row.style.display = (!query || text.includes(query)) ? '' : 'none';
+        });
+    });
+});
+</script>
+{% endblock %}

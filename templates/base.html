@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes, viewport-fit=cover">
+    <title>{% block title %}SADP Tracker - CVE Supplier ADP Pilot Dashboard{% endblock %}</title>
+
+    <!-- Google Fonts - Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Preload critical assets -->
+    <link rel="preload" href="static/css/style.css" as="style">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="static/css/style.css">
+
+    <!-- SEO -->
+    <meta name="robots" content="index, follow">
+
+    <!-- Meta tags for SEO -->
+    <meta name="description" content="{% block description %}SADP Tracker monitors CVE Supplier ADP (Authorized Data Publisher) enrichment contributions from CNAs participating in the CVE Program Supplier ADP Pilot.{% endblock %}">
+    <meta name="keywords" content="CVE, SADP, supplier, ADP, CNA, vulnerability, enrichment, pilot">
+    <meta name="author" content="RogoLabs">
+
+    <!-- Mobile-specific meta tags -->
+    <meta name="theme-color" content="#0d6efd">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="SADP Tracker">
+    <meta name="format-detection" content="telephone=no">
+
+    <!-- Open Graph tags -->
+    <meta property="og:title" content="{% block og_title %}SADP Tracker - CVE Supplier ADP Pilot Dashboard{% endblock %}">
+    <meta property="og:description" content="{% block og_description %}Track CVE enrichment contributions from Supplier ADP participants in the CVE Program pilot.{% endblock %}">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://rogolabs.github.io/SADP-Tracker">
+    <meta property="og:image" content="https://rogolabs.github.io/SADP-Tracker/static/images/logo.png">
+</head>
+<body>
+    <!-- Apply saved theme before render to prevent flash -->
+    <script>
+        (function() {
+            var theme = localStorage.getItem('sadp-tracker-theme');
+            var preferLight = theme === 'light' || (!theme && window.matchMedia('(prefers-color-scheme: light)').matches);
+            if (!preferLight) document.documentElement.setAttribute('data-theme', 'dark');
+        })();
+    </script>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <!-- Header and Navigation -->
+    <header class="header">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                SADP Tracker
+            </a>
+
+            <nav class="nav">
+                <ul class="nav-menu">
+                    <li><a href="index.html">Dashboard</a></li>
+                    <li><a href="https://github.com/CVEProject/sadp-pilot" target="_blank" rel="noopener">sadp-pilot</a></li>
+                    <li><a href="https://www.cve.org/" target="_blank" rel="noopener">CVE Program</a></li>
+                </ul>
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" aria-live="polite" title="Toggle dark mode">
+                    <span id="themeIcon">&#9790;</span>
+                </button>
+                <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content" class="container">
+        {% block content %}
+        {% endblock %}
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div style="display: flex; flex-wrap: wrap; gap: 2rem; justify-content: space-between;">
+                <div style="flex: 1; min-width: 200px;">
+                    <p class="mb-1"><strong>Data Sources:</strong></p>
+                    <p class="text-muted small mb-0">
+                        <a href="https://github.com/CVEProject/sadp-pilot" target="_blank" rel="noopener" class="text-decoration-none">CVEProject/sadp-pilot on GitHub</a><br>
+                        <a href="https://www.cve.org/" target="_blank" rel="noopener" class="text-decoration-none">CVE Program</a><br>
+                        Last updated: <span id="lastUpdated">{{ last_updated if last_updated else 'Unknown' }}</span>
+                    </p>
+                </div>
+                <div style="flex: 1; min-width: 200px; text-align: right;">
+                    <p class="mb-1"><strong>Links:</strong></p>
+                    <p class="text-muted small mb-0">
+                        <a href="https://github.com/RogoLabs/SADP-Tracker" target="_blank" rel="noopener" class="text-decoration-none">GitHub Repository</a><br>
+                        <a href="https://cve.icu" target="_blank" rel="noopener" class="text-decoration-none">CVE.ICU</a><br>
+                        <a href="https://rogolabs.net" target="_blank" rel="noopener" class="text-decoration-none">RogoLabs</a>
+                    </p>
+                </div>
+            </div>
+            <hr class="my-2">
+            <div class="text-center">
+                <small class="text-muted">
+                    &copy; {{ current_year }} SADP Tracker &bull; Built by <a href="https://rogolabs.net" target="_blank" rel="noopener" class="text-decoration-none">RogoLabs</a><br>
+                    Tracking the <a href="https://github.com/CVEProject/sadp-pilot" target="_blank" rel="noopener" class="text-decoration-none">CVE Supplier ADP Pilot</a>
+                </small>
+            </div>
+        </div>
+    </footer>
+
+    {% block extra_scripts %}{% endblock %}
+
+    <!-- Theme toggle script -->
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const themeToggle = document.getElementById('themeToggle');
+        const themeIcon = document.getElementById('themeIcon');
+        const html = document.documentElement;
+
+        function applyTheme(isDark) {
+            if (isDark) {
+                html.setAttribute('data-theme', 'dark');
+                themeIcon.innerHTML = '&#9728;';
+                themeToggle.setAttribute('title', 'Switch to light mode');
+            } else {
+                html.removeAttribute('data-theme');
+                themeIcon.innerHTML = '&#9790;';
+                themeToggle.setAttribute('title', 'Switch to dark mode');
+            }
+        }
+
+        // Initialize icon based on current theme
+        applyTheme(html.getAttribute('data-theme') === 'dark');
+
+        themeToggle.addEventListener('click', function() {
+            const isDark = html.getAttribute('data-theme') === 'dark';
+            const newIsDark = !isDark;
+            applyTheme(newIsDark);
+            localStorage.setItem('sadp-tracker-theme', newIsDark ? 'dark' : 'light');
+        });
+
+        // Mobile navigation toggle
+        const navToggle = document.querySelector('.nav-toggle');
+        const navMenu = document.querySelector('.nav-menu');
+
+        if (navToggle && navMenu) {
+            navToggle.addEventListener('click', function() {
+                navMenu.classList.toggle('active');
+                if (navMenu.classList.contains('active')) {
+                    document.body.style.overflow = 'hidden';
+                    navToggle.setAttribute('aria-expanded', 'true');
+                } else {
+                    document.body.style.overflow = '';
+                    navToggle.setAttribute('aria-expanded', 'false');
+                }
+            });
+
+            document.addEventListener('click', function(event) {
+                const isClickInside = navToggle.contains(event.target) || navMenu.contains(event.target);
+                if (!isClickInside && navMenu.classList.contains('active')) {
+                    navMenu.classList.remove('active');
+                    document.body.style.overflow = '';
+                    navToggle.setAttribute('aria-expanded', 'false');
+                }
+            });
+
+            const navLinks = navMenu.querySelectorAll('a');
+            navLinks.forEach(function(link) {
+                link.addEventListener('click', function() {
+                    navMenu.classList.remove('active');
+                    document.body.style.overflow = '';
+                    navToggle.setAttribute('aria-expanded', 'false');
+                });
+            });
+        }
+    });
+    </script>
+</body>
+</html>
