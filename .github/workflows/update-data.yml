@@ -1,0 +1,88 @@
+name: Update Data and Deploy SADP Tracker
+
+on:
+  # Run every 6 hours to pick up new SADP records
+  schedule:
+    - cron: '0 */6 * * *'
+
+  # Run whenever code is pushed to main
+  push:
+    branches: [ main ]
+
+  # Allow manual triggering from the GitHub UI
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # ── Checkout this repo ──────────────────────────────────────────────
+      - name: Checkout SADP-Tracker repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+          fetch-depth: 0
+
+      # ── Clone the sadp-pilot data source ───────────────────────────────
+      - name: Clone CVEProject/sadp-pilot
+        uses: actions/checkout@v4
+        with:
+          repository: CVEProject/sadp-pilot
+          path: sadp-pilot
+          # Public repo – no token needed
+
+      # ── Python setup ────────────────────────────────────────────────────
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Cache pip dependencies
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      # ── Parse SADP records and generate data.json ────────────────────────
+      - name: Parse SADP records and generate data.json
+        env:
+          SADP_REPO_PATH: ${{ github.workspace }}/sadp-pilot
+        run: python fetch_data.py
+
+      # ── Build the static site ────────────────────────────────────────────
+      - name: Build static site
+        run: python build.py --quiet
+
+      # ── Deploy to GitHub Pages ────────────────────────────────────────────
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        if: github.ref == 'refs/heads/main'
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./web
+          publish_branch: gh-pages
+          force_orphan: true
+          commit_message: "Auto-deploy SADP Tracker ${{ github.run_id }}"
+
+      # ── Commit updated data.json back to main ────────────────────────────
+      - name: Commit updated data.json
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Actions"
+          git add data/data.json
+          git diff --staged --quiet || git commit -m "chore: update SADP data $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git push

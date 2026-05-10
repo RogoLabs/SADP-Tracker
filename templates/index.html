@@ -1,0 +1,314 @@
+{% extends "base.html" %}
+
+{% block title %}SADP Tracker - Supplier ADP Pilot Dashboard{% endblock %}
+{% block description %}Dashboard tracking CVE enrichment from Supplier ADP (SADP) participants in the CVE Program Supplier ADP Pilot.{% endblock %}
+
+{% block content %}
+<style>
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+@media (max-width: 992px) {
+    .stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 576px) {
+    .stats-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.stat-card {
+    background: var(--color-bg-content);
+    border: 1px solid var(--color-border);
+    border-radius: var(--border-radius);
+    padding: 1.25rem;
+    text-align: center;
+}
+
+.stat-card .number {
+    font-size: 2rem;
+    font-weight: var(--font-weight-bold);
+    color: var(--color-primary);
+    line-height: 1.2;
+}
+
+.stat-card .label {
+    font-size: 0.85rem;
+    color: var(--color-text-secondary);
+    margin-top: 0.25rem;
+}
+
+.supplier-table-wrap {
+    overflow-x: auto;
+}
+
+.supplier-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.95rem;
+}
+
+.supplier-table th {
+    background: var(--color-bg-secondary);
+    color: var(--color-text-secondary);
+    font-weight: var(--font-weight-semibold);
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 0.75rem 1rem;
+    text-align: left;
+    border-bottom: 2px solid var(--color-border);
+    white-space: nowrap;
+}
+
+.supplier-table td {
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid var(--color-border);
+    vertical-align: middle;
+}
+
+.supplier-table tr:last-child td {
+    border-bottom: none;
+}
+
+.supplier-table tbody tr:hover {
+    background: var(--color-bg-hover);
+}
+
+.supplier-link {
+    font-weight: var(--font-weight-semibold);
+    color: var(--color-primary);
+    text-decoration: none;
+}
+
+.supplier-link:hover {
+    text-decoration: underline;
+}
+
+.badge-count {
+    display: inline-block;
+    background: var(--color-primary-light);
+    color: var(--color-primary);
+    font-size: 0.8rem;
+    font-weight: var(--font-weight-semibold);
+    padding: 0.2rem 0.6rem;
+    border-radius: 9999px;
+}
+
+.data-type-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+}
+
+.data-type-tag {
+    font-size: 0.75rem;
+    padding: 0.15rem 0.5rem;
+    border-radius: 0.25rem;
+    background: var(--color-bg-secondary);
+    color: var(--color-text-secondary);
+    white-space: nowrap;
+}
+
+.data-type-tag.affected { background: rgba(25, 135, 84, 0.12); color: var(--color-success); }
+.data-type-tag.references { background: rgba(13, 110, 253, 0.12); color: var(--color-primary); }
+.data-type-tag.metrics { background: rgba(255, 193, 7, 0.15); color: #b38f00; }
+.data-type-tag.descriptions { background: rgba(23, 162, 184, 0.12); color: var(--color-info); }
+
+[data-theme="dark"] .data-type-tag.metrics { color: var(--color-warning); }
+
+.search-bar {
+    display: flex;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+}
+
+.search-input {
+    flex: 1;
+    min-width: 200px;
+    padding: 0.5rem 0.75rem;
+    border: 1px solid var(--color-border);
+    border-radius: var(--border-radius);
+    background: var(--color-bg-content);
+    color: var(--color-text-primary);
+    font-size: 0.9rem;
+    font-family: var(--font-family);
+}
+
+.search-input:focus {
+    outline: none;
+    border-color: var(--color-primary);
+    box-shadow: 0 0 0 3px var(--color-primary-light);
+}
+
+.rank-num {
+    font-size: 0.85rem;
+    color: var(--color-text-muted);
+    font-weight: var(--font-weight-medium);
+    min-width: 2rem;
+    text-align: right;
+}
+</style>
+
+<!-- Hero Section -->
+<div class="page-header mb-4 text-center">
+    <h1 class="display-4 mb-2">SADP Tracker</h1>
+    <p class="text-muted">
+        Monitoring CVE enrichment contributions from Supplier ADP participants in the
+        <a href="https://github.com/CVEProject/sadp-pilot" target="_blank" rel="noopener">CVE Program Supplier ADP Pilot</a>
+    </p>
+</div>
+
+<!-- Summary Stats -->
+<div class="stats-grid">
+    <div class="stat-card">
+        <div class="number">{{ suppliers | length }}</div>
+        <div class="label">Participating Suppliers</div>
+    </div>
+    <div class="stat-card">
+        <div class="number">{{ total_records }}</div>
+        <div class="label">Enriched CVE Records</div>
+    </div>
+    <div class="stat-card">
+        <div class="number">{{ unique_cves }}</div>
+        <div class="label">Unique CVEs</div>
+    </div>
+    <div class="stat-card">
+        <div class="number">{{ data_types_count }}</div>
+        <div class="label">Data Type Categories</div>
+    </div>
+</div>
+
+<!-- Supplier Table -->
+<div class="card mb-4">
+    <div class="card-header d-flex justify-content-between align-items-center">
+        <h2 class="card-title mb-0" style="font-size: 1.1rem;">Participating Suppliers</h2>
+        <span class="text-muted small">{{ suppliers | length }} suppliers</span>
+    </div>
+    <div class="card-body">
+        <div class="search-bar">
+            <input type="text" id="supplierSearch" class="search-input" placeholder="Search suppliers…" aria-label="Search suppliers">
+        </div>
+        <div class="supplier-table-wrap">
+            <table class="supplier-table" id="supplierTable">
+                <thead>
+                    <tr>
+                        <th style="width: 3rem;">#</th>
+                        <th>Supplier (Short Name)</th>
+                        <th style="text-align: right;">CVE Records</th>
+                        <th>Data Types Added</th>
+                        <th>Last Updated</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for supplier in suppliers | sort(attribute='cve_count', reverse=True) %}
+                    <tr class="supplier-row">
+                        <td class="rank-num">{{ loop.index }}</td>
+                        <td>
+                            <a href="supplier/{{ supplier.short_name | lower | replace(' ', '-') }}.html" class="supplier-link">
+                                {{ supplier.short_name }}
+                            </a>
+                        </td>
+                        <td style="text-align: right;">
+                            <span class="badge-count">{{ supplier.cve_count }}</span>
+                        </td>
+                        <td>
+                            <div class="data-type-tags">
+                                {% for dt in supplier.all_data_types %}
+                                <span class="data-type-tag {{ dt }}">{{ dt }}</span>
+                                {% endfor %}
+                            </div>
+                        </td>
+                        <td style="white-space: nowrap; color: var(--color-text-secondary); font-size: 0.85rem;">
+                            {{ supplier.last_updated[:10] if supplier.last_updated else '—' }}
+                        </td>
+                    </tr>
+                    {% else %}
+                    <tr>
+                        <td colspan="5" class="text-center text-muted" style="padding: 2rem;">
+                            No supplier data available. Run the data update workflow to populate.
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<!-- About Section -->
+<div class="card mb-4">
+    <div class="card-header">
+        <h2 class="card-title mb-0" style="font-size: 1.1rem;">About the Supplier ADP Pilot</h2>
+    </div>
+    <div class="card-body">
+        <p>
+            The <strong>CVE Program Supplier ADP (Authorized Data Publisher) Pilot</strong> allows CNAs that are
+            also product vendors/suppliers to add enrichment data to CVE records <em>for CVEs assigned by other CNAs</em>
+            that affect their products.
+        </p>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; margin: 1rem 0;">
+            <div>
+                <h5 style="font-size: 0.95rem; margin-bottom: 0.4rem;">What is enrichment?</h5>
+                <p class="text-muted small">
+                    Suppliers add data such as affected product versions, CVSS scores, references, and descriptions
+                    to CVE records where they have product-specific knowledge.
+                </p>
+            </div>
+            <div>
+                <h5 style="font-size: 0.95rem; margin-bottom: 0.4rem;">How are suppliers identified?</h5>
+                <p class="text-muted small">
+                    SADP containers have <code>x_adpType: "supplier"</code> or a <code>shortName</code>
+                    ending in <code>-SADP</code> in the <code>containers.adp[]</code> array.
+                </p>
+            </div>
+            <div>
+                <h5 style="font-size: 0.95rem; margin-bottom: 0.4rem;">Data source</h5>
+                <p class="text-muted small">
+                    Records are sourced from the
+                    <a href="https://github.com/CVEProject/sadp-pilot/tree/main/Published%20SADP%20Records" target="_blank" rel="noopener">
+                        Published SADP Records
+                    </a>
+                    directory in the <code>CVEProject/sadp-pilot</code> repository.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
+
+{% block extra_scripts %}
+<script>
+// Simple client-side search for the supplier table
+document.addEventListener('DOMContentLoaded', function() {
+    const searchInput = document.getElementById('supplierSearch');
+    const rows = document.querySelectorAll('#supplierTable .supplier-row');
+
+    if (!searchInput) return;
+
+    searchInput.addEventListener('input', function() {
+        const query = this.value.toLowerCase().trim();
+        let visibleIdx = 0;
+        rows.forEach(function(row) {
+            const text = row.textContent.toLowerCase();
+            const match = !query || text.includes(query);
+            row.style.display = match ? '' : 'none';
+            if (match) {
+                visibleIdx++;
+                const rankCell = row.querySelector('.rank-num');
+                if (rankCell) rankCell.textContent = visibleIdx;
+            }
+        });
+    });
+});
+</script>
+{% endblock %}

@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+env/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+
+# sadp-pilot clone (checked out by CI, not needed in repo)
+sadp-pilot/
+
+# Generated web output (deployed separately via gh-pages branch)
+# Keep web/static/ (CSS/images/JS) but exclude generated HTML and fetched data
+web/*.html
+web/supplier/
+
+# data.json is committed by CI on scheduled runs; exclude from manual builds
+# (Comment out the line below if you want to commit data.json manually)
+# data/data.json
+
+# OS
+.DS_Store
+Thumbs.db
