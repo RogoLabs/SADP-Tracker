@@ -10,6 +10,7 @@ import json
 import os
 import shutil
 import sys
+import urllib.parse
 from datetime import UTC, datetime
 from pathlib import Path
 
@@ -106,6 +107,11 @@ class SADPSiteBuilder:
             all_dts: set[str] = set()
             affected_count = references_count = metrics_count = descriptions_count = 0
             last_updated = ""
+            first_enriched = ""
+            year_counts: dict[str, int] = {}
+            all_products: list[dict] = []
+            seen_products: set[tuple[str, str]] = set()
+
             for cve in cves:
                 dts = cve.get("data_types", [])
                 all_dts.update(dts)
@@ -118,8 +124,36 @@ class SADPSiteBuilder:
                 if "descriptions" in dts:
                     descriptions_count += 1
                 du = cve.get("date_updated", "")
-                if du and du > last_updated:
-                    last_updated = du
+                if du:
+                    if du > last_updated:
+                        last_updated = du
+                    if not first_enriched or du < first_enriched:
+                        first_enriched = du
+
+                # CVE year breakdown
+                cve_id = cve.get("cve_id", "")
+                year = cve_id[4:8] if cve_id.startswith("CVE-") and len(cve_id) > 8 else "Unknown"
+                year_counts[year] = year_counts.get(year, 0) + 1
+
+                # Aggregate unique products
+                for p in cve.get("affected_products", []):
+                    key = (p.get("vendor", "").lower(), p.get("product", "").lower())
+                    if key not in seen_products:
+                        seen_products.add(key)
+                        all_products.append(p)
+
+                # Build GitHub URL per CVE
+                file_path = cve.get("file_path", "")
+                if file_path:
+                    encoded = urllib.parse.quote(file_path, safe="/")
+                    cve["github_url"] = (
+                        f"https://github.com/CVEProject/sadp-pilot/blob/main/"
+                        f"Published%20SADP%20Records/{encoded}"
+                    )
+                else:
+                    cve["github_url"] = (
+                        "https://github.com/CVEProject/sadp-pilot/tree/main/Published%20SADP%20Records"
+                    )
 
             # Keep a deterministic sorted order for data-type tags
             s["all_data_types"] = sorted(all_dts, key=lambda x: _DATA_TYPE_KEYS.index(x) if x in _DATA_TYPE_KEYS else 99)
@@ -128,6 +162,9 @@ class SADPSiteBuilder:
             s["metrics_count"] = metrics_count
             s["descriptions_count"] = descriptions_count
             s["last_updated"] = last_updated
+            s["first_enriched"] = first_enriched
+            s["cve_years"] = dict(sorted(year_counts.items()))
+            s["unique_products"] = sorted(all_products, key=lambda p: (p.get("vendor", ""), p.get("product", "")))
 
         return suppliers
 
@@ -141,10 +178,30 @@ class SADPSiteBuilder:
         total_records = sum(s["cve_count"] for s in suppliers)
         unique_cves: set[str] = set()
         all_data_types: set[str] = set()
+        year_breakdown: dict[str, int] = {}
+        dt_breakdown: dict[str, int] = {dt: 0 for dt in _DATA_TYPE_KEYS}
+
         for s in suppliers:
             for cve in s.get("cves", []):
-                unique_cves.add(cve["cve_id"])
-                all_data_types.update(cve.get("data_types", []))
+                cve_id = cve["cve_id"]
+                unique_cves.add(cve_id)
+                dts = cve.get("data_types", [])
+                all_data_types.update(dts)
+                # Year breakdown
+                year = cve_id[4:8] if cve_id.startswith("CVE-") and len(cve_id) > 8 else "Unknown"
+                year_breakdown[year] = year_breakdown.get(year, 0) + 1
+                # Data type breakdown
+                for dt in dts:
+                    if dt in dt_breakdown:
+                        dt_breakdown[dt] += 1
+
+        year_breakdown_sorted = dict(sorted(year_breakdown.items()))
+
+        # Earliest first_enriched across all suppliers
+        pilot_start = min(
+            (s["first_enriched"] for s in suppliers if s.get("first_enriched")),
+            default="",
+        )
 
         html = template.render(
             suppliers=suppliers,
@@ -152,6 +209,9 @@ class SADPSiteBuilder:
             unique_cves=len(unique_cves),
             data_types_count=len(all_data_types),
             last_updated=generated_at,
+            year_breakdown=year_breakdown_sorted,
+            dt_breakdown=dt_breakdown,
+            pilot_start=pilot_start,
             base_path="",
         )
 

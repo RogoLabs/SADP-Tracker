@@ -112,6 +112,36 @@
 
     {% block extra_scripts %}{% endblock %}
 
+    <!-- Relative timestamp helper -->
+    <script>
+    (function() {
+        function formatRelativeTime(isoString) {
+            if (!isoString || isoString === 'Unknown') return isoString || 'Unknown';
+            var then = new Date(isoString);
+            if (isNaN(then.getTime())) return isoString;
+            var diffMs = Date.now() - then.getTime();
+            var diffMins = Math.floor(diffMs / 60000);
+            var diffHours = Math.floor(diffMins / 60);
+            var diffDays = Math.floor(diffHours / 24);
+            var rel;
+            if (diffMins < 1) rel = 'just now';
+            else if (diffMins < 60) rel = diffMins + ' minute' + (diffMins === 1 ? '' : 's') + ' ago';
+            else if (diffHours < 24) rel = diffHours + ' hour' + (diffHours === 1 ? '' : 's') + ' ago';
+            else if (diffDays < 30) rel = diffDays + ' day' + (diffDays === 1 ? '' : 's') + ' ago';
+            else rel = then.toLocaleDateString(undefined, { year: 'numeric', month: 'short', day: 'numeric' });
+            return rel;
+        }
+        document.addEventListener('DOMContentLoaded', function() {
+            var el = document.getElementById('lastUpdated');
+            if (el) {
+                var raw = el.textContent.trim();
+                el.title = raw;
+                el.textContent = formatRelativeTime(raw);
+            }
+        });
+    })();
+    </script>
+
     <!-- Theme toggle script -->
     <script>
     document.addEventListener('DOMContentLoaded', function() {

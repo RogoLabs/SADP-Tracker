@@ -52,7 +52,21 @@ def extract_data_types(adp_container: dict) -> list[str]:
     return found
 
 
-def parse_record(path: Path) -> list[dict]:
+def extract_affected_products(adp_container: dict) -> list[dict]:
+    """Return deduplicated list of {vendor, product} dicts from the affected array."""
+    products: list[dict] = []
+    seen: set[tuple[str, str]] = set()
+    for item in adp_container.get("affected", []):
+        vendor = item.get("vendor", "")
+        product = item.get("product", "")
+        key = (vendor.lower(), product.lower())
+        if key not in seen and (vendor or product):
+            seen.add(key)
+            products.append({"vendor": vendor, "product": product})
+    return products
+
+
+def parse_record(path: Path, published_dir: Path) -> list[dict]:
     """Parse a single CVE JSON record and return a list of SADP contribution dicts."""
     try:
         data = json.loads(path.read_text(encoding="utf-8"))
@@ -63,6 +77,7 @@ def parse_record(path: Path) -> list[dict]:
     cve_id: str = data.get("cveMetadata", {}).get("cveId", path.stem)
     containers = data.get("containers", {})
     adp_list = containers.get("adp", [])
+    file_rel = str(path.relative_to(published_dir)).replace("\\", "/")
 
     results = []
     for adp in adp_list:
@@ -75,6 +90,7 @@ def parse_record(path: Path) -> list[dict]:
         date_updated: str = meta.get("dateUpdated", "")
 
         data_types = extract_data_types(adp)
+        affected_products = extract_affected_products(adp)
 
         results.append(
             {
@@ -83,6 +99,8 @@ def parse_record(path: Path) -> list[dict]:
                 "org_id": org_id,
                 "date_updated": date_updated,
                 "data_types": data_types,
+                "file_path": file_rel,
+                "affected_products": affected_products,
             }
         )
 
@@ -110,7 +128,7 @@ def fetch_and_parse(sadp_repo_path: Path) -> dict:
     parsed = 0
     sadp_hits = 0
     for path in json_files:
-        contributions = parse_record(path)
+        contributions = parse_record(path, published_dir)
         parsed += 1
         for contrib in contributions:
             short_name = contrib["short_name"]
@@ -125,6 +143,8 @@ def fetch_and_parse(sadp_repo_path: Path) -> dict:
                     "cve_id": contrib["cve_id"],
                     "date_updated": contrib["date_updated"],
                     "data_types": contrib["data_types"],
+                    "file_path": contrib["file_path"],
+                    "affected_products": contrib["affected_products"],
                 }
             )
             sadp_hits += 1

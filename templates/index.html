@@ -7,14 +7,14 @@
 <style>
 .stats-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 1rem;
     margin-bottom: 2rem;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1100px) {
     .stats-grid {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
 }
 
@@ -156,6 +156,36 @@
     min-width: 2rem;
     text-align: right;
 }
+
+.charts-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+@media (max-width: 768px) {
+    .charts-row { grid-template-columns: 1fr; }
+}
+
+.dt-bar-wrap {
+    background: var(--color-bg-secondary);
+    border-radius: 4px;
+    height: 8px;
+    overflow: hidden;
+    margin-top: 0.3rem;
+}
+
+.dt-bar { height: 100%; border-radius: 4px; transition: width 0.6s ease; }
+.dt-bar-affected    { background: rgba(25, 135, 84, 0.75); }
+.dt-bar-references  { background: rgba(13, 110, 253, 0.75); }
+.dt-bar-metrics     { background: rgba(255, 193, 7, 0.75); }
+.dt-bar-descriptions{ background: rgba(23, 162, 184, 0.75); }
+
+.sortable-th { cursor: pointer; user-select: none; white-space: nowrap; }
+.sortable-th:hover { color: var(--color-primary); }
+.sort-icon { margin-left: 0.3rem; opacity: 0.5; font-size: 0.75rem; }
+.sort-icon.active { opacity: 1; }
 </style>
 
 <!-- Hero Section -->
@@ -183,7 +213,44 @@
     </div>
     <div class="stat-card">
         <div class="number">{{ data_types_count }}</div>
-        <div class="label">Data Type Categories</div>
+        <div class="label">Active Data Types</div>
+    </div>
+    <div class="stat-card">
+        <div class="number" style="font-size: 1.1rem;">{{ pilot_start[:10] if pilot_start else '—' }}</div>
+        <div class="label">First Enrichment</div>
+    </div>
+</div>
+
+<!-- Charts Row -->
+<div class="charts-row">
+    <div class="card">
+        <div class="card-header">
+            <h2 class="card-title mb-0" style="font-size: 1.05rem;">CVE Year Distribution</h2>
+        </div>
+        <div class="card-body">
+            <canvas id="yearChart" height="180"></canvas>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header">
+            <h2 class="card-title mb-0" style="font-size: 1.05rem;">Data Type Coverage</h2>
+        </div>
+        <div class="card-body">
+            {% set dt_labels = {'affected': 'Affected', 'references': 'References', 'metrics': 'Metrics', 'descriptions': 'Descriptions'} %}
+            {% for dt in ['affected', 'references', 'metrics', 'descriptions'] %}
+            {% set count = dt_breakdown.get(dt, 0) %}
+            {% set pct = ((count / total_records * 100) | int) if total_records > 0 else 0 %}
+            <div style="margin-bottom: 1rem;">
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.25rem;">
+                    <span class="data-type-tag {{ dt }}">{{ dt_labels[dt] }}</span>
+                    <span style="font-size:0.82rem; color:var(--color-text-secondary);">{{ count }} / {{ total_records }} &nbsp;({{ pct }}%)</span>
+                </div>
+                <div class="dt-bar-wrap">
+                    <div class="dt-bar dt-bar-{{ dt }}" style="width: {{ pct }}%;"></div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
     </div>
 </div>
 
@@ -201,17 +268,18 @@
             <table class="supplier-table" id="supplierTable">
                 <thead>
                     <tr>
-                        <th style="width: 3rem;">#</th>
+                        {% if suppliers | length > 1 %}<th style="width: 3rem;">#</th>{% endif %}
                         <th>Supplier (Short Name)</th>
                         <th style="text-align: right;">CVE Records</th>
                         <th>Data Types Added</th>
+                        <th>First Enriched</th>
                         <th>Last Updated</th>
                     </tr>
                 </thead>
                 <tbody>
                     {% for supplier in suppliers | sort(attribute='cve_count', reverse=True) %}
                     <tr class="supplier-row">
-                        <td class="rank-num">{{ loop.index }}</td>
+                        {% if suppliers | length > 1 %}<td class="rank-num">{{ loop.index }}</td>{% endif %}
                         <td>
                             <a href="supplier/{{ supplier.short_name | lower | replace(' ', '-') }}.html" class="supplier-link">
                                 {{ supplier.short_name }}
@@ -226,6 +294,9 @@
                                 <span class="data-type-tag {{ dt }}">{{ dt }}</span>
                                 {% endfor %}
                             </div>
+                        </td>
+                        <td style="white-space: nowrap; color: var(--color-text-secondary); font-size: 0.85rem;">
+                            {{ supplier.first_enriched[:10] if supplier.first_enriched else '—' }}
                         </td>
                         <td style="white-space: nowrap; color: var(--color-text-secondary); font-size: 0.85rem;">
                             {{ supplier.last_updated[:10] if supplier.last_updated else '—' }}
@@ -287,28 +358,82 @@
 {% endblock %}
 
 {% block extra_scripts %}
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
 <script>
-// Simple client-side search for the supplier table
 document.addEventListener('DOMContentLoaded', function() {
+    // ── Supplier search ────────────────────────────────────────────────────
     const searchInput = document.getElementById('supplierSearch');
     const rows = document.querySelectorAll('#supplierTable .supplier-row');
 
-    if (!searchInput) return;
+    if (searchInput) {
+        searchInput.addEventListener('input', function() {
+            const query = this.value.toLowerCase().trim();
+            let visibleIdx = 0;
+            rows.forEach(function(row) {
+                const text = row.textContent.toLowerCase();
+                const match = !query || text.includes(query);
+                row.style.display = match ? '' : 'none';
+                if (match) {
+                    visibleIdx++;
+                    const rankCell = row.querySelector('.rank-num');
+                    if (rankCell) rankCell.textContent = visibleIdx;
+                }
+            });
+        });
+    }
 
-    searchInput.addEventListener('input', function() {
-        const query = this.value.toLowerCase().trim();
-        let visibleIdx = 0;
-        rows.forEach(function(row) {
-            const text = row.textContent.toLowerCase();
-            const match = !query || text.includes(query);
-            row.style.display = match ? '' : 'none';
-            if (match) {
-                visibleIdx++;
-                const rankCell = row.querySelector('.rank-num');
-                if (rankCell) rankCell.textContent = visibleIdx;
+    // ── CVE Year Chart ─────────────────────────────────────────────────────
+    const yearData = {{ year_breakdown | tojson }};
+    const yearLabels = Object.keys(yearData).sort();
+    const yearValues = yearLabels.map(function(k) { return yearData[k]; });
+    let yearChart = null;
+
+    function chartColors() {
+        const dark = document.documentElement.getAttribute('data-theme') === 'dark';
+        const style = getComputedStyle(document.documentElement);
+        return {
+            text: style.getPropertyValue('--color-text-secondary').trim() || (dark ? '#9ca3b4' : '#6c757d'),
+            grid: style.getPropertyValue('--color-border').trim() || (dark ? '#2d3348' : '#dee2e6'),
+            bar: dark ? 'rgba(96,165,250,0.8)' : 'rgba(13,110,253,0.75)',
+        };
+    }
+
+    function buildYearChart() {
+        if (yearChart) yearChart.destroy();
+        const c = chartColors();
+        yearChart = new Chart(document.getElementById('yearChart'), {
+            type: 'bar',
+            data: {
+                labels: yearLabels,
+                datasets: [{
+                    label: 'CVE Records',
+                    data: yearValues,
+                    backgroundColor: c.bar,
+                    borderRadius: 4,
+                    borderSkipped: false,
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: { legend: { display: false } },
+                scales: {
+                    x: { ticks: { color: c.text }, grid: { color: c.grid } },
+                    y: { ticks: { color: c.text, precision: 0 }, grid: { color: c.grid }, beginAtZero: true },
+                }
             }
         });
-    });
+    }
+
+    if (document.getElementById('yearChart') && yearLabels.length > 0) {
+        buildYearChart();
+        // Re-theme chart when dark mode is toggled
+        const themeToggle = document.getElementById('themeToggle');
+        if (themeToggle) {
+            themeToggle.addEventListener('click', function() {
+                setTimeout(buildYearChart, 60);
+            });
+        }
+    }
 });
 </script>
 {% endblock %}
