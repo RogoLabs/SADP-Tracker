@@ -11,10 +11,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
     <!-- Preload critical assets -->
-    <link rel="preload" href="static/css/style.css" as="style">
+    <link rel="preload" href="{{ base_path }}static/css/style.css" as="style">
 
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="{{ base_path }}static/css/style.css">
 
     <!-- SEO -->
     <meta name="robots" content="index, follow">
@@ -51,13 +51,13 @@
     <!-- Header and Navigation -->
     <header class="header">
         <div class="nav-container">
-            <a href="index.html" class="logo">
+            <a href="{{ base_path }}index.html" class="logo">
                 SADP Tracker
             </a>
 
             <nav class="nav">
                 <ul class="nav-menu">
-                    <li><a href="index.html">Dashboard</a></li>
+                    <li><a href="{{ base_path }}index.html">Dashboard</a></li>
                     <li><a href="https://github.com/CVEProject/sadp-pilot" target="_blank" rel="noopener">sadp-pilot</a></li>
                     <li><a href="https://www.cve.org/" target="_blank" rel="noopener">CVE Program</a></li>
                 </ul>

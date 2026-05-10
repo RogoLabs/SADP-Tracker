@@ -152,6 +152,7 @@ class SADPSiteBuilder:
             unique_cves=len(unique_cves),
             data_types_count=len(all_data_types),
             last_updated=generated_at,
+            base_path="",
         )
 
         out = WEB_DIR / "index.html"
@@ -164,7 +165,7 @@ class SADPSiteBuilder:
     def build_supplier_page(self, supplier: dict) -> None:
         template = self.jinja_env.get_template("supplier.html")
         slug = supplier["short_name"].lower().replace(" ", "-")
-        html = template.render(supplier=supplier, last_updated=supplier.get("last_updated", ""))
+        html = template.render(supplier=supplier, last_updated=supplier.get("last_updated", ""), base_path="../")
         out = SUPPLIER_OUT_DIR / f"{slug}.html"
         out.write_text(html, encoding="utf-8")
         self.log(f"  📄 {out.relative_to(BASE_DIR)}")
