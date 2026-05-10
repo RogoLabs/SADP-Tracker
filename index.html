@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes, viewport-fit=cover">
+    <title>SADP Tracker - Supplier ADP Pilot Dashboard</title>
+
+    <!-- Google Fonts - Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Preload critical assets -->
+    <link rel="preload" href="static/css/style.css" as="style">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="static/css/style.css">
+
+    <!-- SEO -->
+    <meta name="robots" content="index, follow">
+
+    <!-- Meta tags for SEO -->
+    <meta name="description" content="Dashboard tracking CVE enrichment from Supplier ADP (SADP) participants in the CVE Program Supplier ADP Pilot.">
+    <meta name="keywords" content="CVE, SADP, supplier, ADP, CNA, vulnerability, enrichment, pilot">
+    <meta name="author" content="RogoLabs">
+
+    <!-- Mobile-specific meta tags -->
+    <meta name="theme-color" content="#0d6efd">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="SADP Tracker">
+    <meta name="format-detection" content="telephone=no">
+
+    <!-- Open Graph tags -->
+    <meta property="og:title" content="SADP Tracker - CVE Supplier ADP Pilot Dashboard">
+    <meta property="og:description" content="Track CVE enrichment contributions from Supplier ADP participants in the CVE Program pilot.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://rogolabs.github.io/SADP-Tracker">
+    <meta property="og:image" content="https://rogolabs.github.io/SADP-Tracker/static/images/logo.png">
+</head>
+<body>
+    <!-- Apply saved theme before render to prevent flash -->
+    <script>
+        (function() {
+            var theme = localStorage.getItem('sadp-tracker-theme');
+            var preferLight = theme === 'light' || (!theme && window.matchMedia('(prefers-color-scheme: light)').matches);
+            if (!preferLight) document.documentElement.setAttribute('data-theme', 'dark');
+        })();
+    </script>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <!-- Header and Navigation -->
+    <header class="header">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                SADP Tracker
+            </a>
+
+            <nav class="nav">
+                <ul class="nav-menu">
+                    <li><a href="index.html">Dashboard</a></li>
+                    <li><a href="https://github.com/CVEProject/sadp-pilot" target="_blank" rel="noopener">sadp-pilot</a></li>
+                    <li><a href="https://www.cve.org/" target="_blank" rel="noopener">CVE Program</a></li>
+                </ul>
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" aria-live="polite" title="Toggle dark mode">
+                    <span id="themeIcon">&#9790;</span>
+                </button>
+                <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content" class="container">
+        
+<style>
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+@media (max-width: 992px) {
+    .stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 576px) {
+    .stats-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.stat-card {
+    background: var(--color-bg-content);
+    border: 1px solid var(--color-border);
+    border-radius: var(--border-radius);
+    padding: 1.25rem;
+    text-align: center;
+}
+
+.stat-card .number {
+    font-size: 2rem;
+    font-weight: var(--font-weight-bold);
+    color: var(--color-primary);
+    line-height: 1.2;
+}
+
+.stat-card .label {
+    font-size: 0.85rem;
+    color: var(--color-text-secondary);
+    margin-top: 0.25rem;
+}
+
+.supplier-table-wrap {
+    overflow-x: auto;
+}
+
+.supplier-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.95rem;
+}
+
+.supplier-table th {
+    background: var(--color-bg-secondary);
+    color: var(--color-text-secondary);
+    font-weight: var(--font-weight-semibold);
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 0.75rem 1rem;
+    text-align: left;
+    border-bottom: 2px solid var(--color-border);
+    white-space: nowrap;
+}
+
+.supplier-table td {
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid var(--color-border);
+    vertical-align: middle;
+}
+
+.supplier-table tr:last-child td {
+    border-bottom: none;
+}
+
+.supplier-table tbody tr:hover {
+    background: var(--color-bg-hover);
+}
+
+.supplier-link {
+    font-weight: var(--font-weight-semibold);
+    color: var(--color-primary);
+    text-decoration: none;
+}
+
+.supplier-link:hover {
+    text-decoration: underline;
+}
+
+.badge-count {
+    display: inline-block;
+    background: var(--color-primary-light);
+    color: var(--color-primary);
+    font-size: 0.8rem;
+    font-weight: var(--font-weight-semibold);
+    padding: 0.2rem 0.6rem;
+    border-radius: 9999px;
+}
+
+.data-type-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+}
+
+.data-type-tag {
+    font-size: 0.75rem;
+    padding: 0.15rem 0.5rem;
+    border-radius: 0.25rem;
+    background: var(--color-bg-secondary);
+    color: var(--color-text-secondary);
+    white-space: nowrap;
+}
+
+.data-type-tag.affected { background: rgba(25, 135, 84, 0.12); color: var(--color-success); }
+.data-type-tag.references { background: rgba(13, 110, 253, 0.12); color: var(--color-primary); }
+.data-type-tag.metrics { background: rgba(255, 193, 7, 0.15); color: #b38f00; }
+.data-type-tag.descriptions { background: rgba(23, 162, 184, 0.12); color: var(--color-info); }
+
+[data-theme="dark"] .data-type-tag.metrics { color: var(--color-warning); }
+
+.search-bar {
+    display: flex;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+}
+
+.search-input {
+    flex: 1;
+    min-width: 200px;
+    padding: 0.5rem 0.75rem;
+    border: 1px solid var(--color-border);
+    border-radius: var(--border-radius);
+    background: var(--color-bg-content);
+    color: var(--color-text-primary);
+    font-size: 0.9rem;
+    font-family: var(--font-family);
+}
+
+.search-input:focus {
+    outline: none;
+    border-color: var(--color-primary);
+    box-shadow: 0 0 0 3px var(--color-primary-light);
+}
+
+.rank-num {
+    font-size: 0.85rem;
+    color: var(--color-text-muted);
+    font-weight: var(--font-weight-medium);
+    min-width: 2rem;
+    text-align: right;
+}
+</style>
+
+<!-- Hero Section -->
+<div class="page-header mb-4 text-center">
+    <h1 class="display-4 mb-2">SADP Tracker</h1>
+    <p class="text-muted">
+        Monitoring CVE enrichment contributions from Supplier ADP participants in the
+        <a href="https://github.com/CVEProject/sadp-pilot" target="_blank" rel="noopener">CVE Program Supplier ADP Pilot</a>
+    </p>
+</div>
+
+<!-- Summary Stats -->
+<div class="stats-grid">
+    <div class="stat-card">
+        <div class="number">1</div>
+        <div class="label">Participating Suppliers</div>
+    </div>
+    <div class="stat-card">
+        <div class="number">21</div>
+        <div class="label">Enriched CVE Records</div>
+    </div>
+    <div class="stat-card">
+        <div class="number">21</div>
+        <div class="label">Unique CVEs</div>
+    </div>
+    <div class="stat-card">
+        <div class="number">2</div>
+        <div class="label">Data Type Categories</div>
+    </div>
+</div>
+
+<!-- Supplier Table -->
+<div class="card mb-4">
+    <div class="card-header d-flex justify-content-between align-items-center">
+        <h2 class="card-title mb-0" style="font-size: 1.1rem;">Participating Suppliers</h2>
+        <span class="text-muted small">1 suppliers</span>
+    </div>
+    <div class="card-body">
+        <div class="search-bar">
+            <input type="text" id="supplierSearch" class="search-input" placeholder="Search suppliers…" aria-label="Search suppliers">
+        </div>
+        <div class="supplier-table-wrap">
+            <table class="supplier-table" id="supplierTable">
+                <thead>
+                    <tr>
+                        <th style="width: 3rem;">#</th>
+                        <th>Supplier (Short Name)</th>
+                        <th style="text-align: right;">CVE Records</th>
+                        <th>Data Types Added</th>
+                        <th>Last Updated</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                    <tr class="supplier-row">
+                        <td class="rank-num">1</td>
+                        <td>
+                            <a href="supplier/siemens-sadp.html" class="supplier-link">
+                                siemens-SADP
+                            </a>
+                        </td>
+                        <td style="text-align: right;">
+                            <span class="badge-count">21</span>
+                        </td>
+                        <td>
+                            <div class="data-type-tags">
+                                
+                                <span class="data-type-tag affected">affected</span>
+                                
+                                <span class="data-type-tag references">references</span>
+                                
+                            </div>
+                        </td>
+                        <td style="white-space: nowrap; color: var(--color-text-secondary); font-size: 0.85rem;">
+                            2026-04-14
+                        </td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<!-- About Section -->
+<div class="card mb-4">
+    <div class="card-header">
+        <h2 class="card-title mb-0" style="font-size: 1.1rem;">About the Supplier ADP Pilot</h2>
+    </div>
+    <div class="card-body">
+        <p>
+            The <strong>CVE Program Supplier ADP (Authorized Data Publisher) Pilot</strong> allows CNAs that are
+            also product vendors/suppliers to add enrichment data to CVE records <em>for CVEs assigned by other CNAs</em>
+            that affect their products.
+        </p>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; margin: 1rem 0;">
+            <div>
+                <h5 style="font-size: 0.95rem; margin-bottom: 0.4rem;">What is enrichment?</h5>
+                <p class="text-muted small">
+                    Suppliers add data such as affected product versions, CVSS scores, references, and descriptions
+                    to CVE records where they have product-specific knowledge.
+                </p>
+            </div>
+            <div>
+                <h5 style="font-size: 0.95rem; margin-bottom: 0.4rem;">How are suppliers identified?</h5>
+                <p class="text-muted small">
+                    SADP containers have <code>x_adpType: "supplier"</code> or a <code>shortName</code>
+                    ending in <code>-SADP</code> in the <code>containers.adp[]</code> array.
+                </p>
+            </div>
+            <div>
+                <h5 style="font-size: 0.95rem; margin-bottom: 0.4rem;">Data source</h5>
+                <p class="text-muted small">
+                    Records are sourced from the
+                    <a href="https://github.com/CVEProject/sadp-pilot/tree/main/Published%20SADP%20Records" target="_blank" rel="noopener">
+                        Published SADP Records
+                    </a>
+                    directory in the <code>CVEProject/sadp-pilot</code> repository.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div style="display: flex; flex-wrap: wrap; gap: 2rem; justify-content: space-between;">
+                <div style="flex: 1; min-width: 200px;">
+                    <p class="mb-1"><strong>Data Sources:</strong></p>
+                    <p class="text-muted small mb-0">
+                        <a href="https://github.com/CVEProject/sadp-pilot" target="_blank" rel="noopener" class="text-decoration-none">CVEProject/sadp-pilot on GitHub</a><br>
+                        <a href="https://www.cve.org/" target="_blank" rel="noopener" class="text-decoration-none">CVE Program</a><br>
+                        Last updated: <span id="lastUpdated">2026-05-10T21:42:11.856951+00:00</span>
+                    </p>
+                </div>
+                <div style="flex: 1; min-width: 200px; text-align: right;">
+                    <p class="mb-1"><strong>Links:</strong></p>
+                    <p class="text-muted small mb-0">
+                        <a href="https://github.com/RogoLabs/SADP-Tracker" target="_blank" rel="noopener" class="text-decoration-none">GitHub Repository</a><br>
+                        <a href="https://cve.icu" target="_blank" rel="noopener" class="text-decoration-none">CVE.ICU</a><br>
+                        <a href="https://rogolabs.net" target="_blank" rel="noopener" class="text-decoration-none">RogoLabs</a>
+                    </p>
+                </div>
+            </div>
+            <hr class="my-2">
+            <div class="text-center">
+                <small class="text-muted">
+                    &copy; 2026 SADP Tracker &bull; Built by <a href="https://rogolabs.net" target="_blank" rel="noopener" class="text-decoration-none">RogoLabs</a><br>
+                    Tracking the <a href="https://github.com/CVEProject/sadp-pilot" target="_blank" rel="noopener" class="text-decoration-none">CVE Supplier ADP Pilot</a>
+                </small>
+            </div>
+        </div>
+    </footer>
+
+    
+<script>
+// Simple client-side search for the supplier table
+document.addEventListener('DOMContentLoaded', function() {
+    const searchInput = document.getElementById('supplierSearch');
+    const rows = document.querySelectorAll('#supplierTable .supplier-row');
+
+    if (!searchInput) return;
+
+    searchInput.addEventListener('input', function() {
+        const query = this.value.toLowerCase().trim();
+        let visibleIdx = 0;
+        rows.forEach(function(row) {
+            const text = row.textContent.toLowerCase();
+            const match = !query || text.includes(query);
+            row.style.display = match ? '' : 'none';
+            if (match) {
+                visibleIdx++;
+                const rankCell = row.querySelector('.rank-num');
+                if (rankCell) rankCell.textContent = visibleIdx;
+            }
+        });
+    });
+});
+</script>
+
+
+    <!-- Theme toggle script -->
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const themeToggle = document.getElementById('themeToggle');
+        const themeIcon = document.getElementById('themeIcon');
+        const html = document.documentElement;
+
+        function applyTheme(isDark) {
+            if (isDark) {
+                html.setAttribute('data-theme', 'dark');
+                themeIcon.innerHTML = '&#9728;';
+                themeToggle.setAttribute('title', 'Switch to light mode');
+            } else {
+                html.removeAttribute('data-theme');
+                themeIcon.innerHTML = '&#9790;';
+                themeToggle.setAttribute('title', 'Switch to dark mode');
+            }
+        }
+
+        // Initialize icon based on current theme
+        applyTheme(html.getAttribute('data-theme') === 'dark');
+
+        themeToggle.addEventListener('click', function() {
+            const isDark = html.getAttribute('data-theme') === 'dark';
+            const newIsDark = !isDark;
+            applyTheme(newIsDark);
+            localStorage.setItem('sadp-tracker-theme', newIsDark ? 'dark' : 'light');
+        });
+
+        // Mobile navigation toggle
+        const navToggle = document.querySelector('.nav-toggle');
+        const navMenu = document.querySelector('.nav-menu');
+
+        if (navToggle && navMenu) {
+            navToggle.addEventListener('click', function() {
+                navMenu.classList.toggle('active');
+                if (navMenu.classList.contains('active')) {
+                    document.body.style.overflow = 'hidden';
+                    navToggle.setAttribute('aria-expanded', 'true');
+                } else {
+                    document.body.style.overflow = '';
+                    navToggle.setAttribute('aria-expanded', 'false');
+                }
+            });
+
+            document.addEventListener('click', function(event) {
+                const isClickInside = navToggle.contains(event.target) || navMenu.contains(event.target);
+                if (!isClickInside && navMenu.classList.contains('active')) {
+                    navMenu.classList.remove('active');
+                    document.body.style.overflow = '';
+                    navToggle.setAttribute('aria-expanded', 'false');
+                }
+            });
+
+            const navLinks = navMenu.querySelectorAll('a');
+            navLinks.forEach(function(link) {
+                link.addEventListener('click', function() {
+                    navMenu.classList.remove('active');
+                    document.body.style.overflow = '';
+                    navToggle.setAttribute('aria-expanded', 'false');
+                });
+            });
+        }
+    });
+    </script>
+</body>
+</html>

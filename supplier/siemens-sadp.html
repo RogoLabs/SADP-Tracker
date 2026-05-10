@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes, viewport-fit=cover">
+    <title>siemens-SADP - SADP Tracker</title>
+
+    <!-- Google Fonts - Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Preload critical assets -->
+    <link rel="preload" href="../static/css/style.css" as="style">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="../static/css/style.css">
+
+    <!-- SEO -->
+    <meta name="robots" content="index, follow">
+
+    <!-- Meta tags for SEO -->
+    <meta name="description" content="CVE enrichment contributions by siemens-SADP in the CVE Supplier ADP Pilot. 21 records enriched.">
+    <meta name="keywords" content="CVE, SADP, supplier, ADP, CNA, vulnerability, enrichment, pilot">
+    <meta name="author" content="RogoLabs">
+
+    <!-- Mobile-specific meta tags -->
+    <meta name="theme-color" content="#0d6efd">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="SADP Tracker">
+    <meta name="format-detection" content="telephone=no">
+
+    <!-- Open Graph tags -->
+    <meta property="og:title" content="siemens-SADP – SADP Tracker">
+    <meta property="og:description" content="siemens-SADP has enriched 21 CVE records in the Supplier ADP Pilot.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://rogolabs.github.io/SADP-Tracker">
+    <meta property="og:image" content="https://rogolabs.github.io/SADP-Tracker/static/images/logo.png">
+</head>
+<body>
+    <!-- Apply saved theme before render to prevent flash -->
+    <script>
+        (function() {
+            var theme = localStorage.getItem('sadp-tracker-theme');
+            var preferLight = theme === 'light' || (!theme && window.matchMedia('(prefers-color-scheme: light)').matches);
+            if (!preferLight) document.documentElement.setAttribute('data-theme', 'dark');
+        })();
+    </script>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <!-- Header and Navigation -->
+    <header class="header">
+        <div class="nav-container">
+            <a href="../index.html" class="logo">
+                SADP Tracker
+            </a>
+
+            <nav class="nav">
+                <ul class="nav-menu">
+                    <li><a href="../index.html">Dashboard</a></li>
+                    <li><a href="https://github.com/CVEProject/sadp-pilot" target="_blank" rel="noopener">sadp-pilot</a></li>
+                    <li><a href="https://www.cve.org/" target="_blank" rel="noopener">CVE Program</a></li>
+                </ul>
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" aria-live="polite" title="Toggle dark mode">
+                    <span id="themeIcon">&#9790;</span>
+                </button>
+                <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content" class="container">
+        
+<style>
+.supplier-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+
+.supplier-header-info {
+    flex: 1;
+    min-width: 0;
+}
+
+.breadcrumb {
+    font-size: 0.85rem;
+    color: var(--color-text-secondary);
+    margin-bottom: 0.5rem;
+}
+
+.breadcrumb a {
+    color: var(--color-primary);
+    text-decoration: none;
+}
+
+.breadcrumb a:hover {
+    text-decoration: underline;
+}
+
+.stats-row {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+.stat-pill {
+    background: var(--color-bg-content);
+    border: 1px solid var(--color-border);
+    border-radius: var(--border-radius);
+    padding: 1rem 1.5rem;
+    text-align: center;
+    min-width: 120px;
+}
+
+.stat-pill .number {
+    font-size: 1.75rem;
+    font-weight: var(--font-weight-bold);
+    color: var(--color-primary);
+    line-height: 1.2;
+}
+
+.stat-pill .label {
+    font-size: 0.8rem;
+    color: var(--color-text-secondary);
+    margin-top: 0.2rem;
+}
+
+.cve-table-wrap {
+    overflow-x: auto;
+}
+
+.cve-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+}
+
+.cve-table th {
+    background: var(--color-bg-secondary);
+    color: var(--color-text-secondary);
+    font-weight: var(--font-weight-semibold);
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 0.65rem 1rem;
+    text-align: left;
+    border-bottom: 2px solid var(--color-border);
+    white-space: nowrap;
+}
+
+.cve-table td {
+    padding: 0.65rem 1rem;
+    border-bottom: 1px solid var(--color-border);
+    vertical-align: middle;
+}
+
+.cve-table tr:last-child td {
+    border-bottom: none;
+}
+
+.cve-table tbody tr:hover {
+    background: var(--color-bg-hover);
+}
+
+.cve-id-link {
+    font-weight: var(--font-weight-semibold);
+    color: var(--color-primary);
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 0.9rem;
+}
+
+.cve-id-link:hover {
+    text-decoration: underline;
+}
+
+.data-type-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+}
+
+.data-type-tag {
+    font-size: 0.75rem;
+    padding: 0.15rem 0.5rem;
+    border-radius: 0.25rem;
+    background: var(--color-bg-secondary);
+    color: var(--color-text-secondary);
+    white-space: nowrap;
+}
+
+.data-type-tag.affected { background: rgba(25, 135, 84, 0.12); color: var(--color-success); }
+.data-type-tag.references { background: rgba(13, 110, 253, 0.12); color: var(--color-primary); }
+.data-type-tag.metrics { background: rgba(255, 193, 7, 0.15); color: #b38f00; }
+.data-type-tag.descriptions { background: rgba(23, 162, 184, 0.12); color: var(--color-info); }
+
+[data-theme="dark"] .data-type-tag.metrics { color: var(--color-warning); }
+
+.search-bar {
+    display: flex;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+}
+
+.search-input {
+    flex: 1;
+    min-width: 200px;
+    padding: 0.5rem 0.75rem;
+    border: 1px solid var(--color-border);
+    border-radius: var(--border-radius);
+    background: var(--color-bg-content);
+    color: var(--color-text-primary);
+    font-size: 0.9rem;
+    font-family: var(--font-family);
+}
+
+.search-input:focus {
+    outline: none;
+    border-color: var(--color-primary);
+    box-shadow: 0 0 0 3px var(--color-primary-light);
+}
+
+.all-data-types-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin-top: 0.5rem;
+}
+</style>
+
+<!-- Breadcrumb -->
+<div class="breadcrumb">
+    <a href="../index.html">Dashboard</a> &rsaquo; siemens-SADP
+</div>
+
+<!-- Supplier Header -->
+<div class="supplier-header">
+    <div class="supplier-header-info">
+        <h1 style="font-size: 1.8rem; font-weight: var(--font-weight-bold); margin-bottom: 0.25rem;">
+            siemens-SADP
+        </h1>
+        <p class="text-muted" style="margin-bottom: 0.5rem;">
+            Supplier ADP contributor &bull; Org ID: <code>0b142b55-0307-4c5a-b3c9-f314f3fb7c5e</code>
+        </p>
+        
+        <div class="all-data-types-row">
+            
+            <span class="data-type-tag affected">affected</span>
+            
+            <span class="data-type-tag references">references</span>
+            
+        </div>
+        
+    </div>
+</div>
+
+<!-- Stats Row -->
+<div class="stats-row">
+    <div class="stat-pill">
+        <div class="number">21</div>
+        <div class="label">CVE Records</div>
+    </div>
+    
+    <div class="stat-pill">
+        <div class="number">21</div>
+        <div class="label">with Affected</div>
+    </div>
+    
+    
+    <div class="stat-pill">
+        <div class="number">21</div>
+        <div class="label">with References</div>
+    </div>
+    
+    
+    
+</div>
+
+<!-- CVE Table -->
+<div class="card mb-4">
+    <div class="card-header d-flex justify-content-between align-items-center">
+        <h2 class="card-title mb-0" style="font-size: 1.05rem;">Enriched CVE Records</h2>
+        <span class="text-muted small">21 records</span>
+    </div>
+    <div class="card-body">
+        <div class="search-bar">
+            <input type="text" id="cveSearch" class="search-input" placeholder="Search CVE IDs…" aria-label="Search CVE IDs">
+        </div>
+        <div class="cve-table-wrap">
+            <table class="cve-table" id="cveTable">
+                <thead>
+                    <tr>
+                        <th>CVE ID</th>
+                        <th>Date Updated</th>
+                        <th>Data Types Added</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                    <tr class="cve-row">
+                        <td>
+                            <a href="https://www.cve.org/CVERecord?id=CVE-2020-26147" target="_blank" rel="noopener"
+                               class="cve-id-link">CVE-2020-26147</a>
+                        </td>
+                        <td style="white-space: nowrap; color: var(--color-text-secondary); font-size: 0.85rem;">
+                            2026-04-14
+                        </td>
+                        <td>
+                            <div class="data-type-tags">
+                                
+                                <span class="data-type-tag affected">affected</span>
+                                
+                                <span class="data-type-tag references">references</span>
+                                
+                            </div>
+                        </td>
+                    </tr>
+                    
+                    <tr class="cve-row">
+                        <td>
+                            <a href="https://www.cve.org/CVERecord?id=CVE-2025-40898" target="_blank" rel="noopener"
+                               class="cve-id-link">CVE-2025-40898</a>
+                        </td>
+                        <td style="white-space: nowrap; color: var(--color-text-secondary); font-size: 0.85rem;">
+                            2026-04-14
+                        </td>
+                        <td>
+                            <div class="data-type-tags">
+                                
+                                <span class="data-type-tag affected">affected</span>
+                                
+                                <span class="data-type-tag references">references</span>
+                                
+                            </div>
+                        </td>
+                    </tr>
+                    
+                    <tr class="cve-row">
+                        <td>
+                            <a href="https://www.cve.org/CVERecord?id=CVE-2025-40894" target="_blank" rel="noopener"
+                               class="cve-id-link">CVE-2025-40894</a>
+                        </td>
+                        <td style="white-space: nowrap; color: var(--color-text-secondary); font-size: 0.85rem;">
+                            2026-04-14
+                        </td>
+                        <td>
+                            <div class="data-type-tags">
+                                
+                                <span class="data-type-tag affected">affected</span>
+                                
+                                <span class="data-type-tag references">references</span>
+                                
+                            </div>
+                        </td>
+                    </tr>
+                    
+                    <tr class="cve-row">
+                        <td>
+                            <a href="https://www.cve.org/CVERecord?id=CVE-2025-40893" target="_blank" rel="noopener"
+                               class="cve-id-link">CVE-2025-40893</a>
+                        </td>
+                        <td style="white-space: nowrap; color: var(--color-text-secondary); font-size: 0.85rem;">
+                            2026-04-14
+                        </td>
+                        <td>
+                            <div class="data-type-tags">
+                                
+                                <span class="data-type-tag affected">affected</span>
+                                
+                                <span class="data-type-tag references">references</span>
+                                
+                            </div>
+                        </td>
+                    </tr>
+                    
+                    <tr class="cve-row">
+                        <td>
+                            <a href="https://www.cve.org/CVERecord?id=CVE-2025-40892" target="_blank" rel="noopener"
+                               class="cve-id-link">CVE-2025-40892</a>
+                        </td>
+                        <td style="white-space: nowrap; color: var(--color-text-secondary); font-size: 0.85rem;">
+                            2026-04-14
+                        </td>
+                        <td>
+                            <div class="data-type-tags">
+                                
+                                <span class="data-type-tag affected">affected</span>
+                                
+                                <span class="data-type-tag references">references</span>
+                                
+                            </div>
+                        </td>
+                    </tr>
+                    
+                    <tr class="cve-row">
+                        <td>
+                            <a href="https://www.cve.org/CVERecord?id=CVE-2025-40891" target="_blank" rel="noopener"
+                               class="cve-id-link">CVE-2025-40891</a>
+                        </td>
+                        <td style="white-space: nowrap; color: var(--color-text-secondary); font-size: 0.85rem;">
+                            2026-04-14
+                        </td>
+                        <td>
+                            <div class="data-type-tags">
+                                
+                                <span class="data-type-tag affected">affected</span>
+                                
+                                <span class="data-type-tag references">references</span>
+                                
+                            </div>
+                        </td>
+                    </tr>
+                    
+                    <tr class="cve-row">
+                        <td>
+                            <a href="https://www.cve.org/CVERecord?id=CVE-2025-6965" target="_blank" rel="noopener"
+                               class="cve-id-link">CVE-2025-6965</a>
+                        </td>
+                        <td style="white-space: nowrap; color: var(--color-text-secondary); font-size: 0.85rem;">
+                            2026-04-14
+                        </td>
+                        <td>
+                            <div class="data-type-tags">
+                                
+                                <span class="data-type-tag affected">affected</span>
+                                
+                                <span class="data-type-tag references">references</span>
+                                
+                            </div>
+                        </td>
+                    </tr>
+                    
+                    <tr class="cve-row">
+                        <td>
+                            <a href="https://www.cve.org/CVERecord?id=CVE-2025-2884" target="_blank" rel="noopener"
+                               class="cve-id-link">CVE-2025-2884</a>
+                        </td>
+                        <td style="white-space: nowrap; color: var(--color-text-secondary); font-size: 0.85rem;">
+                            2026-04-14
+                        </td>
+                        <td>
+                            <div class="data-type-tags">
+                                
+                                <span class="data-type-tag affected">affected</span>
+                                
+                                <span class="data-type-tag references">references</span>
+                                
+                            </div>
+                        </td>
+                    </tr>
+                    
+                    <tr class="cve-row">
+                        <td>
+                            <a href="https://www.cve.org/CVERecord?id=CVE-2022-38767" target="_blank" rel="noopener"
+                               class="cve-id-link">CVE-2022-38767</a>
+                        </td>
+                        <td style="white-space: nowrap; color: var(--color-text-secondary); font-size: 0.85rem;">
+                            2026-04-14
+                        </td>
+                        <td>
+                            <div class="data-type-tags">
+                                
+                                <span class="data-type-tag affected">affected</span>
+                                
+                                <span class="data-type-tag references">references</span>
+                                
+                            </div>
+                        </td>
+                    </tr>
+                    
+                    <tr class="cve-row">
+                        <td>
+                            <a href="https://www.cve.org/CVERecord?id=CVE-2022-3786" target="_blank" rel="noopener"
+                               class="cve-id-link">CVE-2022-3786</a>
+                        </td>
+                        <td style="white-space: nowrap; color: var(--color-text-secondary); font-size: 0.85rem;">
+                            2026-04-14
+                        </td>
+                        <td>
+                            <div class="data-type-tags">
+                                
+                                <span class="data-type-tag affected">affected</span>
+                                
+                                <span class="data-type-tag references">references</span>
+                                
+                            </div>
+                        </td>
+                    </tr>
+                    
+                    <tr class="cve-row">
+                        <td>
+                            <a href="https://www.cve.org/CVERecord?id=CVE-2022-3602" target="_blank" rel="noopener"
+                               class="cve-id-link">CVE-2022-3602</a>
+                        </td>
+                        <td style="white-space: nowrap; color: var(--color-text-secondary); font-size: 0.85rem;">
+                            2026-04-14
+                        </td>
+                        <td>
+                            <div class="data-type-tags">
+                                
+                                <span class="data-type-tag affected">affected</span>
+                                
+                                <span class="data-type-tag references">references</span>
+                                
+                            </div>
+                        </td>
+                    </tr>
+                    
+                    <tr class="cve-row">
+                        <td>
+                            <a href="https://www.cve.org/CVERecord?id=CVE-2022-0778" target="_blank" rel="noopener"
+                               class="cve-id-link">CVE-2022-0778</a>
+                        </td>
+                        <td style="white-space: nowrap; color: var(--color-text-secondary); font-size: 0.85rem;">
+                            2026-04-14
+                        </td>
+                        <td>
+                            <div class="data-type-tags">
+                                
+                                <span class="data-type-tag affected">affected</span>
+                                
+                                <span class="data-type-tag references">references</span>
+                                
+                            </div>
+                        </td>
+                    </tr>
+                    
+                    <tr class="cve-row">
+                        <td>
+                            <a href="https://www.cve.org/CVERecord?id=CVE-2021-3712" target="_blank" rel="noopener"
+                               class="cve-id-link">CVE-2021-3712</a>
+                        </td>
+                        <td style="white-space: nowrap; color: var(--color-text-secondary); font-size: 0.85rem;">
+                            2026-04-14
+                        </td>
+                        <td>
+                            <div class="data-type-tags">
+                                
+                                <span class="data-type-tag affected">affected</span>
+                                
+                                <span class="data-type-tag references">references</span>
+                                
+                            </div>
+                        </td>
+                    </tr>
+                    
+                    <tr class="cve-row">
+                        <td>
+                            <a href="https://www.cve.org/CVERecord?id=CVE-2020-26146" target="_blank" rel="noopener"
+                               class="cve-id-link">CVE-2020-26146</a>
+                        </td>
+                        <td style="white-space: nowrap; color: var(--color-text-secondary); font-size: 0.85rem;">
+                            2026-04-14
+                        </td>
+                        <td>
+                            <div class="data-type-tags">
+                                
+                                <span class="data-type-tag affected">affected</span>
+                                
+                                <span class="data-type-tag references">references</span>
+                                
+                            </div>
+                        </td>
+                    </tr>
+                    
+                    <tr class="cve-row">
+                        <td>
+                            <a href="https://www.cve.org/CVERecord?id=CVE-2020-26145" target="_blank" rel="noopener"
+                               class="cve-id-link">CVE-2020-26145</a>
+                        </td>
+                        <td style="white-space: nowrap; color: var(--color-text-secondary); font-size: 0.85rem;">
+                            2026-04-14
+                        </td>
+                        <td>
+                            <div class="data-type-tags">
+                                
+                                <span class="data-type-tag affected">affected</span>
+                                
+                                <span class="data-type-tag references">references</span>
+                                
+                            </div>
+                        </td>
+                    </tr>
+                    
+                    <tr class="cve-row">
+                        <td>
+                            <a href="https://www.cve.org/CVERecord?id=CVE-2020-26144" target="_blank" rel="noopener"
+                               class="cve-id-link">CVE-2020-26144</a>
+                        </td>
+                        <td style="white-space: nowrap; color: var(--color-text-secondary); font-size: 0.85rem;">
+                            2026-04-14
+                        </td>
+                        <td>
+                            <div class="data-type-tags">
+                                
+                                <span class="data-type-tag affected">affected</span>
+                                
+                                <span class="data-type-tag references">references</span>
+                                
+                            </div>
+                        </td>
+                    </tr>
+                    
+                    <tr class="cve-row">
+                        <td>
+                            <a href="https://www.cve.org/CVERecord?id=CVE-2020-26143" target="_blank" rel="noopener"
+                               class="cve-id-link">CVE-2020-26143</a>
+                        </td>
+                        <td style="white-space: nowrap; color: var(--color-text-secondary); font-size: 0.85rem;">
+                            2026-04-14
+                        </td>
+                        <td>
+                            <div class="data-type-tags">
+                                
+                                <span class="data-type-tag affected">affected</span>
+                                
+                                <span class="data-type-tag references">references</span>
+                                
+                            </div>
+                        </td>
+                    </tr>
+                    
+                    <tr class="cve-row">
+                        <td>
+                            <a href="https://www.cve.org/CVERecord?id=CVE-2020-26141" target="_blank" rel="noopener"
+                               class="cve-id-link">CVE-2020-26141</a>
+                        </td>
+                        <td style="white-space: nowrap; color: var(--color-text-secondary); font-size: 0.85rem;">
+                            2026-04-14
+                        </td>
+                        <td>
+                            <div class="data-type-tags">
+                                
+                                <span class="data-type-tag affected">affected</span>
+                                
+                                <span class="data-type-tag references">references</span>
+                                
+                            </div>
+                        </td>
+                    </tr>
+                    
+                    <tr class="cve-row">
+                        <td>
+                            <a href="https://www.cve.org/CVERecord?id=CVE-2020-26140" target="_blank" rel="noopener"
+                               class="cve-id-link">CVE-2020-26140</a>
+                        </td>
+                        <td style="white-space: nowrap; color: var(--color-text-secondary); font-size: 0.85rem;">
+                            2026-04-14
+                        </td>
+                        <td>
+                            <div class="data-type-tags">
+                                
+                                <span class="data-type-tag affected">affected</span>
+                                
+                                <span class="data-type-tag references">references</span>
+                                
+                            </div>
+                        </td>
+                    </tr>
+                    
+                    <tr class="cve-row">
+                        <td>
+                            <a href="https://www.cve.org/CVERecord?id=CVE-2020-26139" target="_blank" rel="noopener"
+                               class="cve-id-link">CVE-2020-26139</a>
+                        </td>
+                        <td style="white-space: nowrap; color: var(--color-text-secondary); font-size: 0.85rem;">
+                            2026-04-14
+                        </td>
+                        <td>
+                            <div class="data-type-tags">
+                                
+                                <span class="data-type-tag affected">affected</span>
+                                
+                                <span class="data-type-tag references">references</span>
+                                
+                            </div>
+                        </td>
+                    </tr>
+                    
+                    <tr class="cve-row">
+                        <td>
+                            <a href="https://www.cve.org/CVERecord?id=CVE-2020-24588" target="_blank" rel="noopener"
+                               class="cve-id-link">CVE-2020-24588</a>
+                        </td>
+                        <td style="white-space: nowrap; color: var(--color-text-secondary); font-size: 0.85rem;">
+                            2026-04-14
+                        </td>
+                        <td>
+                            <div class="data-type-tags">
+                                
+                                <span class="data-type-tag affected">affected</span>
+                                
+                                <span class="data-type-tag references">references</span>
+                                
+                            </div>
+                        </td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div style="display: flex; flex-wrap: wrap; gap: 2rem; justify-content: space-between;">
+                <div style="flex: 1; min-width: 200px;">
+                    <p class="mb-1"><strong>Data Sources:</strong></p>
+                    <p class="text-muted small mb-0">
+                        <a href="https://github.com/CVEProject/sadp-pilot" target="_blank" rel="noopener" class="text-decoration-none">CVEProject/sadp-pilot on GitHub</a><br>
+                        <a href="https://www.cve.org/" target="_blank" rel="noopener" class="text-decoration-none">CVE Program</a><br>
+                        Last updated: <span id="lastUpdated">2026-04-14T09:01:51.571Z</span>
+                    </p>
+                </div>
+                <div style="flex: 1; min-width: 200px; text-align: right;">
+                    <p class="mb-1"><strong>Links:</strong></p>
+                    <p class="text-muted small mb-0">
+                        <a href="https://github.com/RogoLabs/SADP-Tracker" target="_blank" rel="noopener" class="text-decoration-none">GitHub Repository</a><br>
+                        <a href="https://cve.icu" target="_blank" rel="noopener" class="text-decoration-none">CVE.ICU</a><br>
+                        <a href="https://rogolabs.net" target="_blank" rel="noopener" class="text-decoration-none">RogoLabs</a>
+                    </p>
+                </div>
+            </div>
+            <hr class="my-2">
+            <div class="text-center">
+                <small class="text-muted">
+                    &copy; 2026 SADP Tracker &bull; Built by <a href="https://rogolabs.net" target="_blank" rel="noopener" class="text-decoration-none">RogoLabs</a><br>
+                    Tracking the <a href="https://github.com/CVEProject/sadp-pilot" target="_blank" rel="noopener" class="text-decoration-none">CVE Supplier ADP Pilot</a>
+                </small>
+            </div>
+        </div>
+    </footer>
+
+    
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const searchInput = document.getElementById('cveSearch');
+    const rows = document.querySelectorAll('#cveTable .cve-row');
+
+    if (!searchInput) return;
+
+    searchInput.addEventListener('input', function() {
+        const query = this.value.toLowerCase().trim();
+        rows.forEach(function(row) {
+            const text = row.textContent.toLowerCase();
+            row.style.display = (!query || text.includes(query)) ? '' : 'none';
+        });
+    });
+});
+</script>
+
+
+    <!-- Theme toggle script -->
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const themeToggle = document.getElementById('themeToggle');
+        const themeIcon = document.getElementById('themeIcon');
+        const html = document.documentElement;
+
+        function applyTheme(isDark) {
+            if (isDark) {
+                html.setAttribute('data-theme', 'dark');
+                themeIcon.innerHTML = '&#9728;';
+                themeToggle.setAttribute('title', 'Switch to light mode');
+            } else {
+                html.removeAttribute('data-theme');
+                themeIcon.innerHTML = '&#9790;';
+                themeToggle.setAttribute('title', 'Switch to dark mode');
+            }
+        }
+
+        // Initialize icon based on current theme
+        applyTheme(html.getAttribute('data-theme') === 'dark');
+
+        themeToggle.addEventListener('click', function() {
+            const isDark = html.getAttribute('data-theme') === 'dark';
+            const newIsDark = !isDark;
+            applyTheme(newIsDark);
+            localStorage.setItem('sadp-tracker-theme', newIsDark ? 'dark' : 'light');
+        });
+
+        // Mobile navigation toggle
+        const navToggle = document.querySelector('.nav-toggle');
+        const navMenu = document.querySelector('.nav-menu');
+
+        if (navToggle && navMenu) {
+            navToggle.addEventListener('click', function() {
+                navMenu.classList.toggle('active');
+                if (navMenu.classList.contains('active')) {
+                    document.body.style.overflow = 'hidden';
+                    navToggle.setAttribute('aria-expanded', 'true');
+                } else {
+                    document.body.style.overflow = '';
+                    navToggle.setAttribute('aria-expanded', 'false');
+                }
+            });
+
+            document.addEventListener('click', function(event) {
+                const isClickInside = navToggle.contains(event.target) || navMenu.contains(event.target);
+                if (!isClickInside && navMenu.classList.contains('active')) {
+                    navMenu.classList.remove('active');
+                    document.body.style.overflow = '';
+                    navToggle.setAttribute('aria-expanded', 'false');
+                }
+            });
+
+            const navLinks = navMenu.querySelectorAll('a');
+            navLinks.forEach(function(link) {
+                link.addEventListener('click', function() {
+                    navMenu.classList.remove('active');
+                    document.body.style.overflow = '';
+                    navToggle.setAttribute('aria-expanded', 'false');
+                });
+            });
+        }
+    });
+    </script>
+</body>
+</html>
