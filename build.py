@@ -24,6 +24,7 @@ WEB_DIR = BASE_DIR / "web"
 STATIC_SRC_DIR = WEB_DIR / "static"
 SUPPLIER_OUT_DIR = WEB_DIR / "supplier"
 DATA_JSON = BASE_DIR / "data" / "data.json"
+ARCHIVED_JSON = BASE_DIR / "data" / "archived_data.json"
 
 
 # ---------------------------------------------------------------------------
@@ -98,7 +99,7 @@ class SADPSiteBuilder:
     # Enrich supplier data with computed fields
     # ------------------------------------------------------------------
     @staticmethod
-    def _enrich_suppliers(suppliers: list[dict]) -> list[dict]:
+    def _enrich_suppliers(suppliers: list[dict], github_dir: str = "Published%20SADP%20Records") -> list[dict]:
         for s in suppliers:
             cves = s.get("cves", [])
             s["cve_count"] = len(cves)
@@ -148,7 +149,7 @@ class SADPSiteBuilder:
                     encoded = urllib.parse.quote(file_path, safe="/")
                     cve["github_url"] = (
                         f"https://github.com/CVEProject/sadp-pilot/blob/main/"
-                        f"Published%20SADP%20Records/{encoded}"
+                        f"{github_dir}/{encoded}"
                     )
                 else:
                     cve["github_url"] = (
@@ -167,6 +168,66 @@ class SADPSiteBuilder:
             s["unique_products"] = sorted(all_products, key=lambda p: (p.get("vendor", ""), p.get("product", "")))
 
         return suppliers
+
+    # ------------------------------------------------------------------
+    # Render the archived pilot data page
+    # ------------------------------------------------------------------
+    def build_archived_page(self) -> None:
+        raw = load_data(ARCHIVED_JSON)
+        generated_at: str = raw.get("generated_at", "")
+        suppliers: list[dict] = raw.get("suppliers", [])
+
+        if not suppliers:
+            self.log("  ⚠️  No archived data found – skipping archived.html")
+            return
+
+        suppliers = self._enrich_suppliers(suppliers, github_dir="Archived%20Pilot%20Data")
+
+        total_records = sum(s["cve_count"] for s in suppliers)
+        unique_cves: set[str] = set()
+        year_breakdown: dict[str, int] = {}
+        dt_breakdown: dict[str, int] = {dt: 0 for dt in _DATA_TYPE_KEYS}
+
+        # Build a flat CVE list for the full table (all suppliers)
+        all_cves: list[dict] = []
+        for s in suppliers:
+            for cve in s.get("cves", []):
+                cve_id = cve["cve_id"]
+                unique_cves.add(cve_id)
+                dts = cve.get("data_types", [])
+                year = cve_id[4:8] if cve_id.startswith("CVE-") and len(cve_id) > 8 else "Unknown"
+                year_breakdown[year] = year_breakdown.get(year, 0) + 1
+                for dt in dts:
+                    if dt in dt_breakdown:
+                        dt_breakdown[dt] += 1
+                all_cves.append({
+                    **cve,
+                    "supplier": s["short_name"],
+                })
+
+        all_cves.sort(key=lambda c: c.get("date_updated", ""), reverse=True)
+        year_breakdown_sorted = dict(sorted(year_breakdown.items()))
+        pilot_start = min(
+            (s["first_enriched"] for s in suppliers if s.get("first_enriched")),
+            default="",
+        )
+
+        template = self.jinja_env.get_template("archived.html")
+        html = template.render(
+            suppliers=suppliers,
+            all_cves=all_cves,
+            total_records=total_records,
+            unique_cves=len(unique_cves),
+            data_types_count=len([k for k, v in dt_breakdown.items() if v > 0]),
+            last_updated=generated_at,
+            year_breakdown=year_breakdown_sorted,
+            dt_breakdown=dt_breakdown,
+            pilot_start=pilot_start,
+            base_path="",
+        )
+        out = WEB_DIR / "archived.html"
+        out.write_text(html, encoding="utf-8")
+        self.log(f"  📄 {out.relative_to(BASE_DIR)}")
 
     # ------------------------------------------------------------------
     # Render the dashboard index page
@@ -254,6 +315,9 @@ class SADPSiteBuilder:
         # Build supplier detail pages
         for supplier in suppliers:
             self.build_supplier_page(supplier)
+
+        # Build archived pilot data page
+        self.build_archived_page()
 
         self.log(f"✅ Build complete → {WEB_DIR}")
 
