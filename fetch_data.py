@@ -67,7 +67,7 @@ def extract_affected_products(adp_container: dict) -> list[dict]:
     return products
 
 
-def parse_record(path: Path, published_dir: Path) -> list[dict]:
+def parse_record(path: Path, source_dir: Path | None = None) -> list[dict]:
     """Parse a single CVE JSON record and return a list of SADP contribution dicts."""
     try:
         data = json.loads(path.read_text(encoding="utf-8"))
@@ -78,7 +78,13 @@ def parse_record(path: Path, published_dir: Path) -> list[dict]:
     cve_id: str = data.get("cveMetadata", {}).get("cveId", path.stem)
     containers = data.get("containers", {})
     adp_list = containers.get("adp", [])
-    file_rel = str(path.relative_to(published_dir)).replace("\\", "/")
+    if source_dir is None:
+        file_rel = path.name
+    else:
+        try:
+            file_rel = str(path.relative_to(source_dir)).replace("\\", "/")
+        except ValueError:
+            file_rel = path.name
 
     results = []
     for adp in adp_list:

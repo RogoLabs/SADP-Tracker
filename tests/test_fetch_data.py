@@ -13,7 +13,13 @@ import pytest
 # Add project root to path
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
-from fetch_data import extract_data_types, is_sadp_container, parse_record, fetch_and_parse
+from fetch_data import (
+    extract_data_types,
+    fetch_and_parse,
+    fetch_and_parse_archived,
+    is_sadp_container,
+    parse_record,
+)
 
 
 # ---------------------------------------------------------------------------
@@ -242,3 +248,52 @@ class TestFetchAndParse:
         names = {s["short_name"] for s in result["suppliers"]}
         assert "siemens-SADP" in names
         assert "cisco-SADP" in names
+
+
+class TestFetchAndParseArchived:
+    def _make_sadp_repo(self, tmp_path: Path, records: list[tuple[str, list[dict]]]) -> Path:
+        """Create a minimal fake sadp-pilot repo layout for archived data."""
+        archived_dir = tmp_path / "Archived Pilot Data"
+        archived_dir.mkdir(parents=True)
+        for cve_id, adp_containers in records:
+            record = _make_cve_json(cve_id, adp_containers)
+            (archived_dir / f"{cve_id}.json").write_text(json.dumps(record), encoding="utf-8")
+        return tmp_path
+
+    def test_parses_flat_archived_directory(self, tmp_path):
+        adp1 = {
+            "x_adpType": "supplier",
+            "providerMetadata": {
+                "shortName": "siemens-SADP",
+                "orgId": "aaa",
+                "dateUpdated": "2026-03-01T00:00:00Z",
+            },
+            "affected": [{"vendor": "Siemens", "product": "SIMATIC"}],
+            "references": [{"url": "https://example.com/advisory"}],
+        }
+        adp2 = {
+            "x_adpType": "supplier",
+            "providerMetadata": {
+                "shortName": "cisco-SADP",
+                "orgId": "bbb",
+                "dateUpdated": "2026-03-02T00:00:00Z",
+            },
+            "metrics": [{"cvssV3_1": {"baseScore": 6.5}}],
+        }
+        repo = self._make_sadp_repo(
+            tmp_path,
+            [("CVE-2026-0001", [adp1]), ("CVE-2026-0002", [adp2])],
+        )
+
+        result = fetch_and_parse_archived(repo)
+
+        assert result["generated_at"]
+        suppliers = {s["short_name"]: s for s in result["suppliers"]}
+        assert set(suppliers.keys()) == {"siemens-SADP", "cisco-SADP"}
+        assert len(suppliers["siemens-SADP"]["cves"]) == 1
+        assert len(suppliers["cisco-SADP"]["cves"]) == 1
+
+        cve = suppliers["siemens-SADP"]["cves"][0]
+        assert cve["cve_id"] == "CVE-2026-0001"
+        assert cve["file_path"] == "CVE-2026-0001.json"
+        assert cve["affected_products"] == [{"vendor": "Siemens", "product": "SIMATIC"}]

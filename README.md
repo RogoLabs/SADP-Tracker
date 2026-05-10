@@ -4,6 +4,12 @@ A dashboard for monitoring which CNAs (Suppliers) are adding enrichment data to 
 
 Built with the same look, feel, and tech stack as [CVE.ICU](https://github.com/RogoLabs/cve.icu).
 
+## Data Disclaimer
+
+- Production dashboard data comes from `Published SADP Records` and reflects current Supplier ADP enrichment.
+- Archive page data comes from `Archived Pilot Data` and represents historical Phase I test records.
+- Archived Phase I records are not published to the official CVE List and should be treated as pilot/test data.
+
 ## What is the Supplier ADP Pilot?
 
 The **Supplier ADP Pilot** allows CVE Numbering Authorities (CNAs) that are also product vendors to add enrichment data to CVE records for vulnerabilities assigned by *other* CNAs that affect their products. This enrichment can include:
@@ -31,19 +37,21 @@ Supplier ADP containers are identified by:
 ```
 SADP-Tracker/
 ├── build.py            # Static site generator (Jinja2 → web/)
-├── fetch_data.py       # Parses sadp-pilot repo → data/data.json
+├── fetch_data.py       # Parses sadp-pilot repo → data/data.json + data/archived_data.json
 ├── requirements.txt    # Python dependencies
 ├── pyproject.toml      # Project metadata + tool config
 ├── templates/
 │   ├── base.html       # Base template (nav, dark mode, footer)
 │   ├── index.html      # Dashboard — supplier list + stats
-│   └── supplier.html   # Individual supplier detail page
+│   ├── supplier.html   # Individual supplier detail page
+│   └── archived.html   # Phase I archive dashboard (test data)
 ├── web/
 │   └── static/
 │       └── css/
 │           └── style.css   # Design system (from CVE.ICU)
 ├── data/
-│   └── data.json       # Consolidated SADP data (auto-generated)
+│   ├── data.json            # Consolidated published SADP data (auto-generated)
+│   └── archived_data.json   # Consolidated Phase I archived/test data (auto-generated)
 ├── tests/
 │   └── test_fetch_data.py
 └── .github/
@@ -69,6 +77,13 @@ SADP-Tracker/
 - Full table of enriched CVE IDs linking to `cve.org`
 - Sorted by most recent update date
 - Client-side search/filter
+
+### Phase I Archive View (`/archived.html`)
+- Dedicated dashboard for historical archived/test records from `Archived Pilot Data`
+- Prominent warning banner clarifying records are Phase I test data and not in the official CVE List
+- CVE year distribution chart + data type coverage breakdown
+- Supplier summary table and full archived CVE table
+- Client-side search/filter and sortable columns
 
 ## Local Development
 
@@ -103,10 +118,10 @@ The [GitHub Actions workflow](.github/workflows/update-data.yml) runs every 6 ho
 
 1. Checks out this repository
 2. Clones `CVEProject/sadp-pilot`
-3. Runs `fetch_data.py` to parse all SADP records and generate `data/data.json`
+3. Runs `fetch_data.py` to parse all SADP records and generate `data/data.json` and `data/archived_data.json`
 4. Runs `build.py` to render HTML from templates
-5. Deploys the `web/` directory to the `gh-pages` branch (GitHub Pages)
-6. Commits the updated `data/data.json` back to `main` (scheduled runs only)
+5. Deploys the `web/` directory to GitHub Pages using the GitHub Actions Pages deployment API
+6. Commits updated generated data files back to `main` on scheduled/manual runs
 
 ## License
 
