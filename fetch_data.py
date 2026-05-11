@@ -1,12 +1,15 @@
 #!/usr/bin/env python3
 """
-fetch_data.py - Fetch and parse CVE Supplier ADP records from CVEProject/sadp-pilot.
+fetch_data.py - Fetch and parse CVE Supplier ADP records.
 
-This script:
-1. Walks the "Published SADP Records" directory in the cloned sadp-pilot repo
-2. Parses each CVE JSON record
-3. Extracts Supplier ADP containers (x_adpType == "supplier" or shortName ends with "-SADP")
-4. Writes a consolidated data/data.json for the static site builder
+This script fetches SADP records from two sources:
+1. CVEProject/sadp-pilot  – the pilot/staging repo (cloned locally)
+2. CVEProject/cvelistV5   – the official CVE list (via GitHub Search API)
+
+For each source it:
+- Parses CVE JSON records
+- Extracts Supplier ADP containers (x_adpType == "supplier" or shortName ends with "-SADP")
+- Writes consolidated data/data.json for the static site builder
 """
 
 from __future__ import annotations
@@ -14,6 +17,9 @@ from __future__ import annotations
 import json
 import os
 import sys
+import time
+import urllib.parse
+import urllib.request
 from datetime import UTC, datetime
 from pathlib import Path
 
@@ -25,10 +31,22 @@ DATA_DIR = BASE_DIR / "data"
 # locally cloned sadp-pilot repo.
 SADP_REPO_ENV = "SADP_REPO_PATH"
 
+# Optional GitHub token for authenticated API calls (higher rate limits).
+GITHUB_TOKEN_ENV = "GITHUB_TOKEN"
+
+# CVEProject/cvelistV5 coordinates
+CVELISTV5_OWNER = "CVEProject"
+CVELISTV5_REPO = "cvelistV5"
+
 PUBLISHED_DIR_NAME = "Published SADP Records"
 ARCHIVED_DIR_NAME = "Archived Pilot Data"
 
 _DATA_TYPE_KEYS = ["affected", "references", "metrics", "descriptions"]
+
+# Source labels stored on each CVE entry
+SOURCE_SADP_PILOT = "sadp-pilot"
+SOURCE_CVELISTV5 = "cvelistv5"
+SOURCE_BOTH = "both"
 
 
 # ---------------------------------------------------------------------------
@@ -67,7 +85,30 @@ def extract_affected_products(adp_container: dict) -> list[dict]:
     return products
 
 
-def parse_record(path: Path, source_dir: Path | None = None) -> list[dict]:
+def _parse_adp_list(cve_id: str, adp_list: list, file_rel: str, source: str = SOURCE_SADP_PILOT) -> list[dict]:
+    """Extract SADP contribution dicts from an ADP container list."""
+    results = []
+    for adp in adp_list:
+        if not is_sadp_container(adp):
+            continue
+
+        meta = adp.get("providerMetadata", {})
+        results.append(
+            {
+                "cve_id": cve_id,
+                "short_name": meta.get("shortName", ""),
+                "org_id": meta.get("orgId", ""),
+                "date_updated": meta.get("dateUpdated", ""),
+                "data_types": extract_data_types(adp),
+                "file_path": file_rel,
+                "affected_products": extract_affected_products(adp),
+                "source": source,
+            }
+        )
+    return results
+
+
+def parse_record(path: Path, source_dir: Path | None = None, source: str = SOURCE_SADP_PILOT) -> list[dict]:
     """Parse a single CVE JSON record and return a list of SADP contribution dicts."""
     try:
         data = json.loads(path.read_text(encoding="utf-8"))
@@ -76,8 +117,8 @@ def parse_record(path: Path, source_dir: Path | None = None) -> list[dict]:
         return []
 
     cve_id: str = data.get("cveMetadata", {}).get("cveId", path.stem)
-    containers = data.get("containers", {})
-    adp_list = containers.get("adp", [])
+    adp_list = data.get("containers", {}).get("adp", [])
+
     if source_dir is None:
         file_rel = path.name
     else:
@@ -86,36 +127,155 @@ def parse_record(path: Path, source_dir: Path | None = None) -> list[dict]:
         except ValueError:
             file_rel = path.name
 
-    results = []
-    for adp in adp_list:
-        if not is_sadp_container(adp):
-            continue
-
-        meta = adp.get("providerMetadata", {})
-        short_name: str = meta.get("shortName", "")
-        org_id: str = meta.get("orgId", "")
-        date_updated: str = meta.get("dateUpdated", "")
-
-        data_types = extract_data_types(adp)
-        affected_products = extract_affected_products(adp)
-
-        results.append(
-            {
-                "cve_id": cve_id,
-                "short_name": short_name,
-                "org_id": org_id,
-                "date_updated": date_updated,
-                "data_types": data_types,
-                "file_path": file_rel,
-                "affected_products": affected_products,
-            }
-        )
-
-    return results
+    return _parse_adp_list(cve_id, adp_list, file_rel, source)
 
 
 # ---------------------------------------------------------------------------
-# Main
+# GitHub API helpers
+# ---------------------------------------------------------------------------
+
+def _github_api_get(url: str, token: str | None) -> dict:
+    """Make a GET request to the GitHub API and return parsed JSON."""
+    req = urllib.request.Request(url)
+    req.add_header("Accept", "application/vnd.github+json")
+    req.add_header("X-GitHub-Api-Version", "2022-11-28")
+    if token:
+        req.add_header("Authorization", f"Bearer {token}")
+    with urllib.request.urlopen(req, timeout=30) as resp:
+        return json.loads(resp.read().decode("utf-8"))
+
+
+def _fetch_raw_github_file(owner: str, repo: str, path: str, token: str | None) -> str:
+    """Fetch raw file content from a public GitHub repository."""
+    url = f"https://raw.githubusercontent.com/{owner}/{repo}/main/{urllib.parse.quote(path, safe='/')}"
+    req = urllib.request.Request(url)
+    if token:
+        req.add_header("Authorization", f"Bearer {token}")
+    with urllib.request.urlopen(req, timeout=30) as resp:
+        return resp.read().decode("utf-8")
+
+
+# ---------------------------------------------------------------------------
+# CVEProject/cvelistV5 source
+# ---------------------------------------------------------------------------
+
+def fetch_from_cvelistv5(github_token: str | None = None) -> dict:
+    """
+    Search CVEProject/cvelistV5 for SADP containers via the GitHub Search API,
+    fetch each matching file, and return an aggregated supplier dict.
+    """
+    query = f'x_adpType repo:{CVELISTV5_OWNER}/{CVELISTV5_REPO}'
+    base_url = "https://api.github.com/search/code"
+
+    paths: list[str] = []
+    page = 1
+    while True:
+        url = f"{base_url}?q={urllib.parse.quote(query)}&per_page=100&page={page}"
+        try:
+            data = _github_api_get(url, github_token)
+        except Exception as exc:
+            print(f"WARNING: GitHub Search API error: {exc}", file=sys.stderr)
+            break
+
+        items = data.get("items", [])
+        paths.extend(item["path"] for item in items)
+        total = data.get("total_count", 0)
+        print(f"🔍 cvelistV5 search page {page}: {len(items)} result(s) (total reported: {total})")
+
+        if len(items) < 100 or len(paths) >= total:
+            break
+        page += 1
+        time.sleep(1)  # respect search rate limit
+
+    print(f"📋 Found {len(paths)} candidate file(s) in cvelistV5")
+
+    suppliers: dict[str, dict] = {}
+    sadp_hits = 0
+    for file_path in paths:
+        try:
+            raw = _fetch_raw_github_file(CVELISTV5_OWNER, CVELISTV5_REPO, file_path, github_token)
+            record = json.loads(raw)
+        except Exception as exc:
+            print(f"WARNING: Could not fetch/parse {file_path}: {exc}", file=sys.stderr)
+            continue
+
+        cve_id: str = record.get("cveMetadata", {}).get("cveId", Path(file_path).stem)
+        adp_list = record.get("containers", {}).get("adp", [])
+        contributions = _parse_adp_list(cve_id, adp_list, file_path, SOURCE_CVELISTV5)
+
+        for contrib in contributions:
+            short_name = contrib["short_name"]
+            if short_name not in suppliers:
+                suppliers[short_name] = {
+                    "short_name": short_name,
+                    "org_id": contrib["org_id"],
+                    "cves": [],
+                }
+            suppliers[short_name]["cves"].append(
+                {
+                    "cve_id": contrib["cve_id"],
+                    "date_updated": contrib["date_updated"],
+                    "data_types": contrib["data_types"],
+                    "file_path": contrib["file_path"],
+                    "affected_products": contrib["affected_products"],
+                    "source": contrib["source"],
+                }
+            )
+            sadp_hits += 1
+
+    print(f"✅ cvelistV5: found {sadp_hits} SADP contribution(s) from {len(suppliers)} supplier(s)")
+
+    return {
+        "generated_at": datetime.now(UTC).isoformat(),
+        "suppliers": sorted(suppliers.values(), key=lambda s: s["short_name"]),
+    }
+
+
+# ---------------------------------------------------------------------------
+# Merge helpers
+# ---------------------------------------------------------------------------
+
+def merge_sources(primary: dict, secondary: dict) -> dict:
+    """
+    Merge two supplier result dicts (each with a "suppliers" list).
+
+    Records present in *secondary* that are not in *primary* are added.
+    Records present in both are deduplicated by (short_name, cve_id); the
+    primary version is kept but the source is updated to reflect both origins.
+    """
+    # Build a mutable map from the primary result
+    suppliers: dict[str, dict] = {s["short_name"]: s for s in primary.get("suppliers", [])}
+
+    for sec_supplier in secondary.get("suppliers", []):
+        name = sec_supplier["short_name"]
+        if name not in suppliers:
+            suppliers[name] = sec_supplier
+            continue
+
+        # Merge CVE lists, deduplicating by cve_id
+        existing_cves: dict[str, dict] = {c["cve_id"]: c for c in suppliers[name]["cves"]}
+        for cve in sec_supplier["cves"]:
+            cve_id = cve["cve_id"]
+            if cve_id not in existing_cves:
+                existing_cves[cve_id] = cve
+            else:
+                # Record exists in both sources – mark it accordingly
+                existing_cves[cve_id]["source"] = SOURCE_BOTH
+        suppliers[name]["cves"] = list(existing_cves.values())
+
+    # Use the most-recent generated_at timestamp
+    ts_primary = primary.get("generated_at", "")
+    ts_secondary = secondary.get("generated_at", "")
+    generated_at = max(ts_primary, ts_secondary) if ts_primary and ts_secondary else ts_primary or ts_secondary
+
+    return {
+        "generated_at": generated_at,
+        "suppliers": sorted(suppliers.values(), key=lambda s: s["short_name"]),
+    }
+
+
+# ---------------------------------------------------------------------------
+# sadp-pilot source
 # ---------------------------------------------------------------------------
 
 def _build_suppliers_dict(json_files: list[Path], source_dir: Path) -> tuple[dict, int, int]:
@@ -141,6 +301,7 @@ def _build_suppliers_dict(json_files: list[Path], source_dir: Path) -> tuple[dic
                     "data_types": contrib["data_types"],
                     "file_path": contrib["file_path"],
                     "affected_products": contrib["affected_products"],
+                    "source": contrib["source"],
                 }
             )
             sadp_hits += 1
@@ -188,6 +349,10 @@ def fetch_and_parse_archived(sadp_repo_path: Path) -> dict:
     }
 
 
+# ---------------------------------------------------------------------------
+# Main
+# ---------------------------------------------------------------------------
+
 def main() -> None:
     sadp_path_str = os.environ.get(SADP_REPO_ENV)
     if not sadp_path_str:
@@ -207,9 +372,22 @@ def main() -> None:
         print(f"ERROR: sadp-pilot repo path does not exist: {sadp_repo_path}", file=sys.stderr)
         sys.exit(1)
 
+    github_token = os.environ.get(GITHUB_TOKEN_ENV)
+
     DATA_DIR.mkdir(parents=True, exist_ok=True)
 
-    output = fetch_and_parse(sadp_repo_path)
+    # --- sadp-pilot (primary source) ---
+    sadp_pilot_output = fetch_and_parse(sadp_repo_path)
+
+    # --- CVEProject/cvelistV5 (secondary source) ---
+    print("\n🌐 Fetching SADP records from CVEProject/cvelistV5 via GitHub API…")
+    cvelistv5_output = fetch_from_cvelistv5(github_token)
+
+    # --- Merge both sources ---
+    output = merge_sources(sadp_pilot_output, cvelistv5_output)
+    total_cves = sum(len(s["cves"]) for s in output["suppliers"])
+    print(f"\n📊 Merged: {total_cves} total SADP contribution(s) from {len(output['suppliers'])} supplier(s)")
+
     out_path = DATA_DIR / "data.json"
     out_path.write_text(json.dumps(output, indent=2, ensure_ascii=False), encoding="utf-8")
     print(f"💾 Written to {out_path}")

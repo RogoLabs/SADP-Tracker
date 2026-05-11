@@ -7,14 +7,11 @@ Fetches CVE Supplier ADP Pilot data and builds a static HTML dashboard.
 from __future__ import annotations
 
 import json
-import os
-import shutil
 import sys
 import urllib.parse
 from datetime import UTC, datetime
 from pathlib import Path
 
-import jinja2
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 
@@ -143,18 +140,38 @@ class SADPSiteBuilder:
                         seen_products.add(key)
                         all_products.append(p)
 
-                # Build GitHub URL per CVE
+                # Build GitHub URL per CVE based on source
                 file_path = cve.get("file_path", "")
-                if file_path:
-                    encoded = urllib.parse.quote(file_path, safe="/")
-                    cve["github_url"] = (
-                        f"https://github.com/CVEProject/sadp-pilot/blob/main/"
-                        f"{github_dir}/{encoded}"
-                    )
+                source = cve.get("source", "sadp-pilot")
+                if source == "cvelistv5":
+                    if file_path:
+                        encoded = urllib.parse.quote(file_path, safe="/")
+                        cve["github_url"] = (
+                            f"https://github.com/CVEProject/cvelistV5/blob/main/{encoded}"
+                        )
+                    else:
+                        cve["github_url"] = "https://github.com/CVEProject/cvelistV5/tree/main/cves"
+                elif source == "both":
+                    # Record exists in both sources; link to the official cvelistV5 entry
+                    if file_path:
+                        encoded = urllib.parse.quote(file_path, safe="/")
+                        cve["github_url"] = (
+                            f"https://github.com/CVEProject/cvelistV5/blob/main/{encoded}"
+                        )
+                    else:
+                        cve["github_url"] = "https://github.com/CVEProject/cvelistV5/tree/main/cves"
                 else:
-                    cve["github_url"] = (
-                        "https://github.com/CVEProject/sadp-pilot/tree/main/Published%20SADP%20Records"
-                    )
+                    # sadp-pilot (default)
+                    if file_path:
+                        encoded = urllib.parse.quote(file_path, safe="/")
+                        cve["github_url"] = (
+                            f"https://github.com/CVEProject/sadp-pilot/blob/main/"
+                            f"{github_dir}/{encoded}"
+                        )
+                    else:
+                        cve["github_url"] = (
+                            "https://github.com/CVEProject/sadp-pilot/tree/main/Published%20SADP%20Records"
+                        )
 
             # Keep a deterministic sorted order for data-type tags
             s["all_data_types"] = sorted(all_dts, key=lambda x: _DATA_TYPE_KEYS.index(x) if x in _DATA_TYPE_KEYS else 99)
@@ -186,7 +203,7 @@ class SADPSiteBuilder:
         total_records = sum(s["cve_count"] for s in suppliers)
         unique_cves: set[str] = set()
         year_breakdown: dict[str, int] = {}
-        dt_breakdown: dict[str, int] = {dt: 0 for dt in _DATA_TYPE_KEYS}
+        dt_breakdown: dict[str, int] = dict.fromkeys(_DATA_TYPE_KEYS, 0)
 
         # Build a flat CVE list for the full table (all suppliers)
         all_cves: list[dict] = []
@@ -240,7 +257,7 @@ class SADPSiteBuilder:
         unique_cves: set[str] = set()
         all_data_types: set[str] = set()
         year_breakdown: dict[str, int] = {}
-        dt_breakdown: dict[str, int] = {dt: 0 for dt in _DATA_TYPE_KEYS}
+        dt_breakdown: dict[str, int] = dict.fromkeys(_DATA_TYPE_KEYS, 0)
 
         for s in suppliers:
             for cve in s.get("cves", []):
