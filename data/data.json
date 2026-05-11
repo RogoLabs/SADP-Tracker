@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-10T21:42:11.856951+00:00",
+  "generated_at": "2026-05-11T00:55:59.820659+00:00",
   "suppliers": [
     {
       "short_name": "siemens-SADP",
@@ -11,6 +11,165 @@
           "data_types": [
             "affected",
             "references"
+          ],
+          "file_path": "2020/24xxx/CVE-2020-24588.json",
+          "affected_products": [
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W1748-1 M12"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W1750D (JP)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W1750D (ROW)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W1750D (USA)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W1788-1 M12"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W1788-2 EEC M12"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W1788-2 M12"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W1788-2IA M12"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W721-1 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W722-1 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W734-1 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W734-1 RJ45 (USA)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W738-1 M12"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W748-1 M12"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W748-1 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W761-1 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W774-1 M12 EEC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W774-1 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W774-1 RJ45 (USA)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W778-1 M12"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W778-1 M12 EEC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W778-1 M12 EEC (USA)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W786-1 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W786-2 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W786-2 SFP"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W786-2IA RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W788-1 M12"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W788-1 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W788-2 M12"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W788-2 M12 EEC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W788-2 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE WAM763-1"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE WAM766-1"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE WAM766-1 (US)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE WAM766-1 EEC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE WAM766-1 EEC (US)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE WUM763-1"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE WUM766-1"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE WUM766-1 (USA)"
+            }
           ]
         },
         {
@@ -19,6 +178,153 @@
           "data_types": [
             "affected",
             "references"
+          ],
+          "file_path": "2020/26xxx/CVE-2020-26139.json",
+          "affected_products": [
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W1748-1 M12"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W1788-1 M12"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W1788-2 EEC M12"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W1788-2 M12"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W1788-2IA M12"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W721-1 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W722-1 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W734-1 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W734-1 RJ45 (USA)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W738-1 M12"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W748-1 M12"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W748-1 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W761-1 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W774-1 M12 EEC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W774-1 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W774-1 RJ45 (USA)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W778-1 M12"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W778-1 M12 EEC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W778-1 M12 EEC (USA)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W786-1 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W786-2 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W786-2 SFP"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W786-2IA RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W788-1 M12"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W788-1 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W788-2 M12"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W788-2 M12 EEC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W788-2 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE WAM763-1"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE WAM766-1"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE WAM766-1 (US)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE WAM766-1 EEC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE WAM766-1 EEC (US)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE WUM763-1"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE WUM766-1"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE WUM766-1 (USA)"
+            }
           ]
         },
         {
@@ -27,6 +333,101 @@
           "data_types": [
             "affected",
             "references"
+          ],
+          "file_path": "2020/26xxx/CVE-2020-26140.json",
+          "affected_products": [
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W721-1 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W722-1 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W734-1 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W734-1 RJ45 (USA)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W738-1 M12"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W748-1 M12"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W748-1 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W761-1 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W774-1 M12 EEC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W774-1 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W774-1 RJ45 (USA)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W778-1 M12"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W778-1 M12 EEC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W778-1 M12 EEC (USA)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W786-1 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W786-2 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W786-2 SFP"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W786-2IA RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W788-1 M12"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W788-1 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W788-2 M12"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W788-2 M12 EEC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W788-2 RJ45"
+            }
           ]
         },
         {
@@ -35,6 +436,101 @@
           "data_types": [
             "affected",
             "references"
+          ],
+          "file_path": "2020/26xxx/CVE-2020-26141.json",
+          "affected_products": [
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W721-1 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W722-1 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W734-1 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W734-1 RJ45 (USA)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W738-1 M12"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W748-1 M12"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W748-1 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W761-1 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W774-1 M12 EEC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W774-1 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W774-1 RJ45 (USA)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W778-1 M12"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W778-1 M12 EEC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W778-1 M12 EEC (USA)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W786-1 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W786-2 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W786-2 SFP"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W786-2IA RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W788-1 M12"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W788-1 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W788-2 M12"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W788-2 M12 EEC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W788-2 RJ45"
+            }
           ]
         },
         {
@@ -43,6 +539,101 @@
           "data_types": [
             "affected",
             "references"
+          ],
+          "file_path": "2020/26xxx/CVE-2020-26143.json",
+          "affected_products": [
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W721-1 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W722-1 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W734-1 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W734-1 RJ45 (USA)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W738-1 M12"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W748-1 M12"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W748-1 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W761-1 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W774-1 M12 EEC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W774-1 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W774-1 RJ45 (USA)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W778-1 M12"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W778-1 M12 EEC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W778-1 M12 EEC (USA)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W786-1 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W786-2 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W786-2 SFP"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W786-2IA RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W788-1 M12"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W788-1 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W788-2 M12"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W788-2 M12 EEC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W788-2 RJ45"
+            }
           ]
         },
         {
@@ -51,6 +642,133 @@
           "data_types": [
             "affected",
             "references"
+          ],
+          "file_path": "2020/26xxx/CVE-2020-26144.json",
+          "affected_products": [
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W721-1 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W722-1 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W734-1 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W734-1 RJ45 (USA)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W738-1 M12"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W748-1 M12"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W748-1 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W761-1 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W774-1 M12 EEC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W774-1 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W774-1 RJ45 (USA)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W778-1 M12"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W778-1 M12 EEC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W778-1 M12 EEC (USA)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W786-1 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W786-2 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W786-2 SFP"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W786-2IA RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W788-1 M12"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W788-1 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W788-2 M12"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W788-2 M12 EEC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W788-2 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE WAM763-1"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE WAM766-1"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE WAM766-1 (US)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE WAM766-1 EEC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE WAM766-1 EEC (US)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE WUM763-1"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE WUM766-1"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE WUM766-1 (USA)"
+            }
           ]
         },
         {
@@ -59,6 +777,41 @@
           "data_types": [
             "affected",
             "references"
+          ],
+          "file_path": "2020/26xxx/CVE-2020-26145.json",
+          "affected_products": [
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE WAM763-1"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE WAM766-1"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE WAM766-1 (US)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE WAM766-1 EEC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE WAM766-1 EEC (US)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE WUM763-1"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE WUM766-1"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE WUM766-1 (USA)"
+            }
           ]
         },
         {
@@ -67,6 +820,165 @@
           "data_types": [
             "affected",
             "references"
+          ],
+          "file_path": "2020/26xxx/CVE-2020-26146.json",
+          "affected_products": [
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W1748-1 M12"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W1750D (JP)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W1750D (ROW)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W1750D (USA)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W1788-1 M12"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W1788-2 EEC M12"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W1788-2 M12"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W1788-2IA M12"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W721-1 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W722-1 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W734-1 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W734-1 RJ45 (USA)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W738-1 M12"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W748-1 M12"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W748-1 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W761-1 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W774-1 M12 EEC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W774-1 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W774-1 RJ45 (USA)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W778-1 M12"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W778-1 M12 EEC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W778-1 M12 EEC (USA)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W786-1 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W786-2 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W786-2 SFP"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W786-2IA RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W788-1 M12"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W788-1 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W788-2 M12"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W788-2 M12 EEC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W788-2 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE WAM763-1"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE WAM766-1"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE WAM766-1 (US)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE WAM766-1 EEC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE WAM766-1 EEC (US)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE WUM763-1"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE WUM766-1"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE WUM766-1 (USA)"
+            }
           ]
         },
         {
@@ -75,6 +987,121 @@
           "data_types": [
             "affected",
             "references"
+          ],
+          "file_path": "2020/26xxx/CVE-2020-26147.json",
+          "affected_products": [
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W1748-1 M12"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W1788-1 M12"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W1788-2 EEC M12"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W1788-2 M12"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W1788-2IA M12"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W721-1 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W722-1 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W734-1 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W734-1 RJ45 (USA)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W738-1 M12"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W748-1 M12"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W748-1 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W761-1 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W774-1 M12 EEC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W774-1 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W774-1 RJ45 (USA)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W778-1 M12"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W778-1 M12 EEC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W778-1 M12 EEC (USA)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W786-1 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W786-2 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W786-2 SFP"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W786-2IA RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W788-1 M12"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W788-1 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W788-2 M12"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W788-2 M12 EEC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W788-2 RJ45"
+            }
           ]
         },
         {
@@ -83,6 +1110,845 @@
           "data_types": [
             "affected",
             "references"
+          ],
+          "file_path": "2021/3xxx/CVE-2021-3712.json",
+          "affected_products": [
+            {
+              "vendor": "Siemens",
+              "product": "BFCClient"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Industrial Edge - Machine Insight App"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Industrial Edge - PROFINET IO Connector"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM RM1224 LTE(4G) EU"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM RM1224 LTE(4G) NAM"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM ROX MX5000"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM ROX MX5000RE"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM ROX RX1400"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM ROX RX1500"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM ROX RX1501"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM ROX RX1510"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM ROX RX1511"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM ROX RX1512"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM ROX RX1524"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM ROX RX1536"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM ROX RX5000"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE M804PB"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE M812-1 ADSL-Router"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE M816-1 ADSL-Router"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE M826-2 SHDSL-Router"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE M874-2"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE M874-3"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE M876-3"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE M876-3 (ROK)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE M876-4 (EU)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE M876-4 (NAM)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE MUM853-1 (EU)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE MUM856-1 (EU)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE MUM856-1 (RoW)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE S615 LAN-Router"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE SC622-2C"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE SC632-2C"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE SC636-2C"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE SC642-2C"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE SC646-2C"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W1748-1 M12"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W1788-1 M12"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W1788-2 EEC M12"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W1788-2 M12"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W1788-2IA M12"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W721-1 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W722-1 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W734-1 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W734-1 RJ45 (USA)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W738-1 M12"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W748-1 M12"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W748-1 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W761-1 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W774-1 M12 EEC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W774-1 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W774-1 RJ45 (USA)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W778-1 M12"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W778-1 M12 EEC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W778-1 M12 EEC (USA)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W786-1 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W786-2 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W786-2 SFP"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W786-2IA RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W788-1 M12"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W788-1 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W788-2 M12"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W788-2 M12 EEC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W788-2 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE WAM766-1"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE WAM766-1 (US)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE WAM766-1 EEC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE WAM766-1 EEC (US)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE WUM766-1"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE WUM766-1 (USA)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X200-4P IRT"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X201-3P IRT"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X201-3P IRT PRO"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X202-2IRT"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X202-2P IRT"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X202-2P IRT PRO"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X204-2"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X204-2FM"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X204-2LD"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X204-2LD TS"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X204-2TS"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X204IRT"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X204IRT PRO"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X206-1"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X206-1LD"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X208"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X208PRO"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X212-2"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X212-2LD"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X216"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X224"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X302-7 EEC (230V, coated)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X302-7 EEC (230V)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X302-7 EEC (24V, coated)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X302-7 EEC (24V)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X302-7 EEC (2x 230V, coated)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X302-7 EEC (2x 230V)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X302-7 EEC (2x 24V, coated)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X302-7 EEC (2x 24V)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X304-2FE"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X306-1LD FE"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X307-2 EEC (230V, coated)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X307-2 EEC (230V)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X307-2 EEC (24V, coated)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X307-2 EEC (24V)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X307-2 EEC (2x 230V, coated)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X307-2 EEC (2x 230V)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X307-2 EEC (2x 24V, coated)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X307-2 EEC (2x 24V)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X307-3"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X307-3LD"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X308-2"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X308-2LD"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X308-2LH"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X308-2LH+"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X308-2M"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X308-2M PoE"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X308-2M TS"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X310"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X310FE"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X320-1 FE"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X320-1-2LD FE"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X408-2"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XF201-3P IRT"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XF202-2P IRT"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XF204"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XF204-2"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XF204-2BA IRT"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XF204IRT"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XF206-1"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XF208"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XR324-12M (230V, ports on front)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XR324-12M (230V, ports on rear)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XR324-12M (24V, ports on front)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XR324-12M (24V, ports on rear)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XR324-12M TS (24V)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XR324-4M EEC (100-240VAC/60-250VDC, ports on front)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XR324-4M EEC (100-240VAC/60-250VDC, ports on rear)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XR324-4M EEC (24V, ports on front)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XR324-4M EEC (24V, ports on rear)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XR324-4M EEC (2x 100-240VAC/60-250VDC, ports on front)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XR324-4M EEC (2x 100-240VAC/60-250VDC, ports on rear)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XR324-4M EEC (2x 24V, ports on front)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XR324-4M EEC (2x 24V, ports on rear)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XR324-4M PoE (230V, ports on front)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XR324-4M PoE (230V, ports on rear)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XR324-4M PoE (24V, ports on front)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XR324-4M PoE (24V, ports on rear)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XR324-4M PoE TS (24V, ports on front)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC CP 1242-7 V2"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC CP 1243-1"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC CP 1243-7 LTE EU"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC CP 1243-7 LTE US"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC CP 1243-8 IRC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC CP 1542SP-1"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC CP 1543-1"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC CP 1543SP-1"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC CP 1545-1"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC PCS neo (Administration Console)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC Process Historian OPC UA Server"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC S7-1200 CPU 1211C AC/DC/Rly"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC S7-1200 CPU 1211C DC/DC/DC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC S7-1200 CPU 1211C DC/DC/Rly"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC S7-1200 CPU 1212C AC/DC/Rly"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC S7-1200 CPU 1212C DC/DC/DC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC S7-1200 CPU 1212C DC/DC/Rly"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC S7-1200 CPU 1212FC DC/DC/DC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC S7-1200 CPU 1212FC DC/DC/Rly"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC S7-1200 CPU 1214C AC/DC/Rly"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC S7-1200 CPU 1214C DC/DC/DC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC S7-1200 CPU 1214C DC/DC/Rly"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC S7-1200 CPU 1214FC DC/DC/DC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC S7-1200 CPU 1214FC DC/DC/Rly"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC S7-1200 CPU 1215C AC/DC/Rly"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC S7-1200 CPU 1215C DC/DC/DC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC S7-1200 CPU 1215C DC/DC/Rly"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC S7-1200 CPU 1215FC DC/DC/DC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC S7-1200 CPU 1215FC DC/DC/Rly"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC S7-1200 CPU 1217C DC/DC/DC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SINEC NMS"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SINEMA Remote Connect Server"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SINEMA Server V14"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SINUMERIK Operate"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS ET 200SP CP 1543SP-1 ISEC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS ET 200SP CP 1543SP-1 ISEC TX RAIL"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS NET CP 1242-7 V2"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS NET CP 1543-1"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS NET SCALANCE X308-2"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS S7-1200 CP 1243-1"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS S7-1200 CP 1243-1 RAIL"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS S7-1200 CPU 1212 AC/DC/RLY"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS S7-1200 CPU 1212 DC/DC/RLY"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS S7-1200 CPU 1212C AC/DC/RLY"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS S7-1200 CPU 1212C DC/DC/DC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS S7-1200 CPU 1212C DC/DC/DC RAIL"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS S7-1200 CPU 1214 AC/DC/RLY"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS S7-1200 CPU 1214 DC/DC/RLY"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS S7-1200 CPU 1214C AC/DC/RLY"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS S7-1200 CPU 1214C DC/DC/DC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS S7-1200 CPU 1214C DC/DC/DC RAIL"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS S7-1200 CPU 1214C DC/DC/RLY"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS S7-1200 CPU 1214FC DC/DC/DC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS S7-1200 CPU 1214FC DC/DC/RLY"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS S7-1200 CPU 1215 AC/DC/RLY"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS S7-1200 CPU 1215 DC/DC/DC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS S7-1200 CPU 1215 DC/DC/RLY"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS S7-1200 CPU 1215C AC/DC/RLY"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS S7-1200 CPU 1215C DC/DC/DC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS S7-1200 CPU 1215FC DC/DC/DC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "TIA Administrator"
+            }
           ]
         },
         {
@@ -91,6 +1957,1849 @@
           "data_types": [
             "affected",
             "references"
+          ],
+          "file_path": "2022/0xxx/CVE-2022-0778.json",
+          "affected_products": [
+            {
+              "vendor": "Siemens",
+              "product": "BFCClient"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Industrial Edge - OPC UA Connector"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Industrial Edge - SIMATIC S7 Connector App"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "OpenPCS 7 V8.2"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "OpenPCS 7 V9.0"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "OpenPCS 7 V9.1"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM CROSSBOW Station Access Controller (SAC)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM RM1224 LTE(4G) EU"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM RM1224 LTE(4G) NAM"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM ROX MX5000"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM ROX MX5000RE"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM ROX RX1400"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM ROX RX1500"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM ROX RX1501"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM ROX RX1510"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM ROX RX1511"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM ROX RX1512"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM ROX RX1524"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM ROX RX1536"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM ROX RX5000"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE LPE9403"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE M804PB"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE M812-1 ADSL-Router"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE M816-1 ADSL-Router"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE M826-2 SHDSL-Router"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE M874-2"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE M874-3"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE M876-3"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE M876-3 (ROK)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE M876-4"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE M876-4 (EU)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE M876-4 (NAM)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE MUM853-1 (EU)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE MUM856-1 (EU)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE MUM856-1 (RoW)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE S615 EEC LAN-Router"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE S615 LAN-Router"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE SC622-2C"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE SC632-2C"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE SC636-2C"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE SC642-2C"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE SC646-2C"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W1748-1 M12"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W1750D (JP)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W1750D (ROW)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W1750D (USA)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W1788-1 M12"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W1788-2 EEC M12"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W1788-2 M12"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W1788-2IA M12"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W721-1 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W722-1 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W734-1 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W734-1 RJ45 (USA)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W738-1 M12"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W748-1 M12"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W748-1 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W761-1 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W774-1 M12 EEC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W774-1 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W774-1 RJ45 (USA)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W778-1 M12"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W778-1 M12 EEC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W778-1 M12 EEC (USA)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W786-1 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W786-2 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W786-2 SFP"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W786-2IA RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W788-1 M12"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W788-1 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W788-2 M12"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W788-2 M12 EEC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE W788-2 RJ45"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE WAM763-1"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE WAM766-1"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE WAM766-1 (US)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE WAM766-1 EEC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE WAM766-1 EEC (US)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE WUM763-1"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE WUM766-1"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE WUM766-1 (USA)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X200-4P IRT"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X201-3P IRT"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X201-3P IRT PRO"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X202-2IRT"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X202-2P IRT"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X202-2P IRT PRO"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X204-2"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X204-2FM"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X204-2LD"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X204-2LD TS"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X204-2TS"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X204IRT"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X204IRT PRO"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X206-1"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X206-1LD"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X208"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X208PRO"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X212-2"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X212-2LD"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X216"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X224"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X302-7 EEC (230V, coated)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X302-7 EEC (230V)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X302-7 EEC (24V, coated)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X302-7 EEC (24V)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X302-7 EEC (2x 230V, coated)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X302-7 EEC (2x 230V)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X302-7 EEC (2x 24V, coated)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X302-7 EEC (2x 24V)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X304-2FE"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X306-1LD FE"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X307-2 EEC (230V, coated)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X307-2 EEC (230V)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X307-2 EEC (24V, coated)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X307-2 EEC (24V)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X307-2 EEC (2x 230V, coated)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X307-2 EEC (2x 230V)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X307-2 EEC (2x 24V, coated)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X307-2 EEC (2x 24V)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X307-3"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X307-3LD"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X308-2"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X308-2 RD (inkl. SIPLUS variants)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X308-2LD"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X308-2LH"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X308-2LH+"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X308-2M"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X308-2M PoE"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X308-2M TS"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X310"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X310FE"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X320-1 FE"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X320-1-2LD FE"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X408-2"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XB205-3 (SC, PN)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XB205-3 (ST, E/IP)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XB205-3 (ST, PN)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XB205-3LD (SC, E/IP)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XB205-3LD (SC, PN)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XB208 (E/IP)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XB208 (PN)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XB213-3 (SC, E/IP)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XB213-3 (SC, PN)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XB213-3 (ST, E/IP)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XB213-3 (ST, PN)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XB213-3LD (SC, E/IP)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XB213-3LD (SC, PN)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XB216 (E/IP)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XB216 (PN)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XC206-2 (SC)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XC206-2 (ST/BFOC)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XC206-2G PoE"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XC206-2G PoE (54 V DC)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XC206-2G PoE EEC (54 V DC)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XC206-2SFP"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XC206-2SFP EEC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XC206-2SFP G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XC206-2SFP G (EIP DEF.)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XC206-2SFP G EEC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XC208"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XC208EEC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XC208G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XC208G (EIP def.)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XC208G EEC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XC208G PoE"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XC208G PoE (54 V DC)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XC216"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XC216-3G PoE"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XC216-3G PoE (54 V DC)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XC216-4C"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XC216-4C G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XC216-4C G (EIP Def.)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XC216-4C G EEC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XC216EEC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XC224"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XC224-4C G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XC224-4C G (EIP Def.)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XC224-4C G EEC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XF201-3P IRT"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XF202-2P IRT"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XF204"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XF204 DNA"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XF204-2"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XF204-2BA"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XF204-2BA DNA"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XF204-2BA IRT"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XF204IRT"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XF206-1"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XF208"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XM408-4C"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XM408-4C (L3 int.)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XM408-8C"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XM408-8C (L3 int.)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XM416-4C"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XM416-4C (L3 int.)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XP208"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XP208 (Ethernet/IP)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XP208EEC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XP208PoE EEC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XP216"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XP216 (Ethernet/IP)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XP216EEC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XP216POE EEC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XR324-12M (230V, ports on front)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XR324-12M (230V, ports on rear)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XR324-12M (24V, ports on front)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XR324-12M (24V, ports on rear)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XR324-12M TS (24V)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XR324-4M EEC (100-240VAC/60-250VDC, ports on front)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XR324-4M EEC (100-240VAC/60-250VDC, ports on rear)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XR324-4M EEC (24V, ports on front)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XR324-4M EEC (24V, ports on rear)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XR324-4M EEC (2x 100-240VAC/60-250VDC, ports on front)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XR324-4M EEC (2x 100-240VAC/60-250VDC, ports on rear)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XR324-4M EEC (2x 24V, ports on front)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XR324-4M EEC (2x 24V, ports on rear)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XR324-4M PoE (230V, ports on front)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XR324-4M PoE (230V, ports on rear)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XR324-4M PoE (24V, ports on front)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XR324-4M PoE (24V, ports on rear)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XR324-4M PoE TS (24V, ports on front)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XR324WG (24 x FE, AC 230V)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XR324WG (24 X FE, DC 24V)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XR326-2C PoE WG"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XR326-2C PoE WG (without UL)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XR328-4C WG (24XFE, 4XGE, 24V)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XR328-4C WG (24xFE, 4xGE,DC24V)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XR328-4C WG (24xFE,4xGE,AC230V)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XR328-4C WG (28xGE, AC 230V)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XR328-4C WG (28xGE, DC 24V)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XR524-8C, 1x230V"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XR524-8C, 1x230V (L3 int.)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XR524-8C, 24V"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XR524-8C, 24V (L3 int.)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XR524-8C, 2x230V"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XR524-8C, 2x230V (L3 int.)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XR526-8C, 1x230V"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XR526-8C, 1x230V (L3 int.)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XR526-8C, 24V"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XR526-8C, 24V (L3 int.)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XR526-8C, 2x230V"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XR526-8C, 2x230V (L3 int.)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XR528-6M"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XR528-6M (2HR2, L3 int.)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XR528-6M (2HR2)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XR528-6M (L3 int.)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XR552-12M"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XR552-12M (2HR2, L3 int.)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE XR552-12M (2HR2)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Security Configuration Tool (SCT)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC Cloud Connect 7 CC712"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC Cloud Connect 7 CC716"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC CP 1242-7 V2"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC CP 1243-1"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC CP 1243-7 LTE EU"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC CP 1243-7 LTE US"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC CP 1243-8 IRC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC CP 1542SP-1"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC CP 1543-1"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC CP 1543SP-1"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC CP 1545-1"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC CP 1626"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC CP 1628"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC CP 343-1 Advanced"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC CP 443-1 Advanced"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC CP 443-1 OPC UA"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC Drive Controller CPU 1504D TF"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC Drive Controller CPU 1507D TF"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC ET 200SP CPU 1510SP F-1 PN"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC ET 200SP CPU 1510SP-1 PN"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC ET 200SP CPU 1512SP F-1 PN"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC ET 200SP CPU 1512SP-1 PN"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC ET 200SP Open Controller CPU 1515SP PC2 (incl. SIPLUS variants)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC HMI Unified Comfort Panels family"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC Logon V1.6"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC MV540 H"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC MV540 S"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC MV550 H"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC MV550 S"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC MV560 U"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC MV560 X"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC NET PC Software V14"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC NET PC Software V15"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC NET PC Software V16"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC NET PC Software V17"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC PCS 7 TeleControl"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC PCS 7 V8.2"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC PCS 7 V9.0"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC PCS 7 V9.1"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC PCS neo (Administration Console)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC PDM"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC Process Historian OPC UA Server"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC RF166C"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC RF185C"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC RF186C"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC RF186CI"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC RF188C"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC RF188CI"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC RF360R"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC RF610R"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC RF615R"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC RF650R"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC RF680R"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC RF685R"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC S7-1200 CPU 1211C AC/DC/Rly"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC S7-1200 CPU 1211C DC/DC/DC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC S7-1200 CPU 1211C DC/DC/Rly"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC S7-1200 CPU 1212C AC/DC/Rly"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC S7-1200 CPU 1212C DC/DC/DC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC S7-1200 CPU 1212C DC/DC/Rly"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC S7-1200 CPU 1212FC DC/DC/DC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC S7-1200 CPU 1212FC DC/DC/Rly"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC S7-1200 CPU 1214C AC/DC/Rly"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC S7-1200 CPU 1214C DC/DC/DC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC S7-1200 CPU 1214C DC/DC/Rly"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC S7-1200 CPU 1214FC DC/DC/DC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC S7-1200 CPU 1214FC DC/DC/Rly"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC S7-1200 CPU 1215C AC/DC/Rly"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC S7-1200 CPU 1215C DC/DC/DC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC S7-1200 CPU 1215C DC/DC/Rly"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC S7-1200 CPU 1215FC DC/DC/DC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC S7-1200 CPU 1215FC DC/DC/Rly"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC S7-1200 CPU 1217C DC/DC/DC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC S7-1500 CPU 1511-1 PN"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC S7-1500 CPU 1511C-1 PN"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC S7-1500 CPU 1511F-1 PN"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC S7-1500 CPU 1511T-1 PN"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC S7-1500 CPU 1511TF-1 PN"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC S7-1500 CPU 1512C-1 PN"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC S7-1500 CPU 1513-1 PN"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC S7-1500 CPU 1513F-1 PN"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC S7-1500 CPU 1513R-1 PN"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC S7-1500 CPU 1515-2 PN"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC S7-1500 CPU 1515F-2 PN"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC S7-1500 CPU 1515R-2 PN"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC S7-1500 CPU 1515T-2 PN"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC S7-1500 CPU 1515TF-2 PN"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC S7-1500 CPU 1516-3 PN/DP"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC S7-1500 CPU 1516F-3 PN/DP"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC S7-1500 CPU 1516T-3 PN/DP"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC S7-1500 CPU 1516TF-3 PN/DP"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC S7-1500 CPU 1517-3 PN/DP"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC S7-1500 CPU 1517F-3 PN/DP"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC S7-1500 CPU 1517H-3 PN"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC S7-1500 CPU 1517T-3 PN/DP"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC S7-1500 CPU 1517TF-3 PN/DP"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC S7-1500 CPU 1518-4 PN/DP"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC S7-1500 CPU 1518-4 PN/DP MFP"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC S7-1500 CPU 1518F-4 PN/DP"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC S7-1500 CPU 1518F-4 PN/DP MFP"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC S7-1500 CPU 1518HF-4 PN"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC S7-1500 CPU 1518T-4 PN/DP"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC S7-1500 CPU 1518TF-4 PN/DP"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC S7-1500 CPU S7-1518-4 PN/DP ODK"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC S7-1500 CPU S7-1518F-4 PN/DP ODK"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC S7-1500 ET 200pro: CPU 1513PRO F-2 PN"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC S7-1500 ET 200pro: CPU 1513PRO-2 PN"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC S7-1500 ET 200pro: CPU 1516PRO F-2 PN"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC S7-1500 ET 200pro: CPU 1516PRO-2 PN"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC S7-1500 Software Controller V2"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC S7-PLCSIM Advanced"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC STEP 7 V15.1"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC STEP 7 V16"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC STEP 7 V17"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC STEP 7 V5"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC WinCC Unified (TIA Portal)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC WinCC V15.1"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC WinCC V16"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC WinCC V17"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC WinCC V7.3"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC WinCC V7.4"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC WinCC V7.5"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMOCODE ES V15.1"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMOCODE ES V16"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMOCODE ES V17"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMOTION"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMOTION SCOUT TIA V5.3"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMOTION SCOUT TIA V5.4"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SINAMICS DCC V15.1"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SINAMICS DCC V16"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SINAMICS Startdrive V15.1"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SINAMICS Startdrive V16"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SINAMICS Startdrive V17"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SINAUT Software ST7sc"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SINAUT ST7CC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SINEC INS"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SINEC NMS"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SINEMA Remote Connect Server"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS ET 200SP CP 1543SP-1 ISEC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS ET 200SP CP 1543SP-1 ISEC TX RAIL"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS ET 200SP CPU 1510SP F-1 PN"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS ET 200SP CPU 1510SP F-1 PN RAIL"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS ET 200SP CPU 1510SP-1 PN"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS ET 200SP CPU 1510SP-1 PN RAIL"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS ET 200SP CPU 1512SP F-1 PN"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS ET 200SP CPU 1512SP F-1 PN RAIL"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS ET 200SP CPU 1512SP-1 PN"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS ET 200SP CPU 1512SP-1 PN RAIL"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS NET CP 1242-7 V2"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS NET CP 1543-1"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS NET CP 343-1 Advanced"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS NET CP 443-1 Advanced"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS NET SCALANCE X202-2P IRT"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS NET SCALANCE XC206-2"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS NET SCALANCE XC206-2SFP"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS NET SCALANCE XC208"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS NET SCALANCE XC216-4C"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS S7-1200 CP 1243-1"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS S7-1200 CP 1243-1 RAIL"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS S7-1200 CPU 1212 AC/DC/RLY"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS S7-1200 CPU 1212 DC/DC/RLY"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS S7-1200 CPU 1212C AC/DC/RLY"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS S7-1200 CPU 1212C DC/DC/DC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS S7-1200 CPU 1212C DC/DC/DC RAIL"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS S7-1200 CPU 1214 AC/DC/RLY"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS S7-1200 CPU 1214 DC/DC/RLY"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS S7-1200 CPU 1214C AC/DC/RLY"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS S7-1200 CPU 1214C DC/DC/DC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS S7-1200 CPU 1214C DC/DC/DC RAIL"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS S7-1200 CPU 1214C DC/DC/RLY"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS S7-1200 CPU 1214FC DC/DC/DC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS S7-1200 CPU 1214FC DC/DC/RLY"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS S7-1200 CPU 1215 AC/DC/RLY"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS S7-1200 CPU 1215 DC/DC/DC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS S7-1200 CPU 1215 DC/DC/RLY"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS S7-1200 CPU 1215C AC/DC/RLY"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS S7-1200 CPU 1215C DC/DC/DC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS S7-1200 CPU 1215FC DC/DC/DC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS S7-1500 CPU 1511-1 PN"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS S7-1500 CPU 1511-1 PN T1 RAIL"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS S7-1500 CPU 1511-1 PN TX RAIL"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS S7-1500 CPU 1511F-1 PN"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS S7-1500 CPU 1513-1 PN"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS S7-1500 CPU 1513F-1 PN"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS S7-1500 CPU 1515F-2 PN"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS S7-1500 CPU 1515F-2 PN RAIL"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS S7-1500 CPU 1515F-2 PN T2 RAIL"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS S7-1500 CPU 1515R-2 PN"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS S7-1500 CPU 1515R-2 PN TX RAIL"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS S7-1500 CPU 1516-3 PN/DP"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS S7-1500 CPU 1516-3 PN/DP RAIL"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS S7-1500 CPU 1516-3 PN/DP TX RAIL"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS S7-1500 CPU 1516F-3 PN/DP"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS S7-1500 CPU 1516F-3 PN/DP RAIL"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS S7-1500 CPU 1517H-3 PN"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS S7-1500 CPU 1518-4 PN/DP"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS S7-1500 CPU 1518-4 PN/DP MFP"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS S7-1500 CPU 1518F-4 PN/DP"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS S7-1500 CPU 1518HF-4 PN"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS TIM 1531 IRC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIRIUS Safety ES V17 (TIA Portal)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIRIUS Soft Starter ES V15.1 (TIA Portal)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIRIUS Soft Starter ES V16 (TIA Portal)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIRIUS Soft Starter ES V17 (TIA Portal)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "TeleControl Server Basic V3"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "TIA Administrator"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "TIA Portal Cloud V16"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "TIA Portal Cloud V17"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "TIM 1531 IRC"
+            }
           ]
         },
         {
@@ -99,6 +3808,121 @@
           "data_types": [
             "affected",
             "references"
+          ],
+          "file_path": "2022/38xxx/CVE-2022-38767.json",
+          "affected_products": [
+            {
+              "vendor": "Siemens",
+              "product": "SIPROTEC 5 6MD85 (CP300)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPROTEC 5 6MD86 (CP300)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPROTEC 5 6MD89 (CP300)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPROTEC 5 6MU85 (CP300)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPROTEC 5 7KE85 (CP300)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPROTEC 5 7SA86 (CP300)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPROTEC 5 7SA87 (CP300)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPROTEC 5 7SD86 (CP300)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPROTEC 5 7SD87 (CP300)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPROTEC 5 7SJ85 (CP300)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPROTEC 5 7SJ86 (CP300)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPROTEC 5 7SK85 (CP300)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPROTEC 5 7SL86 (CP300)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPROTEC 5 7SL87 (CP300)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPROTEC 5 7SS85 (CP300)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPROTEC 5 7ST85 (CP300)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPROTEC 5 7ST86 (CP300)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPROTEC 5 7SX85 (CP300)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPROTEC 5 7UM85 (CP300)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPROTEC 5 7UT85 (CP300)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPROTEC 5 7UT86 (CP300)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPROTEC 5 7UT87 (CP300)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPROTEC 5 7VE85 (CP300)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPROTEC 5 7VK87 (CP300)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPROTEC 5 Communication Module ETH-BA-2EL (Rev.1)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPROTEC 5 Communication Module ETH-BB-2FO (Rev. 1)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPROTEC 5 Communication Module ETH-BD-2FO"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPROTEC 5 Compact 7SX800 (CP050)"
+            }
           ]
         },
         {
@@ -107,6 +3931,45 @@
           "data_types": [
             "affected",
             "references"
+          ],
+          "file_path": "2022/3xxx/CVE-2022-3602.json",
+          "affected_products": [
+            {
+              "vendor": "Siemens",
+              "product": "Calibre ICE"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Mcenter"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X204RNA (HSR)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X204RNA (PRP)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X204RNA EEC (HSR)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X204RNA EEC (PRP)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X204RNA EEC (PRP/HSR)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SICAM GridPass"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC RTLS Locating Manager"
+            }
           ]
         },
         {
@@ -115,6 +3978,45 @@
           "data_types": [
             "affected",
             "references"
+          ],
+          "file_path": "2022/3xxx/CVE-2022-3786.json",
+          "affected_products": [
+            {
+              "vendor": "Siemens",
+              "product": "Calibre ICE"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Mcenter"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X204RNA (HSR)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X204RNA (PRP)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X204RNA EEC (HSR)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X204RNA EEC (PRP)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE X204RNA EEC (PRP/HSR)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SICAM GridPass"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC RTLS Locating Manager"
+            }
           ]
         },
         {
@@ -123,6 +4025,105 @@
           "data_types": [
             "affected",
             "references"
+          ],
+          "file_path": "2025/2xxx/CVE-2025-2884.json",
+          "affected_products": [
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC CN 4100"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC Field PG M5"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC Field PG M6"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC BX-32A"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC BX-39A"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC BX-56A"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC BX-59A"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC MD-57A"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC PX-32A"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC PX-39A"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC PX-39A PRO"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC RW-528A"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC RW-548A"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC227E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC277E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC427E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC477E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC477E PRO"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC627E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC647E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC677E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC847E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC ITP1000"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS IPC427E"
+            }
           ]
         },
         {
@@ -131,6 +4132,13 @@
           "data_types": [
             "affected",
             "references"
+          ],
+          "file_path": "2025/40xxx/CVE-2025-40891.json",
+          "affected_products": [
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM APE1808"
+            }
           ]
         },
         {
@@ -139,6 +4147,13 @@
           "data_types": [
             "affected",
             "references"
+          ],
+          "file_path": "2025/40xxx/CVE-2025-40892.json",
+          "affected_products": [
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM APE1808"
+            }
           ]
         },
         {
@@ -147,6 +4162,13 @@
           "data_types": [
             "affected",
             "references"
+          ],
+          "file_path": "2025/40xxx/CVE-2025-40893.json",
+          "affected_products": [
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM APE1808"
+            }
           ]
         },
         {
@@ -155,6 +4177,13 @@
           "data_types": [
             "affected",
             "references"
+          ],
+          "file_path": "2025/40xxx/CVE-2025-40894.json",
+          "affected_products": [
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM APE1808"
+            }
           ]
         },
         {
@@ -163,6 +4192,13 @@
           "data_types": [
             "affected",
             "references"
+          ],
+          "file_path": "2025/40xxx/CVE-2025-40898.json",
+          "affected_products": [
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM APE1808"
+            }
           ]
         },
         {
@@ -171,6 +4207,17 @@
           "data_types": [
             "affected",
             "references"
+          ],
+          "file_path": "2025/6xxx/CVE-2025-6965.json",
+          "affected_products": [
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM CROSSBOW Station Access Controller (SAC)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIDIS Prime"
+            }
           ]
         }
       ]
