@@ -60,6 +60,7 @@ jobs:
       - name: Parse SADP records and generate data.json
         env:
           SADP_REPO_PATH: ${{ github.workspace }}/sadp-pilot
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python fetch_data.py
 
       # ── Build the static site ────────────────────────────────────────────
