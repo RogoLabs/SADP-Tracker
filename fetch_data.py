@@ -46,6 +46,7 @@ _DATA_TYPE_KEYS = ["affected", "references", "metrics", "descriptions"]
 # Source labels stored on each CVE entry
 SOURCE_SADP_PILOT = "sadp-pilot"
 SOURCE_CVELISTV5 = "cvelistv5"
+SOURCE_BOTH = "both"
 
 
 # ---------------------------------------------------------------------------
@@ -259,7 +260,7 @@ def merge_sources(primary: dict, secondary: dict) -> dict:
                 existing_cves[cve_id] = cve
             else:
                 # Record exists in both sources – mark it accordingly
-                existing_cves[cve_id]["source"] = "both"
+                existing_cves[cve_id]["source"] = SOURCE_BOTH
         suppliers[name]["cves"] = list(existing_cves.values())
 
     # Use the most-recent generated_at timestamp

@@ -13,6 +13,7 @@ from unittest.mock import patch
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from fetch_data import (
+    SOURCE_BOTH,
     SOURCE_CVELISTV5,
     SOURCE_SADP_PILOT,
     _parse_adp_list,
@@ -514,7 +515,7 @@ class TestMergeSources:
         result = merge_sources(primary, secondary)
         cves = result["suppliers"][0]["cves"]
         assert len(cves) == 1
-        assert cves[0]["source"] == "both"
+        assert cves[0]["source"] == SOURCE_BOTH
 
     def test_empty_secondary(self):
         primary = self._make_supplier_result([("siemens-SADP", "CVE-2025-1001", SOURCE_SADP_PILOT)])
