@@ -216,13 +216,13 @@
         <div class="label">Active Data Types</div>
     </div>
     <div class="stat-card">
-        <div class="number" style="font-size: 1.1rem;">{{ latest_enrichment_date[:10] if latest_enrichment_date else '—' }}</div>
-        <div class="label">Latest Enrichment</div>
         {% if latest_enrichment_cve %}
-        <div style="margin-top: 0.35rem; font-size: 0.78rem;">
+        <div style="font-size: 1.15rem; font-weight: 700; margin-bottom: 0.2rem;">
             <a href="https://www.cve.org/CVERecord?id={{ latest_enrichment_cve }}" target="_blank" rel="noopener">{{ latest_enrichment_cve }}</a>
         </div>
         {% endif %}
+        <div class="number" style="font-size: 1.08rem; margin-bottom: 0.15rem;">{{ latest_enrichment_date[:10] if latest_enrichment_date else '—' }}</div>
+        <div class="label">Latest Enrichment</div>
     </div>
 </div>
 

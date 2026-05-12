@@ -336,6 +336,14 @@
         <div class="search-bar">
             <input type="text" id="cveSearch" class="search-input" placeholder="Search CVE IDs…" aria-label="Search CVE IDs">
         </div>
+        <div class="products-toolbar" style="margin-top: -0.25rem;">
+            <span id="cveRangeInfo" class="text-muted small"></span>
+            <div id="cvePagination" class="product-pagination">
+                <button id="cvePrev" class="pager-btn" type="button">Previous</button>
+                <span id="cvePageInfo" class="pager-info"></span>
+                <button id="cveNext" class="pager-btn" type="button">Next</button>
+            </div>
+        </div>
         <div class="cve-table-wrap">
             <table class="cve-table" id="cveTable">
                 <thead>
@@ -417,24 +425,75 @@
 {% block extra_scripts %}
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-    // ── CVE search ─────────────────────────────────────────────────────────
+    // ── CVE search/sort/pagination ────────────────────────────────────────
     const searchInput = document.getElementById('cveSearch');
-    const allRows = document.querySelectorAll('#cveTable .cve-row');
+    const tbody = document.querySelector('#cveTable tbody');
+    const cveRows = Array.from(document.querySelectorAll('#cveTable .cve-row'));
+    const cvePrev = document.getElementById('cvePrev');
+    const cveNext = document.getElementById('cveNext');
+    const cvePageInfo = document.getElementById('cvePageInfo');
+    const cveRangeInfo = document.getElementById('cveRangeInfo');
+    const cvePagination = document.getElementById('cvePagination');
 
-    if (searchInput) {
-        searchInput.addEventListener('input', function() {
-            const query = this.value.toLowerCase().trim();
-            allRows.forEach(function(row) {
-                const text = row.textContent.toLowerCase();
-                row.style.display = (!query || text.includes(query)) ? '' : 'none';
-            });
+    const cvePageSize = 50;
+    let currentSort = '';
+    let sortDir = -1; // -1 = desc
+    let cvePage = 1;
+    let cveQuery = '';
+
+    function getFilteredCveRows() {
+        if (!cveQuery) {
+            return cveRows;
+        }
+        return cveRows.filter(function(row) {
+            return row.textContent.toLowerCase().includes(cveQuery);
         });
     }
 
-    // ── Sortable table ─────────────────────────────────────────────────────
-    const tbody = document.querySelector('#cveTable tbody');
-    let currentSort = 'date-updated';
-    let sortDir = -1; // -1 = desc
+    function renderCvePage() {
+        const filteredRows = getFilteredCveRows();
+        const filteredCount = filteredRows.length;
+        const totalPages = Math.max(1, Math.ceil(filteredCount / cvePageSize));
+
+        if (cvePage > totalPages) {
+            cvePage = totalPages;
+        }
+
+        const start = (cvePage - 1) * cvePageSize;
+        const end = Math.min(start + cvePageSize, filteredCount);
+
+        cveRows.forEach(function(row) {
+            row.style.display = 'none';
+        });
+        filteredRows.slice(start, end).forEach(function(row) {
+            row.style.display = '';
+        });
+
+        if (cveRangeInfo) {
+            if (filteredCount === 0) {
+                cveRangeInfo.textContent = 'No matching CVE records';
+            } else if (cveQuery) {
+                cveRangeInfo.textContent = 'Showing ' + (start + 1) + '-' + end + ' of ' + filteredCount + ' matching records';
+            } else {
+                cveRangeInfo.textContent = 'Showing ' + (start + 1) + '-' + end + ' of ' + filteredCount + ' records';
+            }
+        }
+
+        if (cvePageInfo) {
+            cvePageInfo.textContent = 'Page ' + cvePage + ' of ' + totalPages;
+        }
+
+        if (cvePrev) {
+            cvePrev.disabled = cvePage <= 1;
+        }
+        if (cveNext) {
+            cveNext.disabled = cvePage >= totalPages;
+        }
+
+        if (cvePagination) {
+            cvePagination.style.display = filteredCount <= cvePageSize ? 'none' : 'inline-flex';
+        }
+    }
 
     function applySort(col) {
         if (currentSort === col) {
@@ -462,10 +521,42 @@ document.addEventListener('DOMContentLoaded', function() {
             activeIcon.textContent = sortDir === 1 ? '\u2191' : '\u2193';
             activeIcon.classList.add('active');
         }
+
+        renderCvePage();
+    }
+
+    if (searchInput) {
+        searchInput.addEventListener('input', function() {
+            cveQuery = this.value.toLowerCase().trim();
+            cvePage = 1;
+            renderCvePage();
+        });
+    }
+
+    if (cvePrev) {
+        cvePrev.addEventListener('click', function() {
+            if (cvePage > 1) {
+                cvePage -= 1;
+                renderCvePage();
+            }
+        });
+    }
+
+    if (cveNext) {
+        cveNext.addEventListener('click', function() {
+            const totalPages = Math.max(1, Math.ceil(getFilteredCveRows().length / cvePageSize));
+            if (cvePage < totalPages) {
+                cvePage += 1;
+                renderCvePage();
+            }
+        });
     }
 
     document.querySelectorAll('.cve-table .sortable-th').forEach(function(th) {
-        th.addEventListener('click', function() { applySort(th.getAttribute('data-sort')); });
+        th.addEventListener('click', function() {
+            cvePage = 1;
+            applySort(th.getAttribute('data-sort'));
+        });
     });
 
     // Default: sort by date descending
