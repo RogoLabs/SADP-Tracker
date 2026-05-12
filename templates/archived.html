@@ -278,8 +278,13 @@
         <div class="label">Active Data Types</div>
     </div>
     <div class="stat-card">
-        <div class="number" style="font-size: 1.1rem;">{{ pilot_start[:10] if pilot_start else '—' }}</div>
-        <div class="label">Earliest Record</div>
+        <div class="number" style="font-size: 1.1rem;">{{ latest_enrichment_date[:10] if latest_enrichment_date else '—' }}</div>
+        <div class="label">Latest Enrichment</div>
+        {% if latest_enrichment_cve %}
+        <div style="margin-top: 0.35rem; font-size: 0.78rem;">
+            <a href="https://www.cve.org/CVERecord?id={{ latest_enrichment_cve }}" target="_blank" rel="noopener">{{ latest_enrichment_cve }}</a>
+        </div>
+        {% endif %}
     </div>
 </div>
 

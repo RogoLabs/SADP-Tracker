@@ -190,13 +190,16 @@ class SADPSiteBuilder:
     # Render the archived pilot data page
     # ------------------------------------------------------------------
     def build_archived_page(self) -> None:
+        if not ARCHIVED_JSON.exists():
+            self.log("  ⚠️  archived_data.json not found – skipping archived.html")
+            return
+
         raw = load_data(ARCHIVED_JSON)
         generated_at: str = raw.get("generated_at", "")
         suppliers: list[dict] = raw.get("suppliers", [])
 
         if not suppliers:
-            self.log("  ⚠️  No archived data found – skipping archived.html")
-            return
+            self.log("  ℹ️  No archived supplier records found – generating archived.html with empty state")
 
         suppliers = self._enrich_suppliers(suppliers, github_dir="Archived%20Pilot%20Data")
 
@@ -204,6 +207,8 @@ class SADPSiteBuilder:
         unique_cves: set[str] = set()
         year_breakdown: dict[str, int] = {}
         dt_breakdown: dict[str, int] = dict.fromkeys(_DATA_TYPE_KEYS, 0)
+        latest_enrichment_date = ""
+        latest_enrichment_cve = ""
 
         # Build a flat CVE list for the full table (all suppliers)
         all_cves: list[dict] = []
@@ -211,7 +216,11 @@ class SADPSiteBuilder:
             for cve in s.get("cves", []):
                 cve_id = cve["cve_id"]
                 unique_cves.add(cve_id)
+                du = cve.get("date_updated", "")
                 dts = cve.get("data_types", [])
+                if du and (du > latest_enrichment_date or (du == latest_enrichment_date and cve_id < latest_enrichment_cve)):
+                    latest_enrichment_date = du
+                    latest_enrichment_cve = cve_id
                 year = cve_id[4:8] if cve_id.startswith("CVE-") and len(cve_id) > 8 else "Unknown"
                 year_breakdown[year] = year_breakdown.get(year, 0) + 1
                 for dt in dts:
@@ -240,6 +249,8 @@ class SADPSiteBuilder:
             year_breakdown=year_breakdown_sorted,
             dt_breakdown=dt_breakdown,
             pilot_start=pilot_start,
+            latest_enrichment_date=latest_enrichment_date,
+            latest_enrichment_cve=latest_enrichment_cve,
             base_path="",
         )
         out = WEB_DIR / "archived.html"
@@ -258,13 +269,19 @@ class SADPSiteBuilder:
         all_data_types: set[str] = set()
         year_breakdown: dict[str, int] = {}
         dt_breakdown: dict[str, int] = dict.fromkeys(_DATA_TYPE_KEYS, 0)
+        latest_enrichment_date = ""
+        latest_enrichment_cve = ""
 
         for s in suppliers:
             for cve in s.get("cves", []):
                 cve_id = cve["cve_id"]
                 unique_cves.add(cve_id)
                 dts = cve.get("data_types", [])
+                du = cve.get("date_updated", "")
                 all_data_types.update(dts)
+                if du and (du > latest_enrichment_date or (du == latest_enrichment_date and cve_id < latest_enrichment_cve)):
+                    latest_enrichment_date = du
+                    latest_enrichment_cve = cve_id
                 # Year breakdown
                 year = cve_id[4:8] if cve_id.startswith("CVE-") and len(cve_id) > 8 else "Unknown"
                 year_breakdown[year] = year_breakdown.get(year, 0) + 1
@@ -290,6 +307,8 @@ class SADPSiteBuilder:
             year_breakdown=year_breakdown_sorted,
             dt_breakdown=dt_breakdown,
             pilot_start=pilot_start,
+            latest_enrichment_date=latest_enrichment_date,
+            latest_enrichment_cve=latest_enrichment_cve,
             base_path="",
         )
 
