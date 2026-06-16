@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T13:58:12.104811+00:00",
+  "generated_at": "2026-06-16T19:19:10.182132+00:00",
   "suppliers": [
     {
       "short_name": "redhat-SADP",
@@ -7491,7 +7491,7 @@
               "product": "SIPLUS S7-1500 CPU 1518-4 PN/DP MFP"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2024-26903",
@@ -13443,7 +13443,7 @@
               "product": "SIMATIC S7-1500 TM MFP - GNU/Linux subsystem"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2024-40934",
