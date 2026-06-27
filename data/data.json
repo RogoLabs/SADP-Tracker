@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T12:36:51.767950+00:00",
+  "generated_at": "2026-06-27T18:33:04.299837+00:00",
   "suppliers": [
     {
       "short_name": "redhat-SADP",
@@ -19881,7 +19881,7 @@
               "product": "SIPLUS S7-1500 CPU 1518-4 PN/DP MFP"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2025-11495",
@@ -27729,7 +27729,7 @@
               "product": "RUGGEDCOM APE1808"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-64157",
