@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-28T12:40:37.538406+00:00",
+  "generated_at": "2026-06-28T18:32:31.048615+00:00",
   "suppliers": [
     {
       "short_name": "redhat-SADP",
@@ -19325,7 +19325,7 @@
               "product": "SIMATIC S7-1500 TM MFP - GNU/Linux subsystem"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2024-58014",
@@ -24133,7 +24133,7 @@
               "product": "SIMATIC CN 4100"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2025-38727",
