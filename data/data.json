@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T13:37:57.433365+00:00",
+  "generated_at": "2026-06-29T18:47:47.206311+00:00",
   "suppliers": [
     {
       "short_name": "redhat-SADP",
@@ -25,7 +25,7 @@
         },
         {
           "cve_id": "CVE-2024-21626",
-          "date_updated": "2026-06-25T22:32:38.382Z",
+          "date_updated": "2026-06-29T12:34:14.571Z",
           "data_types": [
             "affected",
             "references",
@@ -159,7 +159,7 @@
         },
         {
           "cve_id": "CVE-2025-61686",
-          "date_updated": "2026-06-27T05:17:26.267Z",
+          "date_updated": "2026-06-29T12:34:22.580Z",
           "data_types": [
             "affected",
             "references",
@@ -357,7 +357,7 @@
         },
         {
           "cve_id": "CVE-2025-70974",
-          "date_updated": "2026-06-27T05:17:26.792Z",
+          "date_updated": "2026-06-29T12:34:22.247Z",
           "data_types": [
             "affected",
             "references",
@@ -399,7 +399,7 @@
         },
         {
           "cve_id": "CVE-2026-11807",
-          "date_updated": "2026-06-27T05:17:18.230Z",
+          "date_updated": "2026-06-29T12:34:21.949Z",
           "data_types": [
             "affected",
             "references",
@@ -433,7 +433,7 @@
         },
         {
           "cve_id": "CVE-2026-1709",
-          "date_updated": "2026-06-27T05:17:26.532Z",
+          "date_updated": "2026-06-29T12:34:21.641Z",
           "data_types": [
             "affected",
             "references",
@@ -459,7 +459,7 @@
         },
         {
           "cve_id": "CVE-2026-20750",
-          "date_updated": "2026-06-27T05:17:16.878Z",
+          "date_updated": "2026-06-29T12:34:21.341Z",
           "data_types": [
             "affected",
             "references",
@@ -477,7 +477,7 @@
         },
         {
           "cve_id": "CVE-2026-20897",
-          "date_updated": "2026-06-27T05:17:17.161Z",
+          "date_updated": "2026-06-29T12:34:14.900Z",
           "data_types": [
             "affected",
             "references",
@@ -495,7 +495,7 @@
         },
         {
           "cve_id": "CVE-2026-20912",
-          "date_updated": "2026-06-27T05:17:16.599Z",
+          "date_updated": "2026-06-29T12:34:21.026Z",
           "data_types": [
             "affected",
             "references",
@@ -513,7 +513,7 @@
         },
         {
           "cve_id": "CVE-2026-22778",
-          "date_updated": "2026-06-27T05:17:24.025Z",
+          "date_updated": "2026-06-29T12:34:20.722Z",
           "data_types": [
             "affected",
             "references",
@@ -528,6 +528,10 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat AI Inference Server 3.3"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat OpenShift AI 2.25"
             },
             {
@@ -536,11 +540,11 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat AI Inference Server"
+              "product": "Red Hat Enterprise Linux AI (RHEL AI) 3"
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Enterprise Linux AI (RHEL AI) 3"
+              "product": "Red Hat AI Inference Server"
             },
             {
               "vendor": "Red Hat",
@@ -551,7 +555,7 @@
         },
         {
           "cve_id": "CVE-2026-25521",
-          "date_updated": "2026-06-27T05:17:17.425Z",
+          "date_updated": "2026-06-29T12:34:15.721Z",
           "data_types": [
             "affected",
             "references",
@@ -569,7 +573,7 @@
         },
         {
           "cve_id": "CVE-2026-27876",
-          "date_updated": "2026-06-27T05:17:25.868Z",
+          "date_updated": "2026-06-29T12:34:20.407Z",
           "data_types": [
             "affected",
             "references",
@@ -613,7 +617,7 @@
         },
         {
           "cve_id": "CVE-2026-2651",
-          "date_updated": "2026-06-27T05:17:22.939Z",
+          "date_updated": "2026-06-29T12:34:17.434Z",
           "data_types": [
             "affected",
             "references",
@@ -631,7 +635,7 @@
         },
         {
           "cve_id": "CVE-2026-33228",
-          "date_updated": "2026-06-27T05:17:25.099Z",
+          "date_updated": "2026-06-29T12:34:17.953Z",
           "data_types": [
             "affected",
             "references",
@@ -765,7 +769,7 @@
         },
         {
           "cve_id": "CVE-2026-33454",
-          "date_updated": "2026-06-27T05:17:23.701Z",
+          "date_updated": "2026-06-29T12:34:20.067Z",
           "data_types": [
             "affected",
             "references",
@@ -819,7 +823,7 @@
         },
         {
           "cve_id": "CVE-2026-40372",
-          "date_updated": "2026-06-27T05:17:25.344Z",
+          "date_updated": "2026-06-29T12:34:15.223Z",
           "data_types": [
             "affected",
             "references",
@@ -845,7 +849,7 @@
         },
         {
           "cve_id": "CVE-2026-40453",
-          "date_updated": "2026-06-27T05:17:19.344Z",
+          "date_updated": "2026-06-29T12:34:17.112Z",
           "data_types": [
             "affected",
             "references",
@@ -895,7 +899,7 @@
         },
         {
           "cve_id": "CVE-2026-42208",
-          "date_updated": "2026-06-27T05:17:24.834Z",
+          "date_updated": "2026-06-29T12:34:19.762Z",
           "data_types": [
             "affected",
             "references",
@@ -921,7 +925,7 @@
         },
         {
           "cve_id": "CVE-2026-42945",
-          "date_updated": "2026-06-27T05:17:18.513Z",
+          "date_updated": "2026-06-29T12:34:19.398Z",
           "data_types": [
             "affected",
             "references",
@@ -1043,7 +1047,7 @@
         },
         {
           "cve_id": "CVE-2026-43037",
-          "date_updated": "2026-06-27T05:17:17.972Z",
+          "date_updated": "2026-06-29T12:34:16.439Z",
           "data_types": [
             "affected",
             "references",
@@ -1265,7 +1269,7 @@
         },
         {
           "cve_id": "CVE-2026-45829",
-          "date_updated": "2026-06-27T05:17:24.300Z",
+          "date_updated": "2026-06-29T12:34:19.001Z",
           "data_types": [
             "affected",
             "references",
@@ -1283,7 +1287,7 @@
         },
         {
           "cve_id": "CVE-2026-47323",
-          "date_updated": "2026-06-27T05:17:19.072Z",
+          "date_updated": "2026-06-29T12:34:18.614Z",
           "data_types": [
             "affected",
             "references",
@@ -1321,7 +1325,7 @@
         },
         {
           "cve_id": "CVE-2026-48710",
-          "date_updated": "2026-06-27T05:17:18.789Z",
+          "date_updated": "2026-06-29T12:34:16.064Z",
           "data_types": [
             "affected",
             "references",
@@ -1330,6 +1334,10 @@
           ],
           "file_path": "2026/48xxx/CVE-2026-48710.json",
           "affected_products": [
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat AI Inference Server 3.3"
+            },
             {
               "vendor": "Red Hat",
               "product": "Red Hat Ansible Automation Platform 2.6"
@@ -1383,7 +1391,7 @@
         },
         {
           "cve_id": "CVE-2026-49980",
-          "date_updated": "2026-06-27T05:17:17.700Z",
+          "date_updated": "2026-06-29T12:34:18.288Z",
           "data_types": [
             "affected",
             "references",
@@ -1409,7 +1417,7 @@
         },
         {
           "cve_id": "CVE-2026-4631",
-          "date_updated": "2026-06-27T05:17:25.611Z",
+          "date_updated": "2026-06-29T12:34:16.799Z",
           "data_types": [
             "affected",
             "references",
