@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T10:42:00.183685+00:00",
+  "generated_at": "2026-07-06T15:39:43.961040+00:00",
   "suppliers": [
     {
       "short_name": "redhat-SADP",
@@ -147,7 +147,7 @@
               "product": "Red Hat Ansible Automation Platform 2"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2023-43010",
@@ -779,7 +779,7 @@
               "product": "Red Hat Enterprise Linux 9"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-13465",
@@ -1299,7 +1299,7 @@
               "product": "Red Hat OpenShift Container Platform 4"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2025-13772",
@@ -1537,7 +1537,7 @@
               "product": "Red Hat OpenShift GitOps"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2025-14813",
@@ -1675,7 +1675,7 @@
               "product": "streams for Apache Kafka 3"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-15031",
@@ -1693,7 +1693,7 @@
               "product": "Red Hat OpenShift AI (RHOAI)"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-15036",
@@ -2443,7 +2443,7 @@
               "product": "Red Hat Enterprise Linux 7"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-43214",
@@ -2697,7 +2697,7 @@
               "product": "Red Hat Enterprise Linux 7"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2025-43441",
@@ -2865,7 +2865,7 @@
               "product": "Red Hat Enterprise Linux 7"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2025-43511",
@@ -2969,7 +2969,7 @@
         },
         {
           "cve_id": "CVE-2025-48431",
-          "date_updated": "2026-07-01T12:04:56.545Z",
+          "date_updated": "2026-07-06T12:05:01.847Z",
           "data_types": [
             "affected",
             "references",
@@ -3159,7 +3159,7 @@
               "product": "Red Hat Enterprise Linux for NVIDIA 26"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-55130",
@@ -3247,7 +3247,7 @@
         },
         {
           "cve_id": "CVE-2025-56005",
-          "date_updated": "2026-07-02T12:05:23.755Z",
+          "date_updated": "2026-07-06T12:04:55.900Z",
           "data_types": [
             "affected",
             "references",
@@ -3617,7 +3617,7 @@
               "product": "Red Hat Enterprise Linux 7"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2025-61023",
@@ -3719,7 +3719,7 @@
               "product": "Red Hat Quay 3"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2025-61686",
@@ -3921,7 +3921,7 @@
         },
         {
           "cve_id": "CVE-2025-61726",
-          "date_updated": "2026-07-03T12:04:54.040Z",
+          "date_updated": "2026-07-06T12:04:47.423Z",
           "data_types": [
             "affected",
             "references",
@@ -4603,7 +4603,7 @@
               "product": "Zero Trust Workload Identity Manager"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-61731",
@@ -4891,7 +4891,7 @@
               "product": "Red Hat OpenShift Virtualization 4"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2025-62718",
@@ -5171,7 +5171,7 @@
         },
         {
           "cve_id": "CVE-2025-67030",
-          "date_updated": "2026-07-03T12:05:12.439Z",
+          "date_updated": "2026-07-06T12:05:19.344Z",
           "data_types": [
             "affected",
             "references",
@@ -5313,7 +5313,7 @@
               "product": "streams for Apache Kafka 3"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-67268",
@@ -5487,11 +5487,11 @@
               "product": "Red Hat OpenShift AI (RHOAI)"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2025-69223",
-          "date_updated": "2026-07-03T12:05:00.052Z",
+          "date_updated": "2026-07-06T12:05:18.711Z",
           "data_types": [
             "affected",
             "references",
@@ -6047,7 +6047,7 @@
               "product": "streams for Apache Kafka 2"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2025-70069",
@@ -6091,7 +6091,7 @@
               "product": "Red Hat Enterprise Linux 9"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-70974",
@@ -6217,7 +6217,7 @@
               "product": "Red Hat Openshift Data Foundation 4"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-9222",
@@ -6277,7 +6277,7 @@
         },
         {
           "cve_id": "CVE-2026-0545",
-          "date_updated": "2026-06-30T12:07:13.823Z",
+          "date_updated": "2026-07-06T12:04:52.587Z",
           "data_types": [
             "affected",
             "references",
@@ -8123,7 +8123,7 @@
               "product": "Red Hat Single Sign-On 7"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-11807",
@@ -8213,7 +8213,7 @@
         },
         {
           "cve_id": "CVE-2026-11998",
-          "date_updated": "2026-07-03T12:04:58.067Z",
+          "date_updated": "2026-07-06T12:05:19.620Z",
           "data_types": [
             "affected",
             "references",
@@ -8248,18 +8248,18 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Quay 3"
-            },
-            {
-              "vendor": "Red Hat",
               "product": "Red Hat Single Sign-On 7"
             },
             {
               "vendor": "Red Hat",
               "product": "Red Hat Fuse 7"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Quay 3"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-12112",
@@ -8281,7 +8281,7 @@
         },
         {
           "cve_id": "CVE-2026-12143",
-          "date_updated": "2026-07-02T12:05:05.255Z",
+          "date_updated": "2026-07-06T12:05:20.206Z",
           "data_types": [
             "affected",
             "references",
@@ -8487,7 +8487,7 @@
         },
         {
           "cve_id": "CVE-2026-12151",
-          "date_updated": "2026-07-02T12:05:19.944Z",
+          "date_updated": "2026-07-06T12:04:57.200Z",
           "data_types": [
             "affected",
             "references",
@@ -8496,6 +8496,10 @@
           ],
           "file_path": "2026/12xxx/CVE-2026-12151.json",
           "affected_products": [
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream (v. 10)"
+            },
             {
               "vendor": "Red Hat",
               "product": "Cluster Observability Operator 1.5.0"
@@ -8519,10 +8523,6 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Developer Hub"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Red Hat Enterprise Linux 10"
             },
             {
               "vendor": "Red Hat",
@@ -8557,7 +8557,7 @@
               "product": "Self-service automation portal 2"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-12289",
@@ -8709,7 +8709,7 @@
               "product": "Red Hat Enterprise Linux 7"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-12293",
@@ -8743,7 +8743,7 @@
               "product": "Red Hat Enterprise Linux 9"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-12294",
@@ -9209,7 +9209,7 @@
               "product": "Red Hat Enterprise Linux 9"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-12975",
@@ -9279,7 +9279,7 @@
         },
         {
           "cve_id": "CVE-2026-13676",
-          "date_updated": "2026-07-02T12:05:00.483Z",
+          "date_updated": "2026-07-06T12:05:17.424Z",
           "data_types": [
             "affected",
             "references",
@@ -9727,7 +9727,7 @@
               "product": "Red Hat OpenShift AI (RHOAI)"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-1486",
@@ -10125,7 +10125,7 @@
               "product": "Red Hat build of Keycloak 26.4.9"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-1530",
@@ -10407,7 +10407,7 @@
               "product": "Red Hat Quay 3"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-1669",
@@ -10425,7 +10425,7 @@
               "product": "Red Hat OpenShift AI (RHOAI)"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-1709",
@@ -10585,7 +10585,7 @@
               "product": "Red Hat Enterprise Linux 6"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-1784",
@@ -11091,7 +11091,7 @@
               "product": "Red Hat Enterprise Linux 7"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-20644",
@@ -11173,7 +11173,7 @@
               "product": "Red Hat Enterprise Linux 7"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-20652",
@@ -11457,7 +11457,7 @@
               "product": "OpenShift Pipelines"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-20911",
@@ -11505,7 +11505,7 @@
               "product": "OpenShift Pipelines"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-21413",
@@ -11603,7 +11603,7 @@
         },
         {
           "cve_id": "CVE-2026-21441",
-          "date_updated": "2026-07-03T12:05:08.802Z",
+          "date_updated": "2026-07-06T12:05:20.583Z",
           "data_types": [
             "affected",
             "references",
@@ -12503,7 +12503,7 @@
               "product": "Red Hat Enterprise Linux 9"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-21945",
@@ -13547,7 +13547,7 @@
               "product": "Red Hat OpenShift AI (RHOAI)"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-22822",
@@ -13615,7 +13615,7 @@
               "product": "Red Hat Enterprise Linux 9"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-22855",
@@ -15227,7 +15227,7 @@
               "product": "Red Hat Enterprise Linux 6"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-23534",
@@ -15617,7 +15617,7 @@
               "product": "Streams for Apache Kafka 3.2.0"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-23868",
@@ -16761,7 +16761,7 @@
               "product": "Red Hat JBoss Enterprise Application Platform 8"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-24486",
@@ -17061,7 +17061,7 @@
               "product": "Red Hat Advanced Cluster Security 4"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-24747",
@@ -17083,7 +17083,7 @@
               "product": "Red Hat OpenShift AI (RHOAI)"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-24779",
@@ -17451,7 +17451,7 @@
               "product": "Red Hat OpenShift AI (RHOAI)"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-25153",
@@ -17723,7 +17723,7 @@
               "product": "Logging Subsystem for Red Hat OpenShift"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-25535",
@@ -18335,7 +18335,7 @@
               "product": "Red Hat Enterprise Linux 7"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-25673",
@@ -18365,7 +18365,7 @@
         },
         {
           "cve_id": "CVE-2026-25679",
-          "date_updated": "2026-07-03T12:04:59.737Z",
+          "date_updated": "2026-07-06T12:04:49.674Z",
           "data_types": [
             "affected",
             "references",
@@ -19079,7 +19079,7 @@
               "product": "Self-service automation portal 2"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-25940",
@@ -19101,7 +19101,7 @@
               "product": "Red Hat Advanced Cluster Security for Kubernetes 4.9"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-25949",
@@ -19119,7 +19119,7 @@
               "product": "Red Hat OpenShift Dev Spaces 3.27"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-25960",
@@ -19149,7 +19149,7 @@
               "product": "Red Hat OpenShift AI (RHOAI)"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-25965",
@@ -19469,7 +19469,7 @@
               "product": "Red Hat Enterprise Linux 9"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-26017",
@@ -19529,7 +19529,7 @@
               "product": "Red Hat OpenShift Container Platform 4"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-26103",
@@ -20495,11 +20495,11 @@
               "product": "Red Hat Update Infrastructure 5"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-27137",
-          "date_updated": "2026-07-03T12:04:59.155Z",
+          "date_updated": "2026-07-06T12:05:00.076Z",
           "data_types": [
             "affected",
             "references",
@@ -20889,7 +20889,7 @@
               "product": "Service Telemetry Framework 1.5"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-27140",
@@ -20999,7 +20999,7 @@
         },
         {
           "cve_id": "CVE-2026-27145",
-          "date_updated": "2026-07-03T12:04:56.422Z",
+          "date_updated": "2026-07-06T12:05:01.561Z",
           "data_types": [
             "affected",
             "references",
@@ -21321,7 +21321,7 @@
               "product": "Service Telemetry Framework 1.5"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-27148",
@@ -22025,7 +22025,7 @@
               "product": "Red Hat Enterprise Linux CodeReady Linux Builder (v. 9)"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-27727",
@@ -23311,7 +23311,7 @@
               "product": "Red Hat OpenStack Platform 18.0"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-28847",
@@ -23549,7 +23549,7 @@
               "product": "Red Hat Enterprise Linux 7"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-28861",
@@ -24433,7 +24433,7 @@
               "product": "Red Hat OpenShift Dev Spaces 3.27"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-29062",
@@ -24729,7 +24729,7 @@
               "product": "Red Hat OpenShift Container Platform 4"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-29074",
@@ -24953,7 +24953,7 @@
         },
         {
           "cve_id": "CVE-2026-29146",
-          "date_updated": "2026-06-30T03:16:24.876Z",
+          "date_updated": "2026-07-06T12:05:16.863Z",
           "data_types": [
             "affected",
             "references",
@@ -25583,7 +25583,7 @@
               "product": "Red Hat Enterprise Linux 9"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-2007",
@@ -25617,7 +25617,7 @@
         },
         {
           "cve_id": "CVE-2026-2033",
-          "date_updated": "2026-06-30T12:07:01.921Z",
+          "date_updated": "2026-07-06T12:04:52.872Z",
           "data_types": [
             "affected",
             "references",
@@ -26525,7 +26525,7 @@
               "product": "Red Hat build of Keycloak 26.4.10"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-2611",
@@ -26547,7 +26547,7 @@
         },
         {
           "cve_id": "CVE-2026-2614",
-          "date_updated": "2026-07-02T12:04:55.943Z",
+          "date_updated": "2026-07-06T12:05:05.081Z",
           "data_types": [
             "affected",
             "references",
@@ -26565,11 +26565,11 @@
               "product": "Red Hat OpenShift AI (RHOAI)"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-2635",
-          "date_updated": "2026-06-30T12:08:26.862Z",
+          "date_updated": "2026-07-06T12:04:53.172Z",
           "data_types": [
             "affected",
             "references",
@@ -26977,7 +26977,7 @@
               "product": "Red Hat Enterprise Linux 7"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-2761",
@@ -27071,7 +27071,7 @@
               "product": "Red Hat Enterprise Linux 7"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-2762",
@@ -28387,7 +28387,7 @@
               "product": "Red Hat Enterprise Linux 7"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-2776",
@@ -28925,7 +28925,7 @@
               "product": "Red Hat Enterprise Linux 9"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-2796",
@@ -29027,7 +29027,7 @@
               "product": "Red Hat Enterprise Linux 9"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-2799",
@@ -29425,7 +29425,7 @@
               "product": "Red Hat Enterprise Linux 8"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-30951",
@@ -29525,7 +29525,7 @@
         },
         {
           "cve_id": "CVE-2026-31236",
-          "date_updated": "2026-06-30T03:19:43.209Z",
+          "date_updated": "2026-07-06T12:05:04.540Z",
           "data_types": [
             "affected",
             "references",
@@ -29753,11 +29753,11 @@
               "product": "Red Hat Enterprise Linux 9"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-31419",
-          "date_updated": "2026-06-30T12:07:50.755Z",
+          "date_updated": "2026-07-06T12:04:48.890Z",
           "data_types": [
             "affected",
             "references",
@@ -30469,7 +30469,7 @@
               "product": "Red Hat Enterprise Linux 9"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-31641",
@@ -30855,7 +30855,7 @@
               "product": "Red Hat Enterprise Linux 6"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-31812",
@@ -30929,7 +30929,7 @@
               "product": "Red Hat Trusted Profile Analyzer"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-31837",
@@ -30991,7 +30991,7 @@
               "product": "Red Hat Connectivity Link 1"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-31892",
@@ -31057,7 +31057,7 @@
               "product": "Red Hat Advanced Cluster Security for Kubernetes 4.9"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-32141",
@@ -31191,7 +31191,7 @@
               "product": "Red Hat Quay 3"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-32144",
@@ -31459,7 +31459,7 @@
         },
         {
           "cve_id": "CVE-2026-32280",
-          "date_updated": "2026-07-03T12:05:06.038Z",
+          "date_updated": "2026-07-06T12:04:50.890Z",
           "data_types": [
             "affected",
             "references",
@@ -31818,6 +31818,10 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Node HealthCheck Operator"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "OpenShift Developer Tools and Services"
             },
             {
@@ -31839,6 +31843,10 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Advanced Cluster Management for Kubernetes 2"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat AI Inference Server"
             },
             {
               "vendor": "Red Hat",
@@ -31871,6 +31879,10 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux AI (RHEL AI) 3"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat OpenShift AI (RHOAI)"
             },
             {
               "vendor": "Red Hat",
@@ -31934,10 +31946,6 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Node HealthCheck Operator"
-            },
-            {
-              "vendor": "Red Hat",
               "product": "OpenShift Service Mesh 2"
             },
             {
@@ -31955,10 +31963,6 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Hardened Images"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Red Hat OpenShift AI (RHOAI)"
             },
             {
               "vendor": "Red Hat",
@@ -31981,11 +31985,11 @@
               "product": "streams for Apache Kafka 3"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-32283",
-          "date_updated": "2026-07-03T12:05:05.637Z",
+          "date_updated": "2026-07-06T12:04:50.484Z",
           "data_types": [
             "affected",
             "references",
@@ -32252,6 +32256,10 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat AI Inference Server"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat AMQ Broker 7"
             },
             {
@@ -32403,11 +32411,11 @@
               "product": "Red Hat Service Interconnect 2"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-32285",
-          "date_updated": "2026-07-02T12:05:07.106Z",
+          "date_updated": "2026-07-06T12:05:08.499Z",
           "data_types": [
             "affected",
             "references",
@@ -32603,7 +32611,7 @@
               "product": "Red Hat Trusted Artifact Signer"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-32304",
@@ -32621,7 +32629,7 @@
               "product": "Logging Subsystem for Red Hat OpenShift"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-32305",
@@ -32647,7 +32655,7 @@
               "product": "Red Hat OpenShift GitOps"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-32589",
@@ -32885,7 +32893,7 @@
               "product": "Red Hat Ansible Automation Platform 2.6 for RHEL 10"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-32640",
@@ -33125,7 +33133,7 @@
               "product": "Red Hat Enterprise Linux Server Optional (v. 7 ELS)"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-32829",
@@ -33175,7 +33183,7 @@
               "product": "Red Hat OpenShift AI (RHOAI)"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-32871",
@@ -33363,7 +33371,7 @@
         },
         {
           "cve_id": "CVE-2026-33079",
-          "date_updated": "2026-07-01T12:05:14.132Z",
+          "date_updated": "2026-07-06T12:05:03.086Z",
           "data_types": [
             "affected",
             "references",
@@ -33495,7 +33503,7 @@
         },
         {
           "cve_id": "CVE-2026-33186",
-          "date_updated": "2026-07-03T12:04:52.878Z",
+          "date_updated": "2026-07-06T12:04:50.117Z",
           "data_types": [
             "affected",
             "references",
@@ -34235,7 +34243,7 @@
               "product": "Red Hat OpenShift Virtualization 4"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-33216",
@@ -35319,11 +35327,11 @@
               "product": "Red Hat OpenShift Dev Spaces"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-33810",
-          "date_updated": "2026-07-03T12:04:58.824Z",
+          "date_updated": "2026-07-06T12:04:54.737Z",
           "data_types": [
             "affected",
             "references",
@@ -35550,6 +35558,10 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat OpenShift AI (RHOAI)"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat OpenShift Cluster Manager CLI"
             },
             {
@@ -35658,15 +35670,15 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat AI Inference Server"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat Ansible Automation Platform 2"
             },
             {
               "vendor": "Red Hat",
               "product": "Red Hat Developer Hub"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Red Hat OpenShift AI (RHOAI)"
             },
             {
               "vendor": "Red Hat",
@@ -35697,7 +35709,7 @@
         },
         {
           "cve_id": "CVE-2026-33811",
-          "date_updated": "2026-07-03T12:04:56.809Z",
+          "date_updated": "2026-07-06T12:04:52.308Z",
           "data_types": [
             "affected",
             "references",
@@ -35944,10 +35956,6 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Openshift Data Foundation 4"
-            },
-            {
-              "vendor": "Red Hat",
               "product": "Red Hat OpenShift Dev Spaces"
             },
             {
@@ -36045,13 +36053,17 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat AMQ Clients"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Openshift Data Foundation 4"
             }
           ],
           "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-33814",
-          "date_updated": "2026-07-02T12:05:19.070Z",
+          "date_updated": "2026-07-06T12:05:03.996Z",
           "data_types": [
             "affected",
             "references",
@@ -36099,6 +36111,10 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux AI (RHEL AI) 3"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat OpenShift AI (RHOAI)"
             },
             {
               "vendor": "Red Hat",
@@ -36613,7 +36629,7 @@
               "product": "Red Hat Enterprise Linux 6"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-33870",
@@ -36767,7 +36783,7 @@
               "product": "streams for Apache Kafka 3"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-33871",
@@ -36937,7 +36953,7 @@
               "product": "streams for Apache Kafka 3"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-33891",
@@ -38399,7 +38415,7 @@
         },
         {
           "cve_id": "CVE-2026-34078",
-          "date_updated": "2026-06-30T12:09:15.404Z",
+          "date_updated": "2026-07-06T12:05:00.947Z",
           "data_types": [
             "affected",
             "references",
@@ -38408,6 +38424,14 @@
           ],
           "file_path": "2026/34xxx/CVE-2026-34078.json",
           "affected_products": [
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux Server (v. 7 ELS)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux Server Optional (v. 7 ELS)"
+            },
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux AppStream EUS (v. 10.0)"
@@ -38479,10 +38503,6 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux CodeReady Linux Builder (v. 9)"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Red Hat Enterprise Linux 7"
             }
           ],
           "source": "sadp-pilot"
@@ -38847,7 +38867,7 @@
         },
         {
           "cve_id": "CVE-2026-34486",
-          "date_updated": "2026-06-30T03:19:27.843Z",
+          "date_updated": "2026-07-06T12:05:16.579Z",
           "data_types": [
             "affected",
             "references",
@@ -39437,7 +39457,7 @@
               "product": "Red Hat Enterprise Linux 9"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-34881",
@@ -39631,7 +39651,7 @@
         },
         {
           "cve_id": "CVE-2026-34986",
-          "date_updated": "2026-07-03T12:04:54.499Z",
+          "date_updated": "2026-07-06T12:04:46.811Z",
           "data_types": [
             "affected",
             "references",
@@ -40281,7 +40301,7 @@
               "product": "Red Hat OpenShift Container Platform 4"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-35204",
@@ -40733,7 +40753,7 @@
               "product": "Zero Trust Workload Identity Manager"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-35535",
@@ -41259,7 +41279,7 @@
         },
         {
           "cve_id": "CVE-2026-39820",
-          "date_updated": "2026-07-03T12:05:11.290Z",
+          "date_updated": "2026-07-06T12:04:51.734Z",
           "data_types": [
             "affected",
             "references",
@@ -41529,7 +41549,7 @@
         },
         {
           "cve_id": "CVE-2026-39821",
-          "date_updated": "2026-07-02T12:04:43.133Z",
+          "date_updated": "2026-07-06T12:04:57.792Z",
           "data_types": [
             "affected",
             "references",
@@ -41768,6 +41788,10 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AI (RHEL AI) 3"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat Lightspeed for Runtimes Operator"
             },
             {
@@ -41863,11 +41887,11 @@
               "product": "Red Hat Service Interconnect 2"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-39828",
-          "date_updated": "2026-07-02T12:05:14.977Z",
+          "date_updated": "2026-07-06T12:05:06.212Z",
           "data_types": [
             "affected",
             "references",
@@ -42025,7 +42049,7 @@
         },
         {
           "cve_id": "CVE-2026-39829",
-          "date_updated": "2026-07-03T12:04:53.309Z",
+          "date_updated": "2026-07-06T12:04:48.591Z",
           "data_types": [
             "affected",
             "references",
@@ -42034,6 +42058,10 @@
           ],
           "file_path": "2026/39xxx/CVE-2026-39829.json",
           "affected_products": [
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream (v. 8)"
+            },
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux AppStream (v. 9)"
@@ -42105,10 +42133,6 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux 10"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Red Hat Enterprise Linux 8"
             },
             {
               "vendor": "Red Hat",
@@ -42187,7 +42211,7 @@
         },
         {
           "cve_id": "CVE-2026-39830",
-          "date_updated": "2026-07-03T12:05:10.995Z",
+          "date_updated": "2026-07-06T12:04:48.305Z",
           "data_types": [
             "affected",
             "references",
@@ -42196,6 +42220,10 @@
           ],
           "file_path": "2026/39xxx/CVE-2026-39830.json",
           "affected_products": [
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream (v. 8)"
+            },
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux AppStream (v. 9)"
@@ -42259,10 +42287,6 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux 10"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Red Hat Enterprise Linux 8"
             },
             {
               "vendor": "Red Hat",
@@ -42341,7 +42365,7 @@
         },
         {
           "cve_id": "CVE-2026-39832",
-          "date_updated": "2026-07-03T12:05:07.777Z",
+          "date_updated": "2026-07-06T12:04:48.022Z",
           "data_types": [
             "affected",
             "references",
@@ -42350,6 +42374,10 @@
           ],
           "file_path": "2026/39xxx/CVE-2026-39832.json",
           "affected_products": [
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream (v. 8)"
+            },
             {
               "vendor": "Red Hat",
               "product": "Assisted Installer for Red Hat OpenShift Container Platform 2"
@@ -42393,10 +42421,6 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux 10"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Red Hat Enterprise Linux 8"
             },
             {
               "vendor": "Red Hat",
@@ -42451,7 +42475,7 @@
         },
         {
           "cve_id": "CVE-2026-39835",
-          "date_updated": "2026-07-03T12:05:01.812Z",
+          "date_updated": "2026-07-06T12:05:16.011Z",
           "data_types": [
             "affected",
             "references",
@@ -42857,7 +42881,7 @@
               "product": "OpenShift Lightspeed"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-39979",
@@ -43089,7 +43113,7 @@
               "product": "Red Hat JBoss Enterprise Application Platform Expansion Pack"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-3012",
@@ -43383,7 +43407,7 @@
               "product": "Red Hat Enterprise Linux 9"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-3082",
@@ -43985,7 +44009,7 @@
               "product": "Red Hat Trusted Profile Analyzer"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-3336",
@@ -44275,7 +44299,7 @@
               "product": "Red Hat Advanced Cluster Management for Kubernetes 2"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-3505",
@@ -44617,7 +44641,7 @@
               "product": "Red Hat build of Apache Camel for Spring Boot 4"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-40110",
@@ -45069,7 +45093,7 @@
               "product": "streams for Apache Kafka 2"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-40176",
@@ -45213,7 +45237,7 @@
               "product": "Red Hat Ansible Automation Platform 2.6 for RHEL 10"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-40217",
@@ -45729,7 +45753,7 @@
               "product": "Red Hat Ceph Storage 9"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-40611",
@@ -46521,7 +46545,7 @@
         },
         {
           "cve_id": "CVE-2026-40983",
-          "date_updated": "2026-06-30T12:08:52.336Z",
+          "date_updated": "2026-07-06T12:05:07.335Z",
           "data_types": [
             "affected",
             "references",
@@ -46584,11 +46608,11 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "streams for Apache Kafka 2"
+              "product": "Red Hat OpenShift AI (RHOAI)"
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift AI (RHOAI)"
+              "product": "streams for Apache Kafka 2"
             },
             {
               "vendor": "Red Hat",
@@ -46599,7 +46623,7 @@
               "product": "Red Hat Satellite 6"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-40984",
@@ -46865,7 +46889,7 @@
               "product": "Red Hat JBoss Enterprise Application Platform Expansion Pack"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-41082",
@@ -46997,7 +47021,7 @@
               "product": "Red Hat Enterprise Linux 8"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-41163",
@@ -47289,7 +47313,7 @@
         },
         {
           "cve_id": "CVE-2026-41316",
-          "date_updated": "2026-06-30T12:05:50.673Z",
+          "date_updated": "2026-07-06T12:04:58.083Z",
           "data_types": [
             "affected",
             "references",
@@ -47313,6 +47337,10 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux AppStream E4S (v.9.0)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream E4S (v.9.2)"
             },
             {
               "vendor": "Red Hat",
@@ -47449,7 +47477,7 @@
         },
         {
           "cve_id": "CVE-2026-41567",
-          "date_updated": "2026-06-30T12:06:07.917Z",
+          "date_updated": "2026-07-06T12:05:07.642Z",
           "data_types": [
             "affected",
             "references",
@@ -47508,6 +47536,10 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat OpenShift AI (RHOAI)"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat OpenShift Container Platform 4"
             },
             {
@@ -47517,10 +47549,6 @@
             {
               "vendor": "Red Hat",
               "product": "Multicluster Global Hub"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Red Hat OpenShift AI (RHOAI)"
             }
           ],
           "source": "sadp-pilot"
@@ -47741,7 +47769,7 @@
               "product": "Red Hat OpenShift distributed tracing 3"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-41605",
@@ -48057,7 +48085,7 @@
         },
         {
           "cve_id": "CVE-2026-41672",
-          "date_updated": "2026-06-30T12:08:46.592Z",
+          "date_updated": "2026-07-06T12:05:03.692Z",
           "data_types": [
             "affected",
             "references",
@@ -48080,6 +48108,10 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat OpenShift AI (RHOAI)"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat OpenShift Container Platform 4"
             },
             {
@@ -48089,17 +48121,13 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux 8"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Red Hat OpenShift AI (RHOAI)"
             }
           ],
           "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-41673",
-          "date_updated": "2026-07-01T12:04:43.236Z",
+          "date_updated": "2026-07-06T12:05:02.525Z",
           "data_types": [
             "affected",
             "references",
@@ -48122,15 +48150,15 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat OpenShift AI (RHOAI)"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Self-service automation portal 2"
             },
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux 8"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Red Hat OpenShift AI (RHOAI)"
             },
             {
               "vendor": "Red Hat",
@@ -48187,7 +48215,7 @@
         },
         {
           "cve_id": "CVE-2026-41675",
-          "date_updated": "2026-06-30T12:08:46.008Z",
+          "date_updated": "2026-07-06T12:05:02.235Z",
           "data_types": [
             "affected",
             "references",
@@ -48210,6 +48238,10 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat OpenShift AI (RHOAI)"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat OpenShift Container Platform 4"
             },
             {
@@ -48219,10 +48251,6 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux 8"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Red Hat OpenShift AI (RHOAI)"
             }
           ],
           "source": "sadp-pilot"
@@ -48829,7 +48857,7 @@
               "product": "streams for Apache Kafka 3"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-42039",
@@ -49805,7 +49833,7 @@
               "product": "streams for Apache Kafka 3"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-42055",
@@ -49839,7 +49867,7 @@
         },
         {
           "cve_id": "CVE-2026-42151",
-          "date_updated": "2026-07-02T12:04:56.544Z",
+          "date_updated": "2026-07-06T12:05:02.821Z",
           "data_types": [
             "affected",
             "references",
@@ -49969,7 +49997,7 @@
         },
         {
           "cve_id": "CVE-2026-42154",
-          "date_updated": "2026-07-02T12:04:56.243Z",
+          "date_updated": "2026-07-06T12:04:55.025Z",
           "data_types": [
             "affected",
             "references",
@@ -50223,7 +50251,7 @@
         },
         {
           "cve_id": "CVE-2026-42246",
-          "date_updated": "2026-07-02T12:05:26.468Z",
+          "date_updated": "2026-07-06T12:04:55.310Z",
           "data_types": [
             "affected",
             "references",
@@ -50242,11 +50270,31 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream AUS (v.8.4)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream EUS EXTENSION (v.8.4)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream AUS (v.8.6)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream EUS EXTENSION (v.8.6)"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux AppStream E4S (v.8.8)"
             },
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux AppStream TUS (v.8.8)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream E4S (v.9.2)"
             },
             {
               "vendor": "Red Hat",
@@ -50297,7 +50345,7 @@
         },
         {
           "cve_id": "CVE-2026-42258",
-          "date_updated": "2026-07-02T12:04:44.213Z",
+          "date_updated": "2026-07-06T12:04:55.586Z",
           "data_types": [
             "affected",
             "references",
@@ -50316,11 +50364,31 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream AUS (v.8.4)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream EUS EXTENSION (v.8.4)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream AUS (v.8.6)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream EUS EXTENSION (v.8.6)"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux AppStream E4S (v.8.8)"
             },
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux AppStream TUS (v.8.8)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream E4S (v.9.2)"
             },
             {
               "vendor": "Red Hat",
@@ -50379,7 +50447,7 @@
         },
         {
           "cve_id": "CVE-2026-42264",
-          "date_updated": "2026-07-03T12:04:55.635Z",
+          "date_updated": "2026-07-06T12:04:56.186Z",
           "data_types": [
             "affected",
             "references",
@@ -50399,6 +50467,10 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat OpenShift Service Mesh 3.2"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Cryostat 4"
             },
             {
               "vendor": "Red Hat",
@@ -50438,7 +50510,19 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat build of Apache Camel - HawtIO 4"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat build of Apache Camel for Spring Boot 4"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat build of Apicurio Registry 2"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat build of Apicurio Registry 3"
             },
             {
               "vendor": "Red Hat",
@@ -50490,10 +50574,6 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Cryostat 4"
-            },
-            {
-              "vendor": "Red Hat",
               "product": "Gatekeeper 3"
             },
             {
@@ -50531,25 +50611,13 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Trusted Artifact Signer"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Red Hat build of Apache Camel - HawtIO 4"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Red Hat build of Apache Camel for Spring Boot 4"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Red Hat build of Apicurio Registry 3"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-42266",
-          "date_updated": "2026-06-30T12:08:42.161Z",
+          "date_updated": "2026-07-06T12:05:04.270Z",
           "data_types": [
             "affected",
             "references",
@@ -50645,7 +50713,7 @@
         },
         {
           "cve_id": "CVE-2026-42297",
-          "date_updated": "2026-06-30T12:08:41.571Z",
+          "date_updated": "2026-07-06T12:05:04.811Z",
           "data_types": [
             "affected",
             "references",
@@ -50663,7 +50731,7 @@
         },
         {
           "cve_id": "CVE-2026-42338",
-          "date_updated": "2026-07-02T12:05:13.762Z",
+          "date_updated": "2026-07-06T12:04:56.917Z",
           "data_types": [
             "affected",
             "references",
@@ -50672,6 +50740,10 @@
           ],
           "file_path": "2026/42xxx/CVE-2026-42338.json",
           "affected_products": [
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream (v. 10)"
+            },
             {
               "vendor": "Red Hat",
               "product": "Red Hat Ansible Automation Platform 2.6"
@@ -50742,10 +50814,6 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Enterprise Linux 10"
-            },
-            {
-              "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux 9"
             },
             {
@@ -50783,6 +50851,10 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat build of Apache Camel for Spring Boot 4"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux 10"
             }
           ],
           "source": "sadp-pilot"
@@ -50853,7 +50925,7 @@
         },
         {
           "cve_id": "CVE-2026-42499",
-          "date_updated": "2026-07-03T12:05:10.689Z",
+          "date_updated": "2026-07-06T12:04:51.173Z",
           "data_types": [
             "affected",
             "references",
@@ -51000,6 +51072,10 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AI (RHEL AI) 3"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat Hardened Images"
             },
             {
@@ -51108,10 +51184,6 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Enterprise Linux AI (RHEL AI) 3"
-            },
-            {
-              "vendor": "Red Hat",
               "product": "Red Hat Lightspeed for Runtimes Operator"
             },
             {
@@ -51123,7 +51195,7 @@
         },
         {
           "cve_id": "CVE-2026-42508",
-          "date_updated": "2026-07-03T12:05:07.203Z",
+          "date_updated": "2026-07-06T12:04:47.745Z",
           "data_types": [
             "affected",
             "references",
@@ -51132,6 +51204,10 @@
           ],
           "file_path": "2026/42xxx/CVE-2026-42508.json",
           "affected_products": [
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream (v. 8)"
+            },
             {
               "vendor": "Red Hat",
               "product": "Red Hat Advanced Cluster Security for Kubernetes 4.10"
@@ -51182,10 +51258,6 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Enterprise Linux 8"
-            },
-            {
-              "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux 9"
             },
             {
@@ -51231,6 +51303,10 @@
             {
               "vendor": "Red Hat",
               "product": "Assisted Installer for Red Hat OpenShift Container Platform 2"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux 8"
             },
             {
               "vendor": "Red Hat",
@@ -52069,7 +52145,7 @@
               "product": "Red Hat Satellite 6"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-42789",
@@ -52435,7 +52511,7 @@
               "product": "Red Hat OpenShift Container Platform 4"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-42965",
@@ -53095,7 +53171,7 @@
         },
         {
           "cve_id": "CVE-2026-43125",
-          "date_updated": "2026-07-02T12:05:28.562Z",
+          "date_updated": "2026-07-06T12:04:58.923Z",
           "data_types": [
             "affected",
             "references",
@@ -53104,6 +53180,14 @@
           ],
           "file_path": "2026/43xxx/CVE-2026-43125.json",
           "affected_products": [
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux Server (v. 7 ELS)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux Server Optional (v. 7 ELS)"
+            },
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux AppStream E4S (v.9.2)"
@@ -53127,6 +53211,14 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux BaseOS EUS EXTENSION (v.8.6)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux BaseOS E4S (v.8.8)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux BaseOS TUS (v.8.8)"
             },
             {
               "vendor": "Red Hat",
@@ -53277,7 +53369,7 @@
         },
         {
           "cve_id": "CVE-2026-43198",
-          "date_updated": "2026-07-02T12:05:04.051Z",
+          "date_updated": "2026-07-06T12:04:59.764Z",
           "data_types": [
             "affected",
             "references",
@@ -53313,6 +53405,14 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux BaseOS (v. 10)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux BaseOS E4S (v.8.8)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux BaseOS TUS (v.8.8)"
             },
             {
               "vendor": "Red Hat",
@@ -53641,7 +53741,7 @@
         },
         {
           "cve_id": "CVE-2026-43329",
-          "date_updated": "2026-07-02T12:05:29.162Z",
+          "date_updated": "2026-07-06T12:04:59.486Z",
           "data_types": [
             "affected",
             "references",
@@ -53693,6 +53793,14 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux BaseOS EUS EXTENSION (v.8.6)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux BaseOS E4S (v.8.8)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux BaseOS TUS (v.8.8)"
             },
             {
               "vendor": "Red Hat",
@@ -54413,7 +54521,7 @@
         },
         {
           "cve_id": "CVE-2026-43868",
-          "date_updated": "2026-07-02T12:04:42.402Z",
+          "date_updated": "2026-07-06T12:04:52.009Z",
           "data_types": [
             "affected",
             "references",
@@ -54425,6 +54533,10 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Build of Apache Camel 3.33 for Quarkus 3.33.2.SP1"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat AI Inference Server"
             },
             {
               "vendor": "Red Hat",
@@ -54441,6 +54553,10 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Data Grid 8"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AI (RHEL AI) 3"
             },
             {
               "vendor": "Red Hat",
@@ -54639,7 +54755,7 @@
               "product": "Red Hat Developer Hub"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-43999",
@@ -54705,7 +54821,7 @@
               "product": "Red Hat Developer Hub"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-44005",
@@ -54833,7 +54949,7 @@
               "product": "Red Hat OpenShift AI (RHOAI)"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-44017",
@@ -54869,7 +54985,7 @@
               "product": "Red Hat OpenShift AI (RHOAI)"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-44168",
@@ -54949,7 +55065,7 @@
         },
         {
           "cve_id": "CVE-2026-44172",
-          "date_updated": "2026-07-03T12:05:06.628Z",
+          "date_updated": "2026-07-06T12:05:08.790Z",
           "data_types": [
             "affected",
             "references",
@@ -54972,6 +55088,10 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat Hardened Images"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux 10"
             },
             {
@@ -54981,10 +55101,6 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux 9"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Red Hat Hardened Images"
             },
             {
               "vendor": "Red Hat",
@@ -55383,7 +55499,7 @@
               "product": "Red Hat Openshift Data Foundation 4"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-44293",
@@ -55529,7 +55645,7 @@
               "product": "Red Hat OpenStack Platform 18.0"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-44417",
@@ -55907,11 +56023,11 @@
               "product": "Red Hat OpenShift AI (RHOAI)"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-44486",
-          "date_updated": "2026-07-02T12:04:54.736Z",
+          "date_updated": "2026-07-06T12:05:11.125Z",
           "data_types": [
             "affected",
             "references",
@@ -56097,7 +56213,7 @@
         },
         {
           "cve_id": "CVE-2026-44487",
-          "date_updated": "2026-07-02T12:04:49.309Z",
+          "date_updated": "2026-07-06T12:05:09.657Z",
           "data_types": [
             "affected",
             "references",
@@ -56291,7 +56407,7 @@
         },
         {
           "cve_id": "CVE-2026-44488",
-          "date_updated": "2026-07-02T12:04:54.423Z",
+          "date_updated": "2026-07-06T12:05:09.360Z",
           "data_types": [
             "affected",
             "references",
@@ -56485,7 +56601,7 @@
         },
         {
           "cve_id": "CVE-2026-44492",
-          "date_updated": "2026-07-02T12:04:54.102Z",
+          "date_updated": "2026-07-06T12:05:10.834Z",
           "data_types": [
             "affected",
             "references",
@@ -56675,7 +56791,7 @@
         },
         {
           "cve_id": "CVE-2026-44494",
-          "date_updated": "2026-07-02T12:04:48.955Z",
+          "date_updated": "2026-07-06T12:05:11.435Z",
           "data_types": [
             "affected",
             "references",
@@ -56869,7 +56985,7 @@
         },
         {
           "cve_id": "CVE-2026-44495",
-          "date_updated": "2026-07-02T12:04:53.784Z",
+          "date_updated": "2026-07-06T12:05:10.525Z",
           "data_types": [
             "affected",
             "references",
@@ -57067,7 +57183,7 @@
         },
         {
           "cve_id": "CVE-2026-44496",
-          "date_updated": "2026-07-02T12:04:53.482Z",
+          "date_updated": "2026-07-06T12:05:10.235Z",
           "data_types": [
             "affected",
             "references",
@@ -57261,7 +57377,7 @@
               "product": "Red Hat Satellite 6"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-44513",
@@ -57291,7 +57407,7 @@
         },
         {
           "cve_id": "CVE-2026-44573",
-          "date_updated": "2026-07-03T12:04:48.156Z",
+          "date_updated": "2026-07-06T12:05:05.937Z",
           "data_types": [
             "affected",
             "references",
@@ -57337,7 +57453,7 @@
         },
         {
           "cve_id": "CVE-2026-44574",
-          "date_updated": "2026-07-03T12:04:47.819Z",
+          "date_updated": "2026-07-06T12:05:05.649Z",
           "data_types": [
             "affected",
             "references",
@@ -57429,7 +57545,7 @@
         },
         {
           "cve_id": "CVE-2026-44577",
-          "date_updated": "2026-07-03T12:04:47.244Z",
+          "date_updated": "2026-07-06T12:05:05.359Z",
           "data_types": [
             "affected",
             "references",
@@ -57597,11 +57713,11 @@
               "product": "Red Hat Enterprise Linux CodeReady Linux Builder (v. 9)"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-44724",
-          "date_updated": "2026-07-01T12:05:10.629Z",
+          "date_updated": "2026-07-06T12:05:06.760Z",
           "data_types": [
             "affected",
             "references",
@@ -57631,7 +57747,7 @@
               "product": "Red Hat Advanced Cluster Management for Kubernetes 2"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-44727",
@@ -57653,7 +57769,7 @@
               "product": "Red Hat OpenShift AI (RHOAI)"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-44774",
@@ -57675,7 +57791,7 @@
               "product": "Red Hat OpenShift GitOps"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-44890",
@@ -57717,7 +57833,7 @@
         },
         {
           "cve_id": "CVE-2026-44893",
-          "date_updated": "2026-07-03T12:04:46.386Z",
+          "date_updated": "2026-07-06T12:05:09.951Z",
           "data_types": [
             "affected",
             "references",
@@ -57909,7 +58025,7 @@
               "product": "Red Hat Satellite 6"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-45031",
@@ -58043,7 +58159,7 @@
         },
         {
           "cve_id": "CVE-2026-45292",
-          "date_updated": "2026-07-03T12:05:01.216Z",
+          "date_updated": "2026-07-06T12:05:06.496Z",
           "data_types": [
             "affected",
             "references",
@@ -58094,6 +58210,14 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat AI Inference Server"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AI (RHEL AI) 3"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat JBoss Enterprise Application Platform Expansion Pack"
             },
             {
@@ -58102,15 +58226,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat AI Inference Server"
-            },
-            {
-              "vendor": "Red Hat",
               "product": "Red Hat Ansible Automation Platform 2"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Red Hat Enterprise Linux AI (RHEL AI) 3"
             },
             {
               "vendor": "Red Hat",
@@ -58165,7 +58281,7 @@
         },
         {
           "cve_id": "CVE-2026-45416",
-          "date_updated": "2026-07-03T12:04:45.801Z",
+          "date_updated": "2026-07-06T12:05:15.427Z",
           "data_types": [
             "affected",
             "references",
@@ -58279,11 +58395,11 @@
               "product": "Red Hat Single Sign-On 7"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-45447",
-          "date_updated": "2026-07-02T12:05:25.879Z",
+          "date_updated": "2026-07-06T12:04:54.450Z",
           "data_types": [
             "affected",
             "references",
@@ -58295,6 +58411,10 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux AppStream (v. 10)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream EUS (v.9.6)"
             },
             {
               "vendor": "Red Hat",
@@ -58361,7 +58481,7 @@
               "product": "Red Hat Enterprise Linux 10"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-45490",
@@ -58483,7 +58603,7 @@
         },
         {
           "cve_id": "CVE-2026-45674",
-          "date_updated": "2026-07-03T12:04:45.507Z",
+          "date_updated": "2026-07-06T12:05:15.143Z",
           "data_types": [
             "affected",
             "references",
@@ -58811,7 +58931,7 @@
               "product": "Red Hat JBoss Enterprise Application Platform Expansion Pack"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-45829",
@@ -58899,7 +59019,7 @@
         },
         {
           "cve_id": "CVE-2026-45852",
-          "date_updated": "2026-07-02T12:05:27.975Z",
+          "date_updated": "2026-07-06T12:04:58.649Z",
           "data_types": [
             "affected",
             "references",
@@ -58908,6 +59028,14 @@
           ],
           "file_path": "2026/45xxx/CVE-2026-45852.json",
           "affected_products": [
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux Server (v. 7 ELS)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux Server Optional (v. 7 ELS)"
+            },
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux AppStream E4S (v.9.4)"
@@ -58931,6 +59059,14 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux BaseOS EUS EXTENSION (v.8.6)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux BaseOS E4S (v.8.8)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux BaseOS TUS (v.8.8)"
             },
             {
               "vendor": "Red Hat",
@@ -59219,7 +59355,7 @@
               "product": "Red Hat OpenShift Container Platform 4"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-45998",
@@ -59389,7 +59525,7 @@
         },
         {
           "cve_id": "CVE-2026-46090",
-          "date_updated": "2026-07-02T12:05:03.741Z",
+          "date_updated": "2026-07-06T12:04:58.380Z",
           "data_types": [
             "affected",
             "references",
@@ -59398,6 +59534,14 @@
           ],
           "file_path": "2026/46xxx/CVE-2026-46090.json",
           "affected_products": [
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux Server (v. 7 ELS)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux Server Optional (v. 7 ELS)"
+            },
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux AppStream EUS (v. 10.0)"
@@ -59441,6 +59585,14 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux BaseOS EUS EXTENSION (v.8.6)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux BaseOS E4S (v.8.8)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux BaseOS TUS (v.8.8)"
             },
             {
               "vendor": "Red Hat",
@@ -59581,7 +59733,7 @@
               "product": "Red Hat Enterprise Linux 8"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-46116",
@@ -59615,7 +59767,7 @@
               "product": "Red Hat Enterprise Linux 6"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-46117",
@@ -59847,7 +59999,7 @@
               "product": "Red Hat Enterprise Linux 6"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-46145",
@@ -60121,7 +60273,7 @@
               "product": "Red Hat Enterprise Linux 6"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-46176",
@@ -60235,7 +60387,7 @@
         },
         {
           "cve_id": "CVE-2026-46181",
-          "date_updated": "2026-07-02T12:05:03.421Z",
+          "date_updated": "2026-07-06T12:04:59.194Z",
           "data_types": [
             "affected",
             "references",
@@ -60263,6 +60415,14 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux BaseOS (v. 8)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux BaseOS E4S (v.8.8)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux BaseOS TUS (v.8.8)"
             },
             {
               "vendor": "Red Hat",
@@ -60493,7 +60653,7 @@
               "product": "Red Hat Enterprise Linux 7"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-46227",
@@ -60627,7 +60787,7 @@
         },
         {
           "cve_id": "CVE-2026-46243",
-          "date_updated": "2026-07-02T12:05:08.721Z",
+          "date_updated": "2026-07-06T12:05:09.074Z",
           "data_types": [
             "affected",
             "references",
@@ -60811,10 +60971,6 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux Real Time (v. 9)"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Red Hat Enterprise Linux 7"
             },
             {
               "vendor": "Red Hat",
@@ -62073,11 +62229,11 @@
               "product": "Red Hat OpenShift Container Platform 4"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-46595",
-          "date_updated": "2026-07-03T12:05:06.338Z",
+          "date_updated": "2026-07-06T12:04:51.451Z",
           "data_types": [
             "affected",
             "references",
@@ -62168,11 +62324,11 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Enterprise Linux 8"
+              "product": "Red Hat Enterprise Linux 9"
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Enterprise Linux 9"
+              "product": "Red Hat Enterprise Linux AI (RHEL AI) 3"
             },
             {
               "vendor": "Red Hat",
@@ -62233,6 +62389,10 @@
             {
               "vendor": "Red Hat",
               "product": "Zero Trust Workload Identity Manager - Tech Preview"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux 8"
             },
             {
               "vendor": "Red Hat",
@@ -62377,7 +62537,7 @@
               "product": "Red Hat OpenShift AI (RHOAI)"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-47162",
@@ -62479,7 +62639,7 @@
         },
         {
           "cve_id": "CVE-2026-47691",
-          "date_updated": "2026-07-03T12:04:45.194Z",
+          "date_updated": "2026-07-06T12:05:14.858Z",
           "data_types": [
             "affected",
             "references",
@@ -62705,7 +62865,7 @@
         },
         {
           "cve_id": "CVE-2026-48043",
-          "date_updated": "2026-07-03T12:04:44.900Z",
+          "date_updated": "2026-07-06T12:05:12.289Z",
           "data_types": [
             "affected",
             "references",
@@ -62803,11 +62963,11 @@
               "product": "Red Hat Single Sign-On 7"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-48059",
-          "date_updated": "2026-07-03T12:04:44.603Z",
+          "date_updated": "2026-07-06T12:05:12.570Z",
           "data_types": [
             "affected",
             "references",
@@ -63003,7 +63163,7 @@
         },
         {
           "cve_id": "CVE-2026-48526",
-          "date_updated": "2026-07-02T12:04:56.850Z",
+          "date_updated": "2026-07-06T12:04:57.498Z",
           "data_types": [
             "affected",
             "references",
@@ -63022,11 +63182,35 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream EUS (v. 10.0)"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux AppStream (v. 10)"
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream E4S (v.9.2)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream E4S (v.9.4)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream EUS (v.9.6)"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux AppStream (v. 9)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux High Availability E4S (v.9.2)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux High Availability E4S (v.9.4)"
             },
             {
               "vendor": "Red Hat",
@@ -63051,6 +63235,14 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Quay 3.9"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux Resilient Storage E4S (v.9.2)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux Resilient Storage E4S (v.9.4)"
             },
             {
               "vendor": "Red Hat",
@@ -63243,7 +63435,7 @@
         },
         {
           "cve_id": "CVE-2026-48779",
-          "date_updated": "2026-07-02T12:05:02.554Z",
+          "date_updated": "2026-07-06T12:05:15.724Z",
           "data_types": [
             "affected",
             "references",
@@ -63471,11 +63663,11 @@
               "product": "Red Hat Satellite 6"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-48933",
-          "date_updated": "2026-06-30T12:09:57.110Z",
+          "date_updated": "2026-07-06T12:04:56.467Z",
           "data_types": [
             "affected",
             "references",
@@ -63486,11 +63678,11 @@
           "affected_products": [
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Hardened Images"
+              "product": "Red Hat Enterprise Linux AppStream (v. 10)"
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Enterprise Linux 10"
+              "product": "Red Hat Hardened Images"
             },
             {
               "vendor": "Red Hat",
@@ -63501,7 +63693,7 @@
               "product": "Red Hat Enterprise Linux 9"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-48962",
@@ -63579,7 +63771,7 @@
         },
         {
           "cve_id": "CVE-2026-49121",
-          "date_updated": "2026-06-30T12:09:56.718Z",
+          "date_updated": "2026-07-06T12:05:08.215Z",
           "data_types": [
             "affected",
             "references",
@@ -63591,6 +63783,10 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat AI Inference Server"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AI (RHEL AI) 3"
             },
             {
               "vendor": "Red Hat",
@@ -64179,7 +64375,7 @@
               "product": "Red Hat Enterprise Linux 7"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-4153",
@@ -65007,7 +65203,7 @@
               "product": "Red Hat OpenShift Container Platform 4"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-4519",
@@ -65285,7 +65481,7 @@
               "product": "Red Hat Quay 3.9"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-4599",
@@ -65593,7 +65789,7 @@
               "product": "Red Hat Trusted Artifact Signer"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-4684",
@@ -66157,7 +66353,7 @@
               "product": "Red Hat Enterprise Linux 7"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-4690",
@@ -66439,7 +66635,7 @@
               "product": "Red Hat Enterprise Linux 7"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-4693",
@@ -67553,11 +67749,11 @@
               "product": "Red Hat Enterprise Linux 6"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-4786",
-          "date_updated": "2026-06-30T12:10:36.349Z",
+          "date_updated": "2026-07-06T12:05:01.259Z",
           "data_types": [
             "affected",
             "references",
@@ -67752,14 +67948,10 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Enterprise Linux 7"
-            },
-            {
-              "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux 8"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-4800",
@@ -68769,11 +68961,11 @@
               "product": "Red Hat Trusted Profile Analyzer"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-50010",
-          "date_updated": "2026-07-03T12:04:44.282Z",
+          "date_updated": "2026-07-06T12:05:14.564Z",
           "data_types": [
             "affected",
             "references",
@@ -69273,7 +69465,7 @@
         },
         {
           "cve_id": "CVE-2026-50559",
-          "date_updated": "2026-07-03T12:04:43.993Z",
+          "date_updated": "2026-07-06T12:05:07.044Z",
           "data_types": [
             "affected",
             "references",
@@ -69667,7 +69859,7 @@
         },
         {
           "cve_id": "CVE-2026-52910",
-          "date_updated": "2026-06-30T12:09:47.476Z",
+          "date_updated": "2026-07-06T12:05:14.282Z",
           "data_types": [
             "affected",
             "references",
@@ -69905,7 +70097,7 @@
         },
         {
           "cve_id": "CVE-2026-52955",
-          "date_updated": "2026-06-30T12:09:43.286Z",
+          "date_updated": "2026-07-06T12:05:11.717Z",
           "data_types": [
             "affected",
             "references",
@@ -70279,7 +70471,7 @@
         },
         {
           "cve_id": "CVE-2026-53006",
-          "date_updated": "2026-06-30T12:09:38.306Z",
+          "date_updated": "2026-07-06T12:05:11.991Z",
           "data_types": [
             "affected",
             "references",
@@ -70302,14 +70494,14 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Enterprise Linux 7"
+              "product": "Red Hat Enterprise Linux 6"
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Enterprise Linux 6"
+              "product": "Red Hat Enterprise Linux 7"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-53009",
@@ -70381,7 +70573,7 @@
         },
         {
           "cve_id": "CVE-2026-53033",
-          "date_updated": "2026-06-30T12:09:37.117Z",
+          "date_updated": "2026-07-06T12:05:14.002Z",
           "data_types": [
             "affected",
             "references",
@@ -70411,7 +70603,7 @@
               "product": "Red Hat Enterprise Linux 8"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-53059",
@@ -70479,11 +70671,11 @@
               "product": "Red Hat Enterprise Linux 7"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-53081",
-          "date_updated": "2026-06-30T12:09:36.073Z",
+          "date_updated": "2026-07-06T12:05:13.713Z",
           "data_types": [
             "affected",
             "references",
@@ -70513,11 +70705,11 @@
               "product": "Red Hat Enterprise Linux 8"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-53085",
-          "date_updated": "2026-06-30T12:09:35.787Z",
+          "date_updated": "2026-07-06T12:05:13.411Z",
           "data_types": [
             "affected",
             "references",
@@ -70551,7 +70743,7 @@
         },
         {
           "cve_id": "CVE-2026-53090",
-          "date_updated": "2026-06-30T12:09:35.488Z",
+          "date_updated": "2026-07-06T12:05:13.142Z",
           "data_types": [
             "affected",
             "references",
@@ -70619,7 +70811,7 @@
         },
         {
           "cve_id": "CVE-2026-53092",
-          "date_updated": "2026-06-30T12:09:34.746Z",
+          "date_updated": "2026-07-06T12:05:12.874Z",
           "data_types": [
             "affected",
             "references",
@@ -70717,7 +70909,7 @@
               "product": "Red Hat Enterprise Linux 6"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-53148",
@@ -70751,7 +70943,7 @@
               "product": "Red Hat Enterprise Linux 9"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-53153",
@@ -70989,7 +71181,7 @@
               "product": "Red Hat Enterprise Linux 8"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-53203",
@@ -71023,7 +71215,7 @@
               "product": "Red Hat Enterprise Linux 8"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-53277",
@@ -71091,7 +71283,7 @@
               "product": "Red Hat Enterprise Linux 8"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-53322",
@@ -71143,7 +71335,7 @@
               "product": "OpenShift Developer Tools and Services"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-53437",
@@ -71161,7 +71353,7 @@
               "product": "OpenShift Developer Tools and Services"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-53460",
@@ -71477,7 +71669,7 @@
         },
         {
           "cve_id": "CVE-2026-54371",
-          "date_updated": "2026-07-03T12:05:00.638Z",
+          "date_updated": "2026-07-06T12:05:19.002Z",
           "data_types": [
             "affected",
             "references",
@@ -71519,7 +71711,7 @@
         },
         {
           "cve_id": "CVE-2026-54513",
-          "date_updated": "2026-07-03T12:04:58.424Z",
+          "date_updated": "2026-07-06T12:05:19.923Z",
           "data_types": [
             "affected",
             "references",
@@ -71675,7 +71867,7 @@
         },
         {
           "cve_id": "CVE-2026-56208",
-          "date_updated": "2026-06-30T12:10:44.980Z",
+          "date_updated": "2026-07-06T12:05:18.269Z",
           "data_types": [
             "affected",
             "references",
@@ -71690,11 +71882,19 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat AI Inference Server"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux 9"
             },
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux AI (RHEL AI) 3"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat OpenShift AI (RHOAI)"
             },
             {
               "vendor": "Red Hat",
@@ -71705,7 +71905,7 @@
         },
         {
           "cve_id": "CVE-2026-56209",
-          "date_updated": "2026-06-30T12:10:44.529Z",
+          "date_updated": "2026-07-06T12:05:17.990Z",
           "data_types": [
             "affected",
             "references",
@@ -71720,6 +71920,10 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat AI Inference Server"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux 10"
             },
             {
@@ -71729,13 +71933,17 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux AI (RHEL AI) 3"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat OpenShift AI (RHOAI)"
             }
           ],
           "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-56210",
-          "date_updated": "2026-06-30T12:10:44.130Z",
+          "date_updated": "2026-07-06T12:05:17.142Z",
           "data_types": [
             "affected",
             "references",
@@ -71750,6 +71958,10 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat AI Inference Server"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux 10"
             },
             {
@@ -71759,13 +71971,17 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux AI (RHEL AI) 3"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat OpenShift AI (RHOAI)"
             }
           ],
           "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-56211",
-          "date_updated": "2026-06-30T12:10:43.697Z",
+          "date_updated": "2026-07-06T12:05:16.295Z",
           "data_types": [
             "affected",
             "references",
@@ -71780,6 +71996,10 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat AI Inference Server"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux 10"
             },
             {
@@ -71789,6 +72009,10 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux AI (RHEL AI) 3"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat OpenShift AI (RHOAI)"
             }
           ],
           "source": "sadp-pilot"
@@ -71903,7 +72127,7 @@
         },
         {
           "cve_id": "CVE-2026-58049",
-          "date_updated": "2026-06-30T12:10:42.134Z",
+          "date_updated": "2026-07-06T12:05:17.719Z",
           "data_types": [
             "affected",
             "references",
@@ -71914,6 +72138,10 @@
           "affected_products": [
             {
               "vendor": "Red Hat",
+              "product": "Red Hat AI Inference Server"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux AI (RHEL AI) 3"
             },
             {
@@ -71921,7 +72149,7 @@
               "product": "Red Hat OpenShift AI (RHOAI)"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-5081",
@@ -71939,7 +72167,7 @@
               "product": "Red Hat Hardened Images"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-5172",
@@ -72127,7 +72355,7 @@
         },
         {
           "cve_id": "CVE-2026-5241",
-          "date_updated": "2026-07-02T12:04:55.638Z",
+          "date_updated": "2026-07-06T12:05:07.933Z",
           "data_types": [
             "affected",
             "references",
@@ -72161,7 +72389,7 @@
               "product": "OpenShift Lightspeed"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-5367",
@@ -72499,7 +72727,7 @@
               "product": "streams for Apache Kafka 3"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-5598",
@@ -72683,7 +72911,7 @@
               "product": "Red Hat Enterprise Linux 9"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-5731",
@@ -73033,7 +73261,7 @@
               "product": "Red Hat Enterprise Linux 9"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-5795",
@@ -73079,7 +73307,7 @@
               "product": "Red Hat OpenShift Dev Spaces"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-5807",
@@ -73235,7 +73463,7 @@
               "product": "Red Hat Enterprise Linux 9"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-6100",
@@ -73643,7 +73871,7 @@
         },
         {
           "cve_id": "CVE-2026-6322",
-          "date_updated": "2026-07-03T12:05:08.078Z",
+          "date_updated": "2026-07-06T12:05:03.410Z",
           "data_types": [
             "affected",
             "references",
@@ -73813,7 +74041,7 @@
               "product": "Red Hat OpenShift Virtualization 4"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-6384",
@@ -73843,7 +74071,7 @@
               "product": "Red Hat Enterprise Linux 9"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-6388",
@@ -73865,7 +74093,7 @@
         },
         {
           "cve_id": "CVE-2026-6473",
-          "date_updated": "2026-07-02T12:04:58.343Z",
+          "date_updated": "2026-07-06T12:04:54.152Z",
           "data_types": [
             "affected",
             "references",
@@ -73967,7 +74195,7 @@
         },
         {
           "cve_id": "CVE-2026-6477",
-          "date_updated": "2026-07-02T12:04:58.046Z",
+          "date_updated": "2026-07-06T12:04:53.805Z",
           "data_types": [
             "affected",
             "references",
@@ -74050,6 +74278,10 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux 10"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux 6"
             },
             {
@@ -74062,14 +74294,18 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux 9"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Self-service automation portal 2"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-6478",
-          "date_updated": "2026-07-02T12:04:57.747Z",
+          "date_updated": "2026-07-06T12:04:53.476Z",
           "data_types": [
             "affected",
             "references",
@@ -74185,7 +74421,7 @@
               "product": "Red Hat OpenShift AI (RHOAI)"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-6654",
@@ -74265,7 +74501,7 @@
         },
         {
           "cve_id": "CVE-2026-6734",
-          "date_updated": "2026-07-02T12:05:20.820Z",
+          "date_updated": "2026-07-06T12:05:00.664Z",
           "data_types": [
             "affected",
             "references",
@@ -74274,6 +74510,10 @@
           ],
           "file_path": "2026/6xxx/CVE-2026-6734.json",
           "affected_products": [
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream (v. 10)"
+            },
             {
               "vendor": "Red Hat",
               "product": "Cluster Observability Operator 1.5.0"
@@ -74297,10 +74537,6 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Developer Hub"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Red Hat Enterprise Linux 10"
             },
             {
               "vendor": "Red Hat",
@@ -74333,6 +74569,10 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat AMQ Broker 7"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux 10"
             }
           ],
           "source": "sadp-pilot"
@@ -74605,7 +74845,7 @@
               "product": "Red Hat Enterprise Linux 7"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-6749",
@@ -74695,7 +74935,7 @@
               "product": "Red Hat Enterprise Linux 7"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-6750",
@@ -75401,7 +75641,7 @@
               "product": "Red Hat Enterprise Linux 7"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-6857",
@@ -75457,7 +75697,7 @@
               "product": "Red Hat Enterprise Linux AI (RHEL AI) 3"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-6893",
@@ -75507,7 +75747,7 @@
               "product": "Red Hat OpenShift Container Platform 4"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-6918",
@@ -76147,7 +76387,7 @@
               "product": "Red Hat build of Keycloak 26.4.12"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-7568",
@@ -76185,7 +76425,7 @@
               "product": "Red Hat Hardened Images"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-7598",
@@ -76603,7 +76843,7 @@
         },
         {
           "cve_id": "CVE-2026-8357",
-          "date_updated": "2026-06-30T12:10:54.667Z",
+          "date_updated": "2026-07-06T12:04:49.155Z",
           "data_types": [
             "affected",
             "references",
@@ -76614,6 +76854,14 @@
           "affected_products": [
             {
               "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream (v. 8)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux CRB (v. 8)"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux 6"
             },
             {
@@ -76622,14 +76870,10 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Enterprise Linux 8"
-            },
-            {
-              "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux 9"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-8388",
@@ -77067,7 +77311,7 @@
               "product": "Red Hat Enterprise Linux 7"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-8643",
@@ -77227,7 +77471,7 @@
               "product": "Red Hat Enterprise Linux 9"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-8946",
@@ -77459,7 +77703,7 @@
               "product": "Red Hat Enterprise Linux 9"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-8975",
@@ -77943,7 +78187,7 @@
         },
         {
           "cve_id": "CVE-2026-9697",
-          "date_updated": "2026-07-02T12:05:20.232Z",
+          "date_updated": "2026-07-06T12:05:00.365Z",
           "data_types": [
             "affected",
             "references",
@@ -77952,6 +78196,10 @@
           ],
           "file_path": "2026/9xxx/CVE-2026-9697.json",
           "affected_products": [
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream (v. 10)"
+            },
             {
               "vendor": "Red Hat",
               "product": "Cluster Observability Operator 1.5.0"
@@ -77975,10 +78223,6 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Developer Hub"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Red Hat Enterprise Linux 10"
             },
             {
               "vendor": "Red Hat",
@@ -78011,6 +78255,10 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat AMQ Broker 7"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux 10"
             }
           ],
           "source": "sadp-pilot"
@@ -78047,7 +78295,7 @@
               "product": "Red Hat Enterprise Linux 9"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-9795",
@@ -79651,7 +79899,7 @@
               "product": "SCALANCE W788-2 RJ45"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2020-26143",
@@ -80243,7 +80491,7 @@
               "product": "SIMATIC S7-1500 TM MFP - GNU/Linux subsystem"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2021-3712",
@@ -81131,7 +81379,7 @@
               "product": "SIMATIC S7-1500 TM MFP - GNU/Linux subsystem"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2021-47107",
@@ -83503,7 +83751,7 @@
               "product": "SIMATIC RTLS Locating Manager"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2022-43945",
@@ -83771,7 +84019,7 @@
               "product": "SIPLUS S7-1500 CPU 1518-4 PN/DP MFP"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2023-3019",
@@ -83827,7 +84075,7 @@
               "product": "RUGGEDCOM ROX RX5000"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2023-44487",
@@ -84439,7 +84687,7 @@
               "product": "SIPLUS S7-1500 CPU 1518-4 PN/DP MFP"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2023-6779",
@@ -84515,7 +84763,7 @@
               "product": "SIPLUS S7-1500 CPU 1518-4 PN/DP MFP"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2023-6931",
@@ -84595,7 +84843,7 @@
               "product": "SIPLUS S7-1500 CPU 1518-4 PN/DP MFP"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2024-0727",
@@ -84755,7 +85003,7 @@
               "product": "RUGGEDCOM ROX RX5000"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2024-22099",
@@ -84827,7 +85075,7 @@
               "product": "RUGGEDCOM ROX RX5000"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2024-23307",
@@ -85179,7 +85427,7 @@
               "product": "SIMATIC S7-1500 TM MFP - GNU/Linux subsystem"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2024-26859",
@@ -85487,7 +85735,7 @@
               "product": "SIMATIC S7-1500 TM MFP - GNU/Linux subsystem"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2024-26897",
@@ -85663,7 +85911,7 @@
               "product": "SIPLUS S7-1500 CPU 1518-4 PN/DP MFP"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2024-26925",
@@ -85839,7 +86087,7 @@
               "product": "SIMATIC S7-1500 TM MFP - GNU/Linux subsystem"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2024-26951",
@@ -85871,7 +86119,7 @@
               "product": "SIMATIC S7-1500 TM MFP - GNU/Linux subsystem"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2024-26960",
@@ -86051,7 +86299,7 @@
               "product": "SIMATIC S7-1500 TM MFP - GNU/Linux subsystem"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2024-27013",
@@ -86119,7 +86367,7 @@
               "product": "SIPLUS S7-1500 CPU 1518-4 PN/DP MFP"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2024-27024",
@@ -86151,7 +86399,7 @@
               "product": "SIMATIC S7-1500 TM MFP - GNU/Linux subsystem"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2024-27038",
@@ -86663,7 +86911,7 @@
               "product": "SIPLUS S7-1500 CPU 1518-4 PN/DP MFP"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2024-2961",
@@ -86687,7 +86935,7 @@
               "product": "SIPLUS S7-1500 CPU 1518-4 PN/DP MFP"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2024-32122",
@@ -87127,7 +87375,7 @@
               "product": "SIMATIC S7-1500 TM MFP - GNU/Linux subsystem"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2024-35888",
@@ -87251,7 +87499,7 @@
               "product": "SIMATIC S7-1500 TM MFP - GNU/Linux subsystem"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2024-35900",
@@ -87671,7 +87919,7 @@
               "product": "SIMATIC S7-1500 TM MFP - GNU/Linux subsystem"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2024-35967",
@@ -87875,7 +88123,7 @@
               "product": "SIMATIC S7-1500 TM MFP - GNU/Linux subsystem"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2024-35990",
@@ -88507,7 +88755,7 @@
               "product": "SIMATIC S7-1500 TM MFP - GNU/Linux subsystem"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2024-36959",
@@ -88535,7 +88783,7 @@
               "product": "SIMATIC S7-1500 TM MFP - GNU/Linux subsystem"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2024-36974",
@@ -88655,7 +88903,7 @@
               "product": "SIPLUS S7-1500 CPU 1518-4 PN/DP MFP"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2024-37371",
@@ -89107,7 +89355,7 @@
               "product": "SIMATIC S7-1500 TM MFP - GNU/Linux subsystem"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2024-38619",
@@ -91775,7 +92023,7 @@
               "product": "SIMATIC S7-1500 TM MFP - GNU/Linux subsystem"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2024-40978",
@@ -91903,7 +92151,7 @@
               "product": "SIMATIC S7-1500 TM MFP - GNU/Linux subsystem"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2024-41000",
@@ -92155,7 +92403,7 @@
               "product": "SIPLUS S7-1500 CPU 1518-4 PN/DP MFP"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2024-42082",
@@ -92411,7 +92659,7 @@
               "product": "SIMATIC S7-1500 TM MFP - GNU/Linux subsystem"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2024-42292",
@@ -92879,7 +93127,7 @@
               "product": "SIMATIC S7-1500 TM MFP - GNU/Linux subsystem"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2024-44987",
@@ -93103,7 +93351,7 @@
               "product": "SIPLUS S7-1500 CPU 1518-4 PN/DP MFP"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2024-46679",
@@ -93335,7 +93583,7 @@
               "product": "SIMATIC S7-1500 TM MFP - GNU/Linux subsystem"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2024-46854",
@@ -93687,7 +93935,7 @@
               "product": "SIMATIC S7-1500 TM MFP - GNU/Linux subsystem"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2024-47707",
@@ -93951,7 +94199,7 @@
               "product": "SIMATIC S7-1500 TM MFP - GNU/Linux subsystem"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2024-49851",
@@ -94379,7 +94627,7 @@
               "product": "SIPLUS S7-1500 CPU 1518-4 PN/DP MFP"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2024-49955",
@@ -94527,7 +94775,7 @@
               "product": "Teamcenter V2512"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2024-50001",
@@ -94859,7 +95107,7 @@
               "product": "SIPLUS S7-1500 CPU 1518-4 PN/DP MFP"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2024-50046",
@@ -95043,7 +95291,7 @@
               "product": "SIMATIC S7-1500 TM MFP - GNU/Linux subsystem"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2024-50151",
@@ -95547,7 +95795,7 @@
               "product": "SIPLUS S7-1500 CPU 1518-4 PN/DP MFP"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2024-55599",
@@ -95563,7 +95811,7 @@
               "product": "RUGGEDCOM APE1808"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2024-56631",
@@ -95651,7 +95899,7 @@
               "product": "RUGGEDCOM ROX RX5000"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2024-57258",
@@ -95847,7 +96095,7 @@
               "product": "SIMATIC S7-1500 TM MFP - GNU/Linux subsystem"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2024-57951",
@@ -95979,7 +96227,7 @@
               "product": "SIPLUS S7-1500 CPU 1518-4 PN/DP MFP"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2024-58005",
@@ -96043,7 +96291,7 @@
               "product": "SIMATIC S7-1500 TM MFP - GNU/Linux subsystem"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2024-58016",
@@ -96423,7 +96671,7 @@
               "product": "SIPLUS S7-1500 CPU 1518-4 PN/DP MFP"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2025-10966",
@@ -96703,7 +96951,7 @@
               "product": "RUGGEDCOM RST2428P"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-14831",
@@ -97583,7 +97831,7 @@
               "product": "RUGGEDCOM RST2428P"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2025-1376",
@@ -97855,7 +98103,7 @@
               "product": "SIPLUS S7-1500 CPU 1518-4 PN/DP MFP"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2025-21701",
@@ -98255,7 +98503,7 @@
               "product": "SIMATIC S7-1500 TM MFP - GNU/Linux subsystem"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2025-21764",
@@ -98455,7 +98703,7 @@
               "product": "SIPLUS S7-1500 CPU 1518-4 PN/DP MFP"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2025-21806",
@@ -98475,7 +98723,7 @@
               "product": "SIMATIC S7-1500 TM MFP - GNU/Linux subsystem"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2025-21814",
@@ -98615,7 +98863,7 @@
               "product": "SIMATIC S7-1500 TM MFP - GNU/Linux subsystem"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-21862",
@@ -98807,7 +99055,7 @@
               "product": "RUGGEDCOM APE1808"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2025-25250",
@@ -98971,7 +99219,7 @@
               "product": "SIPLUS IPC427E"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2025-31115",
@@ -99027,7 +99275,7 @@
               "product": "RUGGEDCOM APE1808"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2025-31514",
@@ -99107,7 +99355,7 @@
               "product": "SIMATIC CN 4100"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2025-37968",
@@ -99363,7 +99611,7 @@
               "product": "SIPLUS S7-1500 CPU 1518-4 PN/DP MFP"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2025-38198",
@@ -99867,7 +100115,7 @@
               "product": "SIPLUS S7-1500 CPU 1518-4 PN/DP MFP"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2025-38457",
@@ -100011,7 +100259,7 @@
               "product": "SIPLUS S7-1500 CPU 1518-4 PN/DP MFP"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2025-38477",
@@ -100195,7 +100443,7 @@
               "product": "SIMATIC CN 4100"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-38614",
@@ -100335,7 +100583,7 @@
               "product": "SIMATIC CN 4100"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-38684",
@@ -100423,7 +100671,7 @@
               "product": "SIPLUS S7-1500 CPU 1518-4 PN/DP MFP"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-38693",
@@ -100639,7 +100887,7 @@
               "product": "SIMATIC CN 4100"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2025-38708",
@@ -100667,7 +100915,7 @@
               "product": "SIPLUS S7-1500 CPU 1518-4 PN/DP MFP"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-38711",
@@ -100683,7 +100931,7 @@
               "product": "SIMATIC CN 4100"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2025-38712",
@@ -100835,7 +101083,7 @@
               "product": "SIMATIC CN 4100"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2025-38727",
@@ -101331,7 +101579,7 @@
               "product": "SIMATIC CN 4100"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2025-39713",
@@ -101347,7 +101595,7 @@
               "product": "SIMATIC CN 4100"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2025-39714",
@@ -101627,7 +101875,7 @@
               "product": "SIMATIC CN 4100"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2025-39760",
@@ -101643,7 +101891,7 @@
               "product": "SIMATIC CN 4100"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2025-39766",
@@ -101971,7 +102219,7 @@
               "product": "SIMATIC CN 4100"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2025-39808",
@@ -103011,7 +103259,7 @@
               "product": "SIPLUS S7-1500 CPU 1518-4 PN/DP MFP"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-3576",
@@ -103283,7 +103531,7 @@
               "product": "RUGGEDCOM RST2428P"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2025-40271",
@@ -103443,7 +103691,7 @@
               "product": "RUGGEDCOM APE1808"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2025-40897",
@@ -103507,7 +103755,7 @@
               "product": "RUGGEDCOM APE1808"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2025-40901",
@@ -103855,7 +104103,7 @@
               "product": "RUGGEDCOM RST2428P"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2025-4373",
@@ -104015,7 +104263,7 @@
               "product": "RUGGEDCOM APE1808"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-53843",
@@ -104143,7 +104391,7 @@
               "product": "RUGGEDCOM APE1808"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2025-58413",
@@ -104295,7 +104543,7 @@
               "product": "RUGGEDCOM APE1808"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-5244",
@@ -104351,7 +104599,7 @@
               "product": "SIPLUS S7-1500 CPU 1518-4 PN/DP MFP"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2025-60876",
@@ -104383,7 +104631,7 @@
               "product": "RUGGEDCOM APE1808"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-61748",
@@ -104399,7 +104647,7 @@
               "product": "SIMATIC CN 4100"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-61795",
@@ -104531,7 +104779,7 @@
               "product": "SIMATIC S7-1500 TM MFP - GNU/Linux subsystem"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-69418",
@@ -104579,7 +104827,7 @@
               "product": "SIMATIC S7-1500 TM MFP - GNU/Linux subsystem"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2025-69421",
@@ -104779,7 +105027,7 @@
               "product": "SCALANCE XRM334 (2x230V AC, 2x10G, 24xSFP, 8xSFP+)"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2025-6170",
@@ -104795,7 +105043,7 @@
               "product": "RUGGEDCOM RST2428P"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-6395",
@@ -104871,7 +105119,7 @@
               "product": "RUGGEDCOM RST2428P"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2025-71188",
@@ -104951,7 +105199,7 @@
               "product": "RUGGEDCOM RST2428P"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-7425",
@@ -105083,7 +105331,7 @@
               "product": "SIPLUS S7-1500 CPU 1518-4 PN/DP MFP"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-8224",
@@ -105143,7 +105391,7 @@
               "product": "SIMATIC CN 4100"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-9086",
@@ -105599,7 +105847,7 @@
               "product": "RUGGEDCOM APE1808"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-0258",
@@ -105647,7 +105895,7 @@
               "product": "RUGGEDCOM APE1808"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-0264",
@@ -105679,7 +105927,7 @@
               "product": "RUGGEDCOM APE1808"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-0300",
@@ -105695,7 +105943,7 @@
               "product": "RUGGEDCOM APE1808"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-1484",
@@ -105727,7 +105975,7 @@
               "product": "RUGGEDCOM RST2428P"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-21925",
@@ -105743,7 +105991,7 @@
               "product": "SIMATIC CN 4100"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-21932",
@@ -105759,7 +106007,7 @@
               "product": "SIMATIC CN 4100"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-21933",
@@ -106083,7 +106331,7 @@
               "product": "RUGGEDCOM RST2428P"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-23228",
@@ -106355,7 +106603,7 @@
               "product": "SIMATIC S7-1500 TM MFP - GNU/Linux subsystem"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-2673",
@@ -106463,7 +106711,7 @@
               "product": "RUGGEDCOM RST2428P"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-40175",
@@ -106479,7 +106727,7 @@
               "product": "gWAP"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         }
       ]
     }
