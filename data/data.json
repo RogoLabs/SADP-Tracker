@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-07T09:46:27.063527+00:00",
+  "generated_at": "2026-07-07T14:41:06.760116+00:00",
   "suppliers": [
     {
       "short_name": "redhat-SADP",
@@ -593,7 +593,7 @@
         },
         {
           "cve_id": "CVE-2025-10263",
-          "date_updated": "2026-07-03T12:05:05.282Z",
+          "date_updated": "2026-07-07T12:05:00.356Z",
           "data_types": [
             "affected",
             "references",
@@ -608,7 +608,15 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream (v. 9)"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux BaseOS (v. 10)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux BaseOS (v. 9)"
             },
             {
               "vendor": "Red Hat",
@@ -616,7 +624,15 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux CodeReady Linux Builder (v. 9)"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux Real Time for NFV (v. 10)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux Real Time for NFV (v. 9)"
             },
             {
               "vendor": "Red Hat",
@@ -624,7 +640,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Enterprise Linux 10"
+              "product": "Red Hat Enterprise Linux Real Time (v. 9)"
             },
             {
               "vendor": "Red Hat",
@@ -641,6 +657,10 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat OpenShift Container Platform 4"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux 10"
             },
             {
               "vendor": "Red Hat",
@@ -3121,7 +3141,7 @@
         },
         {
           "cve_id": "CVE-2025-54518",
-          "date_updated": "2026-06-30T12:07:18.344Z",
+          "date_updated": "2026-07-07T12:05:11.255Z",
           "data_types": [
             "affected",
             "references",
@@ -3247,7 +3267,7 @@
         },
         {
           "cve_id": "CVE-2025-56005",
-          "date_updated": "2026-07-06T12:04:55.900Z",
+          "date_updated": "2026-07-07T12:04:55.474Z",
           "data_types": [
             "affected",
             "references",
@@ -3921,7 +3941,7 @@
         },
         {
           "cve_id": "CVE-2025-61726",
-          "date_updated": "2026-07-06T12:04:47.423Z",
+          "date_updated": "2026-07-07T12:04:54.526Z",
           "data_types": [
             "affected",
             "references",
@@ -3957,6 +3977,10 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat OpenShift Container Platform 4.14"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat OpenShift Container Platform 4.15"
             },
             {
               "vendor": "Red Hat",
@@ -4205,10 +4229,6 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat OpenShift Builds 1.6.5"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Red Hat OpenShift Container Platform 4.15"
             },
             {
               "vendor": "Red Hat",
@@ -5171,7 +5191,7 @@
         },
         {
           "cve_id": "CVE-2025-67030",
-          "date_updated": "2026-07-06T12:05:19.344Z",
+          "date_updated": "2026-07-07T12:05:07.458Z",
           "data_types": [
             "affected",
             "references",
@@ -5187,6 +5207,34 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat JBoss EAP 8.1 for RHEL 9"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream EUS (v. 10.0)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream E4S (v.8.8)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream TUS (v.8.8)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream E4S (v.9.2)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream E4S (v.9.4)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream EUS (v.9.6)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux CodeReady Linux Builder EUS (v. 10.0)"
             },
             {
               "vendor": "Red Hat",
@@ -5491,7 +5539,7 @@
         },
         {
           "cve_id": "CVE-2025-69223",
-          "date_updated": "2026-07-06T12:05:18.711Z",
+          "date_updated": "2026-07-07T12:04:37.159Z",
           "data_types": [
             "affected",
             "references",
@@ -8043,7 +8091,7 @@
         },
         {
           "cve_id": "CVE-2026-11774",
-          "date_updated": "2026-06-30T12:05:57.653Z",
+          "date_updated": "2026-07-07T12:04:49.475Z",
           "data_types": [
             "affected",
             "references",
@@ -8281,7 +8329,7 @@
         },
         {
           "cve_id": "CVE-2026-12143",
-          "date_updated": "2026-07-06T12:05:20.206Z",
+          "date_updated": "2026-07-07T12:05:21.177Z",
           "data_types": [
             "affected",
             "references",
@@ -8487,7 +8535,7 @@
         },
         {
           "cve_id": "CVE-2026-12151",
-          "date_updated": "2026-07-06T12:04:57.200Z",
+          "date_updated": "2026-07-07T12:05:09.699Z",
           "data_types": [
             "affected",
             "references",
@@ -8499,6 +8547,10 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux AppStream (v. 10)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream (v. 9)"
             },
             {
               "vendor": "Red Hat",
@@ -8530,10 +8582,6 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Enterprise Linux 9"
-            },
-            {
-              "vendor": "Red Hat",
               "product": "Red Hat Hardened Images"
             },
             {
@@ -8561,7 +8609,7 @@
         },
         {
           "cve_id": "CVE-2026-12289",
-          "date_updated": "2026-06-30T12:05:57.379Z",
+          "date_updated": "2026-07-07T12:04:46.269Z",
           "data_types": [
             "affected",
             "references",
@@ -8572,11 +8620,35 @@
           "affected_products": [
             {
               "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream EUS (v. 10.0)"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux AppStream (v. 10)"
             },
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux AppStream (v. 8)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream AUS (v.8.4)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream EUS EXTENSION (v.8.4)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream E4S (v.8.8)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream TUS (v.8.8)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream E4S (v.9.2)"
             },
             {
               "vendor": "Red Hat",
@@ -8599,7 +8671,7 @@
         },
         {
           "cve_id": "CVE-2026-12290",
-          "date_updated": "2026-06-30T12:05:57.102Z",
+          "date_updated": "2026-07-07T12:04:45.928Z",
           "data_types": [
             "affected",
             "references",
@@ -8610,11 +8682,35 @@
           "affected_products": [
             {
               "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream EUS (v. 10.0)"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux AppStream (v. 10)"
             },
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux AppStream (v. 8)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream AUS (v.8.4)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream EUS EXTENSION (v.8.4)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream E4S (v.8.8)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream TUS (v.8.8)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream E4S (v.9.2)"
             },
             {
               "vendor": "Red Hat",
@@ -8637,7 +8733,7 @@
         },
         {
           "cve_id": "CVE-2026-12291",
-          "date_updated": "2026-06-30T12:05:56.829Z",
+          "date_updated": "2026-07-07T12:04:45.239Z",
           "data_types": [
             "affected",
             "references",
@@ -8648,11 +8744,35 @@
           "affected_products": [
             {
               "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream EUS (v. 10.0)"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux AppStream (v. 10)"
             },
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux AppStream (v. 8)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream AUS (v.8.4)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream EUS EXTENSION (v.8.4)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream E4S (v.8.8)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream TUS (v.8.8)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream E4S (v.9.2)"
             },
             {
               "vendor": "Red Hat",
@@ -8675,7 +8795,7 @@
         },
         {
           "cve_id": "CVE-2026-12292",
-          "date_updated": "2026-06-30T12:05:56.515Z",
+          "date_updated": "2026-07-07T12:04:44.862Z",
           "data_types": [
             "affected",
             "references",
@@ -8686,11 +8806,35 @@
           "affected_products": [
             {
               "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream EUS (v. 10.0)"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux AppStream (v. 10)"
             },
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux AppStream (v. 8)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream AUS (v.8.4)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream EUS EXTENSION (v.8.4)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream E4S (v.8.8)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream TUS (v.8.8)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream E4S (v.9.2)"
             },
             {
               "vendor": "Red Hat",
@@ -8747,7 +8891,7 @@
         },
         {
           "cve_id": "CVE-2026-12294",
-          "date_updated": "2026-06-30T12:05:55.642Z",
+          "date_updated": "2026-07-07T12:04:44.510Z",
           "data_types": [
             "affected",
             "references",
@@ -8758,11 +8902,35 @@
           "affected_products": [
             {
               "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream EUS (v. 10.0)"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux AppStream (v. 10)"
             },
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux AppStream (v. 8)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream AUS (v.8.4)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream EUS EXTENSION (v.8.4)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream E4S (v.8.8)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream TUS (v.8.8)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream E4S (v.9.2)"
             },
             {
               "vendor": "Red Hat",
@@ -8785,7 +8953,7 @@
         },
         {
           "cve_id": "CVE-2026-12295",
-          "date_updated": "2026-06-30T12:05:56.193Z",
+          "date_updated": "2026-07-07T12:04:44.161Z",
           "data_types": [
             "affected",
             "references",
@@ -8796,11 +8964,35 @@
           "affected_products": [
             {
               "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream EUS (v. 10.0)"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux AppStream (v. 10)"
             },
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux AppStream (v. 8)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream AUS (v.8.4)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream EUS EXTENSION (v.8.4)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream E4S (v.8.8)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream TUS (v.8.8)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream E4S (v.9.2)"
             },
             {
               "vendor": "Red Hat",
@@ -8823,7 +9015,7 @@
         },
         {
           "cve_id": "CVE-2026-12296",
-          "date_updated": "2026-06-30T12:05:55.920Z",
+          "date_updated": "2026-07-07T12:04:43.842Z",
           "data_types": [
             "affected",
             "references",
@@ -8834,11 +9026,35 @@
           "affected_products": [
             {
               "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream EUS (v. 10.0)"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux AppStream (v. 10)"
             },
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux AppStream (v. 8)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream AUS (v.8.4)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream EUS EXTENSION (v.8.4)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream E4S (v.8.8)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream TUS (v.8.8)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream E4S (v.9.2)"
             },
             {
               "vendor": "Red Hat",
@@ -8861,7 +9077,7 @@
         },
         {
           "cve_id": "CVE-2026-12297",
-          "date_updated": "2026-06-30T12:05:55.359Z",
+          "date_updated": "2026-07-07T12:04:43.510Z",
           "data_types": [
             "affected",
             "references",
@@ -8872,11 +9088,35 @@
           "affected_products": [
             {
               "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream EUS (v. 10.0)"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux AppStream (v. 10)"
             },
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux AppStream (v. 8)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream AUS (v.8.4)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream EUS EXTENSION (v.8.4)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream E4S (v.8.8)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream TUS (v.8.8)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream E4S (v.9.2)"
             },
             {
               "vendor": "Red Hat",
@@ -8899,7 +9139,7 @@
         },
         {
           "cve_id": "CVE-2026-12298",
-          "date_updated": "2026-06-30T12:05:55.065Z",
+          "date_updated": "2026-07-07T12:04:43.191Z",
           "data_types": [
             "affected",
             "references",
@@ -8910,11 +9150,35 @@
           "affected_products": [
             {
               "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream EUS (v. 10.0)"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux AppStream (v. 10)"
             },
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux AppStream (v. 8)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream AUS (v.8.4)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream EUS EXTENSION (v.8.4)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream E4S (v.8.8)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream TUS (v.8.8)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream E4S (v.9.2)"
             },
             {
               "vendor": "Red Hat",
@@ -8937,7 +9201,7 @@
         },
         {
           "cve_id": "CVE-2026-12299",
-          "date_updated": "2026-06-30T12:05:54.790Z",
+          "date_updated": "2026-07-07T12:04:42.847Z",
           "data_types": [
             "affected",
             "references",
@@ -8948,11 +9212,35 @@
           "affected_products": [
             {
               "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream EUS (v. 10.0)"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux AppStream (v. 10)"
             },
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux AppStream (v. 8)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream AUS (v.8.4)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream EUS EXTENSION (v.8.4)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream E4S (v.8.8)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream TUS (v.8.8)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream E4S (v.9.2)"
             },
             {
               "vendor": "Red Hat",
@@ -9009,7 +9297,7 @@
         },
         {
           "cve_id": "CVE-2026-12328",
-          "date_updated": "2026-06-30T12:05:54.510Z",
+          "date_updated": "2026-07-07T12:04:42.517Z",
           "data_types": [
             "affected",
             "references",
@@ -9020,11 +9308,35 @@
           "affected_products": [
             {
               "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream EUS (v. 10.0)"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux AppStream (v. 10)"
             },
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux AppStream (v. 8)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream AUS (v.8.4)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream EUS EXTENSION (v.8.4)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream E4S (v.8.8)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream TUS (v.8.8)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream E4S (v.9.2)"
             },
             {
               "vendor": "Red Hat",
@@ -9047,7 +9359,7 @@
         },
         {
           "cve_id": "CVE-2026-12329",
-          "date_updated": "2026-06-30T12:05:54.236Z",
+          "date_updated": "2026-07-07T12:04:42.196Z",
           "data_types": [
             "affected",
             "references",
@@ -9058,11 +9370,35 @@
           "affected_products": [
             {
               "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream EUS (v. 10.0)"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux AppStream (v. 10)"
             },
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux AppStream (v. 8)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream AUS (v.8.4)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream EUS EXTENSION (v.8.4)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream E4S (v.8.8)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream TUS (v.8.8)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream E4S (v.9.2)"
             },
             {
               "vendor": "Red Hat",
@@ -18365,7 +18701,7 @@
         },
         {
           "cve_id": "CVE-2026-25679",
-          "date_updated": "2026-07-06T12:04:49.674Z",
+          "date_updated": "2026-07-07T12:05:04.628Z",
           "data_types": [
             "affected",
             "references",
@@ -18397,6 +18733,10 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat OpenShift Container Platform 4.14"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat OpenShift Container Platform 4.15"
             },
             {
               "vendor": "Red Hat",
@@ -18633,10 +18973,6 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat OpenShift Builds 1.7.3"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Red Hat OpenShift Container Platform 4.15"
             },
             {
               "vendor": "Red Hat",
@@ -19885,7 +20221,7 @@
         },
         {
           "cve_id": "CVE-2026-26740",
-          "date_updated": "2026-07-01T12:04:45.847Z",
+          "date_updated": "2026-07-07T12:05:07.166Z",
           "data_types": [
             "affected",
             "references",
@@ -19965,6 +20301,10 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux CodeReady Linux Builder (v. 9)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat AI Inference Server 3.2"
             },
             {
               "vendor": "Red Hat",
@@ -20499,7 +20839,7 @@
         },
         {
           "cve_id": "CVE-2026-27137",
-          "date_updated": "2026-07-06T12:05:00.076Z",
+          "date_updated": "2026-07-07T12:04:56.398Z",
           "data_types": [
             "affected",
             "references",
@@ -20610,7 +20950,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift GitOps 1.2"
+              "product": "Red Hat OpenShift GitOps 1.20"
             },
             {
               "vendor": "Red Hat",
@@ -29525,7 +29865,7 @@
         },
         {
           "cve_id": "CVE-2026-31236",
-          "date_updated": "2026-07-06T12:05:04.540Z",
+          "date_updated": "2026-07-07T12:05:13.966Z",
           "data_types": [
             "affected",
             "references",
@@ -29757,7 +30097,7 @@
         },
         {
           "cve_id": "CVE-2026-31419",
-          "date_updated": "2026-07-06T12:04:48.890Z",
+          "date_updated": "2026-07-07T12:04:41.213Z",
           "data_types": [
             "affected",
             "references",
@@ -31459,7 +31799,7 @@
         },
         {
           "cve_id": "CVE-2026-32280",
-          "date_updated": "2026-07-06T12:04:50.890Z",
+          "date_updated": "2026-07-07T12:04:53.538Z",
           "data_types": [
             "affected",
             "references",
@@ -31483,6 +31823,10 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat OpenShift Container Platform 4.14"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat OpenShift Container Platform 4.15"
             },
             {
               "vendor": "Red Hat",
@@ -33503,7 +33847,7 @@
         },
         {
           "cve_id": "CVE-2026-33186",
-          "date_updated": "2026-07-06T12:04:50.117Z",
+          "date_updated": "2026-07-07T12:04:48.753Z",
           "data_types": [
             "affected",
             "references",
@@ -35331,7 +35675,7 @@
         },
         {
           "cve_id": "CVE-2026-33810",
-          "date_updated": "2026-07-06T12:04:54.737Z",
+          "date_updated": "2026-07-07T12:05:10.951Z",
           "data_types": [
             "affected",
             "references",
@@ -35709,7 +36053,7 @@
         },
         {
           "cve_id": "CVE-2026-33811",
-          "date_updated": "2026-07-06T12:04:52.308Z",
+          "date_updated": "2026-07-07T12:04:47.277Z",
           "data_types": [
             "affected",
             "references",
@@ -35737,6 +36081,18 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Hardened Images"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat OpenShift GitOps 1.19"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat OpenShift GitOps 1.20"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat OpenShift GitOps 1.21"
             },
             {
               "vendor": "Red Hat",
@@ -35969,10 +36325,6 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat OpenShift for Windows Containers"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Red Hat OpenShift GitOps"
             },
             {
               "vendor": "Red Hat",
@@ -36365,7 +36717,7 @@
         },
         {
           "cve_id": "CVE-2026-33845",
-          "date_updated": "2026-07-02T12:05:08.075Z",
+          "date_updated": "2026-07-07T12:05:06.830Z",
           "data_types": [
             "affected",
             "references",
@@ -36476,6 +36828,10 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat AI Inference Server 3.2"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat Discovery 2"
             },
             {
@@ -36499,7 +36855,7 @@
         },
         {
           "cve_id": "CVE-2026-33846",
-          "date_updated": "2026-07-02T12:05:07.703Z",
+          "date_updated": "2026-07-07T12:05:06.516Z",
           "data_types": [
             "affected",
             "references",
@@ -36607,6 +36963,10 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux BaseOS (v. 9)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat AI Inference Server 3.2"
             },
             {
               "vendor": "Red Hat",
@@ -39227,7 +39587,7 @@
         },
         {
           "cve_id": "CVE-2026-34755",
-          "date_updated": "2026-06-30T12:09:10.318Z",
+          "date_updated": "2026-07-07T12:05:06.219Z",
           "data_types": [
             "affected",
             "references",
@@ -39236,6 +39596,10 @@
           ],
           "file_path": "2026/34xxx/CVE-2026-34755.json",
           "affected_products": [
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat AI Inference Server 3.2"
+            },
             {
               "vendor": "Red Hat",
               "product": "Red Hat AI Inference Server"
@@ -39253,7 +39617,7 @@
         },
         {
           "cve_id": "CVE-2026-34756",
-          "date_updated": "2026-06-30T12:09:09.965Z",
+          "date_updated": "2026-07-07T12:05:05.910Z",
           "data_types": [
             "affected",
             "references",
@@ -39262,6 +39626,10 @@
           ],
           "file_path": "2026/34xxx/CVE-2026-34756.json",
           "affected_products": [
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat AI Inference Server 3.2"
+            },
             {
               "vendor": "Red Hat",
               "product": "Red Hat AI Inference Server"
@@ -39509,7 +39877,7 @@
         },
         {
           "cve_id": "CVE-2026-34982",
-          "date_updated": "2026-07-02T12:04:58.654Z",
+          "date_updated": "2026-07-07T12:05:05.602Z",
           "data_types": [
             "affected",
             "references",
@@ -39624,6 +39992,10 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat AI Inference Server 3.2"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat AI Inference Server 3.3"
             },
             {
@@ -39651,7 +40023,7 @@
         },
         {
           "cve_id": "CVE-2026-34986",
-          "date_updated": "2026-07-06T12:04:46.811Z",
+          "date_updated": "2026-07-07T12:04:41.687Z",
           "data_types": [
             "affected",
             "references",
@@ -40081,7 +40453,7 @@
         },
         {
           "cve_id": "CVE-2026-34993",
-          "date_updated": "2026-07-02T12:04:42.772Z",
+          "date_updated": "2026-07-07T12:04:56.691Z",
           "data_types": [
             "affected",
             "references",
@@ -40341,7 +40713,7 @@
         },
         {
           "cve_id": "CVE-2026-35385",
-          "date_updated": "2026-07-02T12:05:10.617Z",
+          "date_updated": "2026-07-07T12:05:14.933Z",
           "data_types": [
             "affected",
             "references",
@@ -40369,6 +40741,10 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat OpenShift Container Platform 4.14"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat OpenShift Container Platform 4.15"
             },
             {
               "vendor": "Red Hat",
@@ -41549,7 +41925,7 @@
         },
         {
           "cve_id": "CVE-2026-39821",
-          "date_updated": "2026-07-06T12:04:57.792Z",
+          "date_updated": "2026-07-07T12:04:47.642Z",
           "data_types": [
             "affected",
             "references",
@@ -41558,6 +41934,10 @@
           ],
           "file_path": "2026/39xxx/CVE-2026-39821.json",
           "affected_products": [
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat OpenShift Container Platform 4.22"
+            },
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux AppStream (v. 10)"
@@ -41600,6 +41980,14 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat OpenShift GitOps 1.19"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat OpenShift GitOps 1.20"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat OpenShift Service Mesh 2.6"
             },
             {
@@ -41617,6 +42005,10 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat OpenShift Service Mesh 3.3"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "multicluster engine for Kubernetes 2.6"
             },
             {
               "vendor": "Red Hat",
@@ -41820,10 +42212,6 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift GitOps"
-            },
-            {
-              "vendor": "Red Hat",
               "product": "Red Hat OpenShift on AWS"
             },
             {
@@ -41891,7 +42279,7 @@
         },
         {
           "cve_id": "CVE-2026-39828",
-          "date_updated": "2026-07-06T12:05:06.212Z",
+          "date_updated": "2026-07-07T12:04:50.745Z",
           "data_types": [
             "affected",
             "references",
@@ -41907,6 +42295,10 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Advanced Cluster Security for Kubernetes 4.9"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "multicluster engine for Kubernetes 2.6"
             },
             {
               "vendor": "Red Hat",
@@ -42049,7 +42441,7 @@
         },
         {
           "cve_id": "CVE-2026-39829",
-          "date_updated": "2026-07-06T12:04:48.591Z",
+          "date_updated": "2026-07-07T12:04:50.133Z",
           "data_types": [
             "affected",
             "references",
@@ -42211,7 +42603,7 @@
         },
         {
           "cve_id": "CVE-2026-39830",
-          "date_updated": "2026-07-06T12:04:48.305Z",
+          "date_updated": "2026-07-07T12:04:46.932Z",
           "data_types": [
             "affected",
             "references",
@@ -42475,7 +42867,7 @@
         },
         {
           "cve_id": "CVE-2026-39835",
-          "date_updated": "2026-07-06T12:05:16.011Z",
+          "date_updated": "2026-07-07T12:04:50.452Z",
           "data_types": [
             "affected",
             "references",
@@ -47451,7 +47843,7 @@
         },
         {
           "cve_id": "CVE-2026-41523",
-          "date_updated": "2026-06-30T12:08:47.778Z",
+          "date_updated": "2026-07-07T12:05:05.273Z",
           "data_types": [
             "affected",
             "references",
@@ -47460,6 +47852,10 @@
           ],
           "file_path": "2026/41xxx/CVE-2026-41523.json",
           "affected_products": [
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat AI Inference Server 3.2"
+            },
             {
               "vendor": "Red Hat",
               "product": "Red Hat AI Inference Server"
@@ -47477,7 +47873,7 @@
         },
         {
           "cve_id": "CVE-2026-41567",
-          "date_updated": "2026-07-06T12:05:07.642Z",
+          "date_updated": "2026-07-07T12:05:03.930Z",
           "data_types": [
             "affected",
             "references",
@@ -48309,7 +48705,7 @@
         },
         {
           "cve_id": "CVE-2026-42009",
-          "date_updated": "2026-07-02T12:05:07.408Z",
+          "date_updated": "2026-07-07T12:05:04.960Z",
           "data_types": [
             "affected",
             "references",
@@ -48424,6 +48820,10 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat AI Inference Server 3.2"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat Discovery 2"
             },
             {
@@ -48443,7 +48843,7 @@
         },
         {
           "cve_id": "CVE-2026-42010",
-          "date_updated": "2026-06-30T03:15:44.363Z",
+          "date_updated": "2026-07-07T12:04:49.120Z",
           "data_types": [
             "affected",
             "references",
@@ -48452,6 +48852,10 @@
           ],
           "file_path": "2026/42xxx/CVE-2026-42010.json",
           "affected_products": [
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat OpenShift Container Platform 4.22"
+            },
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux AppStream EUS (v. 10.0)"
@@ -48550,6 +48954,10 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat AI Inference Server 3.2"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat Discovery 2"
             },
             {
@@ -48559,10 +48967,6 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Update Infrastructure 5"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Red Hat OpenShift Container Platform 4"
             },
             {
               "vendor": "Red Hat",
@@ -49599,7 +50003,7 @@
         },
         {
           "cve_id": "CVE-2026-42044",
-          "date_updated": "2026-07-03T12:04:49.241Z",
+          "date_updated": "2026-07-07T12:04:51.046Z",
           "data_types": [
             "affected",
             "references",
@@ -49631,6 +50035,10 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Advanced Cluster Security for Kubernetes 4.9"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Container Native Virtualization 4.15"
             },
             {
               "vendor": "Red Hat",
@@ -49997,7 +50405,7 @@
         },
         {
           "cve_id": "CVE-2026-42154",
-          "date_updated": "2026-07-06T12:04:55.025Z",
+          "date_updated": "2026-07-07T12:04:53.865Z",
           "data_types": [
             "affected",
             "references",
@@ -50072,10 +50480,6 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Enterprise Linux 7"
-            },
-            {
-              "vendor": "Red Hat",
               "product": "Red Hat OpenShift AI (RHOAI)"
             },
             {
@@ -50109,6 +50513,10 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux 10"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux 7"
             },
             {
               "vendor": "Red Hat",
@@ -50251,7 +50659,7 @@
         },
         {
           "cve_id": "CVE-2026-42246",
-          "date_updated": "2026-07-06T12:04:55.310Z",
+          "date_updated": "2026-07-07T12:04:55.167Z",
           "data_types": [
             "affected",
             "references",
@@ -50260,6 +50668,10 @@
           ],
           "file_path": "2026/42xxx/CVE-2026-42246.json",
           "affected_products": [
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream EUS (v. 10.0)"
+            },
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux AppStream (v. 10)"
@@ -50307,6 +50719,10 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux AppStream (v. 9)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux CodeReady Linux Builder EUS (v. 10.0)"
             },
             {
               "vendor": "Red Hat",
@@ -50345,7 +50761,7 @@
         },
         {
           "cve_id": "CVE-2026-42258",
-          "date_updated": "2026-07-06T12:04:55.586Z",
+          "date_updated": "2026-07-07T12:04:54.859Z",
           "data_types": [
             "affected",
             "references",
@@ -50354,6 +50770,10 @@
           ],
           "file_path": "2026/42xxx/CVE-2026-42258.json",
           "affected_products": [
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream EUS (v. 10.0)"
+            },
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux AppStream (v. 10)"
@@ -50401,6 +50821,10 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux AppStream (v. 9)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux CodeReady Linux Builder EUS (v. 10.0)"
             },
             {
               "vendor": "Red Hat",
@@ -50731,7 +51155,7 @@
         },
         {
           "cve_id": "CVE-2026-42338",
-          "date_updated": "2026-07-06T12:04:56.917Z",
+          "date_updated": "2026-07-07T12:05:09.396Z",
           "data_types": [
             "affected",
             "references",
@@ -50743,6 +51167,10 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux AppStream (v. 10)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream (v. 9)"
             },
             {
               "vendor": "Red Hat",
@@ -50814,10 +51242,6 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Enterprise Linux 9"
-            },
-            {
-              "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux AI (RHEL AI) 3"
             },
             {
@@ -50855,6 +51279,10 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux 10"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux 9"
             }
           ],
           "source": "sadp-pilot"
@@ -50925,7 +51353,7 @@
         },
         {
           "cve_id": "CVE-2026-42499",
-          "date_updated": "2026-07-06T12:04:51.173Z",
+          "date_updated": "2026-07-07T12:04:47.962Z",
           "data_types": [
             "affected",
             "references",
@@ -51435,7 +51863,7 @@
         },
         {
           "cve_id": "CVE-2026-42557",
-          "date_updated": "2026-06-30T12:08:40.060Z",
+          "date_updated": "2026-07-07T12:04:55.766Z",
           "data_types": [
             "affected",
             "references",
@@ -51457,7 +51885,7 @@
         },
         {
           "cve_id": "CVE-2026-42561",
-          "date_updated": "2026-07-03T12:05:01.512Z",
+          "date_updated": "2026-07-07T12:04:57.285Z",
           "data_types": [
             "affected",
             "references",
@@ -51543,7 +51971,7 @@
         },
         {
           "cve_id": "CVE-2026-42578",
-          "date_updated": "2026-06-30T12:08:39.226Z",
+          "date_updated": "2026-07-07T12:05:20.862Z",
           "data_types": [
             "affected",
             "references",
@@ -51897,7 +52325,7 @@
         },
         {
           "cve_id": "CVE-2026-42584",
-          "date_updated": "2026-07-01T12:05:04.614Z",
+          "date_updated": "2026-07-07T12:05:20.541Z",
           "data_types": [
             "affected",
             "references",
@@ -52671,7 +53099,7 @@
         },
         {
           "cve_id": "CVE-2026-43037",
-          "date_updated": "2026-07-02T12:05:09.034Z",
+          "date_updated": "2026-07-07T12:05:14.626Z",
           "data_types": [
             "affected",
             "references",
@@ -52711,6 +53139,10 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat OpenShift Container Platform 4.14"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat OpenShift Container Platform 4.15"
             },
             {
               "vendor": "Red Hat",
@@ -53075,7 +53507,7 @@
         },
         {
           "cve_id": "CVE-2026-43112",
-          "date_updated": "2026-07-03T12:05:04.999Z",
+          "date_updated": "2026-07-07T12:05:00.040Z",
           "data_types": [
             "affected",
             "references",
@@ -53090,7 +53522,15 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream (v. 9)"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux BaseOS (v. 10)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux BaseOS (v. 9)"
             },
             {
               "vendor": "Red Hat",
@@ -53098,11 +53538,23 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux CodeReady Linux Builder (v. 9)"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux Real Time for NFV (v. 10)"
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux Real Time for NFV (v. 9)"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux Real Time (v. 10)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux Real Time (v. 9)"
             },
             {
               "vendor": "Red Hat",
@@ -53297,7 +53749,7 @@
         },
         {
           "cve_id": "CVE-2026-43133",
-          "date_updated": "2026-07-03T12:05:00.343Z",
+          "date_updated": "2026-07-07T12:05:11.537Z",
           "data_types": [
             "affected",
             "references",
@@ -53369,7 +53821,7 @@
         },
         {
           "cve_id": "CVE-2026-43198",
-          "date_updated": "2026-07-06T12:04:59.764Z",
+          "date_updated": "2026-07-07T12:04:40.889Z",
           "data_types": [
             "affected",
             "references",
@@ -53385,6 +53837,10 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux AppStream (v. 10)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream E4S (v.9.2)"
             },
             {
               "vendor": "Red Hat",
@@ -53408,11 +53864,31 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux BaseOS AUS (v.8.4)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux BaseOS EUS EXTENSION (v.8.4)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux BaseOS AUS (v.8.6)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux BaseOS EUS EXTENSION (v.8.6)"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux BaseOS E4S (v.8.8)"
             },
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux BaseOS TUS (v.8.8)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux BaseOS E4S (v.9.2)"
             },
             {
               "vendor": "Red Hat",
@@ -53452,6 +53928,10 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux Real Time for NFV E4S (v.9.2)"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux Real Time for NFV E4S (v.9.4)"
             },
             {
@@ -53469,6 +53949,10 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux Real Time (v. 10)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux Real Time E4S (v.9.2)"
             },
             {
               "vendor": "Red Hat",
@@ -53741,7 +54225,7 @@
         },
         {
           "cve_id": "CVE-2026-43329",
-          "date_updated": "2026-07-06T12:04:59.486Z",
+          "date_updated": "2026-07-07T12:05:10.637Z",
           "data_types": [
             "affected",
             "references",
@@ -53785,6 +54269,14 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux BaseOS (v. 8)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux BaseOS AUS (v.8.4)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux BaseOS EUS EXTENSION (v.8.4)"
             },
             {
               "vendor": "Red Hat",
@@ -55065,7 +55557,7 @@
         },
         {
           "cve_id": "CVE-2026-44172",
-          "date_updated": "2026-07-06T12:05:08.790Z",
+          "date_updated": "2026-07-07T12:04:49.803Z",
           "data_types": [
             "affected",
             "references",
@@ -55281,7 +55773,7 @@
         },
         {
           "cve_id": "CVE-2026-44249",
-          "date_updated": "2026-07-03T12:04:48.458Z",
+          "date_updated": "2026-07-07T12:05:17.479Z",
           "data_types": [
             "affected",
             "references",
@@ -56027,7 +56519,7 @@
         },
         {
           "cve_id": "CVE-2026-44486",
-          "date_updated": "2026-07-06T12:05:11.125Z",
+          "date_updated": "2026-07-07T12:05:17.179Z",
           "data_types": [
             "affected",
             "references",
@@ -56213,7 +56705,7 @@
         },
         {
           "cve_id": "CVE-2026-44487",
-          "date_updated": "2026-07-06T12:05:09.657Z",
+          "date_updated": "2026-07-07T12:04:56.070Z",
           "data_types": [
             "affected",
             "references",
@@ -56360,10 +56852,6 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift Virtualization 4"
-            },
-            {
-              "vendor": "Red Hat",
               "product": "Red Hat Quay 3"
             },
             {
@@ -56401,13 +56889,17 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux 9"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat OpenShift Virtualization 4"
             }
           ],
           "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-44488",
-          "date_updated": "2026-07-06T12:05:09.360Z",
+          "date_updated": "2026-07-07T12:05:16.857Z",
           "data_types": [
             "affected",
             "references",
@@ -56601,7 +57093,7 @@
         },
         {
           "cve_id": "CVE-2026-44492",
-          "date_updated": "2026-07-06T12:05:10.834Z",
+          "date_updated": "2026-07-07T12:04:51.957Z",
           "data_types": [
             "affected",
             "references",
@@ -56621,6 +57113,10 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Advanced Cluster Security for Kubernetes 4.9"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Container Native Virtualization 4.13"
             },
             {
               "vendor": "Red Hat",
@@ -56791,7 +57287,7 @@
         },
         {
           "cve_id": "CVE-2026-44494",
-          "date_updated": "2026-07-06T12:05:11.435Z",
+          "date_updated": "2026-07-07T12:04:51.667Z",
           "data_types": [
             "affected",
             "references",
@@ -56811,6 +57307,10 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Advanced Cluster Security for Kubernetes 4.9"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Container Native Virtualization 4.13"
             },
             {
               "vendor": "Red Hat",
@@ -56985,7 +57485,7 @@
         },
         {
           "cve_id": "CVE-2026-44495",
-          "date_updated": "2026-07-06T12:05:10.525Z",
+          "date_updated": "2026-07-07T12:04:51.368Z",
           "data_types": [
             "affected",
             "references",
@@ -57013,6 +57513,10 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Ansible Automation Platform 2.6"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Container Native Virtualization 4.13"
             },
             {
               "vendor": "Red Hat",
@@ -57183,7 +57687,7 @@
         },
         {
           "cve_id": "CVE-2026-44496",
-          "date_updated": "2026-07-06T12:05:10.235Z",
+          "date_updated": "2026-07-07T12:05:20.214Z",
           "data_types": [
             "affected",
             "references",
@@ -57407,7 +57911,7 @@
         },
         {
           "cve_id": "CVE-2026-44573",
-          "date_updated": "2026-07-06T12:05:05.937Z",
+          "date_updated": "2026-07-07T12:05:16.525Z",
           "data_types": [
             "affected",
             "references",
@@ -57453,7 +57957,7 @@
         },
         {
           "cve_id": "CVE-2026-44574",
-          "date_updated": "2026-07-06T12:05:05.649Z",
+          "date_updated": "2026-07-07T12:05:16.216Z",
           "data_types": [
             "affected",
             "references",
@@ -57499,7 +58003,7 @@
         },
         {
           "cve_id": "CVE-2026-44575",
-          "date_updated": "2026-07-03T12:04:47.529Z",
+          "date_updated": "2026-07-07T12:04:52.558Z",
           "data_types": [
             "affected",
             "references",
@@ -57545,7 +58049,7 @@
         },
         {
           "cve_id": "CVE-2026-44577",
-          "date_updated": "2026-07-06T12:05:05.359Z",
+          "date_updated": "2026-07-07T12:05:15.904Z",
           "data_types": [
             "affected",
             "references",
@@ -57591,7 +58095,7 @@
         },
         {
           "cve_id": "CVE-2026-44578",
-          "date_updated": "2026-07-03T12:04:46.954Z",
+          "date_updated": "2026-07-07T12:04:53.157Z",
           "data_types": [
             "affected",
             "references",
@@ -57637,7 +58141,7 @@
         },
         {
           "cve_id": "CVE-2026-44579",
-          "date_updated": "2026-07-03T12:04:46.673Z",
+          "date_updated": "2026-07-07T12:04:52.256Z",
           "data_types": [
             "affected",
             "references",
@@ -58055,7 +58559,7 @@
         },
         {
           "cve_id": "CVE-2026-45109",
-          "date_updated": "2026-07-03T12:04:46.079Z",
+          "date_updated": "2026-07-07T12:04:52.845Z",
           "data_types": [
             "affected",
             "references",
@@ -58159,7 +58663,7 @@
         },
         {
           "cve_id": "CVE-2026-45292",
-          "date_updated": "2026-07-06T12:05:06.496Z",
+          "date_updated": "2026-07-07T12:04:57.874Z",
           "data_types": [
             "affected",
             "references",
@@ -58281,7 +58785,7 @@
         },
         {
           "cve_id": "CVE-2026-45416",
-          "date_updated": "2026-07-06T12:05:15.427Z",
+          "date_updated": "2026-07-07T12:05:02.748Z",
           "data_types": [
             "affected",
             "references",
@@ -58603,7 +59107,7 @@
         },
         {
           "cve_id": "CVE-2026-45674",
-          "date_updated": "2026-07-06T12:05:15.143Z",
+          "date_updated": "2026-07-07T12:05:02.454Z",
           "data_types": [
             "affected",
             "references",
@@ -58773,7 +59277,7 @@
         },
         {
           "cve_id": "CVE-2026-45736",
-          "date_updated": "2026-07-03T12:04:56.039Z",
+          "date_updated": "2026-07-07T12:05:19.881Z",
           "data_types": [
             "affected",
             "references",
@@ -58953,7 +59457,7 @@
         },
         {
           "cve_id": "CVE-2026-45830",
-          "date_updated": "2026-06-30T12:10:18.404Z",
+          "date_updated": "2026-07-07T12:05:19.569Z",
           "data_types": [
             "affected",
             "references",
@@ -58975,7 +59479,7 @@
         },
         {
           "cve_id": "CVE-2026-45832",
-          "date_updated": "2026-06-30T12:10:17.648Z",
+          "date_updated": "2026-07-07T12:05:19.278Z",
           "data_types": [
             "affected",
             "references",
@@ -58997,7 +59501,7 @@
         },
         {
           "cve_id": "CVE-2026-45833",
-          "date_updated": "2026-06-30T12:10:16.852Z",
+          "date_updated": "2026-07-07T12:05:19.007Z",
           "data_types": [
             "affected",
             "references",
@@ -59019,7 +59523,7 @@
         },
         {
           "cve_id": "CVE-2026-45852",
-          "date_updated": "2026-07-06T12:04:58.649Z",
+          "date_updated": "2026-07-07T12:05:10.333Z",
           "data_types": [
             "affected",
             "references",
@@ -59051,6 +59555,14 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux BaseOS (v. 8)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux BaseOS AUS (v.8.4)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux BaseOS EUS EXTENSION (v.8.4)"
             },
             {
               "vendor": "Red Hat",
@@ -59289,7 +59801,7 @@
         },
         {
           "cve_id": "CVE-2026-45984",
-          "date_updated": "2026-07-01T12:05:00.233Z",
+          "date_updated": "2026-07-07T12:04:58.189Z",
           "data_types": [
             "affected",
             "references",
@@ -59308,6 +59820,14 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux BaseOS AUS (v.8.6)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux BaseOS EUS EXTENSION (v.8.6)"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux BaseOS (v. 9)"
             },
             {
@@ -59320,7 +59840,15 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux NFV (v. 8)"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux Real Time for NFV (v. 9)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux RT (v. 8)"
             },
             {
               "vendor": "Red Hat",
@@ -59329,10 +59857,6 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux 7"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Red Hat Enterprise Linux 8"
             },
             {
               "vendor": "Red Hat",
@@ -59525,7 +60049,7 @@
         },
         {
           "cve_id": "CVE-2026-46090",
-          "date_updated": "2026-07-06T12:04:58.380Z",
+          "date_updated": "2026-07-07T12:05:10.024Z",
           "data_types": [
             "affected",
             "references",
@@ -59577,6 +60101,14 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux BaseOS (v. 8)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux BaseOS AUS (v.8.4)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux BaseOS EUS EXTENSION (v.8.4)"
             },
             {
               "vendor": "Red Hat",
@@ -59737,7 +60269,7 @@
         },
         {
           "cve_id": "CVE-2026-46116",
-          "date_updated": "2026-06-30T12:10:12.746Z",
+          "date_updated": "2026-07-07T12:04:59.702Z",
           "data_types": [
             "affected",
             "references",
@@ -59746,6 +60278,26 @@
           ],
           "file_path": "2026/46xxx/CVE-2026-46116.json",
           "affected_products": [
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream (v. 9)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux BaseOS (v. 9)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux CodeReady Linux Builder (v. 9)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux Real Time for NFV (v. 9)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux Real Time (v. 9)"
+            },
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux 10"
@@ -60387,7 +60939,7 @@
         },
         {
           "cve_id": "CVE-2026-46181",
-          "date_updated": "2026-07-06T12:04:59.194Z",
+          "date_updated": "2026-07-07T12:05:08.069Z",
           "data_types": [
             "affected",
             "references",
@@ -60415,6 +60967,22 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux BaseOS (v. 8)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux BaseOS AUS (v.8.4)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux BaseOS EUS EXTENSION (v.8.4)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux BaseOS AUS (v.8.6)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux BaseOS EUS EXTENSION (v.8.6)"
             },
             {
               "vendor": "Red Hat",
@@ -60513,7 +61081,7 @@
         },
         {
           "cve_id": "CVE-2026-46189",
-          "date_updated": "2026-07-01T12:04:55.460Z",
+          "date_updated": "2026-07-07T12:04:40.540Z",
           "data_types": [
             "affected",
             "references",
@@ -60528,6 +61096,10 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream E4S (v.9.2)"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux AppStream (v. 9)"
             },
             {
@@ -60537,6 +61109,10 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux BaseOS (v. 8)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux BaseOS E4S (v.9.2)"
             },
             {
               "vendor": "Red Hat",
@@ -60560,6 +61136,14 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux NFV (v. 8)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux Real Time for NFV E4S (v.9.2)"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux Real Time for NFV (v. 9)"
             },
             {
@@ -60568,15 +61152,19 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux RT (v. 8)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux Real Time E4S (v.9.2)"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux Real Time (v. 9)"
             },
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux 7"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Red Hat Enterprise Linux 8"
             },
             {
               "vendor": "Red Hat",
@@ -60657,7 +61245,7 @@
         },
         {
           "cve_id": "CVE-2026-46227",
-          "date_updated": "2026-07-02T12:05:27.645Z",
+          "date_updated": "2026-07-07T12:04:59.414Z",
           "data_types": [
             "affected",
             "references",
@@ -60681,6 +61269,10 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux AppStream EUS (v.9.6)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream (v. 9)"
             },
             {
               "vendor": "Red Hat",
@@ -60724,11 +61316,19 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux BaseOS (v. 9)"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux CodeReady Linux Builder EUS (v. 10.0)"
             },
             {
               "vendor": "Red Hat",
               "product": "Red Hat CodeReady Linux Builder EUS (v.9.6)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux CodeReady Linux Builder (v. 9)"
             },
             {
               "vendor": "Red Hat",
@@ -60748,6 +61348,10 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux Real Time for NFV (v. 9)"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux Real Time EUS (v. 10.0)"
             },
             {
@@ -60764,15 +61368,15 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux Real Time (v. 9)"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux 10"
             },
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux 8"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Red Hat Enterprise Linux 9"
             },
             {
               "vendor": "Red Hat",
@@ -60787,7 +61391,7 @@
         },
         {
           "cve_id": "CVE-2026-46243",
-          "date_updated": "2026-07-06T12:05:09.074Z",
+          "date_updated": "2026-07-07T12:05:15.260Z",
           "data_types": [
             "affected",
             "references",
@@ -60819,6 +61423,10 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat OpenShift Container Platform 4.14"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat OpenShift Container Platform 4.15"
             },
             {
               "vendor": "Red Hat",
@@ -60981,7 +61589,7 @@
         },
         {
           "cve_id": "CVE-2026-46244",
-          "date_updated": "2026-07-03T12:05:04.391Z",
+          "date_updated": "2026-07-07T12:04:59.102Z",
           "data_types": [
             "affected",
             "references",
@@ -61008,6 +61616,10 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream (v. 9)"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux BaseOS EUS (v. 10.0)"
             },
             {
@@ -61024,6 +61636,10 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux BaseOS (v. 9)"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux CodeReady Linux Builder EUS (v. 10.0)"
             },
             {
@@ -61033,6 +61649,10 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat CodeReady Linux Builder EUS (v.9.6)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux CodeReady Linux Builder (v. 9)"
             },
             {
               "vendor": "Red Hat",
@@ -61052,6 +61672,10 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux Real Time for NFV (v. 9)"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux Real Time EUS (v. 10.0)"
             },
             {
@@ -61065,6 +61689,10 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux Real Time EUS (v.9.6)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux Real Time (v. 9)"
             },
             {
               "vendor": "Red Hat",
@@ -61363,7 +61991,7 @@
         },
         {
           "cve_id": "CVE-2026-46316",
-          "date_updated": "2026-07-03T12:05:04.080Z",
+          "date_updated": "2026-07-07T12:04:58.800Z",
           "data_types": [
             "affected",
             "references",
@@ -61378,7 +62006,15 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream (v. 9)"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux BaseOS (v. 10)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux BaseOS (v. 9)"
             },
             {
               "vendor": "Red Hat",
@@ -61386,11 +62022,23 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux CodeReady Linux Builder (v. 9)"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux Real Time for NFV (v. 10)"
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux Real Time for NFV (v. 9)"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux Real Time (v. 10)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux Real Time (v. 9)"
             },
             {
               "vendor": "Red Hat",
@@ -61413,7 +62061,7 @@
         },
         {
           "cve_id": "CVE-2026-46323",
-          "date_updated": "2026-06-30T12:10:06.631Z",
+          "date_updated": "2026-07-07T12:04:58.489Z",
           "data_types": [
             "affected",
             "references",
@@ -61436,6 +62084,10 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream (v. 9)"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux BaseOS EUS (v. 10.0)"
             },
             {
@@ -61448,11 +62100,19 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux BaseOS (v. 9)"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux CodeReady Linux Builder EUS (v. 10.0)"
             },
             {
               "vendor": "Red Hat",
               "product": "Red Hat CodeReady Linux Builder EUS (v.9.6)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux CodeReady Linux Builder (v. 9)"
             },
             {
               "vendor": "Red Hat",
@@ -61468,6 +62128,10 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux Real Time for NFV (v. 9)"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux Real Time EUS (v. 10.0)"
             },
             {
@@ -61480,11 +62144,11 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Enterprise Linux 10"
+              "product": "Red Hat Enterprise Linux Real Time (v. 9)"
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Enterprise Linux 9"
+              "product": "Red Hat Enterprise Linux 10"
             },
             {
               "vendor": "Red Hat",
@@ -61505,13 +62169,17 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux 8"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux 9"
             }
           ],
           "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-46331",
-          "date_updated": "2026-07-03T12:05:02.449Z",
+          "date_updated": "2026-07-07T12:05:15.580Z",
           "data_types": [
             "affected",
             "references",
@@ -61527,6 +62195,10 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat OpenShift Container Platform 4.14"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat OpenShift Container Platform 4.15"
             },
             {
               "vendor": "Red Hat",
@@ -62233,7 +62905,7 @@
         },
         {
           "cve_id": "CVE-2026-46595",
-          "date_updated": "2026-07-06T12:04:51.451Z",
+          "date_updated": "2026-07-07T12:04:48.311Z",
           "data_types": [
             "affected",
             "references",
@@ -62639,7 +63311,7 @@
         },
         {
           "cve_id": "CVE-2026-47691",
-          "date_updated": "2026-07-06T12:05:14.858Z",
+          "date_updated": "2026-07-07T12:05:03.629Z",
           "data_types": [
             "affected",
             "references",
@@ -62865,7 +63537,7 @@
         },
         {
           "cve_id": "CVE-2026-48043",
-          "date_updated": "2026-07-06T12:05:12.289Z",
+          "date_updated": "2026-07-07T12:05:18.398Z",
           "data_types": [
             "affected",
             "references",
@@ -63363,7 +64035,7 @@
         },
         {
           "cve_id": "CVE-2026-48746",
-          "date_updated": "2026-07-03T12:05:12.719Z",
+          "date_updated": "2026-07-07T12:04:56.989Z",
           "data_types": [
             "affected",
             "references",
@@ -63372,6 +64044,10 @@
           ],
           "file_path": "2026/48xxx/CVE-2026-48746.json",
           "affected_products": [
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat AI Inference Server 3.2"
+            },
             {
               "vendor": "Red Hat",
               "product": "Red Hat AI Inference Server 3.3"
@@ -63435,7 +64111,7 @@
         },
         {
           "cve_id": "CVE-2026-48779",
-          "date_updated": "2026-07-06T12:05:15.724Z",
+          "date_updated": "2026-07-07T12:05:07.765Z",
           "data_types": [
             "affected",
             "references",
@@ -63479,10 +64155,6 @@
             {
               "vendor": "Red Hat",
               "product": "Cryostat 4"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Gatekeeper 3"
             },
             {
               "vendor": "Red Hat",
@@ -63586,6 +64258,10 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Gatekeeper 3"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "OpenShift Service Mesh 3"
             },
             {
@@ -63667,7 +64343,7 @@
         },
         {
           "cve_id": "CVE-2026-48933",
-          "date_updated": "2026-07-06T12:04:56.467Z",
+          "date_updated": "2026-07-07T12:05:08.941Z",
           "data_types": [
             "affected",
             "references",
@@ -63682,15 +64358,15 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream (v. 9)"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat Hardened Images"
             },
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux 8"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Red Hat Enterprise Linux 9"
             }
           ],
           "source": "sadp-pilot"
@@ -68965,7 +69641,7 @@
         },
         {
           "cve_id": "CVE-2026-50010",
-          "date_updated": "2026-07-06T12:05:14.564Z",
+          "date_updated": "2026-07-07T12:05:03.050Z",
           "data_types": [
             "affected",
             "references",
@@ -69121,7 +69797,7 @@
         },
         {
           "cve_id": "CVE-2026-50256",
-          "date_updated": "2026-06-30T12:09:54.108Z",
+          "date_updated": "2026-07-07T12:04:40.132Z",
           "data_types": [
             "affected",
             "references",
@@ -69132,11 +69808,31 @@
           "affected_products": [
             {
               "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux Server (v. 7 ELS)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux Server Optional (v. 7 ELS)"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux AppStream (v. 10)"
             },
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux AppStream (v. 8)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream E4S (v.9.2)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream E4S (v.9.4)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream EUS (v.9.6)"
             },
             {
               "vendor": "Red Hat",
@@ -69149,6 +69845,10 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux CRB (v. 8)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat CodeReady Linux Builder EUS (v.9.6)"
             },
             {
               "vendor": "Red Hat",
@@ -69167,7 +69867,7 @@
         },
         {
           "cve_id": "CVE-2026-50257",
-          "date_updated": "2026-06-30T12:09:53.574Z",
+          "date_updated": "2026-07-07T12:04:39.766Z",
           "data_types": [
             "affected",
             "references",
@@ -69178,11 +69878,31 @@
           "affected_products": [
             {
               "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux Server (v. 7 ELS)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux Server Optional (v. 7 ELS)"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux AppStream (v. 10)"
             },
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux AppStream (v. 8)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream E4S (v.9.2)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream E4S (v.9.4)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream EUS (v.9.6)"
             },
             {
               "vendor": "Red Hat",
@@ -69195,6 +69915,10 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux CRB (v. 8)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat CodeReady Linux Builder EUS (v.9.6)"
             },
             {
               "vendor": "Red Hat",
@@ -69213,7 +69937,7 @@
         },
         {
           "cve_id": "CVE-2026-50258",
-          "date_updated": "2026-06-30T12:09:53.056Z",
+          "date_updated": "2026-07-07T12:04:39.405Z",
           "data_types": [
             "affected",
             "references",
@@ -69224,11 +69948,31 @@
           "affected_products": [
             {
               "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux Server (v. 7 ELS)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux Server Optional (v. 7 ELS)"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux AppStream (v. 10)"
             },
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux AppStream (v. 8)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream E4S (v.9.2)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream E4S (v.9.4)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream EUS (v.9.6)"
             },
             {
               "vendor": "Red Hat",
@@ -69241,6 +69985,10 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux CRB (v. 8)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat CodeReady Linux Builder EUS (v.9.6)"
             },
             {
               "vendor": "Red Hat",
@@ -69259,7 +70007,7 @@
         },
         {
           "cve_id": "CVE-2026-50259",
-          "date_updated": "2026-06-30T12:09:52.494Z",
+          "date_updated": "2026-07-07T12:04:39.043Z",
           "data_types": [
             "affected",
             "references",
@@ -69270,11 +70018,31 @@
           "affected_products": [
             {
               "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux Server (v. 7 ELS)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux Server Optional (v. 7 ELS)"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux AppStream (v. 10)"
             },
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux AppStream (v. 8)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream E4S (v.9.2)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream E4S (v.9.4)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream EUS (v.9.6)"
             },
             {
               "vendor": "Red Hat",
@@ -69287,6 +70055,10 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux CRB (v. 8)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat CodeReady Linux Builder EUS (v.9.6)"
             },
             {
               "vendor": "Red Hat",
@@ -69305,7 +70077,7 @@
         },
         {
           "cve_id": "CVE-2026-50260",
-          "date_updated": "2026-06-30T12:09:52.083Z",
+          "date_updated": "2026-07-07T12:04:38.675Z",
           "data_types": [
             "affected",
             "references",
@@ -69316,11 +70088,31 @@
           "affected_products": [
             {
               "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux Server (v. 7 ELS)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux Server Optional (v. 7 ELS)"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux AppStream (v. 10)"
             },
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux AppStream (v. 8)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream E4S (v.9.2)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream E4S (v.9.4)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream EUS (v.9.6)"
             },
             {
               "vendor": "Red Hat",
@@ -69333,6 +70125,10 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux CRB (v. 8)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat CodeReady Linux Builder EUS (v.9.6)"
             },
             {
               "vendor": "Red Hat",
@@ -69351,7 +70147,7 @@
         },
         {
           "cve_id": "CVE-2026-50261",
-          "date_updated": "2026-06-30T12:09:51.632Z",
+          "date_updated": "2026-07-07T12:04:38.317Z",
           "data_types": [
             "affected",
             "references",
@@ -69362,11 +70158,31 @@
           "affected_products": [
             {
               "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux Server (v. 7 ELS)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux Server Optional (v. 7 ELS)"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux AppStream (v. 10)"
             },
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux AppStream (v. 8)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream E4S (v.9.2)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream E4S (v.9.4)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream EUS (v.9.6)"
             },
             {
               "vendor": "Red Hat",
@@ -69379,6 +70195,10 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux CRB (v. 8)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat CodeReady Linux Builder EUS (v.9.6)"
             },
             {
               "vendor": "Red Hat",
@@ -69397,7 +70217,7 @@
         },
         {
           "cve_id": "CVE-2026-50264",
-          "date_updated": "2026-06-30T12:09:50.720Z",
+          "date_updated": "2026-07-07T12:04:37.939Z",
           "data_types": [
             "affected",
             "references",
@@ -69408,11 +70228,31 @@
           "affected_products": [
             {
               "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux Server (v. 7 ELS)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux Server Optional (v. 7 ELS)"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux AppStream (v. 10)"
             },
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux AppStream (v. 8)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream E4S (v.9.2)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream E4S (v.9.4)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream EUS (v.9.6)"
             },
             {
               "vendor": "Red Hat",
@@ -69425,6 +70265,10 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux CRB (v. 8)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat CodeReady Linux Builder EUS (v.9.6)"
             },
             {
               "vendor": "Red Hat",
@@ -69859,7 +70703,7 @@
         },
         {
           "cve_id": "CVE-2026-52910",
-          "date_updated": "2026-07-06T12:05:14.282Z",
+          "date_updated": "2026-07-07T12:05:13.649Z",
           "data_types": [
             "affected",
             "references",
@@ -69961,7 +70805,7 @@
         },
         {
           "cve_id": "CVE-2026-52943",
-          "date_updated": "2026-06-30T12:09:45.796Z",
+          "date_updated": "2026-07-07T12:05:03.334Z",
           "data_types": [
             "affected",
             "references",
@@ -70097,7 +70941,7 @@
         },
         {
           "cve_id": "CVE-2026-52955",
-          "date_updated": "2026-07-06T12:05:11.717Z",
+          "date_updated": "2026-07-07T12:05:13.358Z",
           "data_types": [
             "affected",
             "references",
@@ -70539,7 +71383,7 @@
         },
         {
           "cve_id": "CVE-2026-53016",
-          "date_updated": "2026-06-30T12:09:37.522Z",
+          "date_updated": "2026-07-07T12:05:02.167Z",
           "data_types": [
             "affected",
             "references",
@@ -70573,7 +71417,7 @@
         },
         {
           "cve_id": "CVE-2026-53033",
-          "date_updated": "2026-07-06T12:05:14.002Z",
+          "date_updated": "2026-07-07T12:05:13.063Z",
           "data_types": [
             "affected",
             "references",
@@ -70675,7 +71519,7 @@
         },
         {
           "cve_id": "CVE-2026-53081",
-          "date_updated": "2026-07-06T12:05:13.713Z",
+          "date_updated": "2026-07-07T12:05:12.743Z",
           "data_types": [
             "affected",
             "references",
@@ -70709,7 +71553,7 @@
         },
         {
           "cve_id": "CVE-2026-53085",
-          "date_updated": "2026-07-06T12:05:13.411Z",
+          "date_updated": "2026-07-07T12:05:12.438Z",
           "data_types": [
             "affected",
             "references",
@@ -70743,7 +71587,7 @@
         },
         {
           "cve_id": "CVE-2026-53090",
-          "date_updated": "2026-07-06T12:05:13.142Z",
+          "date_updated": "2026-07-07T12:05:12.120Z",
           "data_types": [
             "affected",
             "references",
@@ -70811,7 +71655,7 @@
         },
         {
           "cve_id": "CVE-2026-53092",
-          "date_updated": "2026-07-06T12:05:12.874Z",
+          "date_updated": "2026-07-07T12:05:11.830Z",
           "data_types": [
             "affected",
             "references",
@@ -71117,7 +71961,7 @@
         },
         {
           "cve_id": "CVE-2026-53196",
-          "date_updated": "2026-07-02T12:05:23.189Z",
+          "date_updated": "2026-07-07T12:05:14.283Z",
           "data_types": [
             "affected",
             "references",
@@ -71575,7 +72419,7 @@
         },
         {
           "cve_id": "CVE-2026-54293",
-          "date_updated": "2026-07-02T12:05:25.031Z",
+          "date_updated": "2026-07-07T12:04:57.584Z",
           "data_types": [
             "affected",
             "references",
@@ -71867,7 +72711,7 @@
         },
         {
           "cve_id": "CVE-2026-56208",
-          "date_updated": "2026-07-06T12:05:18.269Z",
+          "date_updated": "2026-07-07T12:05:00.954Z",
           "data_types": [
             "affected",
             "references",
@@ -71905,7 +72749,7 @@
         },
         {
           "cve_id": "CVE-2026-56209",
-          "date_updated": "2026-07-06T12:05:17.990Z",
+          "date_updated": "2026-07-07T12:05:01.853Z",
           "data_types": [
             "affected",
             "references",
@@ -71943,7 +72787,7 @@
         },
         {
           "cve_id": "CVE-2026-56210",
-          "date_updated": "2026-07-06T12:05:17.142Z",
+          "date_updated": "2026-07-07T12:05:01.558Z",
           "data_types": [
             "affected",
             "references",
@@ -71981,7 +72825,7 @@
         },
         {
           "cve_id": "CVE-2026-56211",
-          "date_updated": "2026-07-06T12:05:16.295Z",
+          "date_updated": "2026-07-07T12:05:01.244Z",
           "data_types": [
             "affected",
             "references",
@@ -72127,7 +72971,7 @@
         },
         {
           "cve_id": "CVE-2026-58049",
-          "date_updated": "2026-07-06T12:05:17.719Z",
+          "date_updated": "2026-07-07T12:05:00.652Z",
           "data_types": [
             "affected",
             "references",
@@ -72355,7 +73199,7 @@
         },
         {
           "cve_id": "CVE-2026-5241",
-          "date_updated": "2026-07-06T12:05:07.933Z",
+          "date_updated": "2026-07-07T12:05:18.694Z",
           "data_types": [
             "affected",
             "references",
@@ -73871,7 +74715,7 @@
         },
         {
           "cve_id": "CVE-2026-6322",
-          "date_updated": "2026-07-06T12:05:03.410Z",
+          "date_updated": "2026-07-07T12:05:18.105Z",
           "data_types": [
             "affected",
             "references",
@@ -74501,7 +75345,7 @@
         },
         {
           "cve_id": "CVE-2026-6734",
-          "date_updated": "2026-07-06T12:05:00.664Z",
+          "date_updated": "2026-07-07T12:05:08.664Z",
           "data_types": [
             "affected",
             "references",
@@ -74513,6 +75357,10 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux AppStream (v. 10)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream (v. 9)"
             },
             {
               "vendor": "Red Hat",
@@ -74544,10 +75392,6 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Enterprise Linux 9"
-            },
-            {
-              "vendor": "Red Hat",
               "product": "Red Hat OpenShift AI (RHOAI)"
             },
             {
@@ -74573,6 +75417,10 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux 10"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux 9"
             }
           ],
           "source": "sadp-pilot"
@@ -77191,7 +78039,7 @@
         },
         {
           "cve_id": "CVE-2026-8450",
-          "date_updated": "2026-06-30T03:17:04.729Z",
+          "date_updated": "2026-07-07T12:04:46.594Z",
           "data_types": [
             "affected",
             "references",
@@ -77202,19 +78050,19 @@
           "affected_products": [
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Enterprise Linux 10"
+              "product": "Red Hat Enterprise Linux CodeReady Linux Builder (v. 10)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux CRB (v. 8)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux CodeReady Linux Builder (v. 9)"
             },
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux 7"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Red Hat Enterprise Linux 8"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Red Hat Enterprise Linux 9"
             }
           ],
           "source": "sadp-pilot"
@@ -77315,7 +78163,7 @@
         },
         {
           "cve_id": "CVE-2026-8643",
-          "date_updated": "2026-07-03T12:05:13.916Z",
+          "date_updated": "2026-07-07T12:04:37.542Z",
           "data_types": [
             "affected",
             "references",
@@ -77324,6 +78172,10 @@
           ],
           "file_path": "2026/8xxx/CVE-2026-8643.json",
           "affected_products": [
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream (v. 10)"
+            },
             {
               "vendor": "Red Hat",
               "product": "Red Hat Ansible Automation Platform 2.6"
@@ -78021,7 +78873,7 @@
         },
         {
           "cve_id": "CVE-2026-9277",
-          "date_updated": "2026-07-02T12:05:20.533Z",
+          "date_updated": "2026-07-07T12:05:17.785Z",
           "data_types": [
             "affected",
             "references",
@@ -78187,7 +79039,7 @@
         },
         {
           "cve_id": "CVE-2026-9697",
-          "date_updated": "2026-07-06T12:05:00.365Z",
+          "date_updated": "2026-07-07T12:05:08.372Z",
           "data_types": [
             "affected",
             "references",
@@ -78199,6 +79051,10 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux AppStream (v. 10)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream (v. 9)"
             },
             {
               "vendor": "Red Hat",
@@ -78230,10 +79086,6 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Enterprise Linux 9"
-            },
-            {
-              "vendor": "Red Hat",
               "product": "Red Hat OpenShift AI (RHOAI)"
             },
             {
@@ -78259,6 +79111,10 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux 10"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux 9"
             }
           ],
           "source": "sadp-pilot"
