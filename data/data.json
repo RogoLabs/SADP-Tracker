@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T19:29:20.929512+00:00",
+  "generated_at": "2026-07-29T02:51:44.533316+00:00",
   "suppliers": [
     {
       "short_name": "redhat-SADP",
@@ -56493,7 +56493,7 @@
               "product": "Red Hat Hardened Images"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-45664",
@@ -68455,7 +68455,7 @@
               "product": "Red Hat OpenShift AI (RHOAI)"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-56210",
@@ -82327,7 +82327,7 @@
               "product": "SIMATIC S7-1500 TM MFP - GNU/Linux subsystem"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2024-26889",
@@ -106399,7 +106399,7 @@
               "product": "RUGGEDCOM APE1808"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-0261",
