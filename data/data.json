@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T13:29:50.086186+00:00",
+  "generated_at": "2026-08-02T19:15:06.637785+00:00",
   "suppliers": [
     {
       "short_name": "redhat-SADP",
@@ -10817,7 +10817,7 @@
               "product": "Self-service automation portal 2"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-1669",
@@ -62281,7 +62281,7 @@
               "product": "Red Hat Quay 3.9"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-4599",
@@ -103267,7 +103267,7 @@
               "product": "RUGGEDCOM APE1808"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2025-40892",
@@ -103651,7 +103651,7 @@
               "product": "RUGGEDCOM RST2428P"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2025-49795",
