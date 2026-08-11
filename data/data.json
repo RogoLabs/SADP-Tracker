@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T07:13:51.279500+00:00",
+  "generated_at": "2026-08-11T13:13:15.898766+00:00",
   "suppliers": [
     {
       "short_name": "redhat-SADP",
@@ -247,7 +247,7 @@
         },
         {
           "cve_id": "CVE-2024-21626",
-          "date_updated": "2026-07-20T12:05:03.853Z",
+          "date_updated": "2026-08-11T12:04:54.220Z",
           "data_types": [
             "affected",
             "references",
@@ -771,7 +771,7 @@
               "product": "Red Hat Single Sign-On 7"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-13465",
@@ -1875,7 +1875,7 @@
               "product": "Red Hat Enterprise Linux 8"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-15514",
@@ -2277,7 +2277,7 @@
               "product": "Red Hat Enterprise Linux 9"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-43213",
@@ -2857,7 +2857,7 @@
         },
         {
           "cve_id": "CVE-2025-48431",
-          "date_updated": "2026-08-10T12:05:48.715Z",
+          "date_updated": "2026-08-11T12:04:53.756Z",
           "data_types": [
             "affected",
             "references",
@@ -2884,7 +2884,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift distributed tracing 3.10.0"
+              "product": "Red Hat OpenShift distributed tracing 3.10.2"
             },
             {
               "vendor": "Red Hat",
@@ -3013,7 +3013,7 @@
         },
         {
           "cve_id": "CVE-2025-54518",
-          "date_updated": "2026-08-06T12:08:55.103Z",
+          "date_updated": "2026-08-11T12:04:55.229Z",
           "data_types": [
             "affected",
             "references",
@@ -3028,6 +3028,10 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux 9"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux 10"
             },
             {
@@ -3037,10 +3041,6 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux 7"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Red Hat Enterprise Linux 9"
             },
             {
               "vendor": "Red Hat",
@@ -3257,7 +3257,7 @@
               "product": "Service Telemetry Framework 1.5"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-57283",
@@ -3777,11 +3777,11 @@
               "product": "Red Hat Trusted Profile Analyzer"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-61726",
-          "date_updated": "2026-08-10T12:05:34.627Z",
+          "date_updated": "2026-08-11T12:04:50.199Z",
           "data_types": [
             "affected",
             "references",
@@ -4096,7 +4096,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift Container Platform 4.2"
+              "product": "Red Hat OpenShift Container Platform 4.20"
             },
             {
               "vendor": "Red Hat",
@@ -5205,7 +5205,7 @@
               "product": "Red Hat Enterprise Linux 9"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-67733",
@@ -5257,7 +5257,7 @@
               "product": "Red Hat Advanced Cluster Security 4"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-68493",
@@ -5335,7 +5335,7 @@
         },
         {
           "cve_id": "CVE-2025-69223",
-          "date_updated": "2026-08-10T12:05:47.782Z",
+          "date_updated": "2026-08-11T12:04:45.811Z",
           "data_types": [
             "affected",
             "references",
@@ -6073,7 +6073,7 @@
               "product": "Red Hat Openshift Data Foundation 4.22"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-9222",
@@ -7023,7 +7023,7 @@
               "product": "Red Hat Enterprise Linux 7"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-0880",
@@ -7727,7 +7727,7 @@
               "product": "Red Hat Hardened Images"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-10840",
@@ -7771,7 +7771,7 @@
               "product": "Red Hat OpenShift Container Platform 4"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-11332",
@@ -9379,7 +9379,7 @@
               "product": "Red Hat Enterprise Linux 7"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-12326",
@@ -11043,11 +11043,11 @@
               "product": "Red Hat Enterprise Linux 6"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-1784",
-          "date_updated": "2026-08-10T12:05:45.960Z",
+          "date_updated": "2026-08-11T12:04:46.418Z",
           "data_types": [
             "affected",
             "references",
@@ -11082,7 +11082,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift Container Platform 4.2"
+              "product": "Red Hat OpenShift Container Platform 4.20"
             },
             {
               "vendor": "Red Hat",
@@ -11223,7 +11223,7 @@
               "product": "Red Hat Satellite 6"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-20608",
@@ -11785,7 +11785,7 @@
               "product": "Red Hat Enterprise Linux 9"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-20897",
@@ -11803,7 +11803,7 @@
               "product": "OpenShift Pipelines"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-20911",
@@ -13601,11 +13601,11 @@
               "product": "Red Hat OpenShift AI (RHOAI)"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-22797",
-          "date_updated": "2026-08-10T12:05:41.186Z",
+          "date_updated": "2026-08-11T12:04:46.395Z",
           "data_types": [
             "affected",
             "references",
@@ -13628,7 +13628,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift Container Platform 4.2"
+              "product": "Red Hat OpenShift Container Platform 4.20"
             },
             {
               "vendor": "Red Hat",
@@ -15511,7 +15511,7 @@
               "product": "Red Hat Enterprise Linux 6"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-23918",
@@ -16319,7 +16319,7 @@
               "product": "Red Hat Satellite 6"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-24660",
@@ -16449,7 +16449,7 @@
               "product": "Red Hat OpenStack Platform 18.0"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-24734",
@@ -16971,7 +16971,7 @@
               "product": "Red Hat OpenShift AI (RHOAI)"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-25243",
@@ -17513,7 +17513,7 @@
         },
         {
           "cve_id": "CVE-2026-25646",
-          "date_updated": "2026-07-23T12:08:08.254Z",
+          "date_updated": "2026-08-11T12:04:46.450Z",
           "data_types": [
             "affected",
             "references",
@@ -17522,14 +17522,6 @@
           ],
           "file_path": "2026/25xxx/CVE-2026-25646.json",
           "affected_products": [
-            {
-              "vendor": "Red Hat",
-              "product": "OPENJDK ELS 11.0.31"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Red Hat Build of OpenJDK 17.0.9"
-            },
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux 10"
@@ -17600,18 +17592,6 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenJDK 11 els for RHEL 7"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Red Hat OpenJDK 11 els for RHEL 8"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Red Hat OpenJDK 11 els for RHEL 9"
-            },
-            {
-              "vendor": "Red Hat",
               "product": "Red Hat OpenShift Container Platform 4.12"
             },
             {
@@ -17660,6 +17640,14 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat build of OpenJDK 11 ELS"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat build of OpenJDK 17"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat build of OpenJDK 1.8"
             },
             {
@@ -17679,7 +17667,7 @@
               "product": "Red Hat Enterprise Linux 7"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-25673",
@@ -17709,7 +17697,7 @@
         },
         {
           "cve_id": "CVE-2026-25679",
-          "date_updated": "2026-08-10T12:05:37.440Z",
+          "date_updated": "2026-08-11T12:04:51.950Z",
           "data_types": [
             "affected",
             "references",
@@ -18012,7 +18000,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift Container Platform 4.2"
+              "product": "Red Hat OpenShift Container Platform 4.20"
             },
             {
               "vendor": "Red Hat",
@@ -18427,7 +18415,7 @@
               "product": "Self-service automation portal 2"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-25940",
@@ -18917,7 +18905,7 @@
               "product": "Red Hat Enterprise Linux 9.6 Extended Update Support"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-26157",
@@ -19025,7 +19013,7 @@
         },
         {
           "cve_id": "CVE-2026-26278",
-          "date_updated": "2026-08-10T12:05:46.796Z",
+          "date_updated": "2026-08-11T12:04:54.457Z",
           "data_types": [
             "affected",
             "references",
@@ -19087,7 +19075,7 @@
               "product": "Self-service automation portal 2"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-26280",
@@ -19371,7 +19359,7 @@
               "product": "Self-service automation portal 2"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-26965",
@@ -19651,7 +19639,7 @@
         },
         {
           "cve_id": "CVE-2026-27137",
-          "date_updated": "2026-08-10T12:05:45.639Z",
+          "date_updated": "2026-08-11T12:04:45.695Z",
           "data_types": [
             "affected",
             "references",
@@ -19786,7 +19774,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift GitOps 1.2"
+              "product": "Red Hat OpenShift GitOps 1.20"
             },
             {
               "vendor": "Red Hat",
@@ -20163,7 +20151,7 @@
         },
         {
           "cve_id": "CVE-2026-27145",
-          "date_updated": "2026-08-10T12:05:44.961Z",
+          "date_updated": "2026-08-11T12:04:49.224Z",
           "data_types": [
             "affected",
             "references",
@@ -20243,6 +20231,10 @@
             {
               "vendor": "Red Hat",
               "product": "Multicluster Global Hub 1.7.2"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Multicluster Global Hub 1.8.1"
             },
             {
               "vendor": "Red Hat",
@@ -23511,7 +23503,7 @@
               "product": "Red Hat Enterprise Linux 6"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-29054",
@@ -24167,7 +24159,7 @@
         },
         {
           "cve_id": "CVE-2026-29181",
-          "date_updated": "2026-08-10T12:05:54.936Z",
+          "date_updated": "2026-08-11T12:04:47.344Z",
           "data_types": [
             "affected",
             "references",
@@ -24178,7 +24170,7 @@
           "affected_products": [
             {
               "vendor": "Red Hat",
-              "product": "multicluster engine for Kubernetes 2.11"
+              "product": "multicluster engine for Kubernetes 2.11.0"
             },
             {
               "vendor": "Red Hat",
@@ -24193,7 +24185,7 @@
               "product": "Red Hat Advanced Cluster Management for Kubernetes 2"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-29186",
@@ -25069,7 +25061,7 @@
               "product": "Red Hat build of Keycloak 26.4.10"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-2229",
@@ -25615,7 +25607,7 @@
               "product": "Red Hat OpenShift AI (RHOAI)"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-2614",
@@ -26037,7 +26029,7 @@
               "product": "Red Hat Enterprise Linux 7"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-2761",
@@ -28551,7 +28543,7 @@
         },
         {
           "cve_id": "CVE-2026-31228",
-          "date_updated": "2026-07-15T01:09:33.429Z",
+          "date_updated": "2026-08-11T12:04:54.531Z",
           "data_types": [
             "affected",
             "references",
@@ -28565,11 +28557,11 @@
               "product": "Red Hat OpenShift AI (RHOAI)"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-31230",
-          "date_updated": "2026-07-15T01:09:30.649Z",
+          "date_updated": "2026-08-11T12:04:54.166Z",
           "data_types": [
             "affected",
             "references",
@@ -28583,7 +28575,7 @@
               "product": "Red Hat OpenShift AI (RHOAI)"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-31236",
@@ -28601,7 +28593,7 @@
               "product": "Red Hat OpenShift AI (RHOAI)"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-31402",
@@ -29285,7 +29277,7 @@
         },
         {
           "cve_id": "CVE-2026-31812",
-          "date_updated": "2026-08-10T12:05:54.774Z",
+          "date_updated": "2026-08-11T12:04:47.673Z",
           "data_types": [
             "affected",
             "references",
@@ -29296,7 +29288,7 @@
           "affected_products": [
             {
               "vendor": "Red Hat",
-              "product": "Logging Subsystem for Red Hat OpenShift 6.4"
+              "product": "Logging for Red Hat OpenShift 6.4"
             },
             {
               "vendor": "Red Hat",
@@ -29841,7 +29833,7 @@
         },
         {
           "cve_id": "CVE-2026-32280",
-          "date_updated": "2026-08-10T12:05:54.895Z",
+          "date_updated": "2026-08-11T12:04:53.741Z",
           "data_types": [
             "affected",
             "references",
@@ -30241,10 +30233,6 @@
             {
               "vendor": "Red Hat",
               "product": "mirror registry for Red Hat OpenShift"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Multicluster Engine for Kubernetes"
             },
             {
               "vendor": "Red Hat",
@@ -31531,7 +31519,7 @@
         },
         {
           "cve_id": "CVE-2026-32829",
-          "date_updated": "2026-08-10T12:05:42.672Z",
+          "date_updated": "2026-08-11T12:04:50.208Z",
           "data_types": [
             "affected",
             "references",
@@ -31542,11 +31530,11 @@
           "affected_products": [
             {
               "vendor": "Red Hat",
-              "product": "Logging Subsystem for Red Hat OpenShift 6.2"
+              "product": "Logging for Red Hat OpenShift 6.2"
             },
             {
               "vendor": "Red Hat",
-              "product": "Logging Subsystem for Red Hat OpenShift 6.4"
+              "product": "Logging for Red Hat OpenShift 6.4"
             },
             {
               "vendor": "Red Hat",
@@ -31873,7 +31861,7 @@
         },
         {
           "cve_id": "CVE-2026-33186",
-          "date_updated": "2026-08-10T12:05:33.378Z",
+          "date_updated": "2026-08-11T12:04:44.823Z",
           "data_types": [
             "affected",
             "references",
@@ -32140,7 +32128,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift Container Platform 4.2"
+              "product": "Red Hat OpenShift Container Platform 4.20"
             },
             {
               "vendor": "Red Hat",
@@ -34043,7 +34031,7 @@
         },
         {
           "cve_id": "CVE-2026-33811",
-          "date_updated": "2026-08-10T12:05:46.378Z",
+          "date_updated": "2026-08-11T12:04:49.874Z",
           "data_types": [
             "affected",
             "references",
@@ -34238,7 +34226,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift GitOps 1.2"
+              "product": "Red Hat OpenShift GitOps 1.20"
             },
             {
               "vendor": "Red Hat",
@@ -34375,6 +34363,10 @@
             {
               "vendor": "Red Hat",
               "product": "Node HealthCheck Operator"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Node Maintenance Operator"
             },
             {
               "vendor": "Red Hat",
@@ -34526,7 +34518,15 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Self Node Remediation Operator"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Service Telemetry Framework 1.5"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Storage-Based Remediation"
             },
             {
               "vendor": "Red Hat",
@@ -34545,7 +34545,7 @@
         },
         {
           "cve_id": "CVE-2026-33814",
-          "date_updated": "2026-08-10T12:05:43.111Z",
+          "date_updated": "2026-08-11T12:04:49.307Z",
           "data_types": [
             "affected",
             "references",
@@ -34681,6 +34681,10 @@
             {
               "vendor": "Red Hat",
               "product": "Node HealthCheck Operator"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Node Maintenance Operator"
             },
             {
               "vendor": "Red Hat",
@@ -34873,6 +34877,14 @@
             {
               "vendor": "Red Hat",
               "product": "Security Profiles Operator"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Self Node Remediation Operator"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Storage-Based Remediation"
             },
             {
               "vendor": "Red Hat",
@@ -36019,7 +36031,7 @@
               "product": "Red Hat Quay 3"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-33901",
@@ -36295,7 +36307,7 @@
               "product": "Red Hat Process Automation 7"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-33941",
@@ -36897,7 +36909,7 @@
               "product": "Red Hat Enterprise Linux 6"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-34045",
@@ -37255,7 +37267,7 @@
         },
         {
           "cve_id": "CVE-2026-34355",
-          "date_updated": "2026-07-28T12:04:38.362Z",
+          "date_updated": "2026-08-11T12:04:44.870Z",
           "data_types": [
             "affected",
             "references",
@@ -37286,6 +37298,10 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat Insights proxy 1.5"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux 6"
             },
             {
@@ -37293,7 +37309,7 @@
               "product": "Red Hat Enterprise Linux 7"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-34379",
@@ -37483,7 +37499,7 @@
               "product": "Red Hat Enterprise Linux 10"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-34582",
@@ -37855,7 +37871,7 @@
               "product": "Red Hat Build of Podman Desktop - Tech Preview"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-34780",
@@ -38117,7 +38133,7 @@
         },
         {
           "cve_id": "CVE-2026-34986",
-          "date_updated": "2026-08-10T12:05:38.168Z",
+          "date_updated": "2026-08-11T12:04:45.851Z",
           "data_types": [
             "affected",
             "references",
@@ -38284,7 +38300,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift Container Platform 4.2"
+              "product": "Red Hat OpenShift Container Platform 4.20"
             },
             {
               "vendor": "Red Hat",
@@ -38563,7 +38579,7 @@
         },
         {
           "cve_id": "CVE-2026-34993",
-          "date_updated": "2026-08-06T12:08:55.846Z",
+          "date_updated": "2026-08-11T12:04:51.670Z",
           "data_types": [
             "affected",
             "references",
@@ -38729,7 +38745,7 @@
               "product": "Red Hat OpenShift AI (RHOAI)"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-35051",
@@ -38747,7 +38763,7 @@
               "product": "Red Hat OpenShift Dev Spaces 3.28"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-35093",
@@ -38781,7 +38797,7 @@
         },
         {
           "cve_id": "CVE-2026-35172",
-          "date_updated": "2026-07-15T02:46:11.531Z",
+          "date_updated": "2026-08-11T12:04:53.901Z",
           "data_types": [
             "affected",
             "references",
@@ -38823,7 +38839,7 @@
               "product": "Red Hat OpenShift Container Platform 4"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-35204",
@@ -38859,7 +38875,7 @@
               "product": "Helm CLI 4.1"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-35385",
@@ -39053,7 +39069,7 @@
         },
         {
           "cve_id": "CVE-2026-35469",
-          "date_updated": "2026-08-10T12:05:32.402Z",
+          "date_updated": "2026-08-11T12:04:43.667Z",
           "data_types": [
             "affected",
             "references",
@@ -39164,7 +39180,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift Container Platform 4.2"
+              "product": "Red Hat OpenShift Container Platform 4.20"
             },
             {
               "vendor": "Red Hat",
@@ -39581,7 +39597,7 @@
               "product": "Red Hat JBoss Enterprise Application Platform Expansion Pack"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-39363",
@@ -39697,7 +39713,7 @@
         },
         {
           "cve_id": "CVE-2026-39820",
-          "date_updated": "2026-08-10T12:05:43.852Z",
+          "date_updated": "2026-08-11T12:04:52.199Z",
           "data_types": [
             "affected",
             "references",
@@ -39832,6 +39848,10 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Fence Agents Remediation Operator"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "File Integrity Operator"
             },
             {
@@ -39841,6 +39861,10 @@
             {
               "vendor": "Red Hat",
               "product": "Logical Volume Manager Storage"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Machine Deletion Remediation Operator"
             },
             {
               "vendor": "Red Hat",
@@ -39857,6 +39881,14 @@
             {
               "vendor": "Red Hat",
               "product": "Network Observability Operator"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Node HealthCheck Operator"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Node Maintenance Operator"
             },
             {
               "vendor": "Red Hat",
@@ -40008,6 +40040,14 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Self Node Remediation Operator"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Storage-Based Remediation"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Zero Trust Workload Identity Manager"
             },
             {
@@ -40019,7 +40059,7 @@
         },
         {
           "cve_id": "CVE-2026-39821",
-          "date_updated": "2026-08-10T12:05:40.487Z",
+          "date_updated": "2026-08-11T12:04:52.204Z",
           "data_types": [
             "affected",
             "references",
@@ -40246,7 +40286,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift GitOps 1.2"
+              "product": "Red Hat OpenShift GitOps 1.20"
             },
             {
               "vendor": "Red Hat",
@@ -40390,6 +40430,10 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Node Maintenance Operator"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "OpenShift API for Data Protection"
             },
             {
@@ -40518,6 +40562,14 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Self Node Remediation Operator"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Storage-Based Remediation"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "streams for Apache Kafka 3"
             },
             {
@@ -40533,7 +40585,7 @@
         },
         {
           "cve_id": "CVE-2026-39828",
-          "date_updated": "2026-08-10T12:05:43.804Z",
+          "date_updated": "2026-08-11T12:04:52.894Z",
           "data_types": [
             "affected",
             "references",
@@ -40616,7 +40668,19 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat OpenShift Container Platform 4.22"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat Openshift Data Foundation 4.22"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat OpenShift GitOps 1.19"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat OpenShift GitOps 1.20"
             },
             {
               "vendor": "Red Hat",
@@ -40767,7 +40831,7 @@
         },
         {
           "cve_id": "CVE-2026-39829",
-          "date_updated": "2026-08-10T12:05:37.304Z",
+          "date_updated": "2026-08-11T12:04:44.387Z",
           "data_types": [
             "affected",
             "references",
@@ -40883,6 +40947,14 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat OpenShift Dev Spaces 3.29"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat OpenShift GitOps 1.19"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat OpenShift GitOps 1.20"
             },
             {
               "vendor": "Red Hat",
@@ -41017,11 +41089,11 @@
               "product": "Zero Trust Workload Identity Manager - Tech Preview"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-39830",
-          "date_updated": "2026-08-10T12:05:53.775Z",
+          "date_updated": "2026-08-11T12:04:44.920Z",
           "data_types": [
             "affected",
             "references",
@@ -41121,6 +41193,14 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Openshift Data Foundation 4.22"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat OpenShift GitOps 1.19"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat OpenShift GitOps 1.20"
             },
             {
               "vendor": "Red Hat",
@@ -41263,7 +41343,7 @@
         },
         {
           "cve_id": "CVE-2026-39832",
-          "date_updated": "2026-08-10T12:05:34.843Z",
+          "date_updated": "2026-08-11T12:04:54.336Z",
           "data_types": [
             "affected",
             "references",
@@ -41335,6 +41415,14 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Openshift Data Foundation 4.22"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat OpenShift GitOps 1.19"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat OpenShift GitOps 1.20"
             },
             {
               "vendor": "Red Hat",
@@ -41437,7 +41525,7 @@
         },
         {
           "cve_id": "CVE-2026-39835",
-          "date_updated": "2026-08-10T12:05:41.212Z",
+          "date_updated": "2026-08-11T12:04:52.865Z",
           "data_types": [
             "affected",
             "references",
@@ -41524,7 +41612,19 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat OpenShift Container Platform 4.22"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat Openshift Data Foundation 4.22"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat OpenShift GitOps 1.19"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat OpenShift GitOps 1.20"
             },
             {
               "vendor": "Red Hat",
@@ -41655,7 +41755,7 @@
               "product": "Zero Trust Workload Identity Manager - Tech Preview"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-39852",
@@ -42617,7 +42717,7 @@
               "product": "Red Hat Enterprise Linux 6"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-3086",
@@ -42769,7 +42869,7 @@
               "product": "Red Hat OpenShift Container Platform 4"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-3304",
@@ -43135,7 +43235,7 @@
               "product": "streams for Apache Kafka 3"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-3520",
@@ -43587,7 +43687,7 @@
         },
         {
           "cve_id": "CVE-2026-40175",
-          "date_updated": "2026-08-10T12:05:40.196Z",
+          "date_updated": "2026-08-11T12:04:54.955Z",
           "data_types": [
             "affected",
             "references",
@@ -43674,7 +43774,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift Container Platform 4.2"
+              "product": "Red Hat OpenShift Container Platform 4.20"
             },
             {
               "vendor": "Red Hat",
@@ -45477,7 +45577,7 @@
               "product": "streams for Apache Kafka 3"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-41035",
@@ -45975,7 +46075,7 @@
               "product": "Red Hat JBoss Enterprise Application Platform Expansion Pack"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-41246",
@@ -46011,7 +46111,7 @@
               "product": "Red Hat OpenStack Platform 16.2"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-41292",
@@ -46315,7 +46415,7 @@
         },
         {
           "cve_id": "CVE-2026-41602",
-          "date_updated": "2026-08-10T12:05:53.448Z",
+          "date_updated": "2026-08-11T12:04:55.028Z",
           "data_types": [
             "affected",
             "references",
@@ -46358,7 +46458,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift distributed tracing 3.9.1"
+              "product": "Red Hat OpenShift distributed tracing 3.9.2"
             },
             {
               "vendor": "Red Hat",
@@ -46685,7 +46785,7 @@
         },
         {
           "cve_id": "CVE-2026-41607",
-          "date_updated": "2026-08-10T12:05:53.228Z",
+          "date_updated": "2026-08-11T12:04:53.601Z",
           "data_types": [
             "affected",
             "references",
@@ -46751,7 +46851,7 @@
               "product": "Red Hat OpenShift GitOps"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-41651",
@@ -46925,7 +47025,7 @@
         },
         {
           "cve_id": "CVE-2026-41674",
-          "date_updated": "2026-08-10T12:05:50.876Z",
+          "date_updated": "2026-08-11T12:04:45.691Z",
           "data_types": [
             "affected",
             "references",
@@ -46944,7 +47044,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift Container Platform 4.2"
+              "product": "Red Hat OpenShift Container Platform 4.20"
             },
             {
               "vendor": "Red Hat",
@@ -48679,7 +48779,7 @@
         },
         {
           "cve_id": "CVE-2026-42151",
-          "date_updated": "2026-08-10T12:05:48.687Z",
+          "date_updated": "2026-08-11T12:04:47.550Z",
           "data_types": [
             "affected",
             "references",
@@ -48857,11 +48957,11 @@
               "product": "Red Hat OpenStack Platform 18.0"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-42154",
-          "date_updated": "2026-08-10T12:05:46.371Z",
+          "date_updated": "2026-08-11T12:04:54.802Z",
           "data_types": [
             "affected",
             "references",
@@ -48948,7 +49048,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift Container Platform 4.2"
+              "product": "Red Hat OpenShift Container Platform 4.20"
             },
             {
               "vendor": "Red Hat",
@@ -49055,7 +49155,7 @@
         },
         {
           "cve_id": "CVE-2026-42198",
-          "date_updated": "2026-08-05T12:14:46.724Z",
+          "date_updated": "2026-08-11T12:04:53.276Z",
           "data_types": [
             "affected",
             "references",
@@ -49074,11 +49174,31 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux 10.0 Extended Update Support"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux 8"
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux 8.8 Telecommunications Update Service"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux 8.8 Update Services for SAP Solutions"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux 9"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux 9.4 Update Services for SAP Solutions"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux 9.6 Extended Update Support"
             },
             {
               "vendor": "Red Hat",
@@ -49093,7 +49213,7 @@
               "product": "Red Hat Enterprise Linux 7"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-42203",
@@ -49897,7 +50017,7 @@
         },
         {
           "cve_id": "CVE-2026-42499",
-          "date_updated": "2026-08-10T12:05:46.974Z",
+          "date_updated": "2026-08-11T12:04:53.011Z",
           "data_types": [
             "affected",
             "references",
@@ -50028,6 +50148,10 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Fence Agents Remediation Operator"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "File Integrity Operator"
             },
             {
@@ -50037,6 +50161,10 @@
             {
               "vendor": "Red Hat",
               "product": "Logical Volume Manager Storage"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Machine Deletion Remediation Operator"
             },
             {
               "vendor": "Red Hat",
@@ -50053,6 +50181,14 @@
             {
               "vendor": "Red Hat",
               "product": "Network Observability Operator"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Node HealthCheck Operator"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Node Maintenance Operator"
             },
             {
               "vendor": "Red Hat",
@@ -50208,6 +50344,14 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Self Node Remediation Operator"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Storage-Based Remediation"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Zero Trust Workload Identity Manager"
             },
             {
@@ -50219,7 +50363,7 @@
         },
         {
           "cve_id": "CVE-2026-42508",
-          "date_updated": "2026-08-10T12:05:46.745Z",
+          "date_updated": "2026-08-11T12:04:45.937Z",
           "data_types": [
             "affected",
             "references",
@@ -50330,6 +50474,14 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat OpenShift GitOps 1.19"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat OpenShift GitOps 1.20"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat Quay 3.1"
             },
             {
@@ -50390,10 +50542,6 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift GitOps"
-            },
-            {
-              "vendor": "Red Hat",
               "product": "Red Hat OpenShift Virtualization 4"
             },
             {
@@ -50413,7 +50561,7 @@
               "product": "Red Hat Quay 3"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-42530",
@@ -50493,7 +50641,7 @@
         },
         {
           "cve_id": "CVE-2026-42536",
-          "date_updated": "2026-08-10T12:05:35.474Z",
+          "date_updated": "2026-08-11T12:04:54.951Z",
           "data_types": [
             "affected",
             "references",
@@ -50524,6 +50672,10 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat Insights proxy 1.5"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux 6"
             },
             {
@@ -50535,7 +50687,7 @@
               "product": "Red Hat JBoss Core Services"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-42557",
@@ -50663,7 +50815,7 @@
               "product": "Red Hat Build of Podman Desktop"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-42578",
@@ -51345,7 +51497,7 @@
         },
         {
           "cve_id": "CVE-2026-42880",
-          "date_updated": "2026-08-03T12:05:47.629Z",
+          "date_updated": "2026-08-11T12:04:46.487Z",
           "data_types": [
             "affected",
             "references",
@@ -51360,7 +51512,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift GitOps 1.2"
+              "product": "Red Hat OpenShift GitOps 1.20"
             },
             {
               "vendor": "Red Hat",
@@ -51459,7 +51611,7 @@
         },
         {
           "cve_id": "CVE-2026-42945",
-          "date_updated": "2026-07-20T12:04:55.059Z",
+          "date_updated": "2026-08-11T12:04:51.857Z",
           "data_types": [
             "affected",
             "references",
@@ -51530,7 +51682,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Openshift Data Foundation 4.2"
+              "product": "Red Hat Openshift Data Foundation 4.20"
             },
             {
               "vendor": "Red Hat",
@@ -51557,7 +51709,7 @@
               "product": "Red Hat Lightspeed proxy 1"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-42959",
@@ -51599,7 +51751,7 @@
               "product": "Red Hat OpenShift Container Platform 4"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-42965",
@@ -51741,7 +51893,7 @@
         },
         {
           "cve_id": "CVE-2026-43003",
-          "date_updated": "2026-07-15T00:56:20.889Z",
+          "date_updated": "2026-08-11T12:04:54.885Z",
           "data_types": [
             "affected",
             "references",
@@ -51752,10 +51904,14 @@
           "affected_products": [
             {
               "vendor": "Red Hat",
+              "product": "Red Hat OpenShift Container Platform 4.22"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat OpenShift Container Platform 4"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-43037",
@@ -52497,7 +52653,7 @@
               "product": "Red Hat Enterprise Linux 9"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-43500",
@@ -52845,7 +53001,7 @@
               "product": "Red Hat OpenShift GitOps"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-43868",
@@ -52899,7 +53055,7 @@
         },
         {
           "cve_id": "CVE-2026-43869",
-          "date_updated": "2026-08-10T12:05:42.002Z",
+          "date_updated": "2026-08-11T12:04:52.912Z",
           "data_types": [
             "affected",
             "references",
@@ -52958,7 +53114,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift distributed tracing 3.10.0"
+              "product": "Red Hat OpenShift distributed tracing 3.10.2"
             },
             {
               "vendor": "Red Hat",
@@ -53421,7 +53577,7 @@
               "product": "Red Hat Enterprise Linux 7"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-44172",
@@ -53497,7 +53653,7 @@
         },
         {
           "cve_id": "CVE-2026-44185",
-          "date_updated": "2026-07-28T12:04:48.134Z",
+          "date_updated": "2026-08-11T12:04:46.469Z",
           "data_types": [
             "affected",
             "references",
@@ -53525,6 +53681,10 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Hardened Images"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Insights proxy 1.5"
             },
             {
               "vendor": "Red Hat",
@@ -53957,7 +54117,7 @@
               "product": "Self-service automation portal 2"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-44390",
@@ -54101,7 +54261,7 @@
               "product": "Red Hat Enterprise Linux 9"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-44421",
@@ -56613,7 +56773,7 @@
               "product": "Red Hat Enterprise Linux 9"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-44724",
@@ -56647,7 +56807,7 @@
               "product": "Red Hat OpenShift AI (RHOAI)"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-44727",
@@ -57199,7 +57359,7 @@
               "product": "Red Hat Enterprise Linux 7"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-45411",
@@ -57961,7 +58121,7 @@
               "product": "Red Hat Enterprise Linux AI (RHEL AI) 3"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-45830",
@@ -60019,7 +60179,7 @@
         },
         {
           "cve_id": "CVE-2026-46579",
-          "date_updated": "2026-08-10T12:05:54.915Z",
+          "date_updated": "2026-08-11T12:04:43.553Z",
           "data_types": [
             "affected",
             "references",
@@ -60062,7 +60222,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift Container Platform 4.2"
+              "product": "Red Hat OpenShift Container Platform 4.20"
             },
             {
               "vendor": "Red Hat",
@@ -60073,11 +60233,11 @@
               "product": "Red Hat OpenShift Container Platform 4.22"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-46595",
-          "date_updated": "2026-08-10T12:05:52.486Z",
+          "date_updated": "2026-08-11T12:04:54.093Z",
           "data_types": [
             "affected",
             "references",
@@ -60287,7 +60447,7 @@
         },
         {
           "cve_id": "CVE-2026-46625",
-          "date_updated": "2026-08-10T12:05:48.629Z",
+          "date_updated": "2026-08-11T12:04:47.037Z",
           "data_types": [
             "affected",
             "references",
@@ -60307,6 +60467,10 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Developer Hub 1.10"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Developer Hub 1.9"
             },
             {
               "vendor": "Red Hat",
@@ -60421,7 +60585,7 @@
         },
         {
           "cve_id": "CVE-2026-47162",
-          "date_updated": "2026-08-10T12:05:50.455Z",
+          "date_updated": "2026-08-11T12:04:53.244Z",
           "data_types": [
             "affected",
             "references",
@@ -60441,6 +60605,10 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux 9"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Insights proxy 1.5"
             },
             {
               "vendor": "Red Hat",
@@ -60515,7 +60683,7 @@
               "product": "Red Hat Process Automation 7"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-47691",
@@ -60667,7 +60835,7 @@
         },
         {
           "cve_id": "CVE-2026-47783",
-          "date_updated": "2026-07-15T00:48:47.525Z",
+          "date_updated": "2026-08-11T12:04:52.487Z",
           "data_types": [
             "affected",
             "references",
@@ -60863,7 +61031,7 @@
               "product": "streams for Apache Kafka 3"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-48059",
@@ -61233,7 +61401,7 @@
               "product": "Red Hat Update Infrastructure 4 for Cloud Providers"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-48618",
@@ -61267,7 +61435,7 @@
               "product": "Red Hat Hardened Images"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-48710",
@@ -61345,7 +61513,7 @@
         },
         {
           "cve_id": "CVE-2026-48746",
-          "date_updated": "2026-07-22T12:08:43.033Z",
+          "date_updated": "2026-08-11T12:04:49.463Z",
           "data_types": [
             "affected",
             "references",
@@ -61433,7 +61601,7 @@
         },
         {
           "cve_id": "CVE-2026-48779",
-          "date_updated": "2026-08-04T12:07:12.477Z",
+          "date_updated": "2026-08-11T12:04:53.915Z",
           "data_types": [
             "affected",
             "references",
@@ -61879,7 +62047,7 @@
         },
         {
           "cve_id": "CVE-2026-49261",
-          "date_updated": "2026-08-03T12:05:54.349Z",
+          "date_updated": "2026-08-11T12:04:55.163Z",
           "data_types": [
             "affected",
             "references",
@@ -61894,11 +62062,19 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux 10.0 Extended Update Support"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux 8"
             },
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux 9"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux 9.4 Update Services for SAP Solutions"
             },
             {
               "vendor": "Red Hat",
@@ -63677,7 +63853,7 @@
               "product": "Red Hat Enterprise Linux 7"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-4686",
@@ -64397,7 +64573,7 @@
               "product": "Red Hat Enterprise Linux 7"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-4694",
@@ -66195,7 +66371,7 @@
               "product": "Red Hat Enterprise Linux 7"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-4926",
@@ -67639,7 +67815,7 @@
               "product": "Red Hat OpenShift Container Platform 4"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-52910",
@@ -68135,7 +68311,7 @@
               "product": "Red Hat Enterprise Linux 9"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-52991",
@@ -68237,7 +68413,7 @@
               "product": "Red Hat Enterprise Linux 9"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-53002",
@@ -68619,7 +68795,7 @@
               "product": "Red Hat Enterprise Linux 9"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-53092",
@@ -68993,7 +69169,7 @@
               "product": "Red Hat Enterprise Linux 9"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-53203",
@@ -69485,7 +69661,7 @@
               "product": "Red Hat OpenShift AI (RHOAI)"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-54297",
@@ -69531,7 +69707,7 @@
         },
         {
           "cve_id": "CVE-2026-54369",
-          "date_updated": "2026-08-10T12:05:52.723Z",
+          "date_updated": "2026-08-11T12:04:44.881Z",
           "data_types": [
             "affected",
             "references",
@@ -69559,6 +69735,10 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Hardened Images"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Insights proxy 1.5"
             },
             {
               "vendor": "Red Hat",
@@ -70135,7 +70315,7 @@
         },
         {
           "cve_id": "CVE-2026-58049",
-          "date_updated": "2026-08-07T12:04:46.876Z",
+          "date_updated": "2026-08-11T12:04:50.270Z",
           "data_types": [
             "affected",
             "references",
@@ -70144,6 +70324,14 @@
           ],
           "file_path": "2026/58xxx/CVE-2026-58049.json",
           "affected_products": [
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AI 3.0 for RHEL 9"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AI 3.2 for RHEL 9"
+            },
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux AI 3.3 for RHEL 9"
@@ -71319,7 +71507,7 @@
               "product": "Red Hat OpenShift Container Platform 4"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-5947",
@@ -72267,7 +72455,7 @@
               "product": "Red Hat Enterprise Linux AI (RHEL AI) 3"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-6722",
@@ -73443,7 +73631,7 @@
               "product": "Red Hat JBoss Enterprise Application Platform Expansion Pack"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-6859",
@@ -73567,7 +73755,7 @@
         },
         {
           "cve_id": "CVE-2026-7163",
-          "date_updated": "2026-08-10T12:05:43.090Z",
+          "date_updated": "2026-08-11T12:04:51.887Z",
           "data_types": [
             "affected",
             "references",
@@ -73582,7 +73770,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "multicluster engine for Kubernetes 2.11"
+              "product": "multicluster engine for Kubernetes 2.11.0"
             },
             {
               "vendor": "Red Hat",
@@ -73591,9 +73779,13 @@
             {
               "vendor": "Red Hat",
               "product": "multicluster engine for Kubernetes 2.9"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "multicluster engine for Kubernetes 2.9.0"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-7246",
@@ -74285,7 +74477,7 @@
         },
         {
           "cve_id": "CVE-2026-8091",
-          "date_updated": "2026-07-22T12:08:50.067Z",
+          "date_updated": "2026-08-11T12:04:45.056Z",
           "data_types": [
             "affected",
             "references",
@@ -74296,11 +74488,19 @@
           "affected_products": [
             {
               "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux 10"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux 10.0 Extended Update Support"
             },
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux 7 Extended Lifecycle Support"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux 8"
             },
             {
               "vendor": "Red Hat",
@@ -74328,6 +74528,14 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux 9"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux 9.0 Update Services for SAP Solutions"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux 9.2 Update Services for SAP Solutions"
             },
             {
@@ -74340,23 +74548,11 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Enterprise Linux 10"
-            },
-            {
-              "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux 6"
             },
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux 7"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Red Hat Enterprise Linux 8"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Red Hat Enterprise Linux 9"
             }
           ],
           "source": "sadp-pilot"
@@ -76145,7 +76341,7 @@
         },
         {
           "cve_id": "CVE-2026-9698",
-          "date_updated": "2026-07-16T12:04:49.222Z",
+          "date_updated": "2026-08-11T12:04:50.302Z",
           "data_types": [
             "affected",
             "references",
@@ -76168,6 +76364,10 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat Insights proxy 1.5"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux 6"
             },
             {
@@ -76175,7 +76375,7 @@
               "product": "Red Hat Enterprise Linux 7"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-9795",
@@ -76289,7 +76489,7 @@
               "product": "Red Hat OpenShift Virtualization 4"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         }
       ]
     },
@@ -76575,7 +76775,7 @@
               "product": "RUGGEDCOM ROX RX5000"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2019-14192",
@@ -78470,6 +78670,422 @@
           "source": "sadp-pilot"
         },
         {
+          "cve_id": "CVE-2020-27339",
+          "date_updated": "2026-08-11T12:22:03.345Z",
+          "data_types": [
+            "affected",
+            "references"
+          ],
+          "file_path": "2020/27xxx/CVE-2020-27339.json",
+          "affected_products": [
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM APE1808 - BIOS"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC Field PG M5"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC Field PG M6"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC127E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC227G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC277G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC277G PRO"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC327G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC377G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC427E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC477E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC477E PRO"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC627E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC647E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC677E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC847E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC ITP1000"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS IPC427E"
+            }
+          ],
+          "source": "sadp-pilot"
+        },
+        {
+          "cve_id": "CVE-2020-5953",
+          "date_updated": "2026-08-11T12:22:02.148Z",
+          "data_types": [
+            "affected",
+            "references"
+          ],
+          "file_path": "2020/5xxx/CVE-2020-5953.json",
+          "affected_products": [
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC Field PG M5"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC Field PG M6"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC127E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC227G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC277G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC277G PRO"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC327G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC377G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC427E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC477E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC477E PRO"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC627E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC647E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC677E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC847E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC ITP1000"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS IPC427E"
+            }
+          ],
+          "source": "both"
+        },
+        {
+          "cve_id": "CVE-2021-33625",
+          "date_updated": "2026-08-11T12:22:04.521Z",
+          "data_types": [
+            "affected",
+            "references"
+          ],
+          "file_path": "2021/33xxx/CVE-2021-33625.json",
+          "affected_products": [
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM APE1808 - BIOS"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC Field PG M5"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC Field PG M6"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC127E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC227G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC277G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC277G PRO"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC327G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC377G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC427E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC477E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC477E PRO"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC627E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC647E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC677E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC847E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC ITP1000"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS IPC427E"
+            }
+          ],
+          "source": "both"
+        },
+        {
+          "cve_id": "CVE-2021-33626",
+          "date_updated": "2026-08-11T12:22:05.856Z",
+          "data_types": [
+            "affected",
+            "references"
+          ],
+          "file_path": "2021/33xxx/CVE-2021-33626.json",
+          "affected_products": [
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM APE1808 - BIOS"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC Field PG M5"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC Field PG M6"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC127E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC227G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC277G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC277G PRO"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC327G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC377G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC427E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC477E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC477E PRO"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC627E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC647E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC677E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC847E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC ITP1000"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS IPC427E"
+            }
+          ],
+          "source": "both"
+        },
+        {
+          "cve_id": "CVE-2021-33627",
+          "date_updated": "2026-08-11T12:22:07.040Z",
+          "data_types": [
+            "affected",
+            "references"
+          ],
+          "file_path": "2021/33xxx/CVE-2021-33627.json",
+          "affected_products": [
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM APE1808 - BIOS"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC Field PG M5"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC Field PG M6"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC127E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC227G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC277G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC277G PRO"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC327G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC377G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC427E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC477E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC477E PRO"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC627E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC647E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC677E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC847E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC ITP1000"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS IPC427E"
+            }
+          ],
+          "source": "sadp-pilot"
+        },
+        {
           "cve_id": "CVE-2021-38202",
           "date_updated": "2026-05-12T10:12:18.678Z",
           "data_types": [
@@ -79356,6 +79972,1262 @@
             }
           ],
           "source": "both"
+        },
+        {
+          "cve_id": "CVE-2021-41837",
+          "date_updated": "2026-08-11T12:22:08.782Z",
+          "data_types": [
+            "affected",
+            "references"
+          ],
+          "file_path": "2021/41xxx/CVE-2021-41837.json",
+          "affected_products": [
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM APE1808 - BIOS"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC Field PG M5"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC Field PG M6"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC127E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC227G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC277G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC277G PRO"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC327G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC377G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC427E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC477E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC477E PRO"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC627E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC647E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC677E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC847E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC ITP1000"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS IPC427E"
+            }
+          ],
+          "source": "sadp-pilot"
+        },
+        {
+          "cve_id": "CVE-2021-41838",
+          "date_updated": "2026-08-11T12:22:09.947Z",
+          "data_types": [
+            "affected",
+            "references"
+          ],
+          "file_path": "2021/41xxx/CVE-2021-41838.json",
+          "affected_products": [
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM APE1808 - BIOS"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC Field PG M5"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC Field PG M6"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC127E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC227G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC277G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC277G PRO"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC327G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC377G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC427E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC477E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC477E PRO"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC627E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC647E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC677E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC847E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC ITP1000"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS IPC427E"
+            }
+          ],
+          "source": "both"
+        },
+        {
+          "cve_id": "CVE-2021-41839",
+          "date_updated": "2026-08-11T12:22:11.112Z",
+          "data_types": [
+            "affected",
+            "references"
+          ],
+          "file_path": "2021/41xxx/CVE-2021-41839.json",
+          "affected_products": [
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM APE1808 - BIOS"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC Field PG M5"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC Field PG M6"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC127E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC227G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC277G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC277G PRO"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC327G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC377G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC427E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC477E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC477E PRO"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC627E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC647E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC677E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC847E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC ITP1000"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS IPC427E"
+            }
+          ],
+          "source": "both"
+        },
+        {
+          "cve_id": "CVE-2021-41840",
+          "date_updated": "2026-08-11T12:22:12.302Z",
+          "data_types": [
+            "affected",
+            "references"
+          ],
+          "file_path": "2021/41xxx/CVE-2021-41840.json",
+          "affected_products": [
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC Field PG M5"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC Field PG M6"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC127E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC227G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC277G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC277G PRO"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC327G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC377G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC427E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC477E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC477E PRO"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC627E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC647E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC677E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC847E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC ITP1000"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS IPC427E"
+            }
+          ],
+          "source": "both"
+        },
+        {
+          "cve_id": "CVE-2021-41841",
+          "date_updated": "2026-08-11T12:22:13.467Z",
+          "data_types": [
+            "affected",
+            "references"
+          ],
+          "file_path": "2021/41xxx/CVE-2021-41841.json",
+          "affected_products": [
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM APE1808 - BIOS"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC Field PG M5"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC Field PG M6"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC127E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC227G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC277G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC277G PRO"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC327G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC377G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC427E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC477E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC477E PRO"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC627E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC647E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC677E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC847E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC ITP1000"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS IPC427E"
+            }
+          ],
+          "source": "both"
+        },
+        {
+          "cve_id": "CVE-2021-42059",
+          "date_updated": "2026-08-11T12:22:14.617Z",
+          "data_types": [
+            "affected",
+            "references"
+          ],
+          "file_path": "2021/42xxx/CVE-2021-42059.json",
+          "affected_products": [
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM APE1808 - BIOS"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC Field PG M5"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC Field PG M6"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC127E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC227G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC277G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC277G PRO"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC327G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC377G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC427E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC477E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC477E PRO"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC627E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC647E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC677E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC847E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC ITP1000"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS IPC427E"
+            }
+          ],
+          "source": "sadp-pilot"
+        },
+        {
+          "cve_id": "CVE-2021-42060",
+          "date_updated": "2026-08-11T12:22:15.909Z",
+          "data_types": [
+            "affected",
+            "references"
+          ],
+          "file_path": "2021/42xxx/CVE-2021-42060.json",
+          "affected_products": [
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM APE1808 - BIOS"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC Field PG M5"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC Field PG M6"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC127E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC227G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC277G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC277G PRO"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC327G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC377G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC427E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC477E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC477E PRO"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC627E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC647E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC677E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC847E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC ITP1000"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS IPC427E"
+            }
+          ],
+          "source": "sadp-pilot"
+        },
+        {
+          "cve_id": "CVE-2021-42113",
+          "date_updated": "2026-08-11T12:22:17.067Z",
+          "data_types": [
+            "affected",
+            "references"
+          ],
+          "file_path": "2021/42xxx/CVE-2021-42113.json",
+          "affected_products": [
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM APE1808 - BIOS"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC Field PG M5"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC Field PG M6"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC127E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC227G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC277G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC277G PRO"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC327G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC377G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC427E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC477E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC477E PRO"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC627E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC647E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC677E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC847E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC ITP1000"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS IPC427E"
+            }
+          ],
+          "source": "both"
+        },
+        {
+          "cve_id": "CVE-2021-42554",
+          "date_updated": "2026-08-11T12:22:18.229Z",
+          "data_types": [
+            "affected",
+            "references"
+          ],
+          "file_path": "2021/42xxx/CVE-2021-42554.json",
+          "affected_products": [
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM APE1808 - BIOS"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC Field PG M5"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC Field PG M6"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC127E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC227G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC277G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC277G PRO"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC327G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC377G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC427E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC477E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC477E PRO"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC627E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC647E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC677E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC847E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC ITP1000"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS IPC427E"
+            }
+          ],
+          "source": "sadp-pilot"
+        },
+        {
+          "cve_id": "CVE-2021-43323",
+          "date_updated": "2026-08-11T12:22:19.420Z",
+          "data_types": [
+            "affected",
+            "references"
+          ],
+          "file_path": "2021/43xxx/CVE-2021-43323.json",
+          "affected_products": [
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM APE1808 - BIOS"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC Field PG M5"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC Field PG M6"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC127E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC227G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC277G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC277G PRO"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC327G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC377G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC427E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC477E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC477E PRO"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC627E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC647E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC677E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC847E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC ITP1000"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS IPC427E"
+            }
+          ],
+          "source": "sadp-pilot"
+        },
+        {
+          "cve_id": "CVE-2021-43522",
+          "date_updated": "2026-08-11T12:22:20.574Z",
+          "data_types": [
+            "affected",
+            "references"
+          ],
+          "file_path": "2021/43xxx/CVE-2021-43522.json",
+          "affected_products": [
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM APE1808 - BIOS"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC Field PG M5"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC Field PG M6"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC127E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC227G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC277G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC277G PRO"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC327G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC377G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC427E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC477E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC477E PRO"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC627E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC647E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC677E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC847E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC ITP1000"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS IPC427E"
+            }
+          ],
+          "source": "both"
+        },
+        {
+          "cve_id": "CVE-2021-43615",
+          "date_updated": "2026-08-11T12:22:22.919Z",
+          "data_types": [
+            "affected",
+            "references"
+          ],
+          "file_path": "2021/43xxx/CVE-2021-43615.json",
+          "affected_products": [
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM APE1808 - BIOS"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC Field PG M5"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC Field PG M6"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC127E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC227G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC277G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC277G PRO"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC327G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC377G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC427E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC477E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC477E PRO"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC627E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC647E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC677E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC847E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC ITP1000"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS IPC427E"
+            }
+          ],
+          "source": "sadp-pilot"
+        },
+        {
+          "cve_id": "CVE-2021-45969",
+          "date_updated": "2026-08-11T12:22:24.092Z",
+          "data_types": [
+            "affected",
+            "references"
+          ],
+          "file_path": "2021/45xxx/CVE-2021-45969.json",
+          "affected_products": [
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM APE1808 - BIOS"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC Field PG M5"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC Field PG M6"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC127E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC227G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC277G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC277G PRO"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC327G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC377G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC427E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC477E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC477E PRO"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC627E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC647E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC677E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC847E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC ITP1000"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS IPC427E"
+            }
+          ],
+          "source": "sadp-pilot"
+        },
+        {
+          "cve_id": "CVE-2021-45970",
+          "date_updated": "2026-08-11T12:22:25.252Z",
+          "data_types": [
+            "affected",
+            "references"
+          ],
+          "file_path": "2021/45xxx/CVE-2021-45970.json",
+          "affected_products": [
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM APE1808 - BIOS"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC Field PG M5"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC Field PG M6"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC127E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC227G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC277G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC277G PRO"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC327G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC377G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC427E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC477E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC477E PRO"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC627E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC647E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC677E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC847E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC ITP1000"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS IPC427E"
+            }
+          ],
+          "source": "both"
+        },
+        {
+          "cve_id": "CVE-2021-45971",
+          "date_updated": "2026-08-11T12:22:26.567Z",
+          "data_types": [
+            "affected",
+            "references"
+          ],
+          "file_path": "2021/45xxx/CVE-2021-45971.json",
+          "affected_products": [
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM APE1808 - BIOS"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC Field PG M5"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC Field PG M6"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC127E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC227G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC277G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC277G PRO"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC327G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC377G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC427E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC477E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC477E PRO"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC627E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC647E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC677E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC847E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC ITP1000"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS IPC427E"
+            }
+          ],
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2021-47002",
@@ -81286,6 +83158,74 @@
           "source": "sadp-pilot"
         },
         {
+          "cve_id": "CVE-2022-21198",
+          "date_updated": "2026-08-11T12:22:27.669Z",
+          "data_types": [
+            "affected",
+            "references"
+          ],
+          "file_path": "2022/21xxx/CVE-2022-21198.json",
+          "affected_products": [
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC Field PG M5"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC Field PG M6"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC BX-39A"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC PX-39A"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC PX-39A PRO"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC427E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC477E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC477E PRO"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC627E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC647E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC677E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC847E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC ITP1000"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS IPC427E"
+            }
+          ],
+          "source": "sadp-pilot"
+        },
+        {
           "cve_id": "CVE-2022-23303",
           "date_updated": "2026-07-14T11:49:31.462Z",
           "data_types": [
@@ -81316,6 +83256,258 @@
             }
           ],
           "source": "both"
+        },
+        {
+          "cve_id": "CVE-2022-24030",
+          "date_updated": "2026-08-11T12:22:28.819Z",
+          "data_types": [
+            "affected",
+            "references"
+          ],
+          "file_path": "2022/24xxx/CVE-2022-24030.json",
+          "affected_products": [
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM APE1808 - BIOS"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC Field PG M5"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC Field PG M6"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC127E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC227G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC277G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC277G PRO"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC327G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC377G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC427E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC477E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC477E PRO"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC627E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC647E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC677E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC847E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC ITP1000"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS IPC427E"
+            }
+          ],
+          "source": "sadp-pilot"
+        },
+        {
+          "cve_id": "CVE-2022-24031",
+          "date_updated": "2026-08-11T12:22:29.973Z",
+          "data_types": [
+            "affected",
+            "references"
+          ],
+          "file_path": "2022/24xxx/CVE-2022-24031.json",
+          "affected_products": [
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM APE1808 - BIOS"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC Field PG M5"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC Field PG M6"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC127E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC227G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC277G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC277G PRO"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC327G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC377G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC427E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC477E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC477E PRO"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC627E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC647E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC677E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC847E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC ITP1000"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS IPC427E"
+            }
+          ],
+          "source": "both"
+        },
+        {
+          "cve_id": "CVE-2022-24069",
+          "date_updated": "2026-08-11T12:22:31.135Z",
+          "data_types": [
+            "affected",
+            "references"
+          ],
+          "file_path": "2022/24xxx/CVE-2022-24069.json",
+          "affected_products": [
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM APE1808 - BIOS"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC Field PG M5"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC Field PG M6"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC127E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC227G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC277G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC277G PRO"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC327G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC377G"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC427E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC477E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC477E PRO"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC627E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC647E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC677E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC IPC847E"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC ITP1000"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIPLUS IPC427E"
+            }
+          ],
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2022-2347",
@@ -81483,7 +83675,7 @@
               "product": "RUGGEDCOM ROX RX5000"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2022-34835",
@@ -81815,7 +84007,7 @@
               "product": "SIMATIC RTLS Locating Manager"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2022-3786",
@@ -82115,7 +84307,7 @@
               "product": "RUGGEDCOM ROX RX5000"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2023-28531",
@@ -82427,7 +84619,7 @@
               "product": "SINEC NMS"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2023-46219",
@@ -82683,7 +84875,7 @@
               "product": "SIMATIC S7-1500 TM MFP - GNU/Linux subsystem"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2023-52620",
@@ -83455,7 +85647,7 @@
               "product": "SIMATIC S7-1500 TM MFP - GNU/Linux subsystem"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2024-26642",
@@ -84283,7 +86475,7 @@
               "product": "SIMATIC S7-1500 TM MFP - GNU/Linux subsystem"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2024-26935",
@@ -84675,7 +86867,7 @@
               "product": "SIMATIC S7-1500 TM MFP - GNU/Linux subsystem"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2024-27052",
@@ -84731,7 +86923,7 @@
               "product": "SIPLUS S7-1500 CPU 1518-4 PN/DP MFP"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2024-27059",
@@ -85231,7 +87423,7 @@
         },
         {
           "cve_id": "CVE-2024-32122",
-          "date_updated": "2026-07-14T12:37:48.960Z",
+          "date_updated": "2026-08-11T12:22:32.251Z",
           "data_types": [
             "affected",
             "references"
@@ -85775,7 +87967,7 @@
               "product": "SIMATIC S7-1500 TM MFP - GNU/Linux subsystem"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2024-35899",
@@ -86007,7 +88199,7 @@
               "product": "SIMATIC S7-1500 TM MFP - GNU/Linux subsystem"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2024-35940",
@@ -86699,7 +88891,7 @@
               "product": "SIPLUS S7-1500 CPU 1518-4 PN/DP MFP"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2024-36288",
@@ -87739,7 +89931,7 @@
               "product": "SIMATIC S7-1500 TM MFP - GNU/Linux subsystem"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2024-38659",
@@ -90099,7 +92291,7 @@
               "product": "SIMATIC S7-1500 TM MFP - GNU/Linux subsystem"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2024-40934",
@@ -90603,7 +92795,7 @@
               "product": "SIMATIC S7-1500 TM MFP - GNU/Linux subsystem"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2024-41016",
@@ -90811,7 +93003,7 @@
               "product": "SIMATIC S7-1500 TM MFP - GNU/Linux subsystem"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2024-42093",
@@ -91087,7 +93279,7 @@
               "product": "SIMATIC S7-1500 TM MFP - GNU/Linux subsystem"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2024-42306",
@@ -91783,7 +93975,7 @@
               "product": "SIPLUS S7-1500 CPU 1518-4 PN/DP MFP"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2024-46744",
@@ -91987,7 +94179,7 @@
               "product": "SIMATIC S7-1500 TM MFP - GNU/Linux subsystem"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2024-46865",
@@ -92803,7 +94995,7 @@
               "product": "SIMATIC S7-1500 TM MFP - GNU/Linux subsystem"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2024-49902",
@@ -93023,7 +95215,7 @@
               "product": "SIPLUS S7-1500 CPU 1518-4 PN/DP MFP"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2024-49952",
@@ -93259,7 +95451,7 @@
               "product": "SIPLUS S7-1500 CPU 1518-4 PN/DP MFP"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2024-4367",
@@ -93283,7 +95475,7 @@
               "product": "Teamcenter V2512"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2024-50001",
@@ -93931,7 +96123,7 @@
               "product": "SIMATIC S7-1500 TM MFP - GNU/Linux subsystem"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2024-50205",
@@ -93987,7 +96179,7 @@
               "product": "SIPLUS S7-1500 CPU 1518-4 PN/DP MFP"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2024-50251",
@@ -94199,11 +96391,11 @@
               "product": "SIMATIC S7-1500 TM MFP - GNU/Linux subsystem"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2024-50562",
-          "date_updated": "2026-07-14T12:38:21.769Z",
+          "date_updated": "2026-08-11T12:22:33.367Z",
           "data_types": [
             "affected",
             "references"
@@ -94215,11 +96407,11 @@
               "product": "RUGGEDCOM APE1808"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2024-52963",
-          "date_updated": "2026-07-14T12:38:22.848Z",
+          "date_updated": "2026-08-11T12:22:34.481Z",
           "data_types": [
             "affected",
             "references"
@@ -94399,7 +96591,7 @@
               "product": "SIPLUS S7-1500 CPU 1518-4 PN/DP MFP"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2024-53170",
@@ -94451,7 +96643,7 @@
         },
         {
           "cve_id": "CVE-2024-55599",
-          "date_updated": "2026-07-14T12:38:36.486Z",
+          "date_updated": "2026-08-11T12:22:35.606Z",
           "data_types": [
             "affected",
             "references"
@@ -94507,7 +96699,7 @@
               "product": "SIMATIC S7-1500 TM MFP - GNU/Linux subsystem"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2024-56703",
@@ -94531,7 +96723,7 @@
               "product": "SIPLUS S7-1500 CPU 1518-4 PN/DP MFP"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2024-56719",
@@ -94727,7 +96919,7 @@
               "product": "SIMATIC S7-1500 TM MFP - GNU/Linux subsystem"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2024-57917",
@@ -95087,7 +97279,7 @@
               "product": "SIMATIC S7-1500 TM MFP - GNU/Linux subsystem"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2024-58016",
@@ -95227,7 +97419,7 @@
               "product": "SIPLUS S7-1500 CPU 1518-4 PN/DP MFP"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2024-58061",
@@ -95703,7 +97895,7 @@
               "product": "SIPLUS S7-1500 CPU 1518-4 PN/DP MFP"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-11414",
@@ -95907,7 +98099,7 @@
         },
         {
           "cve_id": "CVE-2025-15467",
-          "date_updated": "2026-07-14T12:39:34.518Z",
+          "date_updated": "2026-08-11T12:22:38.618Z",
           "data_types": [
             "affected",
             "references"
@@ -95949,6 +98141,50 @@
             {
               "vendor": "Siemens",
               "product": "RUGGEDCOM RM1224 LTE(4G) NAM"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM ROX MX5000"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM ROX MX5000RE"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM ROX RX1400"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM ROX RX1500"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM ROX RX1501"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM ROX RX1510"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM ROX RX1511"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM ROX RX1512"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM ROX RX1524"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM ROX RX1536"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM ROX RX5000"
             },
             {
               "vendor": "Siemens",
@@ -96560,10 +98796,6 @@
             },
             {
               "vendor": "Siemens",
-              "product": "SIMATIC Comfort/Mobile RT"
-            },
-            {
-              "vendor": "Siemens",
               "product": "SIMATIC eaSie Core Package"
             },
             {
@@ -96584,6 +98816,10 @@
             },
             {
               "vendor": "Siemens",
+              "product": "SIMATIC Industrial Thin Client"
+            },
+            {
+              "vendor": "Siemens",
               "product": "SIMATIC IoT2050 Advanced"
             },
             {
@@ -96597,6 +98833,14 @@
             {
               "vendor": "Siemens",
               "product": "SIMATIC IPC ORCLA"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC Logon V1.6"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC Logon V2.0"
             },
             {
               "vendor": "Siemens",
@@ -96633,6 +98877,10 @@
             {
               "vendor": "Siemens",
               "product": "SIMATIC MV560 X"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC PCS neo V6.0"
             },
             {
               "vendor": "Siemens",
@@ -96763,7 +99011,7 @@
               "product": "Visual Inspection Cockpit"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-1352",
@@ -96827,7 +99075,7 @@
               "product": "SIMATIC S7-1500 TM MFP - GNU/Linux subsystem"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-21640",
@@ -97431,7 +99679,7 @@
               "product": "SIMATIC S7-1500 TM MFP - GNU/Linux subsystem"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-21728",
@@ -98599,7 +100847,7 @@
               "product": "SIPLUS S7-1500 CPU 1518-4 PN/DP MFP"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-22060",
@@ -98767,11 +101015,11 @@
               "product": "SIPLUS S7-1500 CPU 1518-4 PN/DP MFP"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-22862",
-          "date_updated": "2026-07-14T12:40:52.497Z",
+          "date_updated": "2026-08-11T12:22:41.542Z",
           "data_types": [
             "affected",
             "references"
@@ -98783,7 +101031,7 @@
               "product": "RUGGEDCOM APE1808"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-22871",
@@ -98871,7 +101119,7 @@
         },
         {
           "cve_id": "CVE-2025-24471",
-          "date_updated": "2026-07-14T12:40:56.199Z",
+          "date_updated": "2026-08-11T12:22:42.664Z",
           "data_types": [
             "affected",
             "references"
@@ -98887,7 +101135,7 @@
         },
         {
           "cve_id": "CVE-2025-25248",
-          "date_updated": "2026-07-14T12:40:57.277Z",
+          "date_updated": "2026-08-11T12:22:43.770Z",
           "data_types": [
             "affected",
             "references"
@@ -98903,7 +101151,7 @@
         },
         {
           "cve_id": "CVE-2025-25249",
-          "date_updated": "2026-07-14T12:40:58.356Z",
+          "date_updated": "2026-08-11T12:22:44.887Z",
           "data_types": [
             "affected",
             "references"
@@ -98915,11 +101163,11 @@
               "product": "RUGGEDCOM APE1808"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2025-25250",
-          "date_updated": "2026-07-14T12:40:59.443Z",
+          "date_updated": "2026-08-11T12:22:46.018Z",
           "data_types": [
             "affected",
             "references"
@@ -98931,11 +101179,11 @@
               "product": "RUGGEDCOM APE1808"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-25253",
-          "date_updated": "2026-07-14T12:41:00.533Z",
+          "date_updated": "2026-08-11T12:22:47.135Z",
           "data_types": [
             "affected",
             "references"
@@ -98979,7 +101227,7 @@
         },
         {
           "cve_id": "CVE-2025-2884",
-          "date_updated": "2026-04-14T08:58:06.200Z",
+          "date_updated": "2026-08-11T12:22:36.753Z",
           "data_types": [
             "affected",
             "references"
@@ -99083,7 +101331,7 @@
               "product": "SIPLUS IPC427E"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-31115",
@@ -99127,7 +101375,7 @@
         },
         {
           "cve_id": "CVE-2025-31366",
-          "date_updated": "2026-07-14T12:41:04.175Z",
+          "date_updated": "2026-08-11T12:22:48.277Z",
           "data_types": [
             "affected",
             "references"
@@ -99139,11 +101387,11 @@
               "product": "RUGGEDCOM APE1808"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-31514",
-          "date_updated": "2026-07-14T12:41:05.257Z",
+          "date_updated": "2026-08-11T12:22:49.395Z",
           "data_types": [
             "affected",
             "references"
@@ -99155,7 +101403,7 @@
               "product": "RUGGEDCOM APE1808"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2025-32462",
@@ -99563,7 +101811,7 @@
               "product": "SIPLUS S7-1500 CPU 1518-4 PN/DP MFP"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-38083",
@@ -100271,7 +102519,7 @@
               "product": "SIPLUS S7-1500 CPU 1518-4 PN/DP MFP"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-38430",
@@ -100699,7 +102947,7 @@
               "product": "SIPLUS S7-1500 CPU 1518-4 PN/DP MFP"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-38670",
@@ -100867,7 +103115,7 @@
               "product": "SIPLUS S7-1500 CPU 1518-4 PN/DP MFP"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-38687",
@@ -101007,7 +103255,7 @@
               "product": "SIMATIC CN 4100"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-38699",
@@ -101179,7 +103427,7 @@
               "product": "SIPLUS S7-1500 CPU 1518-4 PN/DP MFP"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-38711",
@@ -101287,7 +103535,7 @@
               "product": "SIPLUS S7-1500 CPU 1518-4 PN/DP MFP"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-38723",
@@ -101303,7 +103551,7 @@
               "product": "SIMATIC CN 4100"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-38724",
@@ -101387,7 +103635,7 @@
               "product": "SIPLUS S7-1500 CPU 1518-4 PN/DP MFP"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-38728",
@@ -101403,7 +103651,7 @@
               "product": "SIMATIC CN 4100"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-38729",
@@ -101463,7 +103711,7 @@
               "product": "SIMATIC CN 4100"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-38736",
@@ -102231,7 +104479,7 @@
               "product": "SIMATIC CN 4100"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-39759",
@@ -102287,7 +104535,7 @@
               "product": "SIPLUS S7-1500 CPU 1518-4 PN/DP MFP"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-39766",
@@ -102375,7 +104623,7 @@
               "product": "SIPLUS S7-1500 CPU 1518-4 PN/DP MFP"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-39776",
@@ -102659,7 +104907,7 @@
               "product": "SIMATIC CN 4100"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-39813",
@@ -102675,7 +104923,7 @@
               "product": "SIMATIC CN 4100"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-39817",
@@ -102827,7 +105075,7 @@
               "product": "SIMATIC CN 4100"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-39835",
@@ -102843,7 +105091,7 @@
               "product": "SIMATIC CN 4100"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-39838",
@@ -104087,7 +106335,7 @@
               "product": "RUGGEDCOM RST2428P"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-40219",
@@ -104111,7 +106359,7 @@
               "product": "SIPLUS S7-1500 CPU 1518-4 PN/DP MFP"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-40248",
@@ -104411,7 +106659,7 @@
         },
         {
           "cve_id": "CVE-2025-40891",
-          "date_updated": "2026-06-09T09:02:15.428Z",
+          "date_updated": "2026-08-11T12:22:50.510Z",
           "data_types": [
             "affected",
             "references"
@@ -104423,11 +106671,11 @@
               "product": "RUGGEDCOM APE1808"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-40892",
-          "date_updated": "2026-06-09T09:02:16.593Z",
+          "date_updated": "2026-08-11T12:22:51.627Z",
           "data_types": [
             "affected",
             "references"
@@ -104443,7 +106691,7 @@
         },
         {
           "cve_id": "CVE-2025-40893",
-          "date_updated": "2026-06-09T09:02:17.966Z",
+          "date_updated": "2026-08-11T12:22:52.767Z",
           "data_types": [
             "affected",
             "references"
@@ -104459,7 +106707,7 @@
         },
         {
           "cve_id": "CVE-2025-40894",
-          "date_updated": "2026-06-09T09:02:19.068Z",
+          "date_updated": "2026-08-11T12:22:53.872Z",
           "data_types": [
             "affected",
             "references"
@@ -104475,7 +106723,7 @@
         },
         {
           "cve_id": "CVE-2025-40897",
-          "date_updated": "2026-06-09T09:02:20.204Z",
+          "date_updated": "2026-08-11T12:22:54.978Z",
           "data_types": [
             "affected",
             "references"
@@ -104487,11 +106735,11 @@
               "product": "RUGGEDCOM APE1808"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2025-40898",
-          "date_updated": "2026-06-09T09:02:21.354Z",
+          "date_updated": "2026-08-11T12:22:56.084Z",
           "data_types": [
             "affected",
             "references"
@@ -104503,11 +106751,11 @@
               "product": "RUGGEDCOM APE1808"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-40899",
-          "date_updated": "2026-06-09T09:02:22.500Z",
+          "date_updated": "2026-08-11T12:22:57.206Z",
           "data_types": [
             "affected",
             "references"
@@ -104523,7 +106771,7 @@
         },
         {
           "cve_id": "CVE-2025-40900",
-          "date_updated": "2026-06-09T09:02:23.633Z",
+          "date_updated": "2026-08-11T12:22:58.310Z",
           "data_types": [
             "affected",
             "references"
@@ -104539,7 +106787,7 @@
         },
         {
           "cve_id": "CVE-2025-40901",
-          "date_updated": "2026-06-09T09:02:24.771Z",
+          "date_updated": "2026-08-11T12:22:59.419Z",
           "data_types": [
             "affected",
             "references"
@@ -104555,7 +106803,7 @@
         },
         {
           "cve_id": "CVE-2025-40902",
-          "date_updated": "2026-06-09T09:02:25.919Z",
+          "date_updated": "2026-08-11T12:23:00.979Z",
           "data_types": [
             "affected",
             "references"
@@ -104571,7 +106819,7 @@
         },
         {
           "cve_id": "CVE-2025-40903",
-          "date_updated": "2026-06-09T09:02:27.052Z",
+          "date_updated": "2026-08-11T12:23:02.126Z",
           "data_types": [
             "affected",
             "references"
@@ -104583,11 +106831,11 @@
               "product": "RUGGEDCOM APE1808"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-40904",
-          "date_updated": "2026-06-09T09:02:28.168Z",
+          "date_updated": "2026-08-11T12:23:03.251Z",
           "data_types": [
             "affected",
             "references"
@@ -104616,6 +106864,22 @@
             }
           ],
           "source": "sadp-pilot"
+        },
+        {
+          "cve_id": "CVE-2025-43892",
+          "date_updated": "2026-08-11T12:23:04.385Z",
+          "data_types": [
+            "affected",
+            "references"
+          ],
+          "file_path": "2025/43xxx/CVE-2025-43892.json",
+          "affected_products": [
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM APE1808"
+            }
+          ],
+          "source": "both"
         },
         {
           "cve_id": "CVE-2025-46394",
@@ -104719,7 +106983,7 @@
         },
         {
           "cve_id": "CVE-2025-47890",
-          "date_updated": "2026-07-14T12:43:30.552Z",
+          "date_updated": "2026-08-11T12:23:05.493Z",
           "data_types": [
             "affected",
             "references"
@@ -104883,7 +107147,7 @@
               "product": "RUGGEDCOM RST2428P"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-4373",
@@ -105031,7 +107295,7 @@
         },
         {
           "cve_id": "CVE-2025-53744",
-          "date_updated": "2026-07-14T12:43:31.640Z",
+          "date_updated": "2026-08-11T12:23:06.601Z",
           "data_types": [
             "affected",
             "references"
@@ -105043,11 +107307,11 @@
               "product": "RUGGEDCOM APE1808"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-53843",
-          "date_updated": "2026-07-14T12:43:32.947Z",
+          "date_updated": "2026-08-11T12:23:07.706Z",
           "data_types": [
             "affected",
             "references"
@@ -105063,7 +107327,7 @@
         },
         {
           "cve_id": "CVE-2025-53844",
-          "date_updated": "2026-07-14T12:43:34.237Z",
+          "date_updated": "2026-08-11T12:23:08.810Z",
           "data_types": [
             "affected",
             "references"
@@ -105095,7 +107359,7 @@
         },
         {
           "cve_id": "CVE-2025-54821",
-          "date_updated": "2026-07-14T12:43:35.318Z",
+          "date_updated": "2026-08-11T12:23:09.917Z",
           "data_types": [
             "affected",
             "references"
@@ -105155,11 +107419,11 @@
               "product": "SIMATIC CN 4100"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-57740",
-          "date_updated": "2026-07-14T12:43:36.410Z",
+          "date_updated": "2026-08-11T12:23:11.028Z",
           "data_types": [
             "affected",
             "references"
@@ -105175,7 +107439,7 @@
         },
         {
           "cve_id": "CVE-2025-58413",
-          "date_updated": "2026-07-14T12:43:37.490Z",
+          "date_updated": "2026-08-11T12:23:12.133Z",
           "data_types": [
             "affected",
             "references"
@@ -105191,7 +107455,7 @@
         },
         {
           "cve_id": "CVE-2025-58903",
-          "date_updated": "2026-07-14T12:43:38.785Z",
+          "date_updated": "2026-08-11T12:23:13.241Z",
           "data_types": [
             "affected",
             "references"
@@ -105295,7 +107559,7 @@
         },
         {
           "cve_id": "CVE-2025-59718",
-          "date_updated": "2026-07-14T12:43:41.282Z",
+          "date_updated": "2026-08-11T12:23:14.347Z",
           "data_types": [
             "affected",
             "references"
@@ -105311,7 +107575,7 @@
         },
         {
           "cve_id": "CVE-2025-59719",
-          "date_updated": "2026-07-14T12:43:42.389Z",
+          "date_updated": "2026-08-11T12:23:15.462Z",
           "data_types": [
             "affected",
             "references"
@@ -105542,6 +107806,38 @@
           "source": "sadp-pilot"
         },
         {
+          "cve_id": "CVE-2025-62675",
+          "date_updated": "2026-08-11T12:23:16.561Z",
+          "data_types": [
+            "affected",
+            "references"
+          ],
+          "file_path": "2025/62xxx/CVE-2025-62675.json",
+          "affected_products": [
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM APE1808"
+            }
+          ],
+          "source": "sadp-pilot"
+        },
+        {
+          "cve_id": "CVE-2025-62826",
+          "date_updated": "2026-08-11T12:23:17.671Z",
+          "data_types": [
+            "affected",
+            "references"
+          ],
+          "file_path": "2025/62xxx/CVE-2025-62826.json",
+          "affected_products": [
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM APE1808"
+            }
+          ],
+          "source": "both"
+        },
+        {
           "cve_id": "CVE-2025-64157",
           "date_updated": "2026-05-12T12:08:37.024Z",
           "data_types": [
@@ -105627,7 +107923,7 @@
         },
         {
           "cve_id": "CVE-2025-67862",
-          "date_updated": "2026-07-14T12:43:47.225Z",
+          "date_updated": "2026-08-11T12:23:18.788Z",
           "data_types": [
             "affected",
             "references"
@@ -105727,7 +108023,7 @@
               "product": "SIPLUS S7-1500 CPU 1518-4 PN/DP MFP"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-68265",
@@ -105799,7 +108095,7 @@
               "product": "SIPLUS S7-1500 CPU 1518-4 PN/DP MFP"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-68337",
@@ -106543,7 +108839,7 @@
               "product": "SIPLUS S7-1500 CPU 1518-4 PN/DP MFP"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-6965",
@@ -106971,7 +109267,7 @@
               "product": "SIPLUS S7-1500 CPU 1518-4 PN/DP MFP"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-71162",
@@ -107019,7 +109315,7 @@
               "product": "SIPLUS S7-1500 CPU 1518-4 PN/DP MFP"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-71185",
@@ -107075,7 +109371,7 @@
               "product": "SIPLUS S7-1500 CPU 1518-4 PN/DP MFP"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-71188",
@@ -107987,7 +110283,7 @@
               "product": "RUGGEDCOM APE1808"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-0261",
@@ -108055,7 +110351,7 @@
         },
         {
           "cve_id": "CVE-2026-0266",
-          "date_updated": "2026-07-14T12:45:14.686Z",
+          "date_updated": "2026-08-11T12:23:20.015Z",
           "data_types": [
             "affected",
             "references"
@@ -108087,7 +110383,7 @@
         },
         {
           "cve_id": "CVE-2026-0272",
-          "date_updated": "2026-07-14T12:45:17.244Z",
+          "date_updated": "2026-08-11T12:23:21.327Z",
           "data_types": [
             "affected",
             "references"
@@ -108103,12 +110399,172 @@
         },
         {
           "cve_id": "CVE-2026-0273",
-          "date_updated": "2026-07-14T12:45:18.520Z",
+          "date_updated": "2026-08-11T12:23:22.674Z",
           "data_types": [
             "affected",
             "references"
           ],
           "file_path": "2026/0xxx/CVE-2026-0273.json",
+          "affected_products": [
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM APE1808"
+            }
+          ],
+          "source": "sadp-pilot"
+        },
+        {
+          "cve_id": "CVE-2026-0279",
+          "date_updated": "2026-08-11T12:23:23.977Z",
+          "data_types": [
+            "affected",
+            "references"
+          ],
+          "file_path": "2026/0xxx/CVE-2026-0279.json",
+          "affected_products": [
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM APE1808"
+            }
+          ],
+          "source": "both"
+        },
+        {
+          "cve_id": "CVE-2026-0280",
+          "date_updated": "2026-08-11T12:23:25.268Z",
+          "data_types": [
+            "affected",
+            "references"
+          ],
+          "file_path": "2026/0xxx/CVE-2026-0280.json",
+          "affected_products": [
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM APE1808"
+            }
+          ],
+          "source": "sadp-pilot"
+        },
+        {
+          "cve_id": "CVE-2026-0281",
+          "date_updated": "2026-08-11T12:23:26.590Z",
+          "data_types": [
+            "affected",
+            "references"
+          ],
+          "file_path": "2026/0xxx/CVE-2026-0281.json",
+          "affected_products": [
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM APE1808"
+            }
+          ],
+          "source": "sadp-pilot"
+        },
+        {
+          "cve_id": "CVE-2026-0282",
+          "date_updated": "2026-08-11T12:23:27.889Z",
+          "data_types": [
+            "affected",
+            "references"
+          ],
+          "file_path": "2026/0xxx/CVE-2026-0282.json",
+          "affected_products": [
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM APE1808"
+            }
+          ],
+          "source": "both"
+        },
+        {
+          "cve_id": "CVE-2026-0283",
+          "date_updated": "2026-08-11T12:23:29.198Z",
+          "data_types": [
+            "affected",
+            "references"
+          ],
+          "file_path": "2026/0xxx/CVE-2026-0283.json",
+          "affected_products": [
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM APE1808"
+            }
+          ],
+          "source": "sadp-pilot"
+        },
+        {
+          "cve_id": "CVE-2026-0284",
+          "date_updated": "2026-08-11T12:23:30.561Z",
+          "data_types": [
+            "affected",
+            "references"
+          ],
+          "file_path": "2026/0xxx/CVE-2026-0284.json",
+          "affected_products": [
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM APE1808"
+            }
+          ],
+          "source": "sadp-pilot"
+        },
+        {
+          "cve_id": "CVE-2026-0285",
+          "date_updated": "2026-08-11T12:23:31.892Z",
+          "data_types": [
+            "affected",
+            "references"
+          ],
+          "file_path": "2026/0xxx/CVE-2026-0285.json",
+          "affected_products": [
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM APE1808"
+            }
+          ],
+          "source": "both"
+        },
+        {
+          "cve_id": "CVE-2026-0286",
+          "date_updated": "2026-08-11T12:23:33.220Z",
+          "data_types": [
+            "affected",
+            "references"
+          ],
+          "file_path": "2026/0xxx/CVE-2026-0286.json",
+          "affected_products": [
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM APE1808"
+            }
+          ],
+          "source": "sadp-pilot"
+        },
+        {
+          "cve_id": "CVE-2026-0287",
+          "date_updated": "2026-08-11T12:23:34.520Z",
+          "data_types": [
+            "affected",
+            "references"
+          ],
+          "file_path": "2026/0xxx/CVE-2026-0287.json",
+          "affected_products": [
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM APE1808"
+            }
+          ],
+          "source": "sadp-pilot"
+        },
+        {
+          "cve_id": "CVE-2026-0288",
+          "date_updated": "2026-08-11T12:23:35.832Z",
+          "data_types": [
+            "affected",
+            "references"
+          ],
+          "file_path": "2026/0xxx/CVE-2026-0288.json",
           "affected_products": [
             {
               "vendor": "Siemens",
@@ -108843,7 +111299,7 @@
               "product": "SIPLUS S7-1500 CPU 1518-4 PN/DP MFP"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-23086",
@@ -109627,7 +112083,7 @@
               "product": "SIPLUS S7-1500 CPU 1518-4 PN/DP MFP"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-23335",
@@ -109651,7 +112107,7 @@
               "product": "SIPLUS S7-1500 CPU 1518-4 PN/DP MFP"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-23340",
@@ -109819,7 +112275,7 @@
               "product": "SIPLUS S7-1500 CPU 1518-4 PN/DP MFP"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-23378",
@@ -110323,7 +112779,7 @@
               "product": "SIPLUS S7-1500 CPU 1518-4 PN/DP MFP"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-23463",
@@ -110371,7 +112827,7 @@
               "product": "SIPLUS S7-1500 CPU 1518-4 PN/DP MFP"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-23475",
@@ -110395,7 +112851,23 @@
               "product": "SIPLUS S7-1500 CPU 1518-4 PN/DP MFP"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
+        },
+        {
+          "cve_id": "CVE-2026-23573",
+          "date_updated": "2026-08-11T12:23:38.148Z",
+          "data_types": [
+            "affected",
+            "references"
+          ],
+          "file_path": "2026/23xxx/CVE-2026-23573.json",
+          "affected_products": [
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM APE1808"
+            }
+          ],
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-24515",
@@ -112066,6 +114538,70 @@
           "source": "sadp-pilot"
         },
         {
+          "cve_id": "CVE-2026-31981",
+          "date_updated": "2026-08-11T12:23:39.257Z",
+          "data_types": [
+            "affected",
+            "references"
+          ],
+          "file_path": "2026/31xxx/CVE-2026-31981.json",
+          "affected_products": [
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM APE1808"
+            }
+          ],
+          "source": "sadp-pilot"
+        },
+        {
+          "cve_id": "CVE-2026-31982",
+          "date_updated": "2026-08-11T12:23:40.350Z",
+          "data_types": [
+            "affected",
+            "references"
+          ],
+          "file_path": "2026/31xxx/CVE-2026-31982.json",
+          "affected_products": [
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM APE1808"
+            }
+          ],
+          "source": "sadp-pilot"
+        },
+        {
+          "cve_id": "CVE-2026-31983",
+          "date_updated": "2026-08-11T12:23:43.007Z",
+          "data_types": [
+            "affected",
+            "references"
+          ],
+          "file_path": "2026/31xxx/CVE-2026-31983.json",
+          "affected_products": [
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM APE1808"
+            }
+          ],
+          "source": "sadp-pilot"
+        },
+        {
+          "cve_id": "CVE-2026-31984",
+          "date_updated": "2026-08-11T12:23:44.125Z",
+          "data_types": [
+            "affected",
+            "references"
+          ],
+          "file_path": "2026/31xxx/CVE-2026-31984.json",
+          "affected_products": [
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM APE1808"
+            }
+          ],
+          "source": "sadp-pilot"
+        },
+        {
           "cve_id": "CVE-2026-32776",
           "date_updated": "2026-07-14T12:48:48.997Z",
           "data_types": [
@@ -112138,6 +114674,22 @@
           "source": "both"
         },
         {
+          "cve_id": "CVE-2026-33390",
+          "date_updated": "2026-08-11T12:23:45.240Z",
+          "data_types": [
+            "affected",
+            "references"
+          ],
+          "file_path": "2026/33xxx/CVE-2026-33390.json",
+          "affected_products": [
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM APE1808"
+            }
+          ],
+          "source": "sadp-pilot"
+        },
+        {
           "cve_id": "CVE-2026-35535",
           "date_updated": "2026-06-02T13:01:15.329Z",
           "data_types": [
@@ -112152,6 +114704,30 @@
             }
           ],
           "source": "sadp-pilot"
+        },
+        {
+          "cve_id": "CVE-2026-3014",
+          "date_updated": "2026-08-11T12:23:37.035Z",
+          "data_types": [
+            "affected",
+            "references"
+          ],
+          "file_path": "2026/3xxx/CVE-2026-3014.json",
+          "affected_products": [
+            {
+              "vendor": "Siemens",
+              "product": "Siveillance Video V2023 R3"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Siveillance Video V2024 R1"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Siveillance Video V2025"
+            }
+          ],
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-3497",
@@ -112784,6 +115360,54 @@
             }
           ],
           "source": "both"
+        },
+        {
+          "cve_id": "CVE-2026-59837",
+          "date_updated": "2026-08-11T12:23:46.394Z",
+          "data_types": [
+            "affected",
+            "references"
+          ],
+          "file_path": "2026/59xxx/CVE-2026-59837.json",
+          "affected_products": [
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM APE1808"
+            }
+          ],
+          "source": "sadp-pilot"
+        },
+        {
+          "cve_id": "CVE-2026-59839",
+          "date_updated": "2026-08-11T12:23:47.540Z",
+          "data_types": [
+            "affected",
+            "references"
+          ],
+          "file_path": "2026/59xxx/CVE-2026-59839.json",
+          "affected_products": [
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM APE1808"
+            }
+          ],
+          "source": "both"
+        },
+        {
+          "cve_id": "CVE-2026-59840",
+          "date_updated": "2026-08-11T12:23:48.662Z",
+          "data_types": [
+            "affected",
+            "references"
+          ],
+          "file_path": "2026/59xxx/CVE-2026-59840.json",
+          "affected_products": [
+            {
+              "vendor": "Siemens",
+              "product": "RUGGEDCOM APE1808"
+            }
+          ],
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-5121",
