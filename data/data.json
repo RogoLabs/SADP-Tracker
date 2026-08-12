@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T19:05:32.589124+00:00",
+  "generated_at": "2026-08-12T02:07:56.215258+00:00",
   "suppliers": [
     {
       "short_name": "redhat-SADP",
@@ -1653,7 +1653,7 @@
               "product": "Red Hat OpenShift AI (RHOAI)"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-15036",
@@ -22313,7 +22313,7 @@
               "product": "Red Hat Enterprise Linux 6"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-28780",
@@ -43261,7 +43261,7 @@
               "product": "Self-service automation portal 2"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-3593",
@@ -70115,7 +70115,7 @@
               "product": "Red Hat OpenShift AI (RHOAI)"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-56210",
@@ -70161,7 +70161,7 @@
               "product": "Red Hat OpenShift AI (RHOAI)"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-56211",
@@ -71397,7 +71397,7 @@
               "product": "Red Hat Enterprise Linux 9"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-5795",
@@ -97895,7 +97895,7 @@
               "product": "SIPLUS S7-1500 CPU 1518-4 PN/DP MFP"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-11414",
@@ -106895,7 +106895,7 @@
               "product": "RUGGEDCOM RST2428P"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-46836",
