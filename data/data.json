@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T06:58:59.662425+00:00",
+  "generated_at": "2026-08-17T12:47:43.990672+00:00",
   "suppliers": [
     {
       "short_name": "redhat-SADP",
@@ -247,7 +247,7 @@
         },
         {
           "cve_id": "CVE-2024-21626",
-          "date_updated": "2026-08-14T12:04:32.253Z",
+          "date_updated": "2026-08-17T12:05:11.885Z",
           "data_types": [
             "affected",
             "references",
@@ -581,7 +581,7 @@
         },
         {
           "cve_id": "CVE-2025-10263",
-          "date_updated": "2026-08-10T12:05:47.155Z",
+          "date_updated": "2026-08-17T12:05:01.278Z",
           "data_types": [
             "affected",
             "references",
@@ -593,6 +593,10 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux 10"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux 10.0 Extended Update Support"
             },
             {
               "vendor": "Red Hat",
@@ -613,6 +617,14 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux 8.6 Extended Update Support Long-Life Add-On"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux 8.8 Telecommunications Update Service"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux 8.8 Update Services for SAP Solutions"
             },
             {
               "vendor": "Red Hat",
@@ -775,7 +787,7 @@
         },
         {
           "cve_id": "CVE-2025-13465",
-          "date_updated": "2026-08-14T12:04:29.402Z",
+          "date_updated": "2026-08-17T12:04:52.080Z",
           "data_types": [
             "affected",
             "references",
@@ -866,7 +878,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "multicluster engine for Kubernetes 2.10"
+              "product": "multicluster engine for Kubernetes 2.1"
             },
             {
               "vendor": "Red Hat",
@@ -886,7 +898,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Network Observability (NETOBSERV) 1.11.2"
+              "product": "Network Observability (NETOBSERV) 1.11.0"
             },
             {
               "vendor": "Red Hat",
@@ -994,7 +1006,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift Container Platform 4.20"
+              "product": "Red Hat OpenShift Container Platform 4.2"
             },
             {
               "vendor": "Red Hat",
@@ -1010,7 +1022,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Openshift Data Foundation 4.20"
+              "product": "Red Hat Openshift Data Foundation 4.2"
             },
             {
               "vendor": "Red Hat",
@@ -1761,7 +1773,7 @@
         },
         {
           "cve_id": "CVE-2025-15467",
-          "date_updated": "2026-08-14T12:04:30.139Z",
+          "date_updated": "2026-08-17T12:05:08.953Z",
           "data_types": [
             "affected",
             "references",
@@ -2243,7 +2255,7 @@
         },
         {
           "cve_id": "CVE-2025-41118",
-          "date_updated": "2026-08-10T12:05:40.876Z",
+          "date_updated": "2026-08-17T12:05:09.829Z",
           "data_types": [
             "affected",
             "references",
@@ -2705,7 +2717,7 @@
         },
         {
           "cve_id": "CVE-2025-48431",
-          "date_updated": "2026-08-13T12:04:21.335Z",
+          "date_updated": "2026-08-17T12:05:06.206Z",
           "data_types": [
             "affected",
             "references",
@@ -2732,7 +2744,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift distributed tracing 3.10.2"
+              "product": "Red Hat OpenShift distributed tracing 3.10.1"
             },
             {
               "vendor": "Red Hat",
@@ -2861,7 +2873,7 @@
         },
         {
           "cve_id": "CVE-2025-54518",
-          "date_updated": "2026-08-14T12:04:39.708Z",
+          "date_updated": "2026-08-17T12:05:19.304Z",
           "data_types": [
             "affected",
             "references",
@@ -2881,6 +2893,14 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux 8.6 Extended Update Support Long-Life Add-On"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux 8.8 Telecommunications Update Service"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux 8.8 Update Services for SAP Solutions"
             },
             {
               "vendor": "Red Hat",
@@ -3377,7 +3397,7 @@
         },
         {
           "cve_id": "CVE-2025-61140",
-          "date_updated": "2026-08-10T12:05:53.062Z",
+          "date_updated": "2026-08-17T12:04:48.682Z",
           "data_types": [
             "affected",
             "references",
@@ -3386,10 +3406,6 @@
           ],
           "file_path": "2025/61xxx/CVE-2025-61140.json",
           "affected_products": [
-            {
-              "vendor": "Red Hat",
-              "product": "Red Hat Ansible Automation Platform 2.1"
-            },
             {
               "vendor": "Red Hat",
               "product": "Red Hat Ansible Automation Platform 2.5"
@@ -3409,6 +3425,10 @@
             {
               "vendor": "Red Hat",
               "product": "Self-service automation portal 2.0"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Self-service automation portal 2.1"
             },
             {
               "vendor": "Red Hat",
@@ -3641,7 +3661,7 @@
         },
         {
           "cve_id": "CVE-2025-61726",
-          "date_updated": "2026-08-14T12:04:37.186Z",
+          "date_updated": "2026-08-17T12:04:56.343Z",
           "data_types": [
             "affected",
             "references",
@@ -3812,11 +3832,15 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Builds for Red Hat OpenShift 1.6.0"
+              "product": "Builds for Red Hat OpenShift 1.6.1"
             },
             {
               "vendor": "Red Hat",
               "product": "cert-manager operator for Red Hat OpenShift 1.17"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Compliance Operator 1"
             },
             {
               "vendor": "Red Hat",
@@ -3829,6 +3853,10 @@
             {
               "vendor": "Red Hat",
               "product": "external secrets operator for Red Hat OpenShift 1.0"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "File Integrity Operator 1"
             },
             {
               "vendor": "Red Hat",
@@ -3852,7 +3880,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "multicluster engine for Kubernetes 2.10"
+              "product": "multicluster engine for Kubernetes 2.1"
             },
             {
               "vendor": "Red Hat",
@@ -3872,19 +3900,11 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.4.5"
+              "product": "Multicluster Global Hub 1.6.2"
             },
             {
               "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.5.7"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.6.5"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Network Observability (NETOBSERV) 1.11.2"
+              "product": "Network Observability (NETOBSERV) 1.11.0"
             },
             {
               "vendor": "Red Hat",
@@ -3900,15 +3920,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "OpenShift Compliance Operator 1"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "OpenShift Developer Tools and Services 1.6.2"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "OpenShift File Integrity Operator - FIO 1"
+              "product": "OpenShift Developer Tools and Services 1.6.3"
             },
             {
               "vendor": "Red Hat",
@@ -3952,6 +3964,14 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat multicluster global hub 1.4.2"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat multicluster global hub 1.5.1"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat OpenShift AI 2.16"
             },
             {
@@ -3964,7 +3984,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift Container Platform 4.20"
+              "product": "Red Hat OpenShift Container Platform 4.2"
             },
             {
               "vendor": "Red Hat",
@@ -3984,7 +4004,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift distributed tracing 3.9.2"
+              "product": "Red Hat OpenShift distributed tracing 3.9.1"
             },
             {
               "vendor": "Red Hat",
@@ -4020,7 +4040,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Quay 3.10"
+              "product": "Red Hat Quay 3.1"
             },
             {
               "vendor": "Red Hat",
@@ -4295,7 +4315,7 @@
         },
         {
           "cve_id": "CVE-2025-61731",
-          "date_updated": "2026-08-10T12:05:40.340Z",
+          "date_updated": "2026-08-17T12:04:48.706Z",
           "data_types": [
             "affected",
             "references",
@@ -4433,7 +4453,7 @@
         },
         {
           "cve_id": "CVE-2025-61732",
-          "date_updated": "2026-08-13T12:04:29.600Z",
+          "date_updated": "2026-08-17T12:04:54.817Z",
           "data_types": [
             "affected",
             "references",
@@ -4575,7 +4595,7 @@
         },
         {
           "cve_id": "CVE-2025-62718",
-          "date_updated": "2026-08-14T12:04:39.617Z",
+          "date_updated": "2026-08-17T12:05:11.008Z",
           "data_types": [
             "affected",
             "references",
@@ -4610,7 +4630,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Network Observability (NETOBSERV) 1.11.2"
+              "product": "Network Observability (NETOBSERV) 1.11.0"
             },
             {
               "vendor": "Red Hat",
@@ -4682,7 +4702,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Quay 3.10"
+              "product": "Red Hat Quay 3.1"
             },
             {
               "vendor": "Red Hat",
@@ -4855,7 +4875,7 @@
         },
         {
           "cve_id": "CVE-2025-67030",
-          "date_updated": "2026-08-12T12:04:57.490Z",
+          "date_updated": "2026-08-17T12:05:11.413Z",
           "data_types": [
             "affected",
             "references",
@@ -5099,7 +5119,7 @@
         },
         {
           "cve_id": "CVE-2025-68428",
-          "date_updated": "2026-07-20T12:04:42.508Z",
+          "date_updated": "2026-08-17T12:05:14.285Z",
           "data_types": [
             "affected",
             "references",
@@ -5114,7 +5134,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Advanced Cluster Security 4.9"
+              "product": "Red Hat Advanced Cluster Security for Kubernetes 4.9"
             },
             {
               "vendor": "Red Hat",
@@ -5199,7 +5219,7 @@
         },
         {
           "cve_id": "CVE-2025-69223",
-          "date_updated": "2026-08-14T12:04:29.584Z",
+          "date_updated": "2026-08-17T12:04:56.342Z",
           "data_types": [
             "affected",
             "references",
@@ -5481,7 +5501,7 @@
         },
         {
           "cve_id": "CVE-2025-69873",
-          "date_updated": "2026-08-14T12:04:43.007Z",
+          "date_updated": "2026-08-17T12:04:49.437Z",
           "data_types": [
             "affected",
             "references",
@@ -5508,7 +5528,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Network Observability (NETOBSERV) 1.11.2"
+              "product": "Network Observability (NETOBSERV) 1.11.0"
             },
             {
               "vendor": "Red Hat",
@@ -5568,7 +5588,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Openshift Data Foundation 4.20"
+              "product": "Red Hat Openshift Data Foundation 4.2"
             },
             {
               "vendor": "Red Hat",
@@ -7389,7 +7409,7 @@
         },
         {
           "cve_id": "CVE-2026-10143",
-          "date_updated": "2026-08-12T12:04:45.000Z",
+          "date_updated": "2026-08-17T12:05:00.602Z",
           "data_types": [
             "affected",
             "references",
@@ -7400,7 +7420,7 @@
           "affected_products": [
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Quay 3.10"
+              "product": "Red Hat Quay 3.1"
             },
             {
               "vendor": "Red Hat",
@@ -7599,7 +7619,7 @@
         },
         {
           "cve_id": "CVE-2026-10840",
-          "date_updated": "2026-08-03T12:05:54.793Z",
+          "date_updated": "2026-08-17T12:04:57.414Z",
           "data_types": [
             "affected",
             "references",
@@ -7610,7 +7630,7 @@
           "affected_products": [
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift Builds 1.7.3"
+              "product": "Red Hat OpenShift Builds 1.7.4"
             },
             {
               "vendor": "Red Hat",
@@ -8093,7 +8113,7 @@
         },
         {
           "cve_id": "CVE-2026-12143",
-          "date_updated": "2026-08-14T12:04:42.555Z",
+          "date_updated": "2026-08-17T12:04:53.618Z",
           "data_types": [
             "affected",
             "references",
@@ -8140,7 +8160,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift Container Platform 4.20"
+              "product": "Red Hat OpenShift Container Platform 4.2"
             },
             {
               "vendor": "Red Hat",
@@ -8176,7 +8196,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Quay 3.10"
+              "product": "Red Hat Quay 3.1"
             },
             {
               "vendor": "Red Hat",
@@ -8343,7 +8363,7 @@
         },
         {
           "cve_id": "CVE-2026-12151",
-          "date_updated": "2026-08-10T12:05:41.962Z",
+          "date_updated": "2026-08-17T12:05:01.993Z",
           "data_types": [
             "affected",
             "references",
@@ -8371,6 +8391,10 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux 9"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux 9.6 Extended Update Support"
             },
             {
               "vendor": "Red Hat",
@@ -9695,7 +9719,7 @@
         },
         {
           "cve_id": "CVE-2026-13676",
-          "date_updated": "2026-08-14T12:04:34.419Z",
+          "date_updated": "2026-08-17T12:05:07.412Z",
           "data_types": [
             "affected",
             "references",
@@ -9754,7 +9778,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift Container Platform 4.20"
+              "product": "Red Hat OpenShift Container Platform 4.2"
             },
             {
               "vendor": "Red Hat",
@@ -10323,7 +10347,7 @@
         },
         {
           "cve_id": "CVE-2026-1526",
-          "date_updated": "2026-08-04T12:07:13.885Z",
+          "date_updated": "2026-08-17T12:05:12.069Z",
           "data_types": [
             "affected",
             "references",
@@ -10417,7 +10441,7 @@
         },
         {
           "cve_id": "CVE-2026-1528",
-          "date_updated": "2026-08-04T12:07:14.531Z",
+          "date_updated": "2026-08-17T12:05:10.598Z",
           "data_types": [
             "affected",
             "references",
@@ -10647,7 +10671,7 @@
         },
         {
           "cve_id": "CVE-2026-1605",
-          "date_updated": "2026-08-04T12:07:03.642Z",
+          "date_updated": "2026-08-17T12:05:09.402Z",
           "data_types": [
             "affected",
             "references",
@@ -10979,7 +11003,7 @@
         },
         {
           "cve_id": "CVE-2026-1784",
-          "date_updated": "2026-08-11T12:04:46.418Z",
+          "date_updated": "2026-08-17T12:05:12.740Z",
           "data_types": [
             "affected",
             "references",
@@ -11014,7 +11038,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift Container Platform 4.20"
+              "product": "Red Hat OpenShift Container Platform 4.2"
             },
             {
               "vendor": "Red Hat",
@@ -11861,7 +11885,7 @@
         },
         {
           "cve_id": "CVE-2026-21441",
-          "date_updated": "2026-08-14T12:04:39.641Z",
+          "date_updated": "2026-08-17T12:04:50.703Z",
           "data_types": [
             "affected",
             "references",
@@ -11972,15 +11996,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.4.5"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.5.7"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Network Observability (NETOBSERV) 1.11.2"
+              "product": "Network Observability (NETOBSERV) 1.11.0"
             },
             {
               "vendor": "Red Hat",
@@ -12040,6 +12056,14 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat multicluster global hub 1.4.2"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat multicluster global hub 1.5.1"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat OpenShift AI 2.25"
             },
             {
@@ -12064,7 +12088,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Quay 3.10"
+              "product": "Red Hat Quay 3.1"
             },
             {
               "vendor": "Red Hat",
@@ -12437,7 +12461,7 @@
         },
         {
           "cve_id": "CVE-2026-21728",
-          "date_updated": "2026-08-14T12:04:27.315Z",
+          "date_updated": "2026-08-17T12:05:11.140Z",
           "data_types": [
             "affected",
             "references",
@@ -12452,19 +12476,19 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.4.5"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.5.7"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.6.5"
+              "product": "Multicluster Global Hub 1.6.2"
             },
             {
               "vendor": "Red Hat",
               "product": "Multicluster Global Hub 1.7.2"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat multicluster global hub 1.4.2"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat multicluster global hub 1.5.1"
             },
             {
               "vendor": "Red Hat",
@@ -12917,7 +12941,7 @@
         },
         {
           "cve_id": "CVE-2026-22029",
-          "date_updated": "2026-08-14T12:04:29.376Z",
+          "date_updated": "2026-08-17T12:04:47.236Z",
           "data_types": [
             "affected",
             "references",
@@ -12940,7 +12964,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "multicluster engine for Kubernetes 2.10"
+              "product": "multicluster engine for Kubernetes 2.1"
             },
             {
               "vendor": "Red Hat",
@@ -13024,7 +13048,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift Container Platform 4.20"
+              "product": "Red Hat OpenShift Container Platform 4.2"
             },
             {
               "vendor": "Red Hat",
@@ -13040,7 +13064,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Openshift Data Foundation 4.20"
+              "product": "Red Hat Openshift Data Foundation 4.2"
             },
             {
               "vendor": "Red Hat",
@@ -13537,7 +13561,7 @@
         },
         {
           "cve_id": "CVE-2026-22797",
-          "date_updated": "2026-08-11T12:04:46.395Z",
+          "date_updated": "2026-08-17T12:04:49.392Z",
           "data_types": [
             "affected",
             "references",
@@ -13560,7 +13584,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift Container Platform 4.20"
+              "product": "Red Hat OpenShift Container Platform 4.2"
             },
             {
               "vendor": "Red Hat",
@@ -14247,7 +14271,7 @@
         },
         {
           "cve_id": "CVE-2026-23490",
-          "date_updated": "2026-08-14T12:04:28.451Z",
+          "date_updated": "2026-08-17T12:05:05.006Z",
           "data_types": [
             "affected",
             "references",
@@ -14386,6 +14410,10 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat OpenStack 1.5"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat OpenStack Services on OpenShift 18.0"
             },
             {
@@ -14399,10 +14427,6 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Update Infrastructure 5"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Service Telemetry Framework 1.5"
             },
             {
               "vendor": "Red Hat",
@@ -14973,7 +14997,7 @@
         },
         {
           "cve_id": "CVE-2026-23745",
-          "date_updated": "2026-08-10T12:05:51.658Z",
+          "date_updated": "2026-08-17T12:04:50.299Z",
           "data_types": [
             "affected",
             "references",
@@ -14992,7 +15016,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Network Observability (NETOBSERV) 1.11.2"
+              "product": "Network Observability (NETOBSERV) 1.11.0"
             },
             {
               "vendor": "Red Hat",
@@ -16443,7 +16467,7 @@
         },
         {
           "cve_id": "CVE-2026-24737",
-          "date_updated": "2026-07-20T12:04:59.829Z",
+          "date_updated": "2026-08-17T12:05:05.326Z",
           "data_types": [
             "affected",
             "references",
@@ -16458,7 +16482,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Advanced Cluster Security 4.9"
+              "product": "Red Hat Advanced Cluster Security for Kubernetes 4.9"
             },
             {
               "vendor": "Red Hat",
@@ -16581,7 +16605,7 @@
         },
         {
           "cve_id": "CVE-2026-24842",
-          "date_updated": "2026-08-10T12:05:38.049Z",
+          "date_updated": "2026-08-17T12:05:06.655Z",
           "data_types": [
             "affected",
             "references",
@@ -16604,7 +16628,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Network Observability (NETOBSERV) 1.11.2"
+              "product": "Network Observability (NETOBSERV) 1.11.0"
             },
             {
               "vendor": "Red Hat",
@@ -17095,7 +17119,7 @@
         },
         {
           "cve_id": "CVE-2026-25535",
-          "date_updated": "2026-08-03T12:06:02.480Z",
+          "date_updated": "2026-08-17T12:04:58.804Z",
           "data_types": [
             "affected",
             "references",
@@ -17110,7 +17134,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Advanced Cluster Security 4.9"
+              "product": "Red Hat Advanced Cluster Security for Kubernetes 4.9"
             }
           ],
           "source": "sadp-pilot"
@@ -17153,7 +17177,7 @@
         },
         {
           "cve_id": "CVE-2026-25639",
-          "date_updated": "2026-08-13T12:04:25.507Z",
+          "date_updated": "2026-08-17T12:04:48.405Z",
           "data_types": [
             "affected",
             "references",
@@ -17188,7 +17212,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Network Observability (NETOBSERV) 1.11.2"
+              "product": "Network Observability (NETOBSERV) 1.11.0"
             },
             {
               "vendor": "Red Hat",
@@ -17252,7 +17276,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift Container Platform 4.20"
+              "product": "Red Hat OpenShift Container Platform 4.2"
             },
             {
               "vendor": "Red Hat",
@@ -17284,7 +17308,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Quay 3.10"
+              "product": "Red Hat Quay 3.1"
             },
             {
               "vendor": "Red Hat",
@@ -17629,7 +17653,7 @@
         },
         {
           "cve_id": "CVE-2026-25679",
-          "date_updated": "2026-08-14T12:04:41.999Z",
+          "date_updated": "2026-08-17T12:05:09.763Z",
           "data_types": [
             "affected",
             "references",
@@ -17640,139 +17664,7 @@
           "affected_products": [
             {
               "vendor": "Red Hat",
-              "product": "Assisted Installer for Red Hat OpenShift Container Platform 2"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "cert-manager Operator for Red Hat OpenShift"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Confidential Compute Attestation"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Deployment Validation Operator"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "External Secrets Operator for Red Hat OpenShift"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "ExternalDNS Operator"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Fence Agents Remediation Operator"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Gatekeeper 3"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Logging Subsystem for Red Hat OpenShift"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Logical Volume Manager Storage"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Machine Deletion Remediation Operator"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "mirror registry for Red Hat OpenShift"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Multicluster Engine for Kubernetes"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "OpenShift Developer Tools and Services"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "OpenShift Lightspeed"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "OpenShift Serverless"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Red Hat 3scale API Management Platform 2"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Red Hat Connectivity Link 1"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Red Hat Enterprise Linux 10"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Red Hat Enterprise Linux 8"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Red Hat Enterprise Linux 9"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Red Hat OpenShift Cluster Manager CLI"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Red Hat OpenShift Container Platform 4"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Red Hat Openshift Data Foundation 4"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Red Hat OpenShift GitOps"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Red Hat OpenShift Virtualization 4"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Red Hat OpenStack Platform 16.2"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Red Hat OpenStack Platform 17.1"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Red Hat Quay 3"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Security Profiles Operator"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Zero Trust Workload Identity Manager"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Zero Trust Workload Identity Manager - Tech Preview"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Red Hat Ansible Automation Platform 2.6 for RHEL 10"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "RHEM 1.1 for RHEL 10"
+              "product": "Cryostat 4 on RHEL 9"
             },
             {
               "vendor": "Red Hat",
@@ -17780,7 +17672,99 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat Ansible Automation Platform 2.5 for RHEL 9"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Ansible Automation Platform 2.6 for RHEL 10"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Ansible Automation Platform 2.6 for RHEL 9"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux 10"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux 10.0 Extended Update Support"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux 7 Extended Lifecycle Support"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux 8"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux 8.2 Advanced Update Support"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux 8.4 Advanced Mission Critical Update Support"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux 8.4 Extended Update Support Long-Life Add-On"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux 8.6 Advanced Mission Critical Update Support"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux 8.6 Extended Update Support Long-Life Add-On"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux 8.6 Telecommunications Update Service"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux 8.6 Update Services for SAP Solutions"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux 8.8 Telecommunications Update Service"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux 8.8 Update Services for SAP Solutions"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux 9"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux 9.0 Update Services for SAP Solutions"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux 9.2 Update Services for SAP Solutions"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux 9.4 Extended Update Support"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux 9.4 Update Services for SAP Solutions"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux 9.6 Extended Update Support"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat OpenShift Container Platform 4.12"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat OpenShift Container Platform 4.13"
             },
             {
               "vendor": "Red Hat",
@@ -17789,30 +17773,6 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat OpenShift Container Platform 4.15"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Red Hat Satellite 6.16 for RHEL 8"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Red Hat Ansible Automation Platform 2.5 for RHEL 9"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Red Hat Ansible Automation Platform 2.6 for RHEL 9"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Cryostat 4 on RHEL 9"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "RHEM 1.0 for RHEL 9"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "RHEM 1.1 for RHEL 9"
             },
             {
               "vendor": "Red Hat",
@@ -17825,6 +17785,22 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat OpenShift Container Platform 4.18"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat OpenStack Platform 16.2"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat OpenStack Platform 17.1 for RHEL 9"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat OpenStack Services on OpenShift 18.0"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Satellite 6.16 for RHEL 8"
             },
             {
               "vendor": "Red Hat",
@@ -17844,15 +17820,23 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Enterprise Linux AppStream (v. 10)"
+              "product": "RHEM 1.0 for RHEL 9"
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Enterprise Linux AppStream (v. 8)"
+              "product": "RHEM 1.1 for RHEL 10"
             },
             {
               "vendor": "Red Hat",
-              "product": "Builds for Red Hat OpenShift 1.6.0"
+              "product": "RHEM 1.1 for RHEL 9"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Builds for Red Hat OpenShift 1.6.1"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Compliance Operator 1"
             },
             {
               "vendor": "Red Hat",
@@ -17861,6 +17845,10 @@
             {
               "vendor": "Red Hat",
               "product": "DevWorkspace Operator 0.4"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "File Integrity Operator 1"
             },
             {
               "vendor": "Red Hat",
@@ -17876,23 +17864,19 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "mirror registry for Red Hat OpenShift 2.0"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Multicluster Global Hub 1.3.4"
             },
             {
               "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.4.5"
+              "product": "Multicluster Global Hub 1.6.2"
             },
             {
               "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.5.7"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.6.5"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Network Observability (NETOBSERV) 1.11.2"
+              "product": "Network Observability (NETOBSERV) 1.11.0"
             },
             {
               "vendor": "Red Hat",
@@ -17901,14 +17885,6 @@
             {
               "vendor": "Red Hat",
               "product": "OpenShift API for Data Protection 1.5"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "OpenShift Compliance Operator 1"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "OpenShift File Integrity Operator - FIO 1"
             },
             {
               "vendor": "Red Hat",
@@ -17952,6 +17928,14 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AI 3.3"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Hardened Images"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat Lightspeed (formerly Insights) for Runtimes 1.0"
             },
             {
@@ -17960,15 +17944,19 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat multicluster global hub 1.4.2"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat multicluster global hub 1.5.1"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat OpenShift AI 2.25"
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift Builds 1.7.3"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Red Hat OpenShift Container Platform 4.13"
+              "product": "Red Hat OpenShift Builds 1.7.4"
             },
             {
               "vendor": "Red Hat",
@@ -17976,11 +17964,15 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift Container Platform 4.20"
+              "product": "Red Hat OpenShift Container Platform 4.2"
             },
             {
               "vendor": "Red Hat",
               "product": "Red Hat OpenShift Dev Spaces 3.27"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat OpenShift distributed tracing 3.9.1"
             },
             {
               "vendor": "Red Hat",
@@ -18004,15 +17996,11 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift distributed tracing 3.9.2"
+              "product": "Red Hat OpenStack 1.5"
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenStack Services on OpenShift 18.0"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Red Hat Quay 3.10"
+              "product": "Red Hat Quay 3.1"
             },
             {
               "vendor": "Red Hat",
@@ -18033,6 +18021,14 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Quay 3.9"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Satellite 6.18"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Trusted Artifact Signer 1.3"
             },
             {
               "vendor": "Red Hat",
@@ -18060,7 +18056,47 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Service Telemetry Framework 1.5"
+              "product": "Assisted Installer for Red Hat OpenShift Container Platform 2"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "cert-manager Operator for Red Hat OpenShift"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Confidential Compute Attestation"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Deployment Validation Operator"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "ExternalDNS Operator"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "External Secrets Operator for Red Hat OpenShift"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Fence Agents Remediation Operator"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Gatekeeper 3"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Logging Subsystem for Red Hat OpenShift"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Logical Volume Manager Storage"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Machine Deletion Remediation Operator"
             },
             {
               "vendor": "Red Hat",
@@ -18068,7 +18104,31 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "mirror registry for Red Hat OpenShift"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Multicluster Engine for Kubernetes"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Node HealthCheck Operator"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "OpenShift Developer Tools and Services"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "OpenShift Lightspeed"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "OpenShift Pipelines"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "OpenShift Serverless"
             },
             {
               "vendor": "Red Hat",
@@ -18080,11 +18140,27 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat 3scale API Management Platform 2"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat AMQ Clients"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat Ansible Automation Platform 2"
             },
             {
               "vendor": "Red Hat",
               "product": "Red Hat build of Apache Camel - HawtIO 4"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Certification Program for Red Hat Enterprise Linux 9"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Connectivity Link 1"
             },
             {
               "vendor": "Red Hat",
@@ -18096,126 +18172,74 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat OpenShift Cluster Manager CLI"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat OpenShift Container Platform 4"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Openshift Data Foundation 4"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat OpenShift for Windows Containers"
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Enterprise Linux Server (v. 7 ELS)"
+              "product": "Red Hat OpenShift GitOps"
             },
             {
               "vendor": "Red Hat",
-              "product": "9Base-RHOSO-TOOLS-18"
+              "product": "Red Hat OpenShift on AWS"
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Enterprise Linux AppStream EUS (v. 10.0)"
+              "product": "Red Hat OpenShift Virtualization 4"
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Enterprise Linux AppStream AUS (v. 8.2)"
+              "product": "Red Hat OpenStack Platform 17.1"
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Enterprise Linux AppStream AUS (v.8.4)"
+              "product": "Red Hat Quay 3"
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Enterprise Linux AppStream EUS EXTENSION (v.8.4)"
+              "product": "Red Hat Satellite 6"
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Enterprise Linux AppStream AUS (v.8.6)"
+              "product": "Red Hat Service Interconnect 1"
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Enterprise Linux AppStream E4S (v.8.6)"
+              "product": "Red Hat Service Interconnect 2"
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Enterprise Linux AppStream EUS EXTENSION (v.8.6)"
+              "product": "Security Profiles Operator"
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Enterprise Linux AppStream TUS (v.8.6)"
+              "product": "streams for Apache Kafka 3"
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Enterprise Linux AppStream E4S (v.8.8)"
+              "product": "Zero Trust Workload Identity Manager"
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Enterprise Linux AppStream TUS (v.8.8)"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Red Hat Enterprise Linux AppStream E4S (v.9.0)"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Red Hat Enterprise Linux AppStream E4S (v.9.2)"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Red Hat Enterprise Linux AppStream E4S (v.9.4)"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Red Hat Enterprise Linux AppStream EUS (v.9.4)"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Red Hat Enterprise Linux AppStream EUS (v.9.6)"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Red Hat Enterprise Linux AppStream (v. 9)"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Red Hat Enterprise Linux CodeReady Linux Builder EUS (v. 10.0)"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Red Hat Enterprise Linux CodeReady Linux Builder (v. 10)"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Red Hat CodeReady Linux Builder EUS (v.9.4)"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Red Hat CodeReady Linux Builder EUS (v.9.6)"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Red Hat Enterprise Linux CodeReady Linux Builder (v. 9)"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Red Hat Enterprise Linux AI 3.3"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Red Hat Hardened Images"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Red Hat Satellite 6.18"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Red Hat Trusted Artifact Signer 1.3"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "mirror registry for Red Hat OpenShift 2.0"
+              "product": "Zero Trust Workload Identity Manager - Tech Preview"
             }
           ],
           "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-25747",
-          "date_updated": "2026-08-04T12:07:08.646Z",
+          "date_updated": "2026-08-17T12:05:17.559Z",
           "data_types": [
             "affected",
             "references",
@@ -18245,7 +18269,7 @@
         },
         {
           "cve_id": "CVE-2026-25755",
-          "date_updated": "2026-08-03T12:05:43.175Z",
+          "date_updated": "2026-08-17T12:04:49.415Z",
           "data_types": [
             "affected",
             "references",
@@ -18260,7 +18284,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Advanced Cluster Security 4.9"
+              "product": "Red Hat Advanced Cluster Security for Kubernetes 4.9"
             }
           ],
           "source": "sadp-pilot"
@@ -18289,7 +18313,7 @@
         },
         {
           "cve_id": "CVE-2026-25896",
-          "date_updated": "2026-08-14T12:04:34.428Z",
+          "date_updated": "2026-08-17T12:04:59.874Z",
           "data_types": [
             "affected",
             "references",
@@ -18324,7 +18348,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Openshift Data Foundation 4.20"
+              "product": "Red Hat Openshift Data Foundation 4.2"
             },
             {
               "vendor": "Red Hat",
@@ -18355,7 +18379,7 @@
         },
         {
           "cve_id": "CVE-2026-25940",
-          "date_updated": "2026-08-03T12:05:53.223Z",
+          "date_updated": "2026-08-17T12:05:03.291Z",
           "data_types": [
             "affected",
             "references",
@@ -18370,7 +18394,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Advanced Cluster Security 4.9"
+              "product": "Red Hat Advanced Cluster Security for Kubernetes 4.9"
             }
           ],
           "source": "sadp-pilot"
@@ -18469,7 +18493,7 @@
         },
         {
           "cve_id": "CVE-2026-25990",
-          "date_updated": "2026-08-12T12:04:46.750Z",
+          "date_updated": "2026-08-17T12:05:04.066Z",
           "data_types": [
             "affected",
             "references",
@@ -18532,7 +18556,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Quay 3.10"
+              "product": "Red Hat Quay 3.1"
             },
             {
               "vendor": "Red Hat",
@@ -18587,7 +18611,7 @@
         },
         {
           "cve_id": "CVE-2026-26007",
-          "date_updated": "2026-08-12T12:04:38.778Z",
+          "date_updated": "2026-08-17T12:05:12.666Z",
           "data_types": [
             "affected",
             "references",
@@ -18646,7 +18670,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Quay 3.10"
+              "product": "Red Hat Quay 3.1"
             },
             {
               "vendor": "Red Hat",
@@ -18949,7 +18973,7 @@
         },
         {
           "cve_id": "CVE-2026-26278",
-          "date_updated": "2026-08-12T12:04:52.052Z",
+          "date_updated": "2026-08-17T12:05:07.996Z",
           "data_types": [
             "affected",
             "references",
@@ -18964,7 +18988,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Advanced Cluster Security 4.9"
+              "product": "Red Hat Advanced Cluster Security for Kubernetes 4.9"
             },
             {
               "vendor": "Red Hat",
@@ -18984,7 +19008,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Openshift Data Foundation 4.20"
+              "product": "Red Hat Openshift Data Foundation 4.2"
             },
             {
               "vendor": "Red Hat",
@@ -19575,7 +19599,7 @@
         },
         {
           "cve_id": "CVE-2026-27137",
-          "date_updated": "2026-08-14T12:04:31.683Z",
+          "date_updated": "2026-08-17T12:05:05.785Z",
           "data_types": [
             "affected",
             "references",
@@ -19626,7 +19650,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Builds for Red Hat OpenShift 1.6.0"
+              "product": "Builds for Red Hat OpenShift 1.6.1"
             },
             {
               "vendor": "Red Hat",
@@ -19650,15 +19674,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.4.5"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.5.7"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.6.5"
+              "product": "Multicluster Global Hub 1.6.2"
             },
             {
               "vendor": "Red Hat",
@@ -19690,11 +19706,19 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat multicluster global hub 1.4.2"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat multicluster global hub 1.5.1"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat OpenShift AI 2.25"
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift Builds 1.7.3"
+              "product": "Red Hat OpenShift Builds 1.7.4"
             },
             {
               "vendor": "Red Hat",
@@ -19702,7 +19726,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift distributed tracing 3.9.2"
+              "product": "Red Hat OpenShift distributed tracing 3.9.1"
             },
             {
               "vendor": "Red Hat",
@@ -19714,7 +19738,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift GitOps 1.20"
+              "product": "Red Hat OpenShift GitOps 1.2"
             },
             {
               "vendor": "Red Hat",
@@ -20087,7 +20111,7 @@
         },
         {
           "cve_id": "CVE-2026-27145",
-          "date_updated": "2026-08-14T12:04:33.250Z",
+          "date_updated": "2026-08-17T12:05:13.808Z",
           "data_types": [
             "affected",
             "references",
@@ -20182,11 +20206,15 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Compliance Operator 1"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "external secrets operator for Red Hat OpenShift 1.1"
             },
             {
               "vendor": "Red Hat",
-              "product": "multicluster engine for Kubernetes 2.10"
+              "product": "multicluster engine for Kubernetes 2.1"
             },
             {
               "vendor": "Red Hat",
@@ -20194,11 +20222,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.4.5"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.6.5"
+              "product": "Multicluster Global Hub 1.6.2"
             },
             {
               "vendor": "Red Hat",
@@ -20206,15 +20230,11 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.8.1"
+              "product": "Multicluster Global Hub 1.8.0"
             },
             {
               "vendor": "Red Hat",
-              "product": "OpenShift Compliance Operator 1"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "OpenShift Developer Tools and Services 1.6.2"
+              "product": "OpenShift Developer Tools and Services 1.6.3"
             },
             {
               "vendor": "Red Hat",
@@ -20242,11 +20262,15 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat multicluster global hub 1.4.2"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat OpenShift AI 2.25"
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift Builds 1.7.3"
+              "product": "Red Hat OpenShift Builds 1.7.4"
             },
             {
               "vendor": "Red Hat",
@@ -20254,7 +20278,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift distributed tracing 3.10.2"
+              "product": "Red Hat OpenShift distributed tracing 3.10.1"
             },
             {
               "vendor": "Red Hat",
@@ -20683,7 +20707,7 @@
         },
         {
           "cve_id": "CVE-2026-27459",
-          "date_updated": "2026-08-12T12:04:56.059Z",
+          "date_updated": "2026-08-17T12:04:57.448Z",
           "data_types": [
             "affected",
             "references",
@@ -20738,7 +20762,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Quay 3.10"
+              "product": "Red Hat Quay 3.1"
             },
             {
               "vendor": "Red Hat",
@@ -20774,11 +20798,35 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Confidential Compute Attestation"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Exploit Intelligence"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Lightspeed Core"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat Ansible Automation Platform 2"
             },
             {
               "vendor": "Red Hat",
               "product": "Red Hat Ansible Automation Platform Ansible Core 2"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Ceph Storage 7"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Ceph Storage 8"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Ceph Storage 9"
             },
             {
               "vendor": "Red Hat",
@@ -20811,6 +20859,14 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Satellite 6"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Update Infrastructure 4 for Cloud Providers"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Update Infrastructure 5"
             }
           ],
           "source": "sadp-pilot"
@@ -20839,7 +20895,7 @@
         },
         {
           "cve_id": "CVE-2026-27606",
-          "date_updated": "2026-08-12T12:04:45.880Z",
+          "date_updated": "2026-08-17T12:04:57.205Z",
           "data_types": [
             "affected",
             "references",
@@ -20882,7 +20938,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Quay 3.10"
+              "product": "Red Hat Quay 3.1"
             },
             {
               "vendor": "Red Hat",
@@ -21185,7 +21241,7 @@
         },
         {
           "cve_id": "CVE-2026-27727",
-          "date_updated": "2026-08-04T12:07:06.168Z",
+          "date_updated": "2026-08-17T12:05:08.706Z",
           "data_types": [
             "affected",
             "references",
@@ -21325,7 +21381,7 @@
         },
         {
           "cve_id": "CVE-2026-27830",
-          "date_updated": "2026-08-05T12:14:56.055Z",
+          "date_updated": "2026-08-17T12:05:10.547Z",
           "data_types": [
             "affected",
             "references",
@@ -21721,7 +21777,7 @@
         },
         {
           "cve_id": "CVE-2026-27889",
-          "date_updated": "2026-08-14T12:04:33.169Z",
+          "date_updated": "2026-08-17T12:05:13.726Z",
           "data_types": [
             "affected",
             "references",
@@ -21732,15 +21788,15 @@
           "affected_products": [
             {
               "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.4.5"
+              "product": "Multicluster Global Hub 1.6.2"
             },
             {
               "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.5.7"
+              "product": "Red Hat multicluster global hub 1.4.2"
             },
             {
               "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.6.5"
+              "product": "Red Hat multicluster global hub 1.5.1"
             },
             {
               "vendor": "Red Hat",
@@ -21861,7 +21917,7 @@
         },
         {
           "cve_id": "CVE-2026-27962",
-          "date_updated": "2026-08-12T12:04:36.303Z",
+          "date_updated": "2026-08-17T12:04:51.993Z",
           "data_types": [
             "affected",
             "references",
@@ -21872,7 +21928,7 @@
           "affected_products": [
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Quay 3.10"
+              "product": "Red Hat Quay 3.1"
             },
             {
               "vendor": "Red Hat",
@@ -22161,7 +22217,7 @@
         },
         {
           "cve_id": "CVE-2026-28498",
-          "date_updated": "2026-08-12T12:04:49.329Z",
+          "date_updated": "2026-08-17T12:05:13.917Z",
           "data_types": [
             "affected",
             "references",
@@ -22176,7 +22232,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Quay 3.10"
+              "product": "Red Hat Quay 3.1"
             },
             {
               "vendor": "Red Hat",
@@ -22351,7 +22407,7 @@
         },
         {
           "cve_id": "CVE-2026-28802",
-          "date_updated": "2026-08-12T12:04:36.714Z",
+          "date_updated": "2026-08-17T12:05:09.930Z",
           "data_types": [
             "affected",
             "references",
@@ -22366,7 +22422,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Quay 3.10"
+              "product": "Red Hat Quay 3.1"
             },
             {
               "vendor": "Red Hat",
@@ -23515,7 +23571,7 @@
         },
         {
           "cve_id": "CVE-2026-29063",
-          "date_updated": "2026-08-14T12:04:29.298Z",
+          "date_updated": "2026-08-17T12:05:13.872Z",
           "data_types": [
             "affected",
             "references",
@@ -23538,7 +23594,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "multicluster engine for Kubernetes 2.10"
+              "product": "multicluster engine for Kubernetes 2.1"
             },
             {
               "vendor": "Red Hat",
@@ -23562,7 +23618,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Network Observability (NETOBSERV) 1.11.2"
+              "product": "Network Observability (NETOBSERV) 1.11.0"
             },
             {
               "vendor": "Red Hat",
@@ -23658,7 +23714,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift Container Platform 4.20"
+              "product": "Red Hat OpenShift Container Platform 4.2"
             },
             {
               "vendor": "Red Hat",
@@ -23674,7 +23730,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Openshift Data Foundation 4.20"
+              "product": "Red Hat Openshift Data Foundation 4.2"
             },
             {
               "vendor": "Red Hat",
@@ -23702,7 +23758,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Quay 3.10"
+              "product": "Red Hat Quay 3.1"
             },
             {
               "vendor": "Red Hat",
@@ -23805,7 +23861,7 @@
         },
         {
           "cve_id": "CVE-2026-29074",
-          "date_updated": "2026-08-12T12:04:41.889Z",
+          "date_updated": "2026-08-17T12:05:15.212Z",
           "data_types": [
             "affected",
             "references",
@@ -23884,7 +23940,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Quay 3.10"
+              "product": "Red Hat Quay 3.1"
             },
             {
               "vendor": "Red Hat",
@@ -24025,7 +24081,7 @@
         },
         {
           "cve_id": "CVE-2026-29146",
-          "date_updated": "2026-08-10T12:05:53.766Z",
+          "date_updated": "2026-08-17T12:05:18.740Z",
           "data_types": [
             "affected",
             "references",
@@ -24119,7 +24175,7 @@
         },
         {
           "cve_id": "CVE-2026-29181",
-          "date_updated": "2026-08-12T12:04:42.448Z",
+          "date_updated": "2026-08-17T12:04:56.980Z",
           "data_types": [
             "affected",
             "references",
@@ -24130,7 +24186,7 @@
           "affected_products": [
             {
               "vendor": "Red Hat",
-              "product": "multicluster engine for Kubernetes 2.11.0"
+              "product": "multicluster engine for Kubernetes 2.11"
             },
             {
               "vendor": "Red Hat",
@@ -24217,7 +24273,7 @@
         },
         {
           "cve_id": "CVE-2026-29785",
-          "date_updated": "2026-08-14T12:04:34.737Z",
+          "date_updated": "2026-08-17T12:05:04.761Z",
           "data_types": [
             "affected",
             "references",
@@ -24228,15 +24284,15 @@
           "affected_products": [
             {
               "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.4.5"
+              "product": "Multicluster Global Hub 1.6.2"
             },
             {
               "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.5.7"
+              "product": "Red Hat multicluster global hub 1.4.2"
             },
             {
               "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.6.5"
+              "product": "Red Hat multicluster global hub 1.5.1"
             },
             {
               "vendor": "Red Hat",
@@ -25025,7 +25081,7 @@
         },
         {
           "cve_id": "CVE-2026-2229",
-          "date_updated": "2026-08-04T12:07:04.564Z",
+          "date_updated": "2026-08-17T12:05:19.328Z",
           "data_types": [
             "affected",
             "references",
@@ -25141,7 +25197,7 @@
         },
         {
           "cve_id": "CVE-2026-2332",
-          "date_updated": "2026-08-14T12:04:30.133Z",
+          "date_updated": "2026-08-17T12:04:47.086Z",
           "data_types": [
             "affected",
             "references",
@@ -25192,7 +25248,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Offline Knowledge Portal 1.2.10"
+              "product": "Red Hat Offline Knowledge Portal 1.2.5"
             },
             {
               "vendor": "Red Hat",
@@ -25347,7 +25403,7 @@
         },
         {
           "cve_id": "CVE-2026-2377",
-          "date_updated": "2026-08-12T12:04:46.515Z",
+          "date_updated": "2026-08-17T12:05:11.786Z",
           "data_types": [
             "affected",
             "references",
@@ -25358,7 +25414,7 @@
           "affected_products": [
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Quay 3.10"
+              "product": "Red Hat Quay 3.1"
             },
             {
               "vendor": "Red Hat",
@@ -28869,7 +28925,7 @@
         },
         {
           "cve_id": "CVE-2026-31488",
-          "date_updated": "2026-08-12T12:04:48.183Z",
+          "date_updated": "2026-08-17T12:04:49.431Z",
           "data_types": [
             "affected",
             "references",
@@ -28881,6 +28937,10 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux 10"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux 10.0 Extended Update Support"
             },
             {
               "vendor": "Red Hat",
@@ -29237,7 +29297,7 @@
         },
         {
           "cve_id": "CVE-2026-31812",
-          "date_updated": "2026-08-11T12:04:47.673Z",
+          "date_updated": "2026-08-17T12:05:02.078Z",
           "data_types": [
             "affected",
             "references",
@@ -29395,7 +29455,7 @@
         },
         {
           "cve_id": "CVE-2026-31898",
-          "date_updated": "2026-08-03T12:06:03.923Z",
+          "date_updated": "2026-08-17T12:05:12.579Z",
           "data_types": [
             "affected",
             "references",
@@ -29410,14 +29470,14 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Advanced Cluster Security 4.9"
+              "product": "Red Hat Advanced Cluster Security for Kubernetes 4.9"
             }
           ],
           "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-31938",
-          "date_updated": "2026-08-03T12:05:45.222Z",
+          "date_updated": "2026-08-17T12:05:18.383Z",
           "data_types": [
             "affected",
             "references",
@@ -29432,14 +29492,14 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Advanced Cluster Security 4.9"
+              "product": "Red Hat Advanced Cluster Security for Kubernetes 4.9"
             }
           ],
           "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-32141",
-          "date_updated": "2026-08-04T12:06:59.575Z",
+          "date_updated": "2026-08-17T12:05:13.989Z",
           "data_types": [
             "affected",
             "references",
@@ -29793,7 +29853,7 @@
         },
         {
           "cve_id": "CVE-2026-32280",
-          "date_updated": "2026-08-14T12:04:31.227Z",
+          "date_updated": "2026-08-17T12:04:58.970Z",
           "data_types": [
             "affected",
             "references",
@@ -29944,6 +30004,10 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Compliance Operator 1"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Custom Metric Autoscaler 2.19"
             },
             {
@@ -29964,7 +30028,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "multicluster engine for Kubernetes 2.10"
+              "product": "multicluster engine for Kubernetes 2.1"
             },
             {
               "vendor": "Red Hat",
@@ -29984,19 +30048,11 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.4.5"
+              "product": "Multicluster Global Hub 1.6.2"
             },
             {
               "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.5.7"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.6.5"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Network Observability (NETOBSERV) 1.11.2"
+              "product": "Network Observability (NETOBSERV) 1.11.0"
             },
             {
               "vendor": "Red Hat",
@@ -30009,10 +30065,6 @@
             {
               "vendor": "Red Hat",
               "product": "OpenShift API for Data Protection 1.5"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "OpenShift Compliance Operator 1"
             },
             {
               "vendor": "Red Hat",
@@ -30056,11 +30108,19 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat multicluster global hub 1.4.2"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat multicluster global hub 1.5.1"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat OpenShift AI 2.25"
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift Builds 1.7.3"
+              "product": "Red Hat OpenShift Builds 1.7.4"
             },
             {
               "vendor": "Red Hat",
@@ -30068,7 +30128,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift distributed tracing 3.9.2"
+              "product": "Red Hat OpenShift distributed tracing 3.9.1"
             },
             {
               "vendor": "Red Hat",
@@ -30092,7 +30152,11 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Quay 3.10"
+              "product": "Red Hat OpenStack 1.5"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Quay 3.1"
             },
             {
               "vendor": "Red Hat",
@@ -30137,10 +30201,6 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Web Terminal 1.15"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Service Telemetry Framework 1.5"
             },
             {
               "vendor": "Red Hat",
@@ -30343,7 +30403,7 @@
         },
         {
           "cve_id": "CVE-2026-32283",
-          "date_updated": "2026-08-14T12:04:34.638Z",
+          "date_updated": "2026-08-17T12:05:18.590Z",
           "data_types": [
             "affected",
             "references",
@@ -30478,6 +30538,10 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Compliance Operator 1"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Custom Metric Autoscaler 2.19"
             },
             {
@@ -30486,19 +30550,11 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.4.5"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.5.7"
+              "product": "Multicluster Global Hub 1.5.4"
             },
             {
               "vendor": "Red Hat",
               "product": "Multicluster Global Hub 1.6.5"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "OpenShift Compliance Operator 1"
             },
             {
               "vendor": "Red Hat",
@@ -30514,11 +30570,15 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat multicluster global hub 1.4.2"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat OpenShift AI 2.25"
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift distributed tracing 3.9.2"
+              "product": "Red Hat OpenShift distributed tracing 3.9.3"
             },
             {
               "vendor": "Red Hat",
@@ -30781,7 +30841,7 @@
         },
         {
           "cve_id": "CVE-2026-32285",
-          "date_updated": "2026-08-14T12:04:43.458Z",
+          "date_updated": "2026-08-17T12:04:59.736Z",
           "data_types": [
             "affected",
             "references",
@@ -30796,7 +30856,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "multicluster engine for Kubernetes 2.10"
+              "product": "multicluster engine for Kubernetes 2.1"
             },
             {
               "vendor": "Red Hat",
@@ -30808,15 +30868,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.4.5"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.5.7"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.6.5"
+              "product": "Multicluster Global Hub 1.6.2"
             },
             {
               "vendor": "Red Hat",
@@ -30832,7 +30884,15 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift distributed tracing 3.9.2"
+              "product": "Red Hat multicluster global hub 1.4.2"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat multicluster global hub 1.5.1"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat OpenShift distributed tracing 3.9.1"
             },
             {
               "vendor": "Red Hat",
@@ -30863,7 +30923,7 @@
         },
         {
           "cve_id": "CVE-2026-32286",
-          "date_updated": "2026-08-14T12:04:43.510Z",
+          "date_updated": "2026-08-17T12:04:55.498Z",
           "data_types": [
             "affected",
             "references",
@@ -30886,15 +30946,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.4.5"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.5.7"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.6.5"
+              "product": "Multicluster Global Hub 1.6.2"
             },
             {
               "vendor": "Red Hat",
@@ -30902,7 +30954,15 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Quay 3.10"
+              "product": "Red Hat multicluster global hub 1.4.2"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat multicluster global hub 1.5.1"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Quay 3.1"
             },
             {
               "vendor": "Red Hat",
@@ -31029,7 +31089,7 @@
         },
         {
           "cve_id": "CVE-2026-32589",
-          "date_updated": "2026-08-12T12:04:36.374Z",
+          "date_updated": "2026-08-17T12:05:10.390Z",
           "data_types": [
             "affected",
             "references",
@@ -31044,7 +31104,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Quay 3.10"
+              "product": "Red Hat Quay 3.1"
             },
             {
               "vendor": "Red Hat",
@@ -31079,7 +31139,7 @@
         },
         {
           "cve_id": "CVE-2026-32591",
-          "date_updated": "2026-08-12T12:04:42.761Z",
+          "date_updated": "2026-08-17T12:04:59.945Z",
           "data_types": [
             "affected",
             "references",
@@ -31090,7 +31150,7 @@
           "affected_products": [
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Quay 3.10"
+              "product": "Red Hat Quay 3.1"
             },
             {
               "vendor": "Red Hat",
@@ -31129,7 +31189,7 @@
         },
         {
           "cve_id": "CVE-2026-32597",
-          "date_updated": "2026-08-12T12:04:42.435Z",
+          "date_updated": "2026-08-17T12:05:07.013Z",
           "data_types": [
             "affected",
             "references",
@@ -31204,7 +31264,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Quay 3.10"
+              "product": "Red Hat Quay 3.1"
             },
             {
               "vendor": "Red Hat",
@@ -31479,7 +31539,7 @@
         },
         {
           "cve_id": "CVE-2026-32829",
-          "date_updated": "2026-08-11T12:04:50.208Z",
+          "date_updated": "2026-08-17T12:04:57.648Z",
           "data_types": [
             "affected",
             "references",
@@ -31821,7 +31881,7 @@
         },
         {
           "cve_id": "CVE-2026-33186",
-          "date_updated": "2026-08-14T12:04:41.193Z",
+          "date_updated": "2026-08-17T12:04:51.988Z",
           "data_types": [
             "affected",
             "references",
@@ -31884,6 +31944,10 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat OpenStack Platform 16.2"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat OpenStack Platform 17.1 for RHEL 9"
             },
             {
@@ -31920,11 +31984,15 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Builds for Red Hat OpenShift 1.6.0"
+              "product": "Builds for Red Hat OpenShift 1.6.1"
             },
             {
               "vendor": "Red Hat",
               "product": "Cert Manager support for Red Hat OpenShift release 1.19"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Compliance Operator 1"
             },
             {
               "vendor": "Red Hat",
@@ -31944,7 +32012,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "multicluster engine for Kubernetes 2.10"
+              "product": "multicluster engine for Kubernetes 2.1"
             },
             {
               "vendor": "Red Hat",
@@ -31968,19 +32036,11 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.4.5"
+              "product": "Multicluster Global Hub 1.6.2"
             },
             {
               "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.5.7"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.6.5"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Network Observability (NETOBSERV) 1.11.2"
+              "product": "Network Observability (NETOBSERV) 1.11.0"
             },
             {
               "vendor": "Red Hat",
@@ -31997,10 +32057,6 @@
             {
               "vendor": "Red Hat",
               "product": "OpenShift API for Data Protection 1.6"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "OpenShift Compliance Operator 1"
             },
             {
               "vendor": "Red Hat",
@@ -32044,7 +32100,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Container Native Virtualization 4.20"
+              "product": "Red Hat Container Native Virtualization 4.2"
             },
             {
               "vendor": "Red Hat",
@@ -32076,6 +32132,14 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat multicluster global hub 1.4.2"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat multicluster global hub 1.5.1"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat OpenShift AI 2.25"
             },
             {
@@ -32084,7 +32148,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift Builds 1.7.3"
+              "product": "Red Hat OpenShift Builds 1.7.4"
             },
             {
               "vendor": "Red Hat",
@@ -32100,7 +32164,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift Container Platform 4.20"
+              "product": "Red Hat OpenShift Container Platform 4.2"
             },
             {
               "vendor": "Red Hat",
@@ -32124,7 +32188,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Openshift Data Foundation 4.20"
+              "product": "Red Hat Openshift Data Foundation 4.2"
             },
             {
               "vendor": "Red Hat",
@@ -32132,7 +32196,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift distributed tracing 3.9.2"
+              "product": "Red Hat OpenShift distributed tracing 3.9.1"
             },
             {
               "vendor": "Red Hat",
@@ -32180,7 +32244,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Quay 3.10"
+              "product": "Red Hat Quay 3.1"
             },
             {
               "vendor": "Red Hat",
@@ -32432,10 +32496,6 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenStack Platform 16.2"
-            },
-            {
-              "vendor": "Red Hat",
               "product": "Red Hat OpenStack Platform 17.1"
             },
             {
@@ -32551,7 +32611,7 @@
         },
         {
           "cve_id": "CVE-2026-33211",
-          "date_updated": "2026-08-03T12:06:00.363Z",
+          "date_updated": "2026-08-17T12:05:10.784Z",
           "data_types": [
             "affected",
             "references",
@@ -32566,7 +32626,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift Builds 1.7.3"
+              "product": "Red Hat OpenShift Builds 1.7.4"
             },
             {
               "vendor": "Red Hat",
@@ -32605,7 +32665,7 @@
         },
         {
           "cve_id": "CVE-2026-33216",
-          "date_updated": "2026-08-14T12:04:43.078Z",
+          "date_updated": "2026-08-17T12:04:57.809Z",
           "data_types": [
             "affected",
             "references",
@@ -32616,15 +32676,15 @@
           "affected_products": [
             {
               "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.4.5"
+              "product": "Multicluster Global Hub 1.6.2"
             },
             {
               "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.5.7"
+              "product": "Red Hat multicluster global hub 1.4.2"
             },
             {
               "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.6.5"
+              "product": "Red Hat multicluster global hub 1.5.1"
             },
             {
               "vendor": "Red Hat",
@@ -32635,7 +32695,7 @@
         },
         {
           "cve_id": "CVE-2026-33217",
-          "date_updated": "2026-08-14T12:04:30.745Z",
+          "date_updated": "2026-08-17T12:05:17.033Z",
           "data_types": [
             "affected",
             "references",
@@ -32646,15 +32706,15 @@
           "affected_products": [
             {
               "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.4.5"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.5.7"
+              "product": "Multicluster Global Hub 1.5.4"
             },
             {
               "vendor": "Red Hat",
               "product": "Multicluster Global Hub 1.6.5"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat multicluster global hub 1.4.2"
             },
             {
               "vendor": "Red Hat",
@@ -32665,7 +32725,7 @@
         },
         {
           "cve_id": "CVE-2026-33218",
-          "date_updated": "2026-08-14T12:04:31.528Z",
+          "date_updated": "2026-08-17T12:04:57.530Z",
           "data_types": [
             "affected",
             "references",
@@ -32676,15 +32736,15 @@
           "affected_products": [
             {
               "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.4.5"
+              "product": "Multicluster Global Hub 1.6.2"
             },
             {
               "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.5.7"
+              "product": "Red Hat multicluster global hub 1.4.2"
             },
             {
               "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.6.5"
+              "product": "Red Hat multicluster global hub 1.5.1"
             },
             {
               "vendor": "Red Hat",
@@ -32695,7 +32755,7 @@
         },
         {
           "cve_id": "CVE-2026-33219",
-          "date_updated": "2026-08-14T12:04:33.362Z",
+          "date_updated": "2026-08-17T12:05:03.718Z",
           "data_types": [
             "affected",
             "references",
@@ -32706,15 +32766,15 @@
           "affected_products": [
             {
               "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.4.5"
+              "product": "Multicluster Global Hub 1.6.2"
             },
             {
               "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.5.7"
+              "product": "Red Hat multicluster global hub 1.4.2"
             },
             {
               "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.6.5"
+              "product": "Red Hat multicluster global hub 1.5.1"
             },
             {
               "vendor": "Red Hat",
@@ -32725,7 +32785,7 @@
         },
         {
           "cve_id": "CVE-2026-33228",
-          "date_updated": "2026-08-04T12:07:01.366Z",
+          "date_updated": "2026-08-17T12:04:50.364Z",
           "data_types": [
             "affected",
             "references",
@@ -32939,7 +32999,7 @@
         },
         {
           "cve_id": "CVE-2026-33247",
-          "date_updated": "2026-08-14T12:04:27.218Z",
+          "date_updated": "2026-08-17T12:05:12.195Z",
           "data_types": [
             "affected",
             "references",
@@ -32950,15 +33010,15 @@
           "affected_products": [
             {
               "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.4.5"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.5.7"
+              "product": "Multicluster Global Hub 1.5.4"
             },
             {
               "vendor": "Red Hat",
               "product": "Multicluster Global Hub 1.6.5"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat multicluster global hub 1.4.2"
             },
             {
               "vendor": "Red Hat",
@@ -33281,7 +33341,7 @@
         },
         {
           "cve_id": "CVE-2026-33487",
-          "date_updated": "2026-08-14T12:04:29.085Z",
+          "date_updated": "2026-08-17T12:05:18.749Z",
           "data_types": [
             "affected",
             "references",
@@ -33296,11 +33356,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.4.5"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.5.7"
+              "product": "Multicluster Global Hub 1.5.4"
             },
             {
               "vendor": "Red Hat",
@@ -33313,6 +33369,10 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Advanced Cluster Management for Kubernetes 2.15"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat multicluster global hub 1.4.2"
             },
             {
               "vendor": "Red Hat",
@@ -33511,7 +33571,7 @@
         },
         {
           "cve_id": "CVE-2026-33701",
-          "date_updated": "2026-08-04T12:07:10.361Z",
+          "date_updated": "2026-08-17T12:04:59.217Z",
           "data_types": [
             "affected",
             "references",
@@ -33617,7 +33677,7 @@
         },
         {
           "cve_id": "CVE-2026-33810",
-          "date_updated": "2026-08-14T12:04:42.463Z",
+          "date_updated": "2026-08-17T12:05:16.443Z",
           "data_types": [
             "affected",
             "references",
@@ -33656,6 +33716,10 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat OpenStack Platform 16.2"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat OpenStack Platform 17.1 for RHEL 9"
             },
             {
@@ -33676,23 +33740,23 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Logging for Red Hat OpenShift 6.0"
+              "product": "Compliance Operator 1"
             },
             {
               "vendor": "Red Hat",
-              "product": "Logging for Red Hat OpenShift 6.2"
+              "product": "Logging Subsystem for Red Hat OpenShift 6.0"
             },
             {
               "vendor": "Red Hat",
-              "product": "Logging for Red Hat OpenShift 6.4"
+              "product": "Logging Subsystem for Red Hat OpenShift 6.2"
             },
             {
               "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.4.5"
+              "product": "Logging Subsystem for Red Hat OpenShift 6.4"
             },
             {
               "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.5.7"
+              "product": "Multicluster Global Hub 1.5.4"
             },
             {
               "vendor": "Red Hat",
@@ -33709,10 +33773,6 @@
             {
               "vendor": "Red Hat",
               "product": "OpenShift API for Data Protection 1.5"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "OpenShift Compliance Operator 1"
             },
             {
               "vendor": "Red Hat",
@@ -33740,7 +33800,11 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift Builds 1.7.3"
+              "product": "Red Hat multicluster global hub 1.4.2"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat OpenShift Builds 1.7.4"
             },
             {
               "vendor": "Red Hat",
@@ -33748,7 +33812,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift distributed tracing 3.9.2"
+              "product": "Red Hat OpenShift distributed tracing 3.9.3"
             },
             {
               "vendor": "Red Hat",
@@ -33960,10 +34024,6 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenStack Platform 16.2"
-            },
-            {
-              "vendor": "Red Hat",
               "product": "Red Hat OpenStack Platform 17.1"
             },
             {
@@ -34011,7 +34071,7 @@
         },
         {
           "cve_id": "CVE-2026-33811",
-          "date_updated": "2026-08-14T12:04:36.157Z",
+          "date_updated": "2026-08-17T12:05:15.498Z",
           "data_types": [
             "affected",
             "references",
@@ -34070,6 +34130,10 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat OpenStack Platform 16.2"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat OpenStack Services on OpenShift 18.0"
             },
             {
@@ -34110,15 +34174,19 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Logging for Red Hat OpenShift 6.0"
+              "product": "Compliance Operator 1"
             },
             {
               "vendor": "Red Hat",
-              "product": "Logging for Red Hat OpenShift 6.2"
+              "product": "Logging Subsystem for Red Hat OpenShift 6.0"
             },
             {
               "vendor": "Red Hat",
-              "product": "Logging for Red Hat OpenShift 6.4"
+              "product": "Logging Subsystem for Red Hat OpenShift 6.2"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Logging Subsystem for Red Hat OpenShift 6.4"
             },
             {
               "vendor": "Red Hat",
@@ -34134,11 +34202,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.4.5"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.5.7"
+              "product": "Multicluster Global Hub 1.5.4"
             },
             {
               "vendor": "Red Hat",
@@ -34158,11 +34222,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "OpenShift Compliance Operator 1"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "OpenShift Developer Tools and Services 1.6.2"
+              "product": "OpenShift Developer Tools and Services 1.6.3"
             },
             {
               "vendor": "Red Hat",
@@ -34214,15 +34274,19 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat multicluster global hub 1.4.2"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat OpenShift AI 2.25"
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift Builds 1.7.3"
+              "product": "Red Hat OpenShift Builds 1.7.4"
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift distributed tracing 3.10.2"
+              "product": "Red Hat OpenShift distributed tracing 3.10.0"
             },
             {
               "vendor": "Red Hat",
@@ -34230,7 +34294,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift GitOps 1.20"
+              "product": "Red Hat OpenShift GitOps 1.2"
             },
             {
               "vendor": "Red Hat",
@@ -34502,10 +34566,6 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenStack Platform 16.2"
-            },
-            {
-              "vendor": "Red Hat",
               "product": "Red Hat OpenStack Platform 17.1"
             },
             {
@@ -34549,7 +34609,7 @@
         },
         {
           "cve_id": "CVE-2026-33814",
-          "date_updated": "2026-08-13T12:04:36.657Z",
+          "date_updated": "2026-08-17T12:04:58.912Z",
           "data_types": [
             "affected",
             "references",
@@ -34580,7 +34640,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift distributed tracing 3.10.2"
+              "product": "Red Hat OpenShift distributed tracing 3.10.1"
             },
             {
               "vendor": "Red Hat",
@@ -34604,7 +34664,19 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat OpenShift Workload Availability 0.13"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat OpenShift Workload Availability 0.3"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat OpenShift Workload Availability 0.7"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat OpenShift Workload Availability 0.8"
             },
             {
               "vendor": "Red Hat",
@@ -34892,14 +34964,6 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Self Node Remediation Operator"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Storage-Based Remediation"
-            },
-            {
-              "vendor": "Red Hat",
               "product": "Zero Trust Workload Identity Manager"
             },
             {
@@ -34911,7 +34975,7 @@
         },
         {
           "cve_id": "CVE-2026-33815",
-          "date_updated": "2026-08-14T12:04:31.403Z",
+          "date_updated": "2026-08-17T12:05:10.594Z",
           "data_types": [
             "affected",
             "references",
@@ -34970,7 +35034,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Openshift Data Foundation 4.20"
+              "product": "Red Hat Openshift Data Foundation 4.2"
             },
             {
               "vendor": "Red Hat",
@@ -35037,7 +35101,7 @@
         },
         {
           "cve_id": "CVE-2026-33816",
-          "date_updated": "2026-08-14T12:04:42.351Z",
+          "date_updated": "2026-08-17T12:05:03.140Z",
           "data_types": [
             "affected",
             "references",
@@ -35092,11 +35156,11 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Advanced Cluster Security 4.9"
+              "product": "Red Hat Advanced Cluster Security for Kubernetes 4.10"
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Advanced Cluster Security for Kubernetes 4.10"
+              "product": "Red Hat Advanced Cluster Security for Kubernetes 4.9"
             },
             {
               "vendor": "Red Hat",
@@ -35108,7 +35172,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Openshift Data Foundation 4.20"
+              "product": "Red Hat Openshift Data Foundation 4.2"
             },
             {
               "vendor": "Red Hat",
@@ -35505,7 +35569,7 @@
         },
         {
           "cve_id": "CVE-2026-33871",
-          "date_updated": "2026-08-04T12:07:08.630Z",
+          "date_updated": "2026-08-17T12:05:11.096Z",
           "data_types": [
             "affected",
             "references",
@@ -35765,7 +35829,7 @@
         },
         {
           "cve_id": "CVE-2026-33894",
-          "date_updated": "2026-08-12T12:04:49.972Z",
+          "date_updated": "2026-08-17T12:04:59.384Z",
           "data_types": [
             "affected",
             "references",
@@ -35796,7 +35860,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Quay 3.10"
+              "product": "Red Hat Quay 3.1"
             },
             {
               "vendor": "Red Hat",
@@ -36609,7 +36673,7 @@
         },
         {
           "cve_id": "CVE-2026-33997",
-          "date_updated": "2026-08-14T12:04:36.963Z",
+          "date_updated": "2026-08-17T12:04:57.866Z",
           "data_types": [
             "affected",
             "references",
@@ -36620,15 +36684,15 @@
           "affected_products": [
             {
               "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.4.5"
+              "product": "Multicluster Global Hub 1.6.2"
             },
             {
               "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.5.7"
+              "product": "Red Hat multicluster global hub 1.4.2"
             },
             {
               "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.6.5"
+              "product": "Red Hat multicluster global hub 1.5.1"
             },
             {
               "vendor": "Red Hat",
@@ -37055,7 +37119,7 @@
         },
         {
           "cve_id": "CVE-2026-34197",
-          "date_updated": "2026-08-04T12:07:15.365Z",
+          "date_updated": "2026-08-17T12:05:05.421Z",
           "data_types": [
             "affected",
             "references",
@@ -38145,7 +38209,7 @@
         },
         {
           "cve_id": "CVE-2026-34986",
-          "date_updated": "2026-08-14T12:04:26.856Z",
+          "date_updated": "2026-08-17T12:04:54.526Z",
           "data_types": [
             "affected",
             "references",
@@ -38216,7 +38280,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "multicluster engine for Kubernetes 2.10"
+              "product": "multicluster engine for Kubernetes 2.1"
             },
             {
               "vendor": "Red Hat",
@@ -38244,15 +38308,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.4.5"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.5.7"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.6.5"
+              "product": "Multicluster Global Hub 1.6.2"
             },
             {
               "vendor": "Red Hat",
@@ -38288,6 +38344,14 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat multicluster global hub 1.4.2"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat multicluster global hub 1.5.1"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat OpenShift AI 2.25"
             },
             {
@@ -38308,7 +38372,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift Container Platform 4.20"
+              "product": "Red Hat OpenShift Container Platform 4.2"
             },
             {
               "vendor": "Red Hat",
@@ -38332,7 +38396,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Openshift Data Foundation 4.20"
+              "product": "Red Hat Openshift Data Foundation 4.2"
             },
             {
               "vendor": "Red Hat",
@@ -38348,7 +38412,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift distributed tracing 3.9.2"
+              "product": "Red Hat OpenShift distributed tracing 3.9.1"
             },
             {
               "vendor": "Red Hat",
@@ -38380,7 +38444,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Quay 3.10"
+              "product": "Red Hat Quay 3.1"
             },
             {
               "vendor": "Red Hat",
@@ -38805,7 +38869,7 @@
         },
         {
           "cve_id": "CVE-2026-35172",
-          "date_updated": "2026-08-11T12:04:53.901Z",
+          "date_updated": "2026-08-17T12:05:07.228Z",
           "data_types": [
             "affected",
             "references",
@@ -38841,6 +38905,10 @@
             {
               "vendor": "Red Hat",
               "product": "Multicluster Engine for Kubernetes"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Advanced Cluster Management for Kubernetes 2"
             },
             {
               "vendor": "Red Hat",
@@ -39077,7 +39145,7 @@
         },
         {
           "cve_id": "CVE-2026-35469",
-          "date_updated": "2026-08-14T12:04:40.888Z",
+          "date_updated": "2026-08-17T12:05:00.327Z",
           "data_types": [
             "affected",
             "references",
@@ -39152,7 +39220,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Container Native Virtualization 4.20"
+              "product": "Red Hat Container Native Virtualization 4.2"
             },
             {
               "vendor": "Red Hat",
@@ -39192,7 +39260,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift Container Platform 4.20"
+              "product": "Red Hat OpenShift Container Platform 4.2"
             },
             {
               "vendor": "Red Hat",
@@ -39613,7 +39681,7 @@
         },
         {
           "cve_id": "CVE-2026-39363",
-          "date_updated": "2026-08-04T12:07:04.334Z",
+          "date_updated": "2026-08-17T12:05:15.808Z",
           "data_types": [
             "affected",
             "references",
@@ -39675,7 +39743,7 @@
         },
         {
           "cve_id": "CVE-2026-39364",
-          "date_updated": "2026-08-04T12:07:00.864Z",
+          "date_updated": "2026-08-17T12:05:13.339Z",
           "data_types": [
             "affected",
             "references",
@@ -39725,7 +39793,7 @@
         },
         {
           "cve_id": "CVE-2026-39820",
-          "date_updated": "2026-08-14T12:04:37.514Z",
+          "date_updated": "2026-08-17T12:05:12.417Z",
           "data_types": [
             "affected",
             "references",
@@ -39740,15 +39808,15 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Logging for Red Hat OpenShift 6.0"
+              "product": "Logging Subsystem for Red Hat OpenShift 6.0"
             },
             {
               "vendor": "Red Hat",
-              "product": "Logging for Red Hat OpenShift 6.2"
+              "product": "Logging Subsystem for Red Hat OpenShift 6.2"
             },
             {
               "vendor": "Red Hat",
-              "product": "Logging for Red Hat OpenShift 6.4"
+              "product": "Logging Subsystem for Red Hat OpenShift 6.4"
             },
             {
               "vendor": "Red Hat",
@@ -39796,7 +39864,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift distributed tracing 3.10.2"
+              "product": "Red Hat OpenShift distributed tracing 3.10.0"
             },
             {
               "vendor": "Red Hat",
@@ -39840,7 +39908,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Quay 3.10"
+              "product": "Red Hat Quay 3.1"
             },
             {
               "vendor": "Red Hat",
@@ -40071,7 +40139,7 @@
         },
         {
           "cve_id": "CVE-2026-39821",
-          "date_updated": "2026-08-14T12:04:43.325Z",
+          "date_updated": "2026-08-17T12:05:17.198Z",
           "data_types": [
             "affected",
             "references",
@@ -40138,6 +40206,10 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat OpenStack Platform 16.2"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat Satellite 6.16 for RHEL 8"
             },
             {
@@ -40186,15 +40258,15 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Logging for Red Hat OpenShift 6.0"
+              "product": "Logging Subsystem for Red Hat OpenShift 6.0"
             },
             {
               "vendor": "Red Hat",
-              "product": "Logging for Red Hat OpenShift 6.2"
+              "product": "Logging Subsystem for Red Hat OpenShift 6.2"
             },
             {
               "vendor": "Red Hat",
-              "product": "Logging for Red Hat OpenShift 6.4"
+              "product": "Logging Subsystem for Red Hat OpenShift 6.4"
             },
             {
               "vendor": "Red Hat",
@@ -40210,11 +40282,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.4.5"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.5.7"
+              "product": "Multicluster Global Hub 1.5.4"
             },
             {
               "vendor": "Red Hat",
@@ -40290,11 +40358,15 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat multicluster global hub 1.4.2"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat OpenShift AI 2.25"
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift Builds 1.7.3"
+              "product": "Red Hat OpenShift Builds 1.7.4"
             },
             {
               "vendor": "Red Hat",
@@ -40310,7 +40382,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift distributed tracing 3.10.2"
+              "product": "Red Hat OpenShift distributed tracing 3.10.0"
             },
             {
               "vendor": "Red Hat",
@@ -40318,7 +40390,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift GitOps 1.20"
+              "product": "Red Hat OpenShift GitOps 1.2"
             },
             {
               "vendor": "Red Hat",
@@ -40366,7 +40438,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Quay 3.10"
+              "product": "Red Hat Quay 3.1"
             },
             {
               "vendor": "Red Hat",
@@ -40582,10 +40654,6 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenStack Platform 16.2"
-            },
-            {
-              "vendor": "Red Hat",
               "product": "Red Hat OpenStack Platform 17.1"
             },
             {
@@ -40621,7 +40689,7 @@
         },
         {
           "cve_id": "CVE-2026-39828",
-          "date_updated": "2026-08-14T12:04:33.672Z",
+          "date_updated": "2026-08-17T12:05:06.302Z",
           "data_types": [
             "affected",
             "references",
@@ -40700,7 +40768,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift Builds 1.7.3"
+              "product": "Red Hat OpenShift Builds 1.7.4"
             },
             {
               "vendor": "Red Hat",
@@ -40720,11 +40788,11 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift GitOps 1.20"
+              "product": "Red Hat OpenShift GitOps 1.2"
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Quay 3.10"
+              "product": "Red Hat Quay 3.1"
             },
             {
               "vendor": "Red Hat",
@@ -40867,7 +40935,7 @@
         },
         {
           "cve_id": "CVE-2026-39829",
-          "date_updated": "2026-08-14T12:04:38.796Z",
+          "date_updated": "2026-08-17T12:05:09.750Z",
           "data_types": [
             "affected",
             "references",
@@ -40970,7 +41038,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift Builds 1.7.3"
+              "product": "Red Hat OpenShift Builds 1.7.4"
             },
             {
               "vendor": "Red Hat",
@@ -40994,11 +41062,11 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift GitOps 1.20"
+              "product": "Red Hat OpenShift GitOps 1.2"
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Quay 3.10"
+              "product": "Red Hat Quay 3.1"
             },
             {
               "vendor": "Red Hat",
@@ -41133,7 +41201,7 @@
         },
         {
           "cve_id": "CVE-2026-39830",
-          "date_updated": "2026-08-14T12:04:33.061Z",
+          "date_updated": "2026-08-17T12:05:11.695Z",
           "data_types": [
             "affected",
             "references",
@@ -41232,7 +41300,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift Builds 1.7.3"
+              "product": "Red Hat OpenShift Builds 1.7.4"
             },
             {
               "vendor": "Red Hat",
@@ -41248,11 +41316,11 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift GitOps 1.20"
+              "product": "Red Hat OpenShift GitOps 1.2"
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Quay 3.10"
+              "product": "Red Hat Quay 3.1"
             },
             {
               "vendor": "Red Hat",
@@ -41387,7 +41455,7 @@
         },
         {
           "cve_id": "CVE-2026-39832",
-          "date_updated": "2026-08-14T12:04:37.476Z",
+          "date_updated": "2026-08-17T12:04:50.380Z",
           "data_types": [
             "affected",
             "references",
@@ -41450,7 +41518,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift Builds 1.7.3"
+              "product": "Red Hat OpenShift Builds 1.7.4"
             },
             {
               "vendor": "Red Hat",
@@ -41466,11 +41534,11 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift GitOps 1.20"
+              "product": "Red Hat OpenShift GitOps 1.2"
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Quay 3.10"
+              "product": "Red Hat Quay 3.1"
             },
             {
               "vendor": "Red Hat",
@@ -41569,7 +41637,7 @@
         },
         {
           "cve_id": "CVE-2026-39835",
-          "date_updated": "2026-08-14T12:04:31.874Z",
+          "date_updated": "2026-08-17T12:04:55.507Z",
           "data_types": [
             "affected",
             "references",
@@ -41704,7 +41772,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift Builds 1.7.3"
+              "product": "Red Hat OpenShift Builds 1.7.4"
             },
             {
               "vendor": "Red Hat",
@@ -41716,15 +41784,11 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift GitOps 1.20"
+              "product": "Red Hat OpenShift GitOps 1.2"
             },
             {
               "vendor": "Red Hat",
               "product": "Red Hat Openshift Data Foundation 4.22"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Red Hat Quay 3.10"
             },
             {
               "vendor": "Red Hat",
@@ -41740,6 +41804,10 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat Quay 3.1"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat Quay 3.9"
             },
             {
@@ -41752,7 +41820,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "multicluster engine for Kubernetes 2.10"
+              "product": "multicluster engine for Kubernetes 2.1"
             },
             {
               "vendor": "Red Hat",
@@ -41803,7 +41871,7 @@
         },
         {
           "cve_id": "CVE-2026-39852",
-          "date_updated": "2026-08-13T12:04:26.172Z",
+          "date_updated": "2026-08-17T12:05:19.346Z",
           "data_types": [
             "affected",
             "references",
@@ -41835,6 +41903,10 @@
             {
               "vendor": "Red Hat",
               "product": "Streams for Apache Kafka 2.9.4"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Streams for Apache Kafka 3.2.1"
             },
             {
               "vendor": "Red Hat",
@@ -41879,10 +41951,6 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Process Automation 7"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "streams for Apache Kafka 3"
             }
           ],
           "source": "sadp-pilot"
@@ -41907,7 +41975,7 @@
         },
         {
           "cve_id": "CVE-2026-39883",
-          "date_updated": "2026-08-14T12:04:38.343Z",
+          "date_updated": "2026-08-17T12:04:57.071Z",
           "data_types": [
             "affected",
             "references",
@@ -41937,7 +42005,7 @@
         },
         {
           "cve_id": "CVE-2026-39892",
-          "date_updated": "2026-08-12T12:04:39.827Z",
+          "date_updated": "2026-08-17T12:05:07.000Z",
           "data_types": [
             "affected",
             "references",
@@ -41988,7 +42056,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Quay 3.10"
+              "product": "Red Hat Quay 3.1"
             },
             {
               "vendor": "Red Hat",
@@ -42249,7 +42317,7 @@
         },
         {
           "cve_id": "CVE-2026-3009",
-          "date_updated": "2026-08-04T12:07:11.427Z",
+          "date_updated": "2026-08-17T12:05:19.498Z",
           "data_types": [
             "affected",
             "references",
@@ -42371,7 +42439,7 @@
         },
         {
           "cve_id": "CVE-2026-3039",
-          "date_updated": "2026-07-15T01:10:01.894Z",
+          "date_updated": "2026-08-17T12:05:14.703Z",
           "data_types": [
             "affected",
             "references",
@@ -42391,6 +42459,10 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux 9"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux 9.6 Extended Update Support"
             },
             {
               "vendor": "Red Hat",
@@ -43743,7 +43815,7 @@
         },
         {
           "cve_id": "CVE-2026-40175",
-          "date_updated": "2026-08-14T12:04:31.079Z",
+          "date_updated": "2026-08-17T12:05:15.835Z",
           "data_types": [
             "affected",
             "references",
@@ -43778,7 +43850,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Network Observability (NETOBSERV) 1.11.2"
+              "product": "Network Observability (NETOBSERV) 1.11.0"
             },
             {
               "vendor": "Red Hat",
@@ -43826,7 +43898,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Container Native Virtualization 4.20"
+              "product": "Red Hat Container Native Virtualization 4.2"
             },
             {
               "vendor": "Red Hat",
@@ -43870,7 +43942,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift Container Platform 4.20"
+              "product": "Red Hat OpenShift Container Platform 4.2"
             },
             {
               "vendor": "Red Hat",
@@ -44031,7 +44103,7 @@
         },
         {
           "cve_id": "CVE-2026-40192",
-          "date_updated": "2026-08-12T12:04:36.553Z",
+          "date_updated": "2026-08-17T12:04:56.493Z",
           "data_types": [
             "affected",
             "references",
@@ -44094,7 +44166,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Quay 3.10"
+              "product": "Red Hat Quay 3.1"
             },
             {
               "vendor": "Red Hat",
@@ -44235,7 +44307,7 @@
         },
         {
           "cve_id": "CVE-2026-40293",
-          "date_updated": "2026-08-10T12:05:33.685Z",
+          "date_updated": "2026-08-17T12:05:01.048Z",
           "data_types": [
             "affected",
             "references",
@@ -44417,7 +44489,7 @@
         },
         {
           "cve_id": "CVE-2026-40477",
-          "date_updated": "2026-08-04T12:07:00.894Z",
+          "date_updated": "2026-08-17T12:04:57.847Z",
           "data_types": [
             "affected",
             "references",
@@ -44827,7 +44899,7 @@
         },
         {
           "cve_id": "CVE-2026-40895",
-          "date_updated": "2026-08-14T12:04:28.223Z",
+          "date_updated": "2026-08-17T12:05:06.401Z",
           "data_types": [
             "affected",
             "references",
@@ -44866,7 +44938,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Network Observability (NETOBSERV) 1.11.2"
+              "product": "Network Observability (NETOBSERV) 1.11.0"
             },
             {
               "vendor": "Red Hat",
@@ -44934,7 +45006,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift Container Platform 4.20"
+              "product": "Red Hat OpenShift Container Platform 4.2"
             },
             {
               "vendor": "Red Hat",
@@ -44970,7 +45042,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Quay 3.10"
+              "product": "Red Hat Quay 3.1"
             },
             {
               "vendor": "Red Hat",
@@ -45243,7 +45315,7 @@
         },
         {
           "cve_id": "CVE-2026-40938",
-          "date_updated": "2026-08-03T12:05:55.773Z",
+          "date_updated": "2026-08-17T12:05:01.425Z",
           "data_types": [
             "affected",
             "references",
@@ -45254,7 +45326,7 @@
           "affected_products": [
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift Builds 1.7.3"
+              "product": "Red Hat OpenShift Builds 1.7.4"
             },
             {
               "vendor": "Red Hat",
@@ -46417,7 +46489,7 @@
         },
         {
           "cve_id": "CVE-2026-41567",
-          "date_updated": "2026-08-14T12:04:41.477Z",
+          "date_updated": "2026-08-17T12:05:07.385Z",
           "data_types": [
             "affected",
             "references",
@@ -46428,11 +46500,7 @@
           "affected_products": [
             {
               "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.4.5"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.5.7"
+              "product": "Multicluster Global Hub 1.5.4"
             },
             {
               "vendor": "Red Hat",
@@ -46440,7 +46508,11 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "OpenShift Developer Tools and Services 1.6.2"
+              "product": "OpenShift Developer Tools and Services 1.6.3"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat multicluster global hub 1.4.2"
             },
             {
               "vendor": "Red Hat",
@@ -46507,7 +46579,7 @@
         },
         {
           "cve_id": "CVE-2026-41602",
-          "date_updated": "2026-08-14T12:04:30.090Z",
+          "date_updated": "2026-08-17T12:05:16.467Z",
           "data_types": [
             "affected",
             "references",
@@ -46522,11 +46594,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.4.5"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.5.7"
+              "product": "Multicluster Global Hub 1.5.4"
             },
             {
               "vendor": "Red Hat",
@@ -46550,7 +46618,11 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift distributed tracing 3.9.2"
+              "product": "Red Hat multicluster global hub 1.4.2"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat OpenShift distributed tracing 3.9.3"
             },
             {
               "vendor": "Red Hat",
@@ -46667,7 +46739,7 @@
         },
         {
           "cve_id": "CVE-2026-41604",
-          "date_updated": "2026-08-14T12:04:43.409Z",
+          "date_updated": "2026-08-17T12:05:14.723Z",
           "data_types": [
             "affected",
             "references",
@@ -46682,11 +46754,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.4.5"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.5.7"
+              "product": "Multicluster Global Hub 1.5.4"
             },
             {
               "vendor": "Red Hat",
@@ -46702,7 +46770,11 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift distributed tracing 3.9.2"
+              "product": "Red Hat multicluster global hub 1.4.2"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat OpenShift distributed tracing 3.9.3"
             },
             {
               "vendor": "Red Hat",
@@ -46737,7 +46809,7 @@
         },
         {
           "cve_id": "CVE-2026-41605",
-          "date_updated": "2026-08-14T12:04:28.147Z",
+          "date_updated": "2026-08-17T12:05:14.363Z",
           "data_types": [
             "affected",
             "references",
@@ -46752,11 +46824,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.4.5"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.5.7"
+              "product": "Multicluster Global Hub 1.5.4"
             },
             {
               "vendor": "Red Hat",
@@ -46772,7 +46840,11 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift distributed tracing 3.9.2"
+              "product": "Red Hat multicluster global hub 1.4.2"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat OpenShift distributed tracing 3.9.3"
             },
             {
               "vendor": "Red Hat",
@@ -46807,7 +46879,7 @@
         },
         {
           "cve_id": "CVE-2026-41606",
-          "date_updated": "2026-08-14T12:04:30.210Z",
+          "date_updated": "2026-08-17T12:05:03.103Z",
           "data_types": [
             "affected",
             "references",
@@ -46822,11 +46894,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.4.5"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.5.7"
+              "product": "Multicluster Global Hub 1.5.4"
             },
             {
               "vendor": "Red Hat",
@@ -46842,7 +46910,11 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift distributed tracing 3.9.2"
+              "product": "Red Hat multicluster global hub 1.4.2"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat OpenShift distributed tracing 3.9.3"
             },
             {
               "vendor": "Red Hat",
@@ -46877,7 +46949,7 @@
         },
         {
           "cve_id": "CVE-2026-41607",
-          "date_updated": "2026-08-14T12:04:33.684Z",
+          "date_updated": "2026-08-17T12:04:48.902Z",
           "data_types": [
             "affected",
             "references",
@@ -46892,15 +46964,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.4.5"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.5.7"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.6.5"
+              "product": "Multicluster Global Hub 1.6.2"
             },
             {
               "vendor": "Red Hat",
@@ -46912,7 +46976,15 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift distributed tracing 3.9.2"
+              "product": "Red Hat multicluster global hub 1.4.2"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat multicluster global hub 1.5.1"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat OpenShift distributed tracing 3.9.1"
             },
             {
               "vendor": "Red Hat",
@@ -47117,7 +47189,7 @@
         },
         {
           "cve_id": "CVE-2026-41674",
-          "date_updated": "2026-08-11T12:04:45.691Z",
+          "date_updated": "2026-08-17T12:05:05.502Z",
           "data_types": [
             "affected",
             "references",
@@ -47136,7 +47208,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift Container Platform 4.20"
+              "product": "Red Hat OpenShift Container Platform 4.2"
             },
             {
               "vendor": "Red Hat",
@@ -47559,7 +47631,7 @@
         },
         {
           "cve_id": "CVE-2026-42033",
-          "date_updated": "2026-08-14T12:04:38.012Z",
+          "date_updated": "2026-08-17T12:05:11.835Z",
           "data_types": [
             "affected",
             "references",
@@ -47598,7 +47670,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Network Observability (NETOBSERV) 1.11.2"
+              "product": "Network Observability (NETOBSERV) 1.11.0"
             },
             {
               "vendor": "Red Hat",
@@ -47642,7 +47714,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift Container Platform 4.20"
+              "product": "Red Hat OpenShift Container Platform 4.2"
             },
             {
               "vendor": "Red Hat",
@@ -47674,7 +47746,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Quay 3.10"
+              "product": "Red Hat Quay 3.1"
             },
             {
               "vendor": "Red Hat",
@@ -47809,7 +47881,7 @@
         },
         {
           "cve_id": "CVE-2026-42039",
-          "date_updated": "2026-08-14T12:04:27.861Z",
+          "date_updated": "2026-08-17T12:04:59.601Z",
           "data_types": [
             "affected",
             "references",
@@ -47848,11 +47920,11 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Network Observability (NETOBSERV) 1.11.2"
+              "product": "Network Observability (NETOBSERV) 1.11.0"
             },
             {
               "vendor": "Red Hat",
-              "product": "Network Observability (NETOBSERV) 1.12.0"
+              "product": "Network Observability (NETOBSERV) 1.12.1"
             },
             {
               "vendor": "Red Hat",
@@ -47900,7 +47972,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift Container Platform 4.20"
+              "product": "Red Hat OpenShift Container Platform 4.2"
             },
             {
               "vendor": "Red Hat",
@@ -47932,7 +48004,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Quay 3.10"
+              "product": "Red Hat Quay 3.1"
             },
             {
               "vendor": "Red Hat",
@@ -48075,7 +48147,7 @@
         },
         {
           "cve_id": "CVE-2026-42041",
-          "date_updated": "2026-08-14T12:04:34.610Z",
+          "date_updated": "2026-08-17T12:04:57.144Z",
           "data_types": [
             "affected",
             "references",
@@ -48114,7 +48186,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Network Observability (NETOBSERV) 1.11.2"
+              "product": "Network Observability (NETOBSERV) 1.11.0"
             },
             {
               "vendor": "Red Hat",
@@ -48162,7 +48234,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift Container Platform 4.20"
+              "product": "Red Hat OpenShift Container Platform 4.2"
             },
             {
               "vendor": "Red Hat",
@@ -48194,7 +48266,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Quay 3.10"
+              "product": "Red Hat Quay 3.1"
             },
             {
               "vendor": "Red Hat",
@@ -48325,7 +48397,7 @@
         },
         {
           "cve_id": "CVE-2026-42043",
-          "date_updated": "2026-08-14T12:04:33.180Z",
+          "date_updated": "2026-08-17T12:05:19.199Z",
           "data_types": [
             "affected",
             "references",
@@ -48364,7 +48436,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Network Observability (NETOBSERV) 1.11.2"
+              "product": "Network Observability (NETOBSERV) 1.11.0"
             },
             {
               "vendor": "Red Hat",
@@ -48408,7 +48480,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift Container Platform 4.20"
+              "product": "Red Hat OpenShift Container Platform 4.2"
             },
             {
               "vendor": "Red Hat",
@@ -48440,7 +48512,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Quay 3.10"
+              "product": "Red Hat Quay 3.1"
             },
             {
               "vendor": "Red Hat",
@@ -48571,7 +48643,7 @@
         },
         {
           "cve_id": "CVE-2026-42044",
-          "date_updated": "2026-08-14T12:04:43.161Z",
+          "date_updated": "2026-08-17T12:05:14.280Z",
           "data_types": [
             "affected",
             "references",
@@ -48618,7 +48690,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Network Observability (NETOBSERV) 1.12.0"
+              "product": "Network Observability (NETOBSERV) 1.12.1"
             },
             {
               "vendor": "Red Hat",
@@ -48690,7 +48762,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Quay 3.10"
+              "product": "Red Hat Quay 3.1"
             },
             {
               "vendor": "Red Hat",
@@ -48871,7 +48943,7 @@
         },
         {
           "cve_id": "CVE-2026-42151",
-          "date_updated": "2026-08-14T12:04:30.944Z",
+          "date_updated": "2026-08-17T12:05:04.224Z",
           "data_types": [
             "affected",
             "references",
@@ -48914,19 +48986,19 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Logging for Red Hat OpenShift 6.0"
+              "product": "File Integrity Operator 1"
             },
             {
               "vendor": "Red Hat",
-              "product": "Logging for Red Hat OpenShift 6.2"
+              "product": "Logging Subsystem for Red Hat OpenShift 6.0"
             },
             {
               "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.4.5"
+              "product": "Logging Subsystem for Red Hat OpenShift 6.2"
             },
             {
               "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.5.7"
+              "product": "Multicluster Global Hub 1.5.4"
             },
             {
               "vendor": "Red Hat",
@@ -48935,10 +49007,6 @@
             {
               "vendor": "Red Hat",
               "product": "Multicluster Global Hub 1.7.2"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "OpenShift File Integrity Operator - FIO 1"
             },
             {
               "vendor": "Red Hat",
@@ -48958,11 +49026,15 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat multicluster global hub 1.4.2"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat OpenShift Container Platform 4.22"
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Quay 3.10"
+              "product": "Red Hat Quay 3.1"
             },
             {
               "vendor": "Red Hat",
@@ -49073,7 +49145,7 @@
         },
         {
           "cve_id": "CVE-2026-42154",
-          "date_updated": "2026-08-14T12:04:34.603Z",
+          "date_updated": "2026-08-17T12:05:15.111Z",
           "data_types": [
             "affected",
             "references",
@@ -49116,23 +49188,23 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Logging for Red Hat OpenShift 6.0"
+              "product": "File Integrity Operator 1"
             },
             {
               "vendor": "Red Hat",
-              "product": "Logging for Red Hat OpenShift 6.2"
+              "product": "Logging Subsystem for Red Hat OpenShift 6.0"
             },
             {
               "vendor": "Red Hat",
-              "product": "Logging for Red Hat OpenShift 6.4"
+              "product": "Logging Subsystem for Red Hat OpenShift 6.2"
             },
             {
               "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.4.5"
+              "product": "Logging Subsystem for Red Hat OpenShift 6.4"
             },
             {
               "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.5.7"
+              "product": "Multicluster Global Hub 1.5.4"
             },
             {
               "vendor": "Red Hat",
@@ -49141,10 +49213,6 @@
             {
               "vendor": "Red Hat",
               "product": "Multicluster Global Hub 1.7.2"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "OpenShift File Integrity Operator - FIO 1"
             },
             {
               "vendor": "Red Hat",
@@ -49164,6 +49232,10 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat multicluster global hub 1.4.2"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat OpenShift Container Platform 4.16"
             },
             {
@@ -49180,7 +49252,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift Container Platform 4.20"
+              "product": "Red Hat OpenShift Container Platform 4.2"
             },
             {
               "vendor": "Red Hat",
@@ -49192,7 +49264,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Quay 3.10"
+              "product": "Red Hat Quay 3.1"
             },
             {
               "vendor": "Red Hat",
@@ -49635,7 +49707,7 @@
         },
         {
           "cve_id": "CVE-2026-42264",
-          "date_updated": "2026-08-14T12:04:37.444Z",
+          "date_updated": "2026-08-17T12:05:12.844Z",
           "data_types": [
             "affected",
             "references",
@@ -49939,7 +50011,7 @@
         },
         {
           "cve_id": "CVE-2026-42338",
-          "date_updated": "2026-08-10T12:05:45.196Z",
+          "date_updated": "2026-08-17T12:05:13.137Z",
           "data_types": [
             "affected",
             "references",
@@ -49963,6 +50035,10 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux 9"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux 9.6 Extended Update Support"
             },
             {
               "vendor": "Red Hat",
@@ -50153,7 +50229,7 @@
         },
         {
           "cve_id": "CVE-2026-42499",
-          "date_updated": "2026-08-14T12:04:41.754Z",
+          "date_updated": "2026-08-17T12:04:59.746Z",
           "data_types": [
             "affected",
             "references",
@@ -50168,15 +50244,15 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Logging for Red Hat OpenShift 6.0"
+              "product": "Logging Subsystem for Red Hat OpenShift 6.0"
             },
             {
               "vendor": "Red Hat",
-              "product": "Logging for Red Hat OpenShift 6.2"
+              "product": "Logging Subsystem for Red Hat OpenShift 6.2"
             },
             {
               "vendor": "Red Hat",
-              "product": "Logging for Red Hat OpenShift 6.4"
+              "product": "Logging Subsystem for Red Hat OpenShift 6.4"
             },
             {
               "vendor": "Red Hat",
@@ -50264,7 +50340,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Quay 3.10"
+              "product": "Red Hat Quay 3.1"
             },
             {
               "vendor": "Red Hat",
@@ -50499,7 +50575,7 @@
         },
         {
           "cve_id": "CVE-2026-42508",
-          "date_updated": "2026-08-14T12:04:30.062Z",
+          "date_updated": "2026-08-17T12:04:49.486Z",
           "data_types": [
             "affected",
             "references",
@@ -50510,27 +50586,19 @@
           "affected_products": [
             {
               "vendor": "Red Hat",
+              "product": "External Secrets Operator for Red Hat OpenShift"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "OpenShift Serverless"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Ceph Storage 9"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux 10"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Red Hat Enterprise Linux 8"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Red Hat Enterprise Linux 8.6 Advanced Mission Critical Update Support"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Red Hat Enterprise Linux 8.6 Extended Update Support Long-Life Add-On"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Red Hat Enterprise Linux 8.8 Telecommunications Update Service"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Red Hat Enterprise Linux 8.8 Update Services for SAP Solutions"
             },
             {
               "vendor": "Red Hat",
@@ -50538,11 +50606,23 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "RHEM 1.0 for RHEL 9"
+              "product": "Red Hat OpenShift AI (RHOAI)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat OpenShift Container Platform 4"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Quay 3"
             },
             {
               "vendor": "Red Hat",
               "product": "RHEM 1.1 for RHEL 10"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "RHEM 1.0 for RHEL 9"
             },
             {
               "vendor": "Red Hat",
@@ -50551,14 +50631,6 @@
             {
               "vendor": "Red Hat",
               "product": "DevWorkspace Operator 0.42"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "multicluster engine for Kubernetes 2.10"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "multicluster engine for Kubernetes 2.8"
             },
             {
               "vendor": "Red Hat",
@@ -50598,11 +50670,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Hardened Images"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Red Hat OpenShift Builds 1.7.3"
+              "product": "Red Hat OpenShift Builds 1.7.4"
             },
             {
               "vendor": "Red Hat",
@@ -50610,19 +50678,15 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Openshift Data Foundation 4.22"
-            },
-            {
-              "vendor": "Red Hat",
               "product": "Red Hat OpenShift GitOps 1.19"
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift GitOps 1.20"
+              "product": "Red Hat OpenShift GitOps 1.2"
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Quay 3.10"
+              "product": "Red Hat Openshift Data Foundation 4.22"
             },
             {
               "vendor": "Red Hat",
@@ -50638,6 +50702,10 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat Quay 3.1"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat Quay 3.9"
             },
             {
@@ -50650,35 +50718,15 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "External Secrets Operator for Red Hat OpenShift"
+              "product": "multicluster engine for Kubernetes 2.1"
             },
             {
               "vendor": "Red Hat",
-              "product": "Multicluster Engine for Kubernetes"
+              "product": "multicluster engine for Kubernetes 2.8"
             },
             {
               "vendor": "Red Hat",
-              "product": "OpenShift Serverless"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Red Hat Ceph Storage 9"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Red Hat Enterprise Linux AI (RHEL AI) 3"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Red Hat OpenShift AI (RHOAI)"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Red Hat OpenShift Container Platform 4"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Red Hat OpenShift Virtualization 4"
+              "product": "Red Hat Enterprise Linux 8"
             },
             {
               "vendor": "Red Hat",
@@ -50694,7 +50742,39 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Quay 3"
+              "product": "Red Hat Enterprise Linux AppStream (v. 10)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream (v. 8)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream AUS (v.8.6)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream EUS EXTENSION (v.8.6)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream E4S (v.8.8)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream TUS (v.8.8)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux AppStream (v. 9)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux CodeReady Linux Builder (v. 10)"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Hardened Images"
             }
           ],
           "source": "sadp-pilot"
@@ -51653,7 +51733,7 @@
         },
         {
           "cve_id": "CVE-2026-42880",
-          "date_updated": "2026-08-11T12:04:46.487Z",
+          "date_updated": "2026-08-17T12:04:56.410Z",
           "data_types": [
             "affected",
             "references",
@@ -51668,7 +51748,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift GitOps 1.20"
+              "product": "Red Hat OpenShift GitOps 1.2"
             },
             {
               "vendor": "Red Hat",
@@ -51767,7 +51847,7 @@
         },
         {
           "cve_id": "CVE-2026-42945",
-          "date_updated": "2026-08-11T12:04:51.857Z",
+          "date_updated": "2026-08-17T12:05:19.207Z",
           "data_types": [
             "affected",
             "references",
@@ -51838,7 +51918,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Openshift Data Foundation 4.20"
+              "product": "Red Hat Openshift Data Foundation 4.2"
             },
             {
               "vendor": "Red Hat",
@@ -53231,7 +53311,7 @@
         },
         {
           "cve_id": "CVE-2026-43869",
-          "date_updated": "2026-08-14T12:04:40.753Z",
+          "date_updated": "2026-08-17T12:04:48.542Z",
           "data_types": [
             "affected",
             "references",
@@ -53254,11 +53334,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.4.5"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.5.7"
+              "product": "Multicluster Global Hub 1.5.4"
             },
             {
               "vendor": "Red Hat",
@@ -53286,11 +53362,15 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Red Hat multicluster global hub 1.4.2"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Red Hat OpenShift AI 2.25"
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift distributed tracing 3.10.2"
+              "product": "Red Hat OpenShift distributed tracing 3.10.0"
             },
             {
               "vendor": "Red Hat",
@@ -53969,7 +54049,7 @@
         },
         {
           "cve_id": "CVE-2026-44249",
-          "date_updated": "2026-08-14T12:04:39.544Z",
+          "date_updated": "2026-08-17T12:05:07.999Z",
           "data_types": [
             "affected",
             "references",
@@ -54036,7 +54116,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Offline Knowledge Portal 1.2.10"
+              "product": "Red Hat Offline Knowledge Portal 1.2.9"
             },
             {
               "vendor": "Red Hat",
@@ -54219,7 +54299,7 @@
         },
         {
           "cve_id": "CVE-2026-44293",
-          "date_updated": "2026-08-10T12:05:44.253Z",
+          "date_updated": "2026-08-17T12:05:17.187Z",
           "data_types": [
             "affected",
             "references",
@@ -54517,7 +54597,7 @@
         },
         {
           "cve_id": "CVE-2026-44432",
-          "date_updated": "2026-08-12T12:04:44.095Z",
+          "date_updated": "2026-08-17T12:05:06.922Z",
           "data_types": [
             "affected",
             "references",
@@ -54592,7 +54672,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Quay 3.10"
+              "product": "Red Hat Quay 3.1"
             },
             {
               "vendor": "Red Hat",
@@ -54767,7 +54847,7 @@
         },
         {
           "cve_id": "CVE-2026-44486",
-          "date_updated": "2026-08-14T12:04:35.494Z",
+          "date_updated": "2026-08-17T12:05:11.378Z",
           "data_types": [
             "affected",
             "references",
@@ -54870,7 +54950,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift Container Platform 4.20"
+              "product": "Red Hat OpenShift Container Platform 4.2"
             },
             {
               "vendor": "Red Hat",
@@ -54902,7 +54982,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Quay 3.10"
+              "product": "Red Hat Quay 3.1"
             },
             {
               "vendor": "Red Hat",
@@ -55021,7 +55101,7 @@
         },
         {
           "cve_id": "CVE-2026-44487",
-          "date_updated": "2026-08-14T12:04:26.725Z",
+          "date_updated": "2026-08-17T12:05:06.340Z",
           "data_types": [
             "affected",
             "references",
@@ -55128,7 +55208,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift Container Platform 4.20"
+              "product": "Red Hat OpenShift Container Platform 4.2"
             },
             {
               "vendor": "Red Hat",
@@ -55164,7 +55244,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Quay 3.10"
+              "product": "Red Hat Quay 3.1"
             },
             {
               "vendor": "Red Hat",
@@ -55283,7 +55363,7 @@
         },
         {
           "cve_id": "CVE-2026-44488",
-          "date_updated": "2026-08-14T12:04:27.923Z",
+          "date_updated": "2026-08-17T12:05:06.991Z",
           "data_types": [
             "affected",
             "references",
@@ -55390,7 +55470,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift Container Platform 4.20"
+              "product": "Red Hat OpenShift Container Platform 4.2"
             },
             {
               "vendor": "Red Hat",
@@ -55426,7 +55506,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Quay 3.10"
+              "product": "Red Hat Quay 3.1"
             },
             {
               "vendor": "Red Hat",
@@ -55545,7 +55625,7 @@
         },
         {
           "cve_id": "CVE-2026-44492",
-          "date_updated": "2026-08-14T12:04:32.127Z",
+          "date_updated": "2026-08-17T12:05:10.016Z",
           "data_types": [
             "affected",
             "references",
@@ -55656,7 +55736,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift Container Platform 4.20"
+              "product": "Red Hat OpenShift Container Platform 4.2"
             },
             {
               "vendor": "Red Hat",
@@ -55688,7 +55768,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Quay 3.10"
+              "product": "Red Hat Quay 3.1"
             },
             {
               "vendor": "Red Hat",
@@ -55807,7 +55887,7 @@
         },
         {
           "cve_id": "CVE-2026-44494",
-          "date_updated": "2026-08-14T12:04:26.667Z",
+          "date_updated": "2026-08-17T12:05:18.417Z",
           "data_types": [
             "affected",
             "references",
@@ -55918,7 +55998,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift Container Platform 4.20"
+              "product": "Red Hat OpenShift Container Platform 4.2"
             },
             {
               "vendor": "Red Hat",
@@ -55954,7 +56034,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Quay 3.10"
+              "product": "Red Hat Quay 3.1"
             },
             {
               "vendor": "Red Hat",
@@ -56073,7 +56153,7 @@
         },
         {
           "cve_id": "CVE-2026-44495",
-          "date_updated": "2026-08-14T12:04:33.052Z",
+          "date_updated": "2026-08-17T12:05:16.136Z",
           "data_types": [
             "affected",
             "references",
@@ -56192,7 +56272,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift Container Platform 4.20"
+              "product": "Red Hat OpenShift Container Platform 4.2"
             },
             {
               "vendor": "Red Hat",
@@ -56228,7 +56308,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Quay 3.10"
+              "product": "Red Hat Quay 3.1"
             },
             {
               "vendor": "Red Hat",
@@ -56351,7 +56431,7 @@
         },
         {
           "cve_id": "CVE-2026-44496",
-          "date_updated": "2026-08-14T12:04:42.456Z",
+          "date_updated": "2026-08-17T12:05:13.011Z",
           "data_types": [
             "affected",
             "references",
@@ -56454,7 +56534,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift Container Platform 4.20"
+              "product": "Red Hat OpenShift Container Platform 4.2"
             },
             {
               "vendor": "Red Hat",
@@ -56486,7 +56566,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Quay 3.10"
+              "product": "Red Hat Quay 3.1"
             },
             {
               "vendor": "Red Hat",
@@ -57255,7 +57335,7 @@
         },
         {
           "cve_id": "CVE-2026-44990",
-          "date_updated": "2026-08-13T12:04:30.323Z",
+          "date_updated": "2026-08-17T12:05:14.356Z",
           "data_types": [
             "affected",
             "references",
@@ -57266,7 +57346,7 @@
           "affected_products": [
             {
               "vendor": "Red Hat",
-              "product": "multicluster engine for Kubernetes 2.1"
+              "product": "multicluster engine for Kubernetes 2.10"
             },
             {
               "vendor": "Red Hat",
@@ -57302,7 +57382,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Container Native Virtualization 4.20"
+              "product": "Red Hat Container Native Virtualization 4.2"
             },
             {
               "vendor": "Red Hat",
@@ -57310,7 +57390,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Quay 3.10"
+              "product": "Red Hat Quay 3.1"
             },
             {
               "vendor": "Red Hat",
@@ -57475,7 +57555,7 @@
         },
         {
           "cve_id": "CVE-2026-45292",
-          "date_updated": "2026-08-14T12:04:33.651Z",
+          "date_updated": "2026-08-17T12:04:58.938Z",
           "data_types": [
             "affected",
             "references",
@@ -57494,7 +57574,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Offline Knowledge Portal 1.2.10"
+              "product": "Red Hat Offline Knowledge Portal 1.2.9"
             },
             {
               "vendor": "Red Hat",
@@ -57597,7 +57677,7 @@
         },
         {
           "cve_id": "CVE-2026-45416",
-          "date_updated": "2026-08-14T12:04:43.335Z",
+          "date_updated": "2026-08-17T12:05:00.899Z",
           "data_types": [
             "affected",
             "references",
@@ -57664,7 +57744,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Offline Knowledge Portal 1.2.10"
+              "product": "Red Hat Offline Knowledge Portal 1.2.9"
             },
             {
               "vendor": "Red Hat",
@@ -57731,7 +57811,7 @@
         },
         {
           "cve_id": "CVE-2026-45447",
-          "date_updated": "2026-08-10T12:05:52.643Z",
+          "date_updated": "2026-08-17T12:04:48.764Z",
           "data_types": [
             "affected",
             "references",
@@ -57778,7 +57858,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Cost Management 4"
+              "product": "Cost Management Metrics Operator 4"
             },
             {
               "vendor": "Red Hat",
@@ -58141,7 +58221,7 @@
         },
         {
           "cve_id": "CVE-2026-45736",
-          "date_updated": "2026-08-14T12:04:36.143Z",
+          "date_updated": "2026-08-17T12:04:49.760Z",
           "data_types": [
             "affected",
             "references",
@@ -58184,7 +58264,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift Container Platform 4.20"
+              "product": "Red Hat OpenShift Container Platform 4.2"
             },
             {
               "vendor": "Red Hat",
@@ -58553,7 +58633,7 @@
         },
         {
           "cve_id": "CVE-2026-45984",
-          "date_updated": "2026-08-07T12:04:43.168Z",
+          "date_updated": "2026-08-17T12:05:05.692Z",
           "data_types": [
             "affected",
             "references",
@@ -58577,6 +58657,10 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux 9"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux 9.2 Update Services for SAP Solutions"
             },
             {
               "vendor": "Red Hat",
@@ -58611,7 +58695,7 @@
         },
         {
           "cve_id": "CVE-2026-45998",
-          "date_updated": "2026-07-15T00:51:50.311Z",
+          "date_updated": "2026-08-17T12:05:15.041Z",
           "data_types": [
             "affected",
             "references",
@@ -60133,7 +60217,7 @@
         },
         {
           "cve_id": "CVE-2026-46384",
-          "date_updated": "2026-08-14T12:04:33.513Z",
+          "date_updated": "2026-08-17T12:05:03.842Z",
           "data_types": [
             "affected",
             "references",
@@ -60148,11 +60232,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.4.5"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.5.7"
+              "product": "Multicluster Global Hub 1.5.4"
             },
             {
               "vendor": "Red Hat",
@@ -60169,6 +60249,10 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Advanced Cluster Management for Kubernetes 2.13"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat multicluster global hub 1.4.2"
             },
             {
               "vendor": "Red Hat",
@@ -60191,7 +60275,7 @@
         },
         {
           "cve_id": "CVE-2026-46385",
-          "date_updated": "2026-08-14T12:04:26.570Z",
+          "date_updated": "2026-08-17T12:05:16.586Z",
           "data_types": [
             "affected",
             "references",
@@ -60206,11 +60290,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.4.5"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Multicluster Global Hub 1.5.7"
+              "product": "Multicluster Global Hub 1.5.4"
             },
             {
               "vendor": "Red Hat",
@@ -60227,6 +60307,10 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Advanced Cluster Management for Kubernetes 2.13"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat multicluster global hub 1.4.2"
             },
             {
               "vendor": "Red Hat",
@@ -60403,7 +60487,7 @@
         },
         {
           "cve_id": "CVE-2026-46579",
-          "date_updated": "2026-08-11T12:04:43.553Z",
+          "date_updated": "2026-08-17T12:05:00.463Z",
           "data_types": [
             "affected",
             "references",
@@ -60446,7 +60530,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift Container Platform 4.20"
+              "product": "Red Hat OpenShift Container Platform 4.2"
             },
             {
               "vendor": "Red Hat",
@@ -60461,7 +60545,7 @@
         },
         {
           "cve_id": "CVE-2026-46595",
-          "date_updated": "2026-08-14T12:04:32.377Z",
+          "date_updated": "2026-08-17T12:05:12.203Z",
           "data_types": [
             "affected",
             "references",
@@ -60544,7 +60628,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift Builds 1.7.3"
+              "product": "Red Hat OpenShift Builds 1.7.4"
             },
             {
               "vendor": "Red Hat",
@@ -60809,7 +60893,7 @@
         },
         {
           "cve_id": "CVE-2026-47162",
-          "date_updated": "2026-08-11T12:04:53.244Z",
+          "date_updated": "2026-08-17T12:05:13.187Z",
           "data_types": [
             "affected",
             "references",
@@ -61063,7 +61147,7 @@
         },
         {
           "cve_id": "CVE-2026-47783",
-          "date_updated": "2026-08-11T12:04:52.487Z",
+          "date_updated": "2026-08-17T12:04:58.021Z",
           "data_types": [
             "affected",
             "references",
@@ -61479,7 +61563,7 @@
         },
         {
           "cve_id": "CVE-2026-48526",
-          "date_updated": "2026-08-12T12:04:48.730Z",
+          "date_updated": "2026-08-17T12:05:04.453Z",
           "data_types": [
             "affected",
             "references",
@@ -61574,7 +61658,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Quay 3.10"
+              "product": "Red Hat Quay 3.1"
             },
             {
               "vendor": "Red Hat",
@@ -61679,7 +61763,7 @@
         },
         {
           "cve_id": "CVE-2026-48710",
-          "date_updated": "2026-08-10T12:05:48.192Z",
+          "date_updated": "2026-08-17T12:05:15.633Z",
           "data_types": [
             "affected",
             "references",
@@ -61841,7 +61925,7 @@
         },
         {
           "cve_id": "CVE-2026-48779",
-          "date_updated": "2026-08-12T12:04:56.480Z",
+          "date_updated": "2026-08-17T12:05:13.225Z",
           "data_types": [
             "affected",
             "references",
@@ -61884,7 +61968,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Openshift Data Foundation 4.20"
+              "product": "Red Hat Openshift Data Foundation 4.2"
             },
             {
               "vendor": "Red Hat",
@@ -63583,7 +63667,7 @@
         },
         {
           "cve_id": "CVE-2026-4598",
-          "date_updated": "2026-08-12T12:04:55.749Z",
+          "date_updated": "2026-08-17T12:04:48.601Z",
           "data_types": [
             "affected",
             "references",
@@ -63602,7 +63686,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Quay 3.10"
+              "product": "Red Hat Quay 3.1"
             },
             {
               "vendor": "Red Hat",
@@ -63625,7 +63709,7 @@
         },
         {
           "cve_id": "CVE-2026-4599",
-          "date_updated": "2026-08-12T12:04:55.218Z",
+          "date_updated": "2026-08-17T12:05:05.183Z",
           "data_types": [
             "affected",
             "references",
@@ -63644,7 +63728,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Quay 3.10"
+              "product": "Red Hat Quay 3.1"
             },
             {
               "vendor": "Red Hat",
@@ -63667,7 +63751,7 @@
         },
         {
           "cve_id": "CVE-2026-4600",
-          "date_updated": "2026-08-12T12:04:48.444Z",
+          "date_updated": "2026-08-17T12:04:55.837Z",
           "data_types": [
             "affected",
             "references",
@@ -63686,7 +63770,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Quay 3.10"
+              "product": "Red Hat Quay 3.1"
             },
             {
               "vendor": "Red Hat",
@@ -63709,7 +63793,7 @@
         },
         {
           "cve_id": "CVE-2026-4601",
-          "date_updated": "2026-08-12T12:04:51.635Z",
+          "date_updated": "2026-08-17T12:05:15.088Z",
           "data_types": [
             "affected",
             "references",
@@ -63728,7 +63812,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Quay 3.10"
+              "product": "Red Hat Quay 3.1"
             },
             {
               "vendor": "Red Hat",
@@ -63751,7 +63835,7 @@
         },
         {
           "cve_id": "CVE-2026-4602",
-          "date_updated": "2026-08-12T12:04:47.047Z",
+          "date_updated": "2026-08-17T12:05:17.514Z",
           "data_types": [
             "affected",
             "references",
@@ -63770,7 +63854,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Quay 3.10"
+              "product": "Red Hat Quay 3.1"
             },
             {
               "vendor": "Red Hat",
@@ -65661,7 +65745,7 @@
         },
         {
           "cve_id": "CVE-2026-4740",
-          "date_updated": "2026-08-13T12:04:30.450Z",
+          "date_updated": "2026-08-17T12:05:16.375Z",
           "data_types": [
             "affected",
             "references",
@@ -65899,7 +65983,7 @@
         },
         {
           "cve_id": "CVE-2026-4800",
-          "date_updated": "2026-08-12T12:04:39.698Z",
+          "date_updated": "2026-08-17T12:05:03.556Z",
           "data_types": [
             "affected",
             "references",
@@ -66002,7 +66086,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Network Observability (NETOBSERV) 1.11.2"
+              "product": "Network Observability (NETOBSERV) 1.11.0"
             },
             {
               "vendor": "Red Hat",
@@ -66058,7 +66142,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift Container Platform 4.20"
+              "product": "Red Hat OpenShift Container Platform 4.2"
             },
             {
               "vendor": "Red Hat",
@@ -66086,7 +66170,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Openshift Data Foundation 4.20"
+              "product": "Red Hat Openshift Data Foundation 4.2"
             },
             {
               "vendor": "Red Hat",
@@ -66094,7 +66178,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift distributed tracing 3.9.2"
+              "product": "Red Hat OpenShift distributed tracing 3.9.1"
             },
             {
               "vendor": "Red Hat",
@@ -66379,7 +66463,7 @@
         },
         {
           "cve_id": "CVE-2026-4878",
-          "date_updated": "2026-08-10T12:05:34.377Z",
+          "date_updated": "2026-08-17T12:05:18.609Z",
           "data_types": [
             "affected",
             "references",
@@ -66486,7 +66570,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift distributed tracing 3.9.2"
+              "product": "Red Hat OpenShift distributed tracing 3.9.1"
             },
             {
               "vendor": "Red Hat",
@@ -66635,7 +66719,7 @@
         },
         {
           "cve_id": "CVE-2026-4926",
-          "date_updated": "2026-08-10T12:05:52.805Z",
+          "date_updated": "2026-08-17T12:04:59.234Z",
           "data_types": [
             "affected",
             "references",
@@ -66698,7 +66782,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift distributed tracing 3.9.2"
+              "product": "Red Hat OpenShift distributed tracing 3.9.1"
             },
             {
               "vendor": "Red Hat",
@@ -66849,7 +66933,7 @@
         },
         {
           "cve_id": "CVE-2026-50010",
-          "date_updated": "2026-08-14T12:04:27.631Z",
+          "date_updated": "2026-08-17T12:04:53.927Z",
           "data_types": [
             "affected",
             "references",
@@ -66912,7 +66996,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Offline Knowledge Portal 1.2.10"
+              "product": "Red Hat Offline Knowledge Portal 1.2.9"
             },
             {
               "vendor": "Red Hat",
@@ -68187,7 +68271,7 @@
         },
         {
           "cve_id": "CVE-2026-52924",
-          "date_updated": "2026-07-15T00:45:59.790Z",
+          "date_updated": "2026-08-17T12:04:57.935Z",
           "data_types": [
             "affected",
             "references",
@@ -68663,7 +68747,7 @@
         },
         {
           "cve_id": "CVE-2026-53000",
-          "date_updated": "2026-07-15T00:45:26.615Z",
+          "date_updated": "2026-08-17T12:04:56.404Z",
           "data_types": [
             "affected",
             "references",
@@ -68867,7 +68951,7 @@
         },
         {
           "cve_id": "CVE-2026-53059",
-          "date_updated": "2026-08-12T12:04:48.486Z",
+          "date_updated": "2026-08-17T12:05:12.319Z",
           "data_types": [
             "affected",
             "references",
@@ -68891,6 +68975,14 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux 8.4 Extended Update Support Long-Life Add-On"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux 8.6 Advanced Mission Critical Update Support"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux 8.6 Extended Update Support Long-Life Add-On"
             },
             {
               "vendor": "Red Hat",
@@ -69995,7 +70087,7 @@
         },
         {
           "cve_id": "CVE-2026-54369",
-          "date_updated": "2026-08-11T12:04:44.881Z",
+          "date_updated": "2026-08-17T12:04:50.808Z",
           "data_types": [
             "affected",
             "references",
@@ -70030,7 +70122,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift distributed tracing 3.10.2"
+              "product": "Red Hat OpenShift distributed tracing 3.10.0"
             },
             {
               "vendor": "Red Hat",
@@ -70623,7 +70715,7 @@
         },
         {
           "cve_id": "CVE-2026-58049",
-          "date_updated": "2026-08-14T12:04:37.584Z",
+          "date_updated": "2026-08-17T12:05:02.286Z",
           "data_types": [
             "affected",
             "references",
@@ -71717,7 +71809,7 @@
         },
         {
           "cve_id": "CVE-2026-5795",
-          "date_updated": "2026-08-14T12:04:37.816Z",
+          "date_updated": "2026-08-17T12:04:57.132Z",
           "data_types": [
             "affected",
             "references",
@@ -71736,7 +71828,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Offline Knowledge Portal 1.2.10"
+              "product": "Red Hat Offline Knowledge Portal 1.2.5"
             },
             {
               "vendor": "Red Hat",
@@ -71785,7 +71877,7 @@
         },
         {
           "cve_id": "CVE-2026-5946",
-          "date_updated": "2026-07-15T00:41:53.642Z",
+          "date_updated": "2026-08-17T12:04:57.609Z",
           "data_types": [
             "affected",
             "references",
@@ -71805,6 +71897,10 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux 9"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux 9.6 Extended Update Support"
             },
             {
               "vendor": "Red Hat",
@@ -72047,7 +72143,7 @@
         },
         {
           "cve_id": "CVE-2026-6266",
-          "date_updated": "2026-07-15T00:41:40.010Z",
+          "date_updated": "2026-08-17T12:05:06.334Z",
           "data_types": [
             "affected",
             "references",
@@ -72077,7 +72173,7 @@
         },
         {
           "cve_id": "CVE-2026-6321",
-          "date_updated": "2026-07-27T12:05:31.512Z",
+          "date_updated": "2026-08-17T12:05:10.467Z",
           "data_types": [
             "affected",
             "references",
@@ -72219,7 +72315,7 @@
         },
         {
           "cve_id": "CVE-2026-6322",
-          "date_updated": "2026-08-13T12:04:31.205Z",
+          "date_updated": "2026-08-17T12:05:16.546Z",
           "data_types": [
             "affected",
             "references",
@@ -72302,7 +72398,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift Container Platform 4.20"
+              "product": "Red Hat OpenShift Container Platform 4.2"
             },
             {
               "vendor": "Red Hat",
@@ -72314,7 +72410,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Quay 3.10"
+              "product": "Red Hat Quay 3.1"
             },
             {
               "vendor": "Red Hat",
@@ -72323,6 +72419,10 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Quay 3.16"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Quay 3.17"
             },
             {
               "vendor": "Red Hat",
@@ -74075,7 +74175,7 @@
         },
         {
           "cve_id": "CVE-2026-7163",
-          "date_updated": "2026-08-14T12:04:29.788Z",
+          "date_updated": "2026-08-17T12:05:18.682Z",
           "data_types": [
             "affected",
             "references",
@@ -74525,7 +74625,7 @@
         },
         {
           "cve_id": "CVE-2026-7374",
-          "date_updated": "2026-08-14T12:04:40.070Z",
+          "date_updated": "2026-08-17T12:05:15.851Z",
           "data_types": [
             "affected",
             "references",
@@ -74568,7 +74668,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Container Native Virtualization 4.20"
+              "product": "Red Hat Container Native Virtualization 4.2"
             },
             {
               "vendor": "Red Hat",
@@ -75679,7 +75779,7 @@
         },
         {
           "cve_id": "CVE-2026-8643",
-          "date_updated": "2026-08-14T12:04:31.076Z",
+          "date_updated": "2026-08-17T12:05:05.419Z",
           "data_types": [
             "affected",
             "references",
@@ -75754,6 +75854,10 @@
             },
             {
               "vendor": "Red Hat",
+              "product": "Lightspeed Core"
+            },
+            {
+              "vendor": "Red Hat",
               "product": "Migration Toolkit for Applications 8"
             },
             {
@@ -75795,6 +75899,10 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Enterprise Linux AI (RHEL AI) 3"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Red Hat Enterprise Linux command line assistant"
             },
             {
               "vendor": "Red Hat",
@@ -76373,7 +76481,7 @@
         },
         {
           "cve_id": "CVE-2026-9277",
-          "date_updated": "2026-08-12T12:04:38.792Z",
+          "date_updated": "2026-08-17T12:05:14.664Z",
           "data_types": [
             "affected",
             "references",
@@ -76389,10 +76497,6 @@
             {
               "vendor": "Red Hat",
               "product": "Cluster Observability Operator 1.5.0"
-            },
-            {
-              "vendor": "Red Hat",
-              "product": "Red Hat Ansible Automation Platform 2.1"
             },
             {
               "vendor": "Red Hat",
@@ -76420,7 +76524,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat OpenShift Container Platform 4.20"
+              "product": "Red Hat OpenShift Container Platform 4.2"
             },
             {
               "vendor": "Red Hat",
@@ -76452,7 +76556,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Quay 3.10"
+              "product": "Red Hat Quay 3.1"
             },
             {
               "vendor": "Red Hat",
@@ -76473,6 +76577,10 @@
             {
               "vendor": "Red Hat",
               "product": "Red Hat Satellite 6.18"
+            },
+            {
+              "vendor": "Red Hat",
+              "product": "Self-service automation portal 2.1"
             },
             {
               "vendor": "Red Hat",
@@ -76771,7 +76879,7 @@
         },
         {
           "cve_id": "CVE-2026-9804",
-          "date_updated": "2026-08-14T12:04:38.752Z",
+          "date_updated": "2026-08-17T12:05:17.707Z",
           "data_types": [
             "affected",
             "references",
@@ -76794,7 +76902,7 @@
             },
             {
               "vendor": "Red Hat",
-              "product": "Red Hat Container Native Virtualization 4.20"
+              "product": "Red Hat Container Native Virtualization 4.2"
             },
             {
               "vendor": "Red Hat",
