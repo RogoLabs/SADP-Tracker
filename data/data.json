@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T01:23:03.659589+00:00",
+  "generated_at": "2026-08-18T06:49:48.736732+00:00",
   "suppliers": [
     {
       "short_name": "redhat-SADP",
@@ -11045,7 +11045,7 @@
               "product": "Red Hat OpenShift Container Platform 4.21"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-1837",
@@ -24585,7 +24585,7 @@
               "product": "Red Hat Enterprise Linux 7"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-2006",
@@ -65779,7 +65779,7 @@
               "product": "Multicluster Engine for Kubernetes"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-4775",
@@ -86467,7 +86467,7 @@
               "product": "SIPLUS S7-1500 CPU 1518-4 PN/DP MFP"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2024-26882",
