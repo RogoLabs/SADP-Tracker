@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T12:55:51.702064+00:00",
+  "generated_at": "2026-08-18T18:44:50.356318+00:00",
   "suppliers": [
     {
       "short_name": "redhat-SADP",
@@ -11145,7 +11145,7 @@
               "product": "Red Hat Enterprise Linux 7"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-1961",
@@ -108015,7 +108015,7 @@
               "product": "SIDIS Secured SmartPlug"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-5244",
