@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T18:36:56.645878+00:00",
+  "generated_at": "2026-08-23T01:30:06.902729+00:00",
   "suppliers": [
     {
       "short_name": "redhat-SADP",
@@ -7681,7 +7681,7 @@
               "product": "OpenShift Pipelines"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-10843",
@@ -44853,7 +44853,7 @@
               "product": "Red Hat Fuse 7"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-40477",
@@ -74865,7 +74865,7 @@
               "product": "multicluster engine for Kubernetes 2.9"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-7246",
@@ -94247,7 +94247,7 @@
               "product": "SIMATIC S7-1500 TM MFP - GNU/Linux subsystem"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2024-42272",
@@ -102787,7 +102787,7 @@
               "product": "SIPLUS S7-1500 CPU 1518-4 PN/DP MFP"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2025-38058",
@@ -104763,7 +104763,7 @@
               "product": "SIMATIC CN 4100"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2025-38732",
