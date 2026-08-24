@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T18:36:05.279985+00:00",
+  "generated_at": "2026-08-24T01:26:04.357280+00:00",
   "suppliers": [
     {
       "short_name": "redhat-SADP",
@@ -108167,7 +108167,7 @@
               "product": "RUGGEDCOM RST2428P"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-49795",
@@ -108243,7 +108243,7 @@
               "product": "RUGGEDCOM RST2428P"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-4373",
@@ -110779,7 +110779,7 @@
               "product": "SIPLUS S7-1500 CPU 1518-4 PN/DP MFP"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2025-7545",
