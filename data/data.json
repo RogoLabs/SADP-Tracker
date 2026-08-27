@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T19:53:31.577506+00:00",
+  "generated_at": "2026-08-27T08:12:48.232080+00:00",
   "suppliers": [
     {
       "short_name": "redhat-SADP",
@@ -9311,7 +9311,7 @@
               "product": "Red Hat Enterprise Linux 7"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-12298",
@@ -35793,7 +35793,7 @@
               "product": "Red Hat OpenShift Container Platform 4"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-33846",
