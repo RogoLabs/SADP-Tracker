@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T04:11:22.824469+00:00",
+  "generated_at": "2026-09-01T11:21:22.505604+00:00",
   "suppliers": [
     {
       "short_name": "redhat-SADP",
@@ -1771,7 +1771,7 @@
               "product": "Red Hat OpenShift AI (RHOAI)"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2025-15059",
@@ -2797,7 +2797,7 @@
               "product": "Red Hat OpenShift AI (RHOAI)"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2025-48431",
@@ -3465,7 +3465,7 @@
               "product": "Red Hat Enterprise Linux 7"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2025-61023",
@@ -43787,7 +43787,7 @@
               "product": "Red Hat Enterprise Linux 9"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-3085",
@@ -77183,7 +77183,7 @@
               "product": "Red Hat Enterprise Linux 9"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-8094",
@@ -91319,7 +91319,7 @@
               "product": "SIMATIC S7-1500 TM MFP - GNU/Linux subsystem"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2024-36008",
@@ -103911,7 +103911,7 @@
               "product": "SIMATIC CN 4100"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2025-31366",
@@ -106659,7 +106659,7 @@
               "product": "SIMATIC CN 4100"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-39709",
