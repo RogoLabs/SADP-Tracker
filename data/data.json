@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T22:38:56.077337+00:00",
+  "generated_at": "2026-09-01T04:11:22.824469+00:00",
   "suppliers": [
     {
       "short_name": "redhat-SADP",
@@ -61859,7 +61859,7 @@
               "product": "Red Hat Hardened Images"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-46385",
@@ -71551,7 +71551,7 @@
               "product": "OpenShift Developer Tools and Services 4.22"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-53437",
@@ -71747,7 +71747,7 @@
               "product": "Red Hat OpenShift Container Platform 4"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-54100",
@@ -71769,7 +71769,7 @@
               "product": "Red Hat OpenShift Container Platform 4"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-54228",
@@ -89675,7 +89675,7 @@
               "product": "SIMATIC S7-1500 TM MFP - GNU/Linux subsystem"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2024-27436",
@@ -100207,7 +100207,7 @@
               "product": "SIPLUS S7-1500 CPU 1518-4 PN/DP MFP"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2024-9143",
