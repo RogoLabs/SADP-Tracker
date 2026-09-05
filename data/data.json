@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T10:12:05.931791+00:00",
+  "generated_at": "2026-09-05T14:51:05.050686+00:00",
   "suppliers": [
     {
       "short_name": "redhat-SADP",
@@ -11417,7 +11417,7 @@
               "product": "Red Hat OpenShift Container Platform 4.21"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-1837",
@@ -67851,7 +67851,7 @@
               "product": "Multicluster Engine for Kubernetes"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-4775",
@@ -108707,7 +108707,7 @@
               "product": "SIMATIC CN 4100"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-39866",
