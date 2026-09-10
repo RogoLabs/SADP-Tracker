@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T20:42:43.168981+00:00",
+  "generated_at": "2026-09-10T03:44:31.967025+00:00",
   "suppliers": [
     {
       "short_name": "redhat-SADP",
@@ -1743,7 +1743,7 @@
               "product": "Red Hat OpenShift AI (RHOAI)"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-15059",
@@ -7977,7 +7977,7 @@
               "product": "Service Telemetry Framework 1.5"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-11577",
@@ -31823,7 +31823,7 @@
               "product": "mirror registry for Red Hat OpenShift"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-32591",
@@ -31873,7 +31873,7 @@
               "product": "mirror registry for Red Hat OpenShift 2"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-32597",
@@ -43273,7 +43273,7 @@
               "product": "Red Hat OpenShift Workload Availability 0.8"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-39892",
@@ -47335,7 +47335,7 @@
               "product": "Red Hat Enterprise Linux 10"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-41139",
@@ -66365,7 +66365,7 @@
               "product": "Red Hat Trusted Artifact Signer"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-4684",
@@ -72413,7 +72413,7 @@
               "product": "Red Hat Enterprise Linux 7"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-54099",
@@ -92735,7 +92735,7 @@
               "product": "SIPLUS S7-1500 CPU 1518-4 PN/DP MFP"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2024-37371",
@@ -107651,7 +107651,7 @@
               "product": "SIMATIC CN 4100"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2025-39721",
@@ -118551,7 +118551,7 @@
               "product": "SIPLUS S7-1500 CPU 1518-4 PN/DP MFP"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-32778",
@@ -118759,7 +118759,7 @@
               "product": "SIPLUS S7-1500 CPU 1518-4 PN/DP MFP"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-41989",
