@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T21:17:53.507943+00:00",
+  "generated_at": "2026-09-26T04:07:23.679028+00:00",
   "suppliers": [
     {
       "short_name": "redhat-SADP",
@@ -56003,7 +56003,7 @@
               "product": "Red Hat Enterprise Linux 7"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-44170",
@@ -89585,7 +89585,7 @@
               "product": "SIMATIC S7-1500 TM MFP - GNU/Linux subsystem"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2024-24859",
