@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T12:22:35.726556+00:00",
+  "generated_at": "2026-10-30T22:01:58.756913+00:00",
   "suppliers": [
     {
       "short_name": "redhat-SADP",
@@ -63993,7 +63993,7 @@
               "product": "Red Hat OpenShift Dev Spaces 3.30"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-48043",
@@ -74417,7 +74417,7 @@
               "product": "Red Hat Enterprise Linux 9"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-5405",
@@ -84049,7 +84049,7 @@
               "product": "SIPLUS S7-1500 CPU 1518-4 PN/DP MFP"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2019-9936",
@@ -85089,7 +85089,7 @@
               "product": "SIPLUS S7-1500 CPU 1518-4 PN/DP MFP"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2020-1751",
@@ -91617,7 +91617,7 @@
               "product": "SIPLUS S7-1500 CPU 1518-4 PN/DP MFP"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2021-46828",
@@ -94409,7 +94409,7 @@
               "product": "SIPLUS S7-1500 CPU 1518-4 PN/DP MFP"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2022-23219",
@@ -96773,7 +96773,7 @@
               "product": "SIMATIC S7-1500 TM MFP - GNU/Linux subsystem"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2022-3629",
@@ -98413,7 +98413,7 @@
               "product": "SIPLUS S7-1500 CPU 1518-4 PN/DP MFP"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2023-24329",
@@ -102149,7 +102149,7 @@
               "product": "SIMATIC S7-1500 TM MFP - GNU/Linux subsystem"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2024-24858",
@@ -116961,7 +116961,7 @@
               "product": "SIPLUS S7-1500 CPU 1518-4 PN/DP MFP"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2025-11083",
@@ -120801,7 +120801,7 @@
               "product": "SIPLUS S7-1500 CPU 1518-4 PN/DP MFP"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2025-29088",
@@ -123341,7 +123341,7 @@
               "product": "SIMATIC CN 4100"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2025-38729",
@@ -129805,7 +129805,7 @@
               "product": "RUGGEDCOM RST2428P"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2025-8916",
@@ -130677,7 +130677,7 @@
         },
         {
           "cve_id": "CVE-2026-109618",
-          "date_updated": "2026-10-23T13:15:14.291Z",
+          "date_updated": "2026-10-30T18:31:35.583Z",
           "data_types": [
             "affected",
             "references"
@@ -130686,14 +130686,218 @@
           "affected_products": [
             {
               "vendor": "Siemens",
+              "product": "AX4"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "CADRA"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Capital"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Designcenter"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Designcenter X"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "DFMExpress"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "HyperLynx"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Insights Hub"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Opcenter Connect Electronics"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Opcenter Connect MOM"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Opcenter Execution Core"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Opcenter Execution Foundation"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Opcenter Execution Pharma"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Opcenter Intelligence"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Opcenter Intra Plant Logistics"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Opcenter Quality"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Opcenter RDnL"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Opcenter X"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "PADS Pro Essentials"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "PADS Pro Student Edition"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "PADS Professional"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "PADS Professional - XCR"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "PADS Standard - XCR"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "PADS Standard & Standard Plus"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Polarion"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "QuadView"
+            },
+            {
+              "vendor": "Siemens",
               "product": "RUGGEDCOM APE1808"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Flomaster"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Flux"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Simlab"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Solid Edge"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Supply Chain Suite"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Teamcenter"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Teamcenter Product Cost Management"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Teamcenter Visualization"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Tecnomatix Plant Simulation"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "TestWay"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Valor NPI"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Xcargo"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Xpedition Designer"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Xpedition Enterprise"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Xpedition Enterprise XCR"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Xpedition IC Packaging"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Xpedition Layout Browser"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "AMIS TS"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "blueplanet 360 NX3 M6 WM OD IISX"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "blueplanet 360 NX3 M6 WM OD IISX - S"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Energy Engage V2.0SP9"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Energy Engage V3.1SP1"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Spectrum Power 4"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Spectrum Power 7"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Spectrum Power TG"
             }
           ],
-          "source": "both"
+          "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-109619",
-          "date_updated": "2026-10-23T13:15:15.440Z",
+          "date_updated": "2026-10-30T18:31:36.959Z",
           "data_types": [
             "affected",
             "references"
@@ -130702,20 +130906,260 @@
           "affected_products": [
             {
               "vendor": "Siemens",
+              "product": "AX4"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "CADRA"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Capital"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Designcenter"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Designcenter X"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "DFMExpress"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "HyperLynx"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Insights Hub"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Opcenter Connect Electronics"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Opcenter Connect MOM"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Opcenter Execution Core"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Opcenter Execution Foundation"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Opcenter Execution Pharma"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Opcenter Intelligence"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Opcenter Intra Plant Logistics"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Opcenter Quality"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Opcenter RDnL"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Opcenter X"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "PADS Pro Essentials"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "PADS Pro Student Edition"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "PADS Professional"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "PADS Professional - XCR"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "PADS Standard - XCR"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "PADS Standard & Standard Plus"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Polarion"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "QuadView"
+            },
+            {
+              "vendor": "Siemens",
               "product": "RUGGEDCOM APE1808"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Flomaster"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Flux"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Simlab"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Solid Edge"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Supply Chain Suite"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Teamcenter"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Teamcenter Product Cost Management"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Teamcenter Visualization"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Tecnomatix Plant Simulation"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "TestWay"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Valor NPI"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Xcargo"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Xpedition Designer"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Xpedition Enterprise"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Xpedition Enterprise XCR"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Xpedition IC Packaging"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Xpedition Layout Browser"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "AMIS TS"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "blueplanet 360 NX3 M6 WM OD IISX"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "blueplanet 360 NX3 M6 WM OD IISX - S"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Energy Engage V2.0SP9"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Energy Engage V3.1SP1"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Spectrum Power 3"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Spectrum Power 4"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Spectrum Power 7"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Spectrum Power TG"
             }
           ],
           "source": "sadp-pilot"
         },
         {
           "cve_id": "CVE-2026-111497",
-          "date_updated": "2026-10-30T10:54:32.945Z",
+          "date_updated": "2026-10-30T18:31:38.139Z",
           "data_types": [
             "affected",
             "references"
           ],
           "file_path": "2026/111xxx/CVE-2026-111497.json",
           "affected_products": [
+            {
+              "vendor": "Siemens",
+              "product": "Heliox Dual Port 60kW"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Heliox Flex Pro"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SICHARGE FLEX"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SICHARGE UC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Sifinity Go"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Sifinity Setup"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "VersiCharge AC Series"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "VersiCloud"
+            },
             {
               "vendor": "Siemens",
               "product": "Cloud Connector Configurator"
@@ -133173,7 +133617,7 @@
               "product": "SIMATIC S7-1500 TM MFP - GNU/Linux subsystem"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-23391",
@@ -138093,7 +138537,7 @@
               "product": "SIMATIC S7-1500 TM MFP - GNU/Linux subsystem"
             }
           ],
-          "source": "sadp-pilot"
+          "source": "both"
         },
         {
           "cve_id": "CVE-2026-46046",
