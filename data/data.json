@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T13:54:33.379882+00:00",
+  "generated_at": "2026-11-06T22:49:37.554460+00:00",
   "suppliers": [
     {
       "short_name": "redhat-SADP",
@@ -131553,13 +131553,37 @@
         },
         {
           "cve_id": "CVE-2026-111497",
-          "date_updated": "2026-11-04T17:47:42.136Z",
+          "date_updated": "2026-11-06T15:39:57.176Z",
           "data_types": [
             "affected",
             "references"
           ],
           "file_path": "2026/111xxx/CVE-2026-111497.json",
           "affected_products": [
+            {
+              "vendor": "Siemens",
+              "product": "Cloud Connector Configurator"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Common Configurator (CC on IEM)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Common Configurator on Device (CC on Edge)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Data Flow Monitoring"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Databus Configurator"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "DataXess Configurator"
+            },
             {
               "vendor": "Siemens",
               "product": "Desigo CC family V8"
@@ -131570,11 +131594,35 @@
             },
             {
               "vendor": "Siemens",
+              "product": "Edge OPC UA Server Configurator"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Flow Creator Configurator"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Gridscale X DSA"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Gridscale X PSS®E"
+            },
+            {
+              "vendor": "Siemens",
               "product": "Heliox Dual Port 60kW"
             },
             {
               "vendor": "Siemens",
               "product": "Heliox Flex Pro"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Industrial Edge Hub"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Industrial Edge Management Cloud"
             },
             {
               "vendor": "Siemens",
@@ -131599,42 +131647,6 @@
             {
               "vendor": "Siemens",
               "product": "VersiCloud"
-            },
-            {
-              "vendor": "Siemens",
-              "product": "Cloud Connector Configurator"
-            },
-            {
-              "vendor": "Siemens",
-              "product": "Common Configurator (CC on IEM)"
-            },
-            {
-              "vendor": "Siemens",
-              "product": "Common Configurator on Device (CC on Edge)"
-            },
-            {
-              "vendor": "Siemens",
-              "product": "Data Flow Monitoring"
-            },
-            {
-              "vendor": "Siemens",
-              "product": "Databus Configurator"
-            },
-            {
-              "vendor": "Siemens",
-              "product": "Edge OPC UA Server Configurator"
-            },
-            {
-              "vendor": "Siemens",
-              "product": "Flow Creator Configurator"
-            },
-            {
-              "vendor": "Siemens",
-              "product": "Industrial Edge Hub"
-            },
-            {
-              "vendor": "Siemens",
-              "product": "Industrial Edge Management Cloud"
             },
             {
               "vendor": "Siemens",
