@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T15:18:16.475980+00:00",
+  "generated_at": "2026-11-18T23:59:59.643035+00:00",
   "suppliers": [
     {
       "short_name": "redhat-SADP",
@@ -132829,7 +132829,7 @@
         },
         {
           "cve_id": "CVE-2026-109618",
-          "date_updated": "2026-11-16T15:18:23.272Z",
+          "date_updated": "2026-11-18T18:32:27.150Z",
           "data_types": [
             "affected",
             "references"
@@ -133273,7 +133273,7 @@
         },
         {
           "cve_id": "CVE-2026-109619",
-          "date_updated": "2026-11-16T15:18:24.606Z",
+          "date_updated": "2026-11-18T18:32:28.496Z",
           "data_types": [
             "affected",
             "references"
@@ -133721,7 +133721,7 @@
         },
         {
           "cve_id": "CVE-2026-111497",
-          "date_updated": "2026-11-10T12:50:00.309Z",
+          "date_updated": "2026-11-18T18:32:29.836Z",
           "data_types": [
             "affected",
             "references"
@@ -133730,47 +133730,23 @@
           "affected_products": [
             {
               "vendor": "Siemens",
-              "product": "Calibre"
+              "product": "blueplanet 100 NX3 M8"
             },
             {
               "vendor": "Siemens",
-              "product": "Calibre ICE"
+              "product": "blueplanet 125 NX3 M10"
             },
             {
               "vendor": "Siemens",
-              "product": "Capital"
+              "product": "blueplanet 87.0 TL3 – 165 TL3 (GEN1 / GEN2)"
             },
             {
               "vendor": "Siemens",
-              "product": "Cloud Connector Configurator"
+              "product": "blueplanet gridsave 100 – 165 TL3 (HV)"
             },
             {
               "vendor": "Siemens",
-              "product": "Common Configurator (CC on IEM)"
-            },
-            {
-              "vendor": "Siemens",
-              "product": "Common Configurator on Device (CC on Edge)"
-            },
-            {
-              "vendor": "Siemens",
-              "product": "COMOS Walkinside"
-            },
-            {
-              "vendor": "Siemens",
-              "product": "Data Flow Monitoring"
-            },
-            {
-              "vendor": "Siemens",
-              "product": "Databus Configurator"
-            },
-            {
-              "vendor": "Siemens",
-              "product": "DataXess Configurator"
-            },
-            {
-              "vendor": "Siemens",
-              "product": "Designcenter X Essentials"
+              "product": "blueplanet gridsave 92 – 137 TL3 (GEN1 / GEN2)"
             },
             {
               "vendor": "Siemens",
@@ -133779,18 +133755,6 @@
             {
               "vendor": "Siemens",
               "product": "Desigo CC family V9"
-            },
-            {
-              "vendor": "Siemens",
-              "product": "Edge OPC UA Server Configurator"
-            },
-            {
-              "vendor": "Siemens",
-              "product": "Flow Creator Configurator"
-            },
-            {
-              "vendor": "Siemens",
-              "product": "gDAP (gPROMS Digital Application Platform)"
             },
             {
               "vendor": "Siemens",
@@ -133810,7 +133774,79 @@
             },
             {
               "vendor": "Siemens",
-              "product": "HyperLynx"
+              "product": "Integrated PA Suite Tester"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SENTRON Powermanager V8"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SENTRON Powermanager V9"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SICAM PAS CC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SICAM SCC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SICHARGE FLEX"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SICHARGE UC"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Sifinity Go"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Sifinity Setup"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "VersiCharge AC Series"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "VersiCloud"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Cloud Connector Configurator"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Common Configurator (CC on IEM)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Common Configurator on Device (CC on Edge)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Data Flow Monitoring"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Databus Configurator"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "DataXess Configurator"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Edge OPC UA Server Configurator"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Flow Creator Configurator"
             },
             {
               "vendor": "Siemens",
@@ -133819,6 +133855,10 @@
             {
               "vendor": "Siemens",
               "product": "Industrial Edge Management Cloud"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "HyperLynx"
             },
             {
               "vendor": "Siemens",
@@ -133890,15 +133930,7 @@
             },
             {
               "vendor": "Siemens",
-              "product": "Pathway to Learning Engineering"
-            },
-            {
-              "vendor": "Siemens",
               "product": "PAVE360 Automotive 2026"
-            },
-            {
-              "vendor": "Siemens",
-              "product": "Polarion"
             },
             {
               "vendor": "Siemens",
@@ -133906,23 +133938,43 @@
             },
             {
               "vendor": "Siemens",
+              "product": "Simcenter Executable Digital Twin"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Studio"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Teamcenter V2412"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Teamcenter V2506"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Teamcenter V2512"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Teamcenter V2606"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Xpedition Designer"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Xpedition Enterprise"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "COMOS Walkinside"
+            },
+            {
+              "vendor": "Siemens",
               "product": "Project Server Web Administration Tool"
-            },
-            {
-              "vendor": "Siemens",
-              "product": "SICHARGE FLEX"
-            },
-            {
-              "vendor": "Siemens",
-              "product": "SICHARGE UC"
-            },
-            {
-              "vendor": "Siemens",
-              "product": "Sifinity Go"
-            },
-            {
-              "vendor": "Siemens",
-              "product": "Sifinity Setup"
             },
             {
               "vendor": "Siemens",
@@ -133970,63 +134022,43 @@
             },
             {
               "vendor": "Siemens",
-              "product": "Simcenter Executable Digital Twin"
-            },
-            {
-              "vendor": "Siemens",
-              "product": "Simcenter Studio"
-            },
-            {
-              "vendor": "Siemens",
-              "product": "Solid Edge"
-            },
-            {
-              "vendor": "Siemens",
-              "product": "Teamcenter Share"
-            },
-            {
-              "vendor": "Siemens",
-              "product": "Teamcenter V2412"
-            },
-            {
-              "vendor": "Siemens",
-              "product": "Teamcenter V2506"
-            },
-            {
-              "vendor": "Siemens",
-              "product": "Teamcenter V2512"
-            },
-            {
-              "vendor": "Siemens",
-              "product": "Teamcenter V2606"
-            },
-            {
-              "vendor": "Siemens",
               "product": "TIA Administrator"
             },
             {
               "vendor": "Siemens",
               "product": "User Management Component (UMC)"
+            }
+          ],
+          "source": "sadp-pilot"
+        },
+        {
+          "cve_id": "CVE-2026-114938",
+          "date_updated": "2026-11-18T18:32:30.952Z",
+          "data_types": [
+            "affected",
+            "references"
+          ],
+          "file_path": "2026/114xxx/CVE-2026-114938.json",
+          "affected_products": [
+            {
+              "vendor": "Siemens",
+              "product": "Industrial Edge Device Kit"
             },
             {
               "vendor": "Siemens",
-              "product": "VersiCharge AC Series"
+              "product": "Industrial Edge Management Cloud"
             },
             {
               "vendor": "Siemens",
-              "product": "VersiCloud"
+              "product": "Industrial Edge Management Pro V1"
             },
             {
               "vendor": "Siemens",
-              "product": "Xpedition Designer"
+              "product": "Industrial Edge Management Pro V2"
             },
             {
               "vendor": "Siemens",
-              "product": "Xpedition Enterprise"
-            },
-            {
-              "vendor": "Siemens",
-              "product": "RUGGEDCOM APE1808"
+              "product": "Industrial Edge Management Virtual"
             }
           ],
           "source": "sadp-pilot"
