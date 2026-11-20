@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T06:17:46.682202+00:00",
+  "generated_at": "2026-11-20T19:44:22.848856+00:00",
   "suppliers": [
     {
       "short_name": "redhat-SADP",
@@ -132829,7 +132829,7 @@
         },
         {
           "cve_id": "CVE-2026-109618",
-          "date_updated": "2026-11-18T18:32:27.150Z",
+          "date_updated": "2026-11-20T11:19:17.017Z",
           "data_types": [
             "affected",
             "references"
@@ -132954,6 +132954,10 @@
             },
             {
               "vendor": "Siemens",
+              "product": "EDEM BulkSim"
+            },
+            {
+              "vendor": "Siemens",
               "product": "Energy Engage V2.0SP9"
             },
             {
@@ -132974,6 +132978,10 @@
             },
             {
               "vendor": "Siemens",
+              "product": "Graph Lakehouse"
+            },
+            {
+              "vendor": "Siemens",
               "product": "Heliox Flex Pro"
             },
             {
@@ -132986,11 +132994,83 @@
             },
             {
               "vendor": "Siemens",
+              "product": "HPCWorks Accelerator"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "HPCWorks Accelerator Plus"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "HPCWorks Access"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "HPCWorks Allocator"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "HPCWorks Asset Optimization"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "HPCWorks Breeze"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "HPCWorks Control"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "HPCWorks Desktop Usage Analytics"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "HPCWorks Flowtracer"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "HPCWorks Grid Engine"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "HPCWorks Hero"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "HPCWorks Insight Pro"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "HPCWorks Insight Pro for License Analytics"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "HPCWorks Mistral"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "HPCWorks Monitor"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "HPCWorks Navops"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "HPCWorks PBS Professional"
+            },
+            {
+              "vendor": "Siemens",
               "product": "HyperLynx"
             },
             {
               "vendor": "Siemens",
               "product": "Insights Hub"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Knowledge Studio for Apache Spark"
             },
             {
               "vendor": "Siemens",
@@ -133007,6 +133087,10 @@
             {
               "vendor": "Siemens",
               "product": "Novigo VANSYS core"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Opcenter APS"
             },
             {
               "vendor": "Siemens",
@@ -133086,6 +133170,10 @@
             },
             {
               "vendor": "Siemens",
+              "product": "Panopticon Streams"
+            },
+            {
+              "vendor": "Siemens",
               "product": "Pathway to Learning Engineering"
             },
             {
@@ -133095,6 +133183,46 @@
             {
               "vendor": "Siemens",
               "product": "QuadView"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Rapidminer AI Cloud"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Rapidminer AI Hub"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Rapidminer AI Studio"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Rapidminer Analytics Workbench (SLC)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Rapidminer Graph Studio"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Rapidminer Knowledge Seeker"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Rapidminer Knowledge Studio"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Rapidminer Monarch Classic / Server"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Rapidminer Monarch Data Prep Studio"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Rapidminer Panopticon"
             },
             {
               "vendor": "Siemens",
@@ -133130,7 +133258,99 @@
             },
             {
               "vendor": "Siemens",
+              "product": "Simcenter 3D"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Acusolve"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Amesim"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Battery Damage Identifier"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Battery Design Studio"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Compose"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter CostAI"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Culgi"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter DesignAI"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter E-Machine Design"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter E-Motor Director"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter e-Motor Platform Optimization"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter EDEM"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Electroflo"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Embed"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Executable Digital Twin"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Feko"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Femap"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Flightstream"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter FLOEFD"
+            },
+            {
+              "vendor": "Siemens",
               "product": "Simcenter Flomaster"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Flotherm"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Flotherm (XT)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Flow Simulator"
             },
             {
               "vendor": "Siemens",
@@ -133138,7 +133358,227 @@
             },
             {
               "vendor": "Siemens",
+              "product": "Simcenter Fluxmotor"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Genesis"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Geomechanics"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter HEEDS"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Hypergraph"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Hypermesh"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Hypermesh CFD"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Hypermesh NVH"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Hyperstudy"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Hyperview"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Inspire"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Inspire Mfg"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Madymo"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter MAGNET"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Maintenance Aware Design Ecosystem"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Material Data Center"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Material Modeler"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Motionsolve"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Motionview"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Multi-Disciplinary Optimization Director"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Multiscale Designer"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Nanofluid"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Nastran"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter OmniV"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Optistruct"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Part Manager"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter PhysicsAI"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter PhysicsAI Studio"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter PSIM"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Pulse Studio"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Quality Management"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Radioss"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Reduced Order Modeling"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter RomAI"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter S-Frame"
+            },
+            {
+              "vendor": "Siemens",
               "product": "Simcenter Simlab"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Simsolid"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Simulation Cloud Suite"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter SPEED"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter SPH Flow"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter STAR-CCM+"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter STAR-CCM+ Viewer"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Studio"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter System Analyst"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter System Architect"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter System Simulation Client for Git"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter System Simulation Client for Git V2021"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Testlab"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Testlab Data Management"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Tire"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Twin Activate"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Ultrafluid"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Unified Design Environment (UDE)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Weight Analytics"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter X Mechanical"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Zona"
             },
             {
               "vendor": "Siemens",
@@ -133202,6 +133642,10 @@
             },
             {
               "vendor": "Siemens",
+              "product": "Teamcenter Simulation"
+            },
+            {
+              "vendor": "Siemens",
               "product": "Teamcenter Visualization"
             },
             {
@@ -133211,6 +133655,10 @@
             {
               "vendor": "Siemens",
               "product": "TestWay"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Thea Render"
             },
             {
               "vendor": "Siemens",
@@ -133273,7 +133721,7 @@
         },
         {
           "cve_id": "CVE-2026-109619",
-          "date_updated": "2026-11-18T18:32:28.496Z",
+          "date_updated": "2026-11-20T11:19:18.952Z",
           "data_types": [
             "affected",
             "references"
@@ -133398,6 +133846,10 @@
             },
             {
               "vendor": "Siemens",
+              "product": "EDEM BulkSim"
+            },
+            {
+              "vendor": "Siemens",
               "product": "Energy Engage V2.0SP9"
             },
             {
@@ -133418,6 +133870,10 @@
             },
             {
               "vendor": "Siemens",
+              "product": "Graph Lakehouse"
+            },
+            {
+              "vendor": "Siemens",
               "product": "Heliox Flex Pro"
             },
             {
@@ -133430,11 +133886,83 @@
             },
             {
               "vendor": "Siemens",
+              "product": "HPCWorks Accelerator"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "HPCWorks Accelerator Plus"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "HPCWorks Access"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "HPCWorks Allocator"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "HPCWorks Asset Optimization"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "HPCWorks Breeze"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "HPCWorks Control"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "HPCWorks Desktop Usage Analytics"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "HPCWorks Flowtracer"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "HPCWorks Grid Engine"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "HPCWorks Hero"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "HPCWorks Insight Pro"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "HPCWorks Insight Pro for License Analytics"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "HPCWorks Mistral"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "HPCWorks Monitor"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "HPCWorks Navops"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "HPCWorks PBS Professional"
+            },
+            {
+              "vendor": "Siemens",
               "product": "HyperLynx"
             },
             {
               "vendor": "Siemens",
               "product": "Insights Hub"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Knowledge Studio for Apache Spark"
             },
             {
               "vendor": "Siemens",
@@ -133451,6 +133979,10 @@
             {
               "vendor": "Siemens",
               "product": "Novigo VANSYS core"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Opcenter APS"
             },
             {
               "vendor": "Siemens",
@@ -133530,6 +134062,10 @@
             },
             {
               "vendor": "Siemens",
+              "product": "Panopticon Streams"
+            },
+            {
+              "vendor": "Siemens",
               "product": "Pathway to Learning Engineering"
             },
             {
@@ -133539,6 +134075,46 @@
             {
               "vendor": "Siemens",
               "product": "QuadView"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Rapidminer AI Cloud"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Rapidminer AI Hub"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Rapidminer AI Studio"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Rapidminer Analytics Workbench (SLC)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Rapidminer Graph Studio"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Rapidminer Knowledge Seeker"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Rapidminer Knowledge Studio"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Rapidminer Monarch Classic / Server"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Rapidminer Monarch Data Prep Studio"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Rapidminer Panopticon"
             },
             {
               "vendor": "Siemens",
@@ -133574,7 +134150,99 @@
             },
             {
               "vendor": "Siemens",
+              "product": "Simcenter 3D"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Acusolve"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Amesim"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Battery Damage Identifier"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Battery Design Studio"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Compose"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter CostAI"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Culgi"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter DesignAI"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter E-Machine Design"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter E-Motor Director"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter e-Motor Platform Optimization"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter EDEM"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Electroflo"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Embed"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Executable Digital Twin"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Feko"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Femap"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Flightstream"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter FLOEFD"
+            },
+            {
+              "vendor": "Siemens",
               "product": "Simcenter Flomaster"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Flotherm"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Flotherm (XT)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Flow Simulator"
             },
             {
               "vendor": "Siemens",
@@ -133582,7 +134250,227 @@
             },
             {
               "vendor": "Siemens",
+              "product": "Simcenter Fluxmotor"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Genesis"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Geomechanics"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter HEEDS"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Hypergraph"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Hypermesh"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Hypermesh CFD"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Hypermesh NVH"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Hyperstudy"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Hyperview"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Inspire"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Inspire Mfg"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Madymo"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter MAGNET"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Maintenance Aware Design Ecosystem"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Material Data Center"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Material Modeler"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Motionsolve"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Motionview"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Multi-Disciplinary Optimization Director"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Multiscale Designer"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Nanofluid"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Nastran"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter OmniV"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Optistruct"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Part Manager"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter PhysicsAI"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter PhysicsAI Studio"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter PSIM"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Pulse Studio"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Quality Management"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Radioss"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Reduced Order Modeling"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter RomAI"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter S-Frame"
+            },
+            {
+              "vendor": "Siemens",
               "product": "Simcenter Simlab"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Simsolid"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Simulation Cloud Suite"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter SPEED"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter SPH Flow"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter STAR-CCM+"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter STAR-CCM+ Viewer"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Studio"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter System Analyst"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter System Architect"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter System Simulation Client for Git"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter System Simulation Client for Git V2021"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Testlab"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Testlab Data Management"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Tire"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Twin Activate"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Ultrafluid"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Unified Design Environment (UDE)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Weight Analytics"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter X Mechanical"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Simcenter Zona"
             },
             {
               "vendor": "Siemens",
@@ -133650,6 +134538,10 @@
             },
             {
               "vendor": "Siemens",
+              "product": "Teamcenter Simulation"
+            },
+            {
+              "vendor": "Siemens",
               "product": "Teamcenter Visualization"
             },
             {
@@ -133659,6 +134551,10 @@
             {
               "vendor": "Siemens",
               "product": "TestWay"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Thea Render"
             },
             {
               "vendor": "Siemens",
@@ -134032,6 +134928,58 @@
           "source": "sadp-pilot"
         },
         {
+          "cve_id": "CVE-2026-113425",
+          "date_updated": "2026-11-20T11:19:21.714Z",
+          "data_types": [
+            "affected",
+            "references"
+          ],
+          "file_path": "2026/113xxx/CVE-2026-113425.json",
+          "affected_products": [
+            {
+              "vendor": "Siemens",
+              "product": "Industrial Edge Cloud Device (IECD)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Industrial Edge Device Kit - arm64"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Industrial Edge Device Kit - x86-64"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Industrial Edge Hub"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Industrial Edge Management Cloud"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Industrial Edge Management Pro V1"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Industrial Edge Management Pro V2"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Industrial Edge Management Virtual"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Industrial Edge Own Device (IEOD)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Industrial Edge Virtual Device (IEVD)"
+            }
+          ],
+          "source": "sadp-pilot"
+        },
+        {
           "cve_id": "CVE-2026-114938",
           "date_updated": "2026-11-19T20:34:31.184Z",
           "data_types": [
@@ -134099,6 +135047,214 @@
             {
               "vendor": "Siemens",
               "product": "RUGGEDCOM CROSSBOW Station Access Controller (SAC)"
+            }
+          ],
+          "source": "sadp-pilot"
+        },
+        {
+          "cve_id": "CVE-2026-121810",
+          "date_updated": "2026-11-20T11:19:22.935Z",
+          "data_types": [
+            "affected",
+            "references"
+          ],
+          "file_path": "2026/121xxx/CVE-2026-121810.json",
+          "affected_products": [
+            {
+              "vendor": "Siemens",
+              "product": "Industrial Edge Cloud Device (IECD)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Industrial Edge Device Kit - arm64"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Industrial Edge Device Kit - x86-64"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Industrial Edge Hub"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Industrial Edge Management Cloud"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Industrial Edge Management Pro V1"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Industrial Edge Management Pro V2"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Industrial Edge Management Virtual"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Industrial Edge Own Device (IEOD)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Industrial Edge Virtual Device (IEVD)"
+            }
+          ],
+          "source": "sadp-pilot"
+        },
+        {
+          "cve_id": "CVE-2026-123007",
+          "date_updated": "2026-11-20T11:19:24.201Z",
+          "data_types": [
+            "affected",
+            "references"
+          ],
+          "file_path": "2026/123xxx/CVE-2026-123007.json",
+          "affected_products": [
+            {
+              "vendor": "Siemens",
+              "product": "Industrial Edge Cloud Device (IECD)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Industrial Edge Device Kit - arm64"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Industrial Edge Device Kit - x86-64"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Industrial Edge Hub"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Industrial Edge Management Cloud"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Industrial Edge Management Pro V1"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Industrial Edge Management Pro V2"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Industrial Edge Management Virtual"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Industrial Edge Own Device (IEOD)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Industrial Edge Virtual Device (IEVD)"
+            }
+          ],
+          "source": "sadp-pilot"
+        },
+        {
+          "cve_id": "CVE-2026-123633",
+          "date_updated": "2026-11-20T11:19:25.666Z",
+          "data_types": [
+            "affected",
+            "references"
+          ],
+          "file_path": "2026/123xxx/CVE-2026-123633.json",
+          "affected_products": [
+            {
+              "vendor": "Siemens",
+              "product": "Industrial Edge Cloud Device (IECD)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Industrial Edge Device Kit - arm64"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Industrial Edge Device Kit - x86-64"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Industrial Edge Hub"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Industrial Edge Management Cloud"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Industrial Edge Management Pro V1"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Industrial Edge Management Pro V2"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Industrial Edge Management Virtual"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Industrial Edge Own Device (IEOD)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Industrial Edge Virtual Device (IEVD)"
+            }
+          ],
+          "source": "sadp-pilot"
+        },
+        {
+          "cve_id": "CVE-2026-123634",
+          "date_updated": "2026-11-20T11:19:27.013Z",
+          "data_types": [
+            "affected",
+            "references"
+          ],
+          "file_path": "2026/123xxx/CVE-2026-123634.json",
+          "affected_products": [
+            {
+              "vendor": "Siemens",
+              "product": "Industrial Edge Cloud Device (IECD)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Industrial Edge Device Kit - arm64"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Industrial Edge Device Kit - x86-64"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Industrial Edge Hub"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Industrial Edge Management Cloud"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Industrial Edge Management Pro V1"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Industrial Edge Management Pro V2"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Industrial Edge Management Virtual"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Industrial Edge Own Device (IEOD)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Industrial Edge Virtual Device (IEVD)"
             }
           ],
           "source": "sadp-pilot"
