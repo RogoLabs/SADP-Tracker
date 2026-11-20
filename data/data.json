@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T20:09:51.805935+00:00",
+  "generated_at": "2026-11-20T06:17:46.682202+00:00",
   "suppliers": [
     {
       "short_name": "redhat-SADP",
@@ -134033,7 +134033,7 @@
         },
         {
           "cve_id": "CVE-2026-114938",
-          "date_updated": "2026-11-18T18:32:30.952Z",
+          "date_updated": "2026-11-19T20:34:31.184Z",
           "data_types": [
             "affected",
             "references"
@@ -134059,6 +134059,14 @@
             {
               "vendor": "Siemens",
               "product": "Industrial Edge Management Virtual"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Siveillance Control"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Siveillance Control Pro"
             }
           ],
           "source": "sadp-pilot"
