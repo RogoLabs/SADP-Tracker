@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T06:26:52.191462+00:00",
+  "generated_at": "2026-11-23T23:33:20.262500+00:00",
   "suppliers": [
     {
       "short_name": "redhat-SADP",
@@ -134981,13 +134981,21 @@
         },
         {
           "cve_id": "CVE-2026-114938",
-          "date_updated": "2026-11-19T20:34:31.184Z",
+          "date_updated": "2026-11-23T18:39:01.006Z",
           "data_types": [
             "affected",
             "references"
           ],
           "file_path": "2026/114xxx/CVE-2026-114938.json",
           "affected_products": [
+            {
+              "vendor": "Siemens",
+              "product": "Desigo CC Advanced Reporting V8"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Desigo CC Advanced Reporting V9"
+            },
             {
               "vendor": "Siemens",
               "product": "Industrial Edge Device Kit"
