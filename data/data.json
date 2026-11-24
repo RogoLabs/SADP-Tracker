@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T08:57:37.772590+00:00",
+  "generated_at": "2026-11-24T22:02:14.921244+00:00",
   "suppliers": [
     {
       "short_name": "redhat-SADP",
@@ -132829,7 +132829,7 @@
         },
         {
           "cve_id": "CVE-2026-109618",
-          "date_updated": "2026-11-20T11:19:17.017Z",
+          "date_updated": "2026-11-24T11:35:44.357Z",
           "data_types": [
             "affected",
             "references"
@@ -132895,6 +132895,10 @@
             {
               "vendor": "Siemens",
               "product": "Connect X500"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "CP61850 (6DD7050-0AA80)"
             },
             {
               "vendor": "Siemens",
@@ -133721,7 +133725,7 @@
         },
         {
           "cve_id": "CVE-2026-109619",
-          "date_updated": "2026-11-20T11:19:18.952Z",
+          "date_updated": "2026-11-24T11:35:45.829Z",
           "data_types": [
             "affected",
             "references"
@@ -133787,6 +133791,10 @@
             {
               "vendor": "Siemens",
               "product": "Connect X500"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "CP61850 (6DD7050-0AA80)"
             },
             {
               "vendor": "Siemens",
@@ -134617,7 +134625,7 @@
         },
         {
           "cve_id": "CVE-2026-111497",
-          "date_updated": "2026-11-18T18:32:29.836Z",
+          "date_updated": "2026-11-24T14:26:40.717Z",
           "data_types": [
             "affected",
             "references"
@@ -134646,11 +134654,19 @@
             },
             {
               "vendor": "Siemens",
+              "product": "COMOS Walkinside"
+            },
+            {
+              "vendor": "Siemens",
               "product": "Desigo CC family V8"
             },
             {
               "vendor": "Siemens",
               "product": "Desigo CC family V9"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "gDAP (gPROMS Digital Application Platform)"
             },
             {
               "vendor": "Siemens",
@@ -134671,6 +134687,30 @@
             {
               "vendor": "Siemens",
               "product": "Integrated PA Suite Tester"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "INTRALOG WMS Kronos"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "Project Server Web Administration Tool"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE LPE9403 (6GK5998-3GS00-2AC2)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE LPE9413 (6GK5998-3GS01-2AC2)"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE LPE9423"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SCALANCE LPE9433 (6GK5998-3GS11-2AC2)"
             },
             {
               "vendor": "Siemens",
@@ -134703,6 +134743,78 @@
             {
               "vendor": "Siemens",
               "product": "Sifinity Setup"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC BRAUMAT"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC PCS neo"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC Profiling Tool"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC SISTAR"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC WinCC Companion"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC WinCC OA V3.20"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC WinCC OA V3.21"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC WinCC Runtime Professional"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC WinCC Unified for Industrial Edge"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC WinCC Unified PC Runtime"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC WinCC Unified SIQENCE"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SIMATIC WinCC V7/V8"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SINEC INS"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SINEMA Remote Connect Client"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SINEMA Remote Connect Edge Client"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "SITOP Manager"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "TIA Administrator"
+            },
+            {
+              "vendor": "Siemens",
+              "product": "User Management Component (UMC)"
             },
             {
               "vendor": "Siemens",
@@ -134863,66 +134975,6 @@
             {
               "vendor": "Siemens",
               "product": "Xpedition Enterprise"
-            },
-            {
-              "vendor": "Siemens",
-              "product": "COMOS Walkinside"
-            },
-            {
-              "vendor": "Siemens",
-              "product": "Project Server Web Administration Tool"
-            },
-            {
-              "vendor": "Siemens",
-              "product": "SIMATIC BRAUMAT"
-            },
-            {
-              "vendor": "Siemens",
-              "product": "SIMATIC Profiling Tool"
-            },
-            {
-              "vendor": "Siemens",
-              "product": "SIMATIC SISTAR"
-            },
-            {
-              "vendor": "Siemens",
-              "product": "SIMATIC WinCC Companion"
-            },
-            {
-              "vendor": "Siemens",
-              "product": "SIMATIC WinCC OA V3.20"
-            },
-            {
-              "vendor": "Siemens",
-              "product": "SIMATIC WinCC OA V3.21"
-            },
-            {
-              "vendor": "Siemens",
-              "product": "SIMATIC WinCC Runtime Professional"
-            },
-            {
-              "vendor": "Siemens",
-              "product": "SIMATIC WinCC Unified for Industrial Edge"
-            },
-            {
-              "vendor": "Siemens",
-              "product": "SIMATIC WinCC Unified PC Runtime"
-            },
-            {
-              "vendor": "Siemens",
-              "product": "SIMATIC WinCC Unified SIQENCE"
-            },
-            {
-              "vendor": "Siemens",
-              "product": "SIMATIC WinCC V7/V8"
-            },
-            {
-              "vendor": "Siemens",
-              "product": "TIA Administrator"
-            },
-            {
-              "vendor": "Siemens",
-              "product": "User Management Component (UMC)"
             }
           ],
           "source": "sadp-pilot"
