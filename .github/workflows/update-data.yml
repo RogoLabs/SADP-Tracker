@@ -18,7 +18,7 @@ permissions:
   id-token: write
 
 jobs:
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
 
     steps:
@@ -67,17 +67,6 @@ jobs:
       - name: Build static site
         run: python build.py --quiet
 
-      # ── Deploy to GitHub Pages ────────────────────────────────────────────
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v5.0.0
-        if: github.ref == 'refs/heads/main'
-        with:
-          path: ./web
-
-      - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v5.0.0
-        if: github.ref == 'refs/heads/main'
-
       # ── Commit updated data.json back to main ────────────────────────────
       - name: Commit updated data.json
         if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
@@ -87,3 +76,25 @@ jobs:
           git add data/data.json
           git diff --staged --quiet || git commit -m "chore: update SADP data $(date -u +%Y-%m-%dT%H:%M:%SZ)"
           git push
+
+      # ── Upload the built site for the deploy job ─────────────────────────
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v5.0.0
+        if: github.ref == 'refs/heads/main'
+        with:
+          path: ./web
+
+  # Deploy runs as its own job so the artifact is fully registered before
+  # deploy-pages looks it up, and so a Pages outage can't block the data commit.
+  deploy:
+    needs: build
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5.0.0
