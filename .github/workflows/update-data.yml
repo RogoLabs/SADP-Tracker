@@ -74,9 +74,22 @@ jobs:
         with:
           path: ./web
 
+      # deploy-pages intermittently fails with "Fetching artifact metadata failed"
+      # even after a successful upload. Retry once after a short wait.
       - name: Deploy to GitHub Pages
+        id: deployment
+        continue-on-error: true
         uses: actions/deploy-pages@v5.0.0
         if: github.ref == 'refs/heads/main'
+
+      - name: Wait before retrying deploy
+        if: github.ref == 'refs/heads/main' && steps.deployment.outcome == 'failure'
+        run: sleep 60
+
+      - name: Deploy to GitHub Pages (retry)
+        id: deployment_retry
+        if: github.ref == 'refs/heads/main' && steps.deployment.outcome == 'failure'
+        uses: actions/deploy-pages@v5.0.0
 
       # ── Commit updated data.json back to main ────────────────────────────
       - name: Commit updated data.json
